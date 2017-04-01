@@ -1,0 +1,2 @@
+# replaceing IN and OUT in HTML exports (. has to find \r and \n, too)
+<div class="prompt .*?_prompt">.*?</div>
