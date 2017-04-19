@@ -2,4 +2,4 @@
 <div class="prompt .*?_prompt">.*?</div>
 
 # replace link anchors
-<a class="anchor-link".*</a>
+<a class="anchor-link".*?</a>
