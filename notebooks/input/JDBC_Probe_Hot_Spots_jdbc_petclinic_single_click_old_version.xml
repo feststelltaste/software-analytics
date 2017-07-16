@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tree type="Probe Hot Spots" probe="JDBC" threadSelection="All thread groups" threadStatus="All states" aggregationLevel="Methods">
+  <hotspot leaf="false" value="SELECT pets.id, name, birth_date, type_id, owner_id, visits.id as visit_id, visit_date, description, pet_id FROM pets LEFT OUTER JOIN visits ON  pets.id = pet_id WHERE owner_id=?" time="2756266926" count="2210">
+    <node leaf="true" class="_jprofiler_unrecorded_class" methodName="unrecorded" methodSignature="()V" time="4294967296" count="0" lineNumber="-1" percent="100.0" unrecorded="true"/>
+    <node leaf="false" class="java.sql.PreparedStatement" methodName="executeQuery" methodSignature="()Ljava/sql/ResultSet;" time="2756266926" count="2210" lineNumber="-1" percent="99.6">
+      <node leaf="false" class="org.springframework.jdbc.core.JdbcTemplate$1" methodName="doInPreparedStatement" methodSignature="(Ljava/sql/PreparedStatement;)Ljava/lang/Object;" time="2756266926" count="2210" lineNumber="-1" percent="99.6">
+        <node leaf="false" class="org.springframework.jdbc.core.JdbcTemplate" methodName="execute" methodSignature="(Lorg/springframework/jdbc/core/PreparedStatementCreator;Lorg/springframework/jdbc/core/PreparedStatementCallback;)Ljava/lang/Object;" time="2756266926" count="2210" lineNumber="-1" percent="99.6">
+          <node leaf="false" class="org.springframework.jdbc.core.JdbcTemplate" methodName="query" methodSignature="(Lorg/springframework/jdbc/core/PreparedStatementCreator;Lorg/springframework/jdbc/core/PreparedStatementSetter;Lorg/springframework/jdbc/core/ResultSetExtractor;)Ljava/lang/Object;" time="2756266926" count="2210" lineNumber="-1" percent="99.6">
+            <node leaf="false" class="org.springframework.jdbc.core.JdbcTemplate" methodName="query" methodSignature="(Lorg/springframework/jdbc/core/PreparedStatementCreator;Lorg/springframework/jdbc/core/ResultSetExtractor;)Ljava/lang/Object;" time="2756266926" count="2210" lineNumber="-1" percent="99.6">
+              <node leaf="false" class="org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate" methodName="query" methodSignature="(Ljava/lang/String;Lorg/springframework/jdbc/core/namedparam/SqlParameterSource;Lorg/springframework/jdbc/core/ResultSetExtractor;)Ljava/lang/Object;" time="2756266926" count="2210" lineNumber="-1" percent="99.6">
+                <node leaf="false" class="org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate" methodName="query" methodSignature="(Ljava/lang/String;Ljava/util/Map;Lorg/springframework/jdbc/core/ResultSetExtractor;)Ljava/lang/Object;" time="2756266926" count="2210" lineNumber="-1" percent="99.6">
+                  <node leaf="false" class="org.springframework.samples.petclinic.repository.jdbc.JdbcOwnerRepositoryImpl" methodName="loadPetsAndVisits" methodSignature="(Lorg/springframework/samples/petclinic/model/Owner;)V" time="2756266926" count="2210" lineNumber="-1" percent="99.6">
+                    <node leaf="false" class="org.springframework.samples.petclinic.repository.jdbc.JdbcOwnerRepositoryImpl" methodName="loadOwnersPetsAndVisits" methodSignature="(Ljava/util/List;)V" time="2756266926" count="2210" lineNumber="-1" percent="99.6">
+                      <node leaf="false" class="org.springframework.samples.petclinic.repository.jdbc.JdbcOwnerRepositoryImpl" methodName="findByLastName" methodSignature="(Ljava/lang/String;)Ljava/util/Collection;" time="2756266926" count="2210" lineNumber="-1" percent="99.6">
+                        <node leaf="false" class="java.lang.reflect.Method" methodName="invoke" methodSignature="(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;" time="2756266926" count="2210" lineNumber="-1" percent="99.6">
+                          <node leaf="false" class="org.springframework.aop.support.AopUtils" methodName="invokeJoinpointUsingReflection" methodSignature="(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;" time="2756266926" count="2210" lineNumber="-1" percent="99.6">
+                            <node leaf="false" class="org.springframework.aop.framework.ReflectiveMethodInvocation" methodName="invokeJoinpoint" methodSignature="()Ljava/lang/Object;" time="2756266926" count="2210" lineNumber="-1" percent="99.6">
+                              <node leaf="false" class="org.springframework.aop.framework.ReflectiveMethodInvocation" methodName="proceed" methodSignature="()Ljava/lang/Object;" time="2756266926" count="2210" lineNumber="-1" percent="99.6">
+                                <node leaf="false" class="org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint" methodName="proceed" methodSignature="()Ljava/lang/Object;" time="2756266926" count="2210" lineNumber="-1" percent="99.6">
+                                  <node leaf="false" class="org.aspectj.lang.ProceedingJoinPoint" methodName="proceed" methodSignature="()Ljava/lang/Object;" time="2756266926" count="2210" lineNumber="-1" percent="99.6">
+                                    <node leaf="false" class="org.springframework.samples.petclinic.util.CallMonitoringAspect" methodName="invoke" methodSignature="(Lorg/aspectj/lang/ProceedingJoinPoint;)Ljava/lang/Object;" time="2756266926" count="2210" lineNumber="-1" percent="99.6">
+                                      <node leaf="false" class="java.lang.reflect.Method" methodName="invoke" methodSignature="(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;" time="2756266926" count="2210" lineNumber="-1" percent="99.6">
+                                        <node leaf="false" class="org.springframework.aop.aspectj.AbstractAspectJAdvice" methodName="invokeAdviceMethodWithGivenArgs" methodSignature="([Ljava/lang/Object;)Ljava/lang/Object;" time="2756266926" count="2210" lineNumber="-1" percent="99.6">
+                                          <node leaf="false" class="org.springframework.aop.aspectj.AbstractAspectJAdvice" methodName="invokeAdviceMethod" methodSignature="(Lorg/aspectj/lang/JoinPoint;Lorg/aspectj/weaver/tools/JoinPointMatch;Ljava/lang/Object;Ljava/lang/Throwable;)Ljava/lang/Object;" time="2756266926" count="2210" lineNumber="-1" percent="99.6">
+                                            <node leaf="false" class="org.springframework.aop.aspectj.AspectJAroundAdvice" methodName="invoke" methodSignature="(Lorg/aopalliance/intercept/MethodInvocation;)Ljava/lang/Object;" time="2756266926" count="2210" lineNumber="-1" percent="99.6">
+                                              <node leaf="false" class="org.springframework.aop.framework.ReflectiveMethodInvocation" methodName="proceed" methodSignature="()Ljava/lang/Object;" time="2756266926" count="2210" lineNumber="-1" percent="99.6">
+                                                <node leaf="false" class="org.springframework.aop.interceptor.ExposeInvocationInterceptor" methodName="invoke" methodSignature="(Lorg/aopalliance/intercept/MethodInvocation;)Ljava/lang/Object;" time="2756266926" count="2210" lineNumber="-1" percent="99.6">
+                                                  <node leaf="false" class="org.springframework.aop.framework.ReflectiveMethodInvocation" methodName="proceed" methodSignature="()Ljava/lang/Object;" time="2756266926" count="2210" lineNumber="-1" percent="99.6">
+                                                    <node leaf="false" class="org.springframework.aop.framework.JdkDynamicAopProxy" methodName="invoke" methodSignature="(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;" time="2756266926" count="2210" lineNumber="-1" percent="99.6">
+                                                      <node leaf="false" class="org.springframework.samples.petclinic.service.ClinicServiceImpl" methodName="findOwnerByLastName" methodSignature="(Ljava/lang/String;)Ljava/util/Collection;" time="2756266926" count="2210" lineNumber="-1" percent="99.6">
+                                                        <node leaf="false" class="java.lang.reflect.Method" methodName="invoke" methodSignature="(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;" time="2756266926" count="2210" lineNumber="-1" percent="99.6">
+                                                          <node leaf="false" class="org.springframework.aop.support.AopUtils" methodName="invokeJoinpointUsingReflection" methodSignature="(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;" time="2756266926" count="2210" lineNumber="-1" percent="99.6">
+                                                            <node leaf="false" class="org.springframework.aop.framework.ReflectiveMethodInvocation" methodName="invokeJoinpoint" methodSignature="()Ljava/lang/Object;" time="2756266926" count="2210" lineNumber="-1" percent="99.6">
+                                                              <node leaf="false" class="org.springframework.aop.framework.ReflectiveMethodInvocation" methodName="proceed" methodSignature="()Ljava/lang/Object;" time="2756266926" count="2210" lineNumber="-1" percent="99.6">
+                                                                <node leaf="false" class="org.springframework.transaction.interceptor.TransactionInterceptor$1" methodName="proceedWithInvocation" methodSignature="()Ljava/lang/Object;" time="2756266926" count="2210" lineNumber="-1" percent="99.6">
+                                                                  <node leaf="false" class="org.springframework.transaction.interceptor.TransactionAspectSupport" methodName="invokeWithinTransaction" methodSignature="(Ljava/lang/reflect/Method;Ljava/lang/Class;Lorg/springframework/transaction/interceptor/TransactionAspectSupport$InvocationCallback;)Ljava/lang/Object;" time="2756266926" count="2210" lineNumber="-1" percent="99.6">
+                                                                    <node leaf="false" class="org.springframework.transaction.interceptor.TransactionInterceptor" methodName="invoke" methodSignature="(Lorg/aopalliance/intercept/MethodInvocation;)Ljava/lang/Object;" time="2756266926" count="2210" lineNumber="-1" percent="99.6">
+                                                                      <node leaf="false" class="org.springframework.aop.framework.ReflectiveMethodInvocation" methodName="proceed" methodSignature="()Ljava/lang/Object;" time="2756266926" count="2210" lineNumber="-1" percent="99.6">
+                                                                        <node leaf="false" class="org.springframework.aop.framework.JdkDynamicAopProxy" methodName="invoke" methodSignature="(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;" time="2756266926" count="2210" lineNumber="-1" percent="99.6">
+                                                                          <node leaf="false" class="org.springframework.samples.petclinic.web.OwnerController" methodName="processFindForm" methodSignature="(Lorg/springframework/samples/petclinic/model/Owner;Lorg/springframework/validation/BindingResult;Ljava/util/Map;)Ljava/lang/String;" time="2756266926" count="2210" lineNumber="-1" percent="99.6">
+                                                                            <node leaf="false" class="java.lang.reflect.Method" methodName="invoke" methodSignature="(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;" time="2756266926" count="2210" lineNumber="-1" percent="99.6">
+                                                                              <node leaf="false" class="org.springframework.web.method.support.InvocableHandlerMethod" methodName="doInvoke" methodSignature="([Ljava/lang/Object;)Ljava/lang/Object;" time="2756266926" count="2210" lineNumber="-1" percent="99.6">
+                                                                                <node leaf="false" class="org.springframework.web.method.support.InvocableHandlerMethod" methodName="invokeForRequest" methodSignature="(Lorg/springframework/web/context/request/NativeWebRequest;Lorg/springframework/web/method/support/ModelAndViewContainer;[Ljava/lang/Object;)Ljava/lang/Object;" time="2756266926" count="2210" lineNumber="-1" percent="99.6">
+                                                                                  <node leaf="false" class="org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod" methodName="invokeAndHandle" methodSignature="(Lorg/springframework/web/context/request/ServletWebRequest;Lorg/springframework/web/method/support/ModelAndViewContainer;[Ljava/lang/Object;)V" time="2756266926" count="2210" lineNumber="-1" percent="99.6">
+                                                                                    <node leaf="false" class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter" methodName="invokeHandlerMethod" methodSignature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lorg/springframework/web/method/HandlerMethod;)Lorg/springframework/web/servlet/ModelAndView;" time="2756266926" count="2210" lineNumber="-1" percent="99.6">
+                                                                                      <node leaf="false" class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter" methodName="handleInternal" methodSignature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lorg/springframework/web/method/HandlerMethod;)Lorg/springframework/web/servlet/ModelAndView;" time="2756266926" count="2210" lineNumber="-1" percent="99.6">
+                                                                                        <node leaf="false" class="org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter" methodName="handle" methodSignature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Ljava/lang/Object;)Lorg/springframework/web/servlet/ModelAndView;" time="2756266926" count="2210" lineNumber="-1" percent="99.6">
+                                                                                          <node leaf="false" class="org.springframework.web.servlet.DispatcherServlet" methodName="doDispatch" methodSignature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" time="2756266926" count="2210" lineNumber="-1" percent="99.6">
+                                                                                            <node leaf="false" class="org.springframework.web.servlet.DispatcherServlet" methodName="doService" methodSignature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" time="2756266926" count="2210" lineNumber="-1" percent="99.6">
+                                                                                              <node leaf="false" class="org.springframework.web.servlet.FrameworkServlet" methodName="processRequest" methodSignature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" time="2756266926" count="2210" lineNumber="-1" percent="99.6">
+                                                                                                <node leaf="false" class="org.springframework.web.servlet.FrameworkServlet" methodName="doGet" methodSignature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" time="2756266926" count="2210" lineNumber="-1" percent="99.6">
+                                                                                                  <node leaf="false" class="org.springframework.web.servlet.FrameworkServlet" methodName="service" methodSignature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" time="2756266926" count="2210" lineNumber="-1" percent="99.6">
+                                                                                                    <node leaf="false" class="javax.servlet.FilterChain" methodName="doFilter" methodSignature="(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V" time="2756266926" count="2210" lineNumber="-1" percent="99.6">
+                                                                                                      <node leaf="false" class="com.github.dandelion.datatables.core.web.filter.DatatablesFilter" methodName="doFilter" methodSignature="(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljavax/servlet/FilterChain;)V" time="2756266926" count="2210" lineNumber="-1" percent="99.6">
+                                                                                                        <node leaf="false" class="javax.servlet.FilterChain" methodName="doFilter" methodSignature="(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V" time="2756266926" count="2210" lineNumber="-1" percent="99.6">
+                                                                                                          <node leaf="false" class="com.github.dandelion.core.web.DandelionFilter" methodName="doFilter" methodSignature="(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljavax/servlet/FilterChain;)V" time="2756266926" count="2210" lineNumber="-1" percent="99.6">
+                                                                                                            <node leaf="false" class="javax.servlet.FilterChain" methodName="doFilter" methodSignature="(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V" time="2756266926" count="2210" lineNumber="-1" percent="99.6">
+                                                                                                              <node leaf="false" class="org.springframework.web.filter.CharacterEncodingFilter" methodName="doFilterInternal" methodSignature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Ljavax/servlet/FilterChain;)V" time="2756266926" count="2210" lineNumber="-1" percent="99.6">
+                                                                                                                <node leaf="false" class="org.springframework.web.filter.OncePerRequestFilter" methodName="doFilter" methodSignature="(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljavax/servlet/FilterChain;)V" time="2756266926" count="2210" lineNumber="-1" percent="99.6">
+                                                                                                                  <node leaf="false" class="_jprofiler_annotation_class" methodName="HTTP: /petclinic/owners.html" methodSignature="()V" time="2756266926" count="2210" lineNumber="1" percent="99.6">
+                                                                                                                    <node leaf="true" class="java.util.concurrent.ThreadPoolExecutor$Worker" methodName="run" methodSignature="()V" time="2756266926" count="2210" lineNumber="-1" percent="99.6"/>
+                                                                                                                  </node>
+                                                                                                                </node>
+                                                                                                              </node>
+                                                                                                            </node>
+                                                                                                          </node>
+                                                                                                        </node>
+                                                                                                      </node>
+                                                                                                    </node>
+                                                                                                  </node>
+                                                                                                </node>
+                                                                                              </node>
+                                                                                            </node>
+                                                                                          </node>
+                                                                                        </node>
+                                                                                      </node>
+                                                                                    </node>
+                                                                                  </node>
+                                                                                </node>
+                                                                              </node>
+                                                                            </node>
+                                                                          </node>
+                                                                        </node>
+                                                                      </node>
+                                                                    </node>
+                                                                  </node>
+                                                                </node>
+                                                              </node>
+                                                            </node>
+                                                          </node>
+                                                        </node>
+                                                      </node>
+                                                    </node>
+                                                  </node>
+                                                </node>
+                                              </node>
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </hotspot>
+  <hotspot leaf="false" value="SELECT id, name FROM types ORDER BY name" time="10296418" count="2210">
+    <node leaf="false" class="java.sql.PreparedStatement" methodName="executeQuery" methodSignature="()Ljava/sql/ResultSet;" time="10296418" count="2210" lineNumber="-1" percent="0.4">
+      <node leaf="false" class="org.springframework.jdbc.core.JdbcTemplate$1" methodName="doInPreparedStatement" methodSignature="(Ljava/sql/PreparedStatement;)Ljava/lang/Object;" time="10296418" count="2210" lineNumber="-1" percent="0.4">
+        <node leaf="false" class="org.springframework.jdbc.core.JdbcTemplate" methodName="execute" methodSignature="(Lorg/springframework/jdbc/core/PreparedStatementCreator;Lorg/springframework/jdbc/core/PreparedStatementCallback;)Ljava/lang/Object;" time="10296418" count="2210" lineNumber="-1" percent="0.4">
+          <node leaf="false" class="org.springframework.jdbc.core.JdbcTemplate" methodName="query" methodSignature="(Lorg/springframework/jdbc/core/PreparedStatementCreator;Lorg/springframework/jdbc/core/PreparedStatementSetter;Lorg/springframework/jdbc/core/ResultSetExtractor;)Ljava/lang/Object;" time="10296418" count="2210" lineNumber="-1" percent="0.4">
+            <node leaf="false" class="org.springframework.jdbc.core.JdbcTemplate" methodName="query" methodSignature="(Lorg/springframework/jdbc/core/PreparedStatementCreator;Lorg/springframework/jdbc/core/ResultSetExtractor;)Ljava/lang/Object;" time="10296418" count="2210" lineNumber="-1" percent="0.4">
+              <node leaf="false" class="org.springframework.jdbc.core.JdbcTemplate" methodName="query" methodSignature="(Lorg/springframework/jdbc/core/PreparedStatementCreator;Lorg/springframework/jdbc/core/RowMapper;)Ljava/util/List;" time="10296418" count="2210" lineNumber="-1" percent="0.4">
+                <node leaf="false" class="org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate" methodName="query" methodSignature="(Ljava/lang/String;Lorg/springframework/jdbc/core/namedparam/SqlParameterSource;Lorg/springframework/jdbc/core/RowMapper;)Ljava/util/List;" time="10296418" count="2210" lineNumber="-1" percent="0.4">
+                  <node leaf="false" class="org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate" methodName="query" methodSignature="(Ljava/lang/String;Ljava/util/Map;Lorg/springframework/jdbc/core/RowMapper;)Ljava/util/List;" time="10296418" count="2210" lineNumber="-1" percent="0.4">
+                    <node leaf="false" class="org.springframework.samples.petclinic.repository.jdbc.JdbcOwnerRepositoryImpl" methodName="getPetTypes" methodSignature="()Ljava/util/Collection;" time="10296418" count="2210" lineNumber="-1" percent="0.4">
+                      <node leaf="false" class="org.springframework.samples.petclinic.repository.jdbc.JdbcOwnerRepositoryImpl" methodName="loadPetsAndVisits" methodSignature="(Lorg/springframework/samples/petclinic/model/Owner;)V" time="10296418" count="2210" lineNumber="-1" percent="0.4">
+                        <node leaf="false" class="org.springframework.samples.petclinic.repository.jdbc.JdbcOwnerRepositoryImpl" methodName="loadOwnersPetsAndVisits" methodSignature="(Ljava/util/List;)V" time="10296418" count="2210" lineNumber="-1" percent="0.4">
+                          <node leaf="false" class="org.springframework.samples.petclinic.repository.jdbc.JdbcOwnerRepositoryImpl" methodName="findByLastName" methodSignature="(Ljava/lang/String;)Ljava/util/Collection;" time="10296418" count="2210" lineNumber="-1" percent="0.4">
+                            <node leaf="false" class="java.lang.reflect.Method" methodName="invoke" methodSignature="(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;" time="10296418" count="2210" lineNumber="-1" percent="0.4">
+                              <node leaf="false" class="org.springframework.aop.support.AopUtils" methodName="invokeJoinpointUsingReflection" methodSignature="(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;" time="10296418" count="2210" lineNumber="-1" percent="0.4">
+                                <node leaf="false" class="org.springframework.aop.framework.ReflectiveMethodInvocation" methodName="invokeJoinpoint" methodSignature="()Ljava/lang/Object;" time="10296418" count="2210" lineNumber="-1" percent="0.4">
+                                  <node leaf="false" class="org.springframework.aop.framework.ReflectiveMethodInvocation" methodName="proceed" methodSignature="()Ljava/lang/Object;" time="10296418" count="2210" lineNumber="-1" percent="0.4">
+                                    <node leaf="false" class="org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint" methodName="proceed" methodSignature="()Ljava/lang/Object;" time="10296418" count="2210" lineNumber="-1" percent="0.4">
+                                      <node leaf="false" class="org.aspectj.lang.ProceedingJoinPoint" methodName="proceed" methodSignature="()Ljava/lang/Object;" time="10296418" count="2210" lineNumber="-1" percent="0.4">
+                                        <node leaf="false" class="org.springframework.samples.petclinic.util.CallMonitoringAspect" methodName="invoke" methodSignature="(Lorg/aspectj/lang/ProceedingJoinPoint;)Ljava/lang/Object;" time="10296418" count="2210" lineNumber="-1" percent="0.4">
+                                          <node leaf="false" class="java.lang.reflect.Method" methodName="invoke" methodSignature="(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;" time="10296418" count="2210" lineNumber="-1" percent="0.4">
+                                            <node leaf="false" class="org.springframework.aop.aspectj.AbstractAspectJAdvice" methodName="invokeAdviceMethodWithGivenArgs" methodSignature="([Ljava/lang/Object;)Ljava/lang/Object;" time="10296418" count="2210" lineNumber="-1" percent="0.4">
+                                              <node leaf="false" class="org.springframework.aop.aspectj.AbstractAspectJAdvice" methodName="invokeAdviceMethod" methodSignature="(Lorg/aspectj/lang/JoinPoint;Lorg/aspectj/weaver/tools/JoinPointMatch;Ljava/lang/Object;Ljava/lang/Throwable;)Ljava/lang/Object;" time="10296418" count="2210" lineNumber="-1" percent="0.4">
+                                                <node leaf="false" class="org.springframework.aop.aspectj.AspectJAroundAdvice" methodName="invoke" methodSignature="(Lorg/aopalliance/intercept/MethodInvocation;)Ljava/lang/Object;" time="10296418" count="2210" lineNumber="-1" percent="0.4">
+                                                  <node leaf="false" class="org.springframework.aop.framework.ReflectiveMethodInvocation" methodName="proceed" methodSignature="()Ljava/lang/Object;" time="10296418" count="2210" lineNumber="-1" percent="0.4">
+                                                    <node leaf="false" class="org.springframework.aop.interceptor.ExposeInvocationInterceptor" methodName="invoke" methodSignature="(Lorg/aopalliance/intercept/MethodInvocation;)Ljava/lang/Object;" time="10296418" count="2210" lineNumber="-1" percent="0.4">
+                                                      <node leaf="false" class="org.springframework.aop.framework.ReflectiveMethodInvocation" methodName="proceed" methodSignature="()Ljava/lang/Object;" time="10296418" count="2210" lineNumber="-1" percent="0.4">
+                                                        <node leaf="false" class="org.springframework.aop.framework.JdkDynamicAopProxy" methodName="invoke" methodSignature="(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;" time="10296418" count="2210" lineNumber="-1" percent="0.4">
+                                                          <node leaf="false" class="org.springframework.samples.petclinic.service.ClinicServiceImpl" methodName="findOwnerByLastName" methodSignature="(Ljava/lang/String;)Ljava/util/Collection;" time="10296418" count="2210" lineNumber="-1" percent="0.4">
+                                                            <node leaf="false" class="java.lang.reflect.Method" methodName="invoke" methodSignature="(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;" time="10296418" count="2210" lineNumber="-1" percent="0.4">
+                                                              <node leaf="false" class="org.springframework.aop.support.AopUtils" methodName="invokeJoinpointUsingReflection" methodSignature="(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;" time="10296418" count="2210" lineNumber="-1" percent="0.4">
+                                                                <node leaf="false" class="org.springframework.aop.framework.ReflectiveMethodInvocation" methodName="invokeJoinpoint" methodSignature="()Ljava/lang/Object;" time="10296418" count="2210" lineNumber="-1" percent="0.4">
+                                                                  <node leaf="false" class="org.springframework.aop.framework.ReflectiveMethodInvocation" methodName="proceed" methodSignature="()Ljava/lang/Object;" time="10296418" count="2210" lineNumber="-1" percent="0.4">
+                                                                    <node leaf="false" class="org.springframework.transaction.interceptor.TransactionInterceptor$1" methodName="proceedWithInvocation" methodSignature="()Ljava/lang/Object;" time="10296418" count="2210" lineNumber="-1" percent="0.4">
+                                                                      <node leaf="false" class="org.springframework.transaction.interceptor.TransactionAspectSupport" methodName="invokeWithinTransaction" methodSignature="(Ljava/lang/reflect/Method;Ljava/lang/Class;Lorg/springframework/transaction/interceptor/TransactionAspectSupport$InvocationCallback;)Ljava/lang/Object;" time="10296418" count="2210" lineNumber="-1" percent="0.4">
+                                                                        <node leaf="false" class="org.springframework.transaction.interceptor.TransactionInterceptor" methodName="invoke" methodSignature="(Lorg/aopalliance/intercept/MethodInvocation;)Ljava/lang/Object;" time="10296418" count="2210" lineNumber="-1" percent="0.4">
+                                                                          <node leaf="false" class="org.springframework.aop.framework.ReflectiveMethodInvocation" methodName="proceed" methodSignature="()Ljava/lang/Object;" time="10296418" count="2210" lineNumber="-1" percent="0.4">
+                                                                            <node leaf="false" class="org.springframework.aop.framework.JdkDynamicAopProxy" methodName="invoke" methodSignature="(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;" time="10296418" count="2210" lineNumber="-1" percent="0.4">
+                                                                              <node leaf="false" class="org.springframework.samples.petclinic.web.OwnerController" methodName="processFindForm" methodSignature="(Lorg/springframework/samples/petclinic/model/Owner;Lorg/springframework/validation/BindingResult;Ljava/util/Map;)Ljava/lang/String;" time="10296418" count="2210" lineNumber="-1" percent="0.4">
+                                                                                <node leaf="false" class="java.lang.reflect.Method" methodName="invoke" methodSignature="(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;" time="10296418" count="2210" lineNumber="-1" percent="0.4">
+                                                                                  <node leaf="false" class="org.springframework.web.method.support.InvocableHandlerMethod" methodName="doInvoke" methodSignature="([Ljava/lang/Object;)Ljava/lang/Object;" time="10296418" count="2210" lineNumber="-1" percent="0.4">
+                                                                                    <node leaf="false" class="org.springframework.web.method.support.InvocableHandlerMethod" methodName="invokeForRequest" methodSignature="(Lorg/springframework/web/context/request/NativeWebRequest;Lorg/springframework/web/method/support/ModelAndViewContainer;[Ljava/lang/Object;)Ljava/lang/Object;" time="10296418" count="2210" lineNumber="-1" percent="0.4">
+                                                                                      <node leaf="false" class="org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod" methodName="invokeAndHandle" methodSignature="(Lorg/springframework/web/context/request/ServletWebRequest;Lorg/springframework/web/method/support/ModelAndViewContainer;[Ljava/lang/Object;)V" time="10296418" count="2210" lineNumber="-1" percent="0.4">
+                                                                                        <node leaf="false" class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter" methodName="invokeHandlerMethod" methodSignature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lorg/springframework/web/method/HandlerMethod;)Lorg/springframework/web/servlet/ModelAndView;" time="10296418" count="2210" lineNumber="-1" percent="0.4">
+                                                                                          <node leaf="false" class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter" methodName="handleInternal" methodSignature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lorg/springframework/web/method/HandlerMethod;)Lorg/springframework/web/servlet/ModelAndView;" time="10296418" count="2210" lineNumber="-1" percent="0.4">
+                                                                                            <node leaf="false" class="org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter" methodName="handle" methodSignature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Ljava/lang/Object;)Lorg/springframework/web/servlet/ModelAndView;" time="10296418" count="2210" lineNumber="-1" percent="0.4">
+                                                                                              <node leaf="false" class="org.springframework.web.servlet.DispatcherServlet" methodName="doDispatch" methodSignature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" time="10296418" count="2210" lineNumber="-1" percent="0.4">
+                                                                                                <node leaf="false" class="org.springframework.web.servlet.DispatcherServlet" methodName="doService" methodSignature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" time="10296418" count="2210" lineNumber="-1" percent="0.4">
+                                                                                                  <node leaf="false" class="org.springframework.web.servlet.FrameworkServlet" methodName="processRequest" methodSignature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" time="10296418" count="2210" lineNumber="-1" percent="0.4">
+                                                                                                    <node leaf="false" class="org.springframework.web.servlet.FrameworkServlet" methodName="doGet" methodSignature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" time="10296418" count="2210" lineNumber="-1" percent="0.4">
+                                                                                                      <node leaf="false" class="org.springframework.web.servlet.FrameworkServlet" methodName="service" methodSignature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" time="10296418" count="2210" lineNumber="-1" percent="0.4">
+                                                                                                        <node leaf="false" class="javax.servlet.FilterChain" methodName="doFilter" methodSignature="(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V" time="10296418" count="2210" lineNumber="-1" percent="0.4">
+                                                                                                          <node leaf="false" class="com.github.dandelion.datatables.core.web.filter.DatatablesFilter" methodName="doFilter" methodSignature="(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljavax/servlet/FilterChain;)V" time="10296418" count="2210" lineNumber="-1" percent="0.4">
+                                                                                                            <node leaf="false" class="javax.servlet.FilterChain" methodName="doFilter" methodSignature="(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V" time="10296418" count="2210" lineNumber="-1" percent="0.4">
+                                                                                                              <node leaf="false" class="com.github.dandelion.core.web.DandelionFilter" methodName="doFilter" methodSignature="(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljavax/servlet/FilterChain;)V" time="10296418" count="2210" lineNumber="-1" percent="0.4">
+                                                                                                                <node leaf="false" class="javax.servlet.FilterChain" methodName="doFilter" methodSignature="(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V" time="10296418" count="2210" lineNumber="-1" percent="0.4">
+                                                                                                                  <node leaf="false" class="org.springframework.web.filter.CharacterEncodingFilter" methodName="doFilterInternal" methodSignature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Ljavax/servlet/FilterChain;)V" time="10296418" count="2210" lineNumber="-1" percent="0.4">
+                                                                                                                    <node leaf="false" class="org.springframework.web.filter.OncePerRequestFilter" methodName="doFilter" methodSignature="(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljavax/servlet/FilterChain;)V" time="10296418" count="2210" lineNumber="-1" percent="0.4">
+                                                                                                                      <node leaf="false" class="_jprofiler_annotation_class" methodName="HTTP: /petclinic/owners.html" methodSignature="()V" time="10296418" count="2210" lineNumber="1" percent="0.4">
+                                                                                                                        <node leaf="true" class="java.util.concurrent.ThreadPoolExecutor$Worker" methodName="run" methodSignature="()V" time="10296418" count="2210" lineNumber="-1" percent="0.4"/>
+                                                                                                                      </node>
+                                                                                                                    </node>
+                                                                                                                  </node>
+                                                                                                                </node>
+                                                                                                              </node>
+                                                                                                            </node>
+                                                                                                          </node>
+                                                                                                        </node>
+                                                                                                      </node>
+                                                                                                    </node>
+                                                                                                  </node>
+                                                                                                </node>
+                                                                                              </node>
+                                                                                            </node>
+                                                                                          </node>
+                                                                                        </node>
+                                                                                      </node>
+                                                                                    </node>
+                                                                                  </node>
+                                                                                </node>
+                                                                              </node>
+                                                                            </node>
+                                                                          </node>
+                                                                        </node>
+                                                                      </node>
+                                                                    </node>
+                                                                  </node>
+                                                                </node>
+                                                              </node>
+                                                            </node>
+                                                          </node>
+                                                        </node>
+                                                      </node>
+                                                    </node>
+                                                  </node>
+                                                </node>
+                                              </node>
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </hotspot>
+  <hotspot leaf="false" value="SELECT id, first_name, last_name, address, city, telephone FROM owners WHERE last_name like ?" time="91338" count="2">
+    <node leaf="false" class="java.sql.PreparedStatement" methodName="executeQuery" methodSignature="()Ljava/sql/ResultSet;" time="91338" count="2" lineNumber="-1" percent="0.0">
+      <node leaf="false" class="org.springframework.jdbc.core.JdbcTemplate$1" methodName="doInPreparedStatement" methodSignature="(Ljava/sql/PreparedStatement;)Ljava/lang/Object;" time="91338" count="2" lineNumber="-1" percent="0.0">
+        <node leaf="false" class="org.springframework.jdbc.core.JdbcTemplate" methodName="execute" methodSignature="(Lorg/springframework/jdbc/core/PreparedStatementCreator;Lorg/springframework/jdbc/core/PreparedStatementCallback;)Ljava/lang/Object;" time="91338" count="2" lineNumber="-1" percent="0.0">
+          <node leaf="false" class="org.springframework.jdbc.core.JdbcTemplate" methodName="query" methodSignature="(Lorg/springframework/jdbc/core/PreparedStatementCreator;Lorg/springframework/jdbc/core/PreparedStatementSetter;Lorg/springframework/jdbc/core/ResultSetExtractor;)Ljava/lang/Object;" time="91338" count="2" lineNumber="-1" percent="0.0">
+            <node leaf="false" class="org.springframework.jdbc.core.JdbcTemplate" methodName="query" methodSignature="(Lorg/springframework/jdbc/core/PreparedStatementCreator;Lorg/springframework/jdbc/core/ResultSetExtractor;)Ljava/lang/Object;" time="91338" count="2" lineNumber="-1" percent="0.0">
+              <node leaf="false" class="org.springframework.jdbc.core.JdbcTemplate" methodName="query" methodSignature="(Lorg/springframework/jdbc/core/PreparedStatementCreator;Lorg/springframework/jdbc/core/RowMapper;)Ljava/util/List;" time="91338" count="2" lineNumber="-1" percent="0.0">
+                <node leaf="false" class="org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate" methodName="query" methodSignature="(Ljava/lang/String;Lorg/springframework/jdbc/core/namedparam/SqlParameterSource;Lorg/springframework/jdbc/core/RowMapper;)Ljava/util/List;" time="91338" count="2" lineNumber="-1" percent="0.0">
+                  <node leaf="false" class="org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate" methodName="query" methodSignature="(Ljava/lang/String;Ljava/util/Map;Lorg/springframework/jdbc/core/RowMapper;)Ljava/util/List;" time="91338" count="2" lineNumber="-1" percent="0.0">
+                    <node leaf="false" class="org.springframework.samples.petclinic.repository.jdbc.JdbcOwnerRepositoryImpl" methodName="findByLastName" methodSignature="(Ljava/lang/String;)Ljava/util/Collection;" time="91338" count="2" lineNumber="-1" percent="0.0">
+                      <node leaf="false" class="java.lang.reflect.Method" methodName="invoke" methodSignature="(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;" time="91338" count="2" lineNumber="-1" percent="0.0">
+                        <node leaf="false" class="org.springframework.aop.support.AopUtils" methodName="invokeJoinpointUsingReflection" methodSignature="(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;" time="91338" count="2" lineNumber="-1" percent="0.0">
+                          <node leaf="false" class="org.springframework.aop.framework.ReflectiveMethodInvocation" methodName="invokeJoinpoint" methodSignature="()Ljava/lang/Object;" time="91338" count="2" lineNumber="-1" percent="0.0">
+                            <node leaf="false" class="org.springframework.aop.framework.ReflectiveMethodInvocation" methodName="proceed" methodSignature="()Ljava/lang/Object;" time="91338" count="2" lineNumber="-1" percent="0.0">
+                              <node leaf="false" class="org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint" methodName="proceed" methodSignature="()Ljava/lang/Object;" time="91338" count="2" lineNumber="-1" percent="0.0">
+                                <node leaf="false" class="org.aspectj.lang.ProceedingJoinPoint" methodName="proceed" methodSignature="()Ljava/lang/Object;" time="91338" count="2" lineNumber="-1" percent="0.0">
+                                  <node leaf="false" class="org.springframework.samples.petclinic.util.CallMonitoringAspect" methodName="invoke" methodSignature="(Lorg/aspectj/lang/ProceedingJoinPoint;)Ljava/lang/Object;" time="91338" count="2" lineNumber="-1" percent="0.0">
+                                    <node leaf="false" class="java.lang.reflect.Method" methodName="invoke" methodSignature="(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;" time="91338" count="2" lineNumber="-1" percent="0.0">
+                                      <node leaf="false" class="org.springframework.aop.aspectj.AbstractAspectJAdvice" methodName="invokeAdviceMethodWithGivenArgs" methodSignature="([Ljava/lang/Object;)Ljava/lang/Object;" time="91338" count="2" lineNumber="-1" percent="0.0">
+                                        <node leaf="false" class="org.springframework.aop.aspectj.AbstractAspectJAdvice" methodName="invokeAdviceMethod" methodSignature="(Lorg/aspectj/lang/JoinPoint;Lorg/aspectj/weaver/tools/JoinPointMatch;Ljava/lang/Object;Ljava/lang/Throwable;)Ljava/lang/Object;" time="91338" count="2" lineNumber="-1" percent="0.0">
+                                          <node leaf="false" class="org.springframework.aop.aspectj.AspectJAroundAdvice" methodName="invoke" methodSignature="(Lorg/aopalliance/intercept/MethodInvocation;)Ljava/lang/Object;" time="91338" count="2" lineNumber="-1" percent="0.0">
+                                            <node leaf="false" class="org.springframework.aop.framework.ReflectiveMethodInvocation" methodName="proceed" methodSignature="()Ljava/lang/Object;" time="91338" count="2" lineNumber="-1" percent="0.0">
+                                              <node leaf="false" class="org.springframework.aop.interceptor.ExposeInvocationInterceptor" methodName="invoke" methodSignature="(Lorg/aopalliance/intercept/MethodInvocation;)Ljava/lang/Object;" time="91338" count="2" lineNumber="-1" percent="0.0">
+                                                <node leaf="false" class="org.springframework.aop.framework.ReflectiveMethodInvocation" methodName="proceed" methodSignature="()Ljava/lang/Object;" time="91338" count="2" lineNumber="-1" percent="0.0">
+                                                  <node leaf="false" class="org.springframework.aop.framework.JdkDynamicAopProxy" methodName="invoke" methodSignature="(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;" time="91338" count="2" lineNumber="-1" percent="0.0">
+                                                    <node leaf="false" class="org.springframework.samples.petclinic.service.ClinicServiceImpl" methodName="findOwnerByLastName" methodSignature="(Ljava/lang/String;)Ljava/util/Collection;" time="91338" count="2" lineNumber="-1" percent="0.0">
+                                                      <node leaf="false" class="java.lang.reflect.Method" methodName="invoke" methodSignature="(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;" time="91338" count="2" lineNumber="-1" percent="0.0">
+                                                        <node leaf="false" class="org.springframework.aop.support.AopUtils" methodName="invokeJoinpointUsingReflection" methodSignature="(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;" time="91338" count="2" lineNumber="-1" percent="0.0">
+                                                          <node leaf="false" class="org.springframework.aop.framework.ReflectiveMethodInvocation" methodName="invokeJoinpoint" methodSignature="()Ljava/lang/Object;" time="91338" count="2" lineNumber="-1" percent="0.0">
+                                                            <node leaf="false" class="org.springframework.aop.framework.ReflectiveMethodInvocation" methodName="proceed" methodSignature="()Ljava/lang/Object;" time="91338" count="2" lineNumber="-1" percent="0.0">
+                                                              <node leaf="false" class="org.springframework.transaction.interceptor.TransactionInterceptor$1" methodName="proceedWithInvocation" methodSignature="()Ljava/lang/Object;" time="91338" count="2" lineNumber="-1" percent="0.0">
+                                                                <node leaf="false" class="org.springframework.transaction.interceptor.TransactionAspectSupport" methodName="invokeWithinTransaction" methodSignature="(Ljava/lang/reflect/Method;Ljava/lang/Class;Lorg/springframework/transaction/interceptor/TransactionAspectSupport$InvocationCallback;)Ljava/lang/Object;" time="91338" count="2" lineNumber="-1" percent="0.0">
+                                                                  <node leaf="false" class="org.springframework.transaction.interceptor.TransactionInterceptor" methodName="invoke" methodSignature="(Lorg/aopalliance/intercept/MethodInvocation;)Ljava/lang/Object;" time="91338" count="2" lineNumber="-1" percent="0.0">
+                                                                    <node leaf="false" class="org.springframework.aop.framework.ReflectiveMethodInvocation" methodName="proceed" methodSignature="()Ljava/lang/Object;" time="91338" count="2" lineNumber="-1" percent="0.0">
+                                                                      <node leaf="false" class="org.springframework.aop.framework.JdkDynamicAopProxy" methodName="invoke" methodSignature="(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;" time="91338" count="2" lineNumber="-1" percent="0.0">
+                                                                        <node leaf="false" class="org.springframework.samples.petclinic.web.OwnerController" methodName="processFindForm" methodSignature="(Lorg/springframework/samples/petclinic/model/Owner;Lorg/springframework/validation/BindingResult;Ljava/util/Map;)Ljava/lang/String;" time="91338" count="2" lineNumber="-1" percent="0.0">
+                                                                          <node leaf="false" class="java.lang.reflect.Method" methodName="invoke" methodSignature="(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;" time="91338" count="2" lineNumber="-1" percent="0.0">
+                                                                            <node leaf="false" class="org.springframework.web.method.support.InvocableHandlerMethod" methodName="doInvoke" methodSignature="([Ljava/lang/Object;)Ljava/lang/Object;" time="91338" count="2" lineNumber="-1" percent="0.0">
+                                                                              <node leaf="false" class="org.springframework.web.method.support.InvocableHandlerMethod" methodName="invokeForRequest" methodSignature="(Lorg/springframework/web/context/request/NativeWebRequest;Lorg/springframework/web/method/support/ModelAndViewContainer;[Ljava/lang/Object;)Ljava/lang/Object;" time="91338" count="2" lineNumber="-1" percent="0.0">
+                                                                                <node leaf="false" class="org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod" methodName="invokeAndHandle" methodSignature="(Lorg/springframework/web/context/request/ServletWebRequest;Lorg/springframework/web/method/support/ModelAndViewContainer;[Ljava/lang/Object;)V" time="91338" count="2" lineNumber="-1" percent="0.0">
+                                                                                  <node leaf="false" class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter" methodName="invokeHandlerMethod" methodSignature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lorg/springframework/web/method/HandlerMethod;)Lorg/springframework/web/servlet/ModelAndView;" time="91338" count="2" lineNumber="-1" percent="0.0">
+                                                                                    <node leaf="false" class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter" methodName="handleInternal" methodSignature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lorg/springframework/web/method/HandlerMethod;)Lorg/springframework/web/servlet/ModelAndView;" time="91338" count="2" lineNumber="-1" percent="0.0">
+                                                                                      <node leaf="false" class="org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter" methodName="handle" methodSignature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Ljava/lang/Object;)Lorg/springframework/web/servlet/ModelAndView;" time="91338" count="2" lineNumber="-1" percent="0.0">
+                                                                                        <node leaf="false" class="org.springframework.web.servlet.DispatcherServlet" methodName="doDispatch" methodSignature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" time="91338" count="2" lineNumber="-1" percent="0.0">
+                                                                                          <node leaf="false" class="org.springframework.web.servlet.DispatcherServlet" methodName="doService" methodSignature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" time="91338" count="2" lineNumber="-1" percent="0.0">
+                                                                                            <node leaf="false" class="org.springframework.web.servlet.FrameworkServlet" methodName="processRequest" methodSignature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" time="91338" count="2" lineNumber="-1" percent="0.0">
+                                                                                              <node leaf="false" class="org.springframework.web.servlet.FrameworkServlet" methodName="doGet" methodSignature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" time="91338" count="2" lineNumber="-1" percent="0.0">
+                                                                                                <node leaf="false" class="org.springframework.web.servlet.FrameworkServlet" methodName="service" methodSignature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" time="91338" count="2" lineNumber="-1" percent="0.0">
+                                                                                                  <node leaf="false" class="javax.servlet.FilterChain" methodName="doFilter" methodSignature="(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V" time="91338" count="2" lineNumber="-1" percent="0.0">
+                                                                                                    <node leaf="false" class="com.github.dandelion.datatables.core.web.filter.DatatablesFilter" methodName="doFilter" methodSignature="(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljavax/servlet/FilterChain;)V" time="91338" count="2" lineNumber="-1" percent="0.0">
+                                                                                                      <node leaf="false" class="javax.servlet.FilterChain" methodName="doFilter" methodSignature="(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V" time="91338" count="2" lineNumber="-1" percent="0.0">
+                                                                                                        <node leaf="false" class="com.github.dandelion.core.web.DandelionFilter" methodName="doFilter" methodSignature="(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljavax/servlet/FilterChain;)V" time="91338" count="2" lineNumber="-1" percent="0.0">
+                                                                                                          <node leaf="false" class="javax.servlet.FilterChain" methodName="doFilter" methodSignature="(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V" time="91338" count="2" lineNumber="-1" percent="0.0">
+                                                                                                            <node leaf="false" class="org.springframework.web.filter.CharacterEncodingFilter" methodName="doFilterInternal" methodSignature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Ljavax/servlet/FilterChain;)V" time="91338" count="2" lineNumber="-1" percent="0.0">
+                                                                                                              <node leaf="false" class="org.springframework.web.filter.OncePerRequestFilter" methodName="doFilter" methodSignature="(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljavax/servlet/FilterChain;)V" time="91338" count="2" lineNumber="-1" percent="0.0">
+                                                                                                                <node leaf="false" class="_jprofiler_annotation_class" methodName="HTTP: /petclinic/owners.html" methodSignature="()V" time="91338" count="2" lineNumber="1" percent="0.0">
+                                                                                                                  <node leaf="true" class="java.util.concurrent.ThreadPoolExecutor$Worker" methodName="run" methodSignature="()V" time="91338" count="2" lineNumber="-1" percent="0.0"/>
+                                                                                                                </node>
+                                                                                                              </node>
+                                                                                                            </node>
+                                                                                                          </node>
+                                                                                                        </node>
+                                                                                                      </node>
+                                                                                                    </node>
+                                                                                                  </node>
+                                                                                                </node>
+                                                                                              </node>
+                                                                                            </node>
+                                                                                          </node>
+                                                                                        </node>
+                                                                                      </node>
+                                                                                    </node>
+                                                                                  </node>
+                                                                                </node>
+                                                                              </node>
+                                                                            </node>
+                                                                          </node>
+                                                                        </node>
+                                                                      </node>
+                                                                    </node>
+                                                                  </node>
+                                                                </node>
+                                                              </node>
+                                                            </node>
+                                                          </node>
+                                                        </node>
+                                                      </node>
+                                                    </node>
+                                                  </node>
+                                                </node>
+                                              </node>
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </hotspot>
+  <hotspot leaf="false" value="select @@session.tx_read_only" time="283" count="1">
+    <node leaf="false" class="java.sql.Connection" methodName="isReadOnly" methodSignature="()Z" time="283" count="1" lineNumber="-1" percent="0.0">
+      <node leaf="false" class="org.springframework.jdbc.datasource.DataSourceUtils" methodName="resetConnectionAfterTransaction" methodSignature="(Ljava/sql/Connection;Ljava/lang/Integer;)V" time="283" count="1" lineNumber="-1" percent="0.0">
+        <node leaf="false" class="org.springframework.jdbc.datasource.DataSourceTransactionManager" methodName="doCleanupAfterCompletion" methodSignature="(Ljava/lang/Object;)V" time="283" count="1" lineNumber="-1" percent="0.0">
+          <node leaf="false" class="org.springframework.transaction.support.AbstractPlatformTransactionManager" methodName="cleanupAfterCompletion" methodSignature="(Lorg/springframework/transaction/support/DefaultTransactionStatus;)V" time="283" count="1" lineNumber="-1" percent="0.0">
+            <node leaf="false" class="org.springframework.transaction.support.AbstractPlatformTransactionManager" methodName="processCommit" methodSignature="(Lorg/springframework/transaction/support/DefaultTransactionStatus;)V" time="283" count="1" lineNumber="-1" percent="0.0">
+              <node leaf="false" class="org.springframework.transaction.support.AbstractPlatformTransactionManager" methodName="commit" methodSignature="(Lorg/springframework/transaction/TransactionStatus;)V" time="283" count="1" lineNumber="-1" percent="0.0">
+                <node leaf="false" class="org.springframework.transaction.interceptor.TransactionAspectSupport" methodName="commitTransactionAfterReturning" methodSignature="(Lorg/springframework/transaction/interceptor/TransactionAspectSupport$TransactionInfo;)V" time="283" count="1" lineNumber="-1" percent="0.0">
+                  <node leaf="false" class="org.springframework.transaction.interceptor.TransactionAspectSupport" methodName="invokeWithinTransaction" methodSignature="(Ljava/lang/reflect/Method;Ljava/lang/Class;Lorg/springframework/transaction/interceptor/TransactionAspectSupport$InvocationCallback;)Ljava/lang/Object;" time="283" count="1" lineNumber="-1" percent="0.0">
+                    <node leaf="false" class="org.springframework.transaction.interceptor.TransactionInterceptor" methodName="invoke" methodSignature="(Lorg/aopalliance/intercept/MethodInvocation;)Ljava/lang/Object;" time="283" count="1" lineNumber="-1" percent="0.0">
+                      <node leaf="false" class="org.springframework.aop.framework.ReflectiveMethodInvocation" methodName="proceed" methodSignature="()Ljava/lang/Object;" time="283" count="1" lineNumber="-1" percent="0.0">
+                        <node leaf="false" class="org.springframework.aop.framework.JdkDynamicAopProxy" methodName="invoke" methodSignature="(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;" time="283" count="1" lineNumber="-1" percent="0.0">
+                          <node leaf="false" class="org.springframework.samples.petclinic.web.OwnerController" methodName="processFindForm" methodSignature="(Lorg/springframework/samples/petclinic/model/Owner;Lorg/springframework/validation/BindingResult;Ljava/util/Map;)Ljava/lang/String;" time="283" count="1" lineNumber="-1" percent="0.0">
+                            <node leaf="false" class="java.lang.reflect.Method" methodName="invoke" methodSignature="(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;" time="283" count="1" lineNumber="-1" percent="0.0">
+                              <node leaf="false" class="org.springframework.web.method.support.InvocableHandlerMethod" methodName="doInvoke" methodSignature="([Ljava/lang/Object;)Ljava/lang/Object;" time="283" count="1" lineNumber="-1" percent="0.0">
+                                <node leaf="false" class="org.springframework.web.method.support.InvocableHandlerMethod" methodName="invokeForRequest" methodSignature="(Lorg/springframework/web/context/request/NativeWebRequest;Lorg/springframework/web/method/support/ModelAndViewContainer;[Ljava/lang/Object;)Ljava/lang/Object;" time="283" count="1" lineNumber="-1" percent="0.0">
+                                  <node leaf="false" class="org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod" methodName="invokeAndHandle" methodSignature="(Lorg/springframework/web/context/request/ServletWebRequest;Lorg/springframework/web/method/support/ModelAndViewContainer;[Ljava/lang/Object;)V" time="283" count="1" lineNumber="-1" percent="0.0">
+                                    <node leaf="false" class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter" methodName="invokeHandlerMethod" methodSignature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lorg/springframework/web/method/HandlerMethod;)Lorg/springframework/web/servlet/ModelAndView;" time="283" count="1" lineNumber="-1" percent="0.0">
+                                      <node leaf="false" class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter" methodName="handleInternal" methodSignature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Lorg/springframework/web/method/HandlerMethod;)Lorg/springframework/web/servlet/ModelAndView;" time="283" count="1" lineNumber="-1" percent="0.0">
+                                        <node leaf="false" class="org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter" methodName="handle" methodSignature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Ljava/lang/Object;)Lorg/springframework/web/servlet/ModelAndView;" time="283" count="1" lineNumber="-1" percent="0.0">
+                                          <node leaf="false" class="org.springframework.web.servlet.DispatcherServlet" methodName="doDispatch" methodSignature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" time="283" count="1" lineNumber="-1" percent="0.0">
+                                            <node leaf="false" class="org.springframework.web.servlet.DispatcherServlet" methodName="doService" methodSignature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" time="283" count="1" lineNumber="-1" percent="0.0">
+                                              <node leaf="false" class="org.springframework.web.servlet.FrameworkServlet" methodName="processRequest" methodSignature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" time="283" count="1" lineNumber="-1" percent="0.0">
+                                                <node leaf="false" class="org.springframework.web.servlet.FrameworkServlet" methodName="doGet" methodSignature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" time="283" count="1" lineNumber="-1" percent="0.0">
+                                                  <node leaf="false" class="org.springframework.web.servlet.FrameworkServlet" methodName="service" methodSignature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" time="283" count="1" lineNumber="-1" percent="0.0">
+                                                    <node leaf="false" class="javax.servlet.FilterChain" methodName="doFilter" methodSignature="(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V" time="283" count="1" lineNumber="-1" percent="0.0">
+                                                      <node leaf="false" class="com.github.dandelion.datatables.core.web.filter.DatatablesFilter" methodName="doFilter" methodSignature="(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljavax/servlet/FilterChain;)V" time="283" count="1" lineNumber="-1" percent="0.0">
+                                                        <node leaf="false" class="javax.servlet.FilterChain" methodName="doFilter" methodSignature="(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V" time="283" count="1" lineNumber="-1" percent="0.0">
+                                                          <node leaf="false" class="com.github.dandelion.core.web.DandelionFilter" methodName="doFilter" methodSignature="(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljavax/servlet/FilterChain;)V" time="283" count="1" lineNumber="-1" percent="0.0">
+                                                            <node leaf="false" class="javax.servlet.FilterChain" methodName="doFilter" methodSignature="(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V" time="283" count="1" lineNumber="-1" percent="0.0">
+                                                              <node leaf="false" class="org.springframework.web.filter.CharacterEncodingFilter" methodName="doFilterInternal" methodSignature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;Ljavax/servlet/FilterChain;)V" time="283" count="1" lineNumber="-1" percent="0.0">
+                                                                <node leaf="false" class="org.springframework.web.filter.OncePerRequestFilter" methodName="doFilter" methodSignature="(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljavax/servlet/FilterChain;)V" time="283" count="1" lineNumber="-1" percent="0.0">
+                                                                  <node leaf="false" class="_jprofiler_annotation_class" methodName="HTTP: /petclinic/owners.html" methodSignature="()V" time="283" count="1" lineNumber="1" percent="0.0">
+                                                                    <node leaf="true" class="java.util.concurrent.ThreadPoolExecutor$Worker" methodName="run" methodSignature="()V" time="283" count="1" lineNumber="-1" percent="0.0"/>
+                                                                  </node>
+                                                                </node>
+                                                              </node>
+                                                            </node>
+                                                          </node>
+                                                        </node>
+                                                      </node>
+                                                    </node>
+                                                  </node>
+                                                </node>
+                                              </node>
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </hotspot>
+</tree>
