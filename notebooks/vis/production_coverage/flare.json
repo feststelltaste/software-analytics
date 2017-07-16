@@ -1,0 +1,230 @@
+{
+   "name": "flare",
+   "children": [
+      {
+         "name": "org",
+         "children": [
+            {
+               "name": "springframework",
+               "children": [
+                  {
+                     "name": "samples",
+                     "children": [
+                        {
+                           "name": "petclinic",
+                           "children": [
+                              {
+                                 "name": "PetclinicInitializer",
+                                 "size": 24,
+                                 "color": "#b40426"
+                              },
+                              {
+                                 "name": "model",
+                                 "children": [
+                                    {
+                                       "name": "NamedEntity",
+                                       "size": 5,
+                                       "color": "#ee8468"
+                                    },
+                                    {
+                                       "name": "Specialty",
+                                       "size": 1,
+                                       "color": "#b40426"
+                                    },
+                                    {
+                                       "name": "PetType",
+                                       "size": 1,
+                                       "color": "#b40426"
+                                    },
+                                    {
+                                       "name": "Vets",
+                                       "size": 4,
+                                       "color": "#3b4cc0"
+                                    },
+                                    {
+                                       "name": "Visit",
+                                       "size": 12,
+                                       "color": "#b40426"
+                                    },
+                                    {
+                                       "name": "BaseEntity",
+                                       "size": 5,
+                                       "color": "#b40426"
+                                    },
+                                    {
+                                       "name": "Person",
+                                       "size": 7,
+                                       "color": "#b40426"
+                                    },
+                                    {
+                                       "name": "Owner",
+                                       "size": 40,
+                                       "color": "#f6bda2"
+                                    },
+                                    {
+                                       "name": "Pet",
+                                       "size": 21,
+                                       "color": "#e26952"
+                                    },
+                                    {
+                                       "name": "Vet",
+                                       "size": 12,
+                                       "color": "#5470de"
+                                    }
+                                 ]
+                              },
+                              {
+                                 "name": "service",
+                                 "children": [
+                                    {
+                                       "name": "ClinicServiceImpl",
+                                       "size": 18,
+                                       "color": "#d95847"
+                                    }
+                                 ]
+                              },
+                              {
+                                 "name": "web",
+                                 "children": [
+                                    {
+                                       "name": "OwnerController",
+                                       "size": 36,
+                                       "color": "#f5c0a7"
+                                    },
+                                    {
+                                       "name": "PetTypeFormatter",
+                                       "size": 10,
+                                       "color": "#d65244"
+                                    },
+                                    {
+                                       "name": "PetController",
+                                       "size": 30,
+                                       "color": "#f2cbb7"
+                                    },
+                                    {
+                                       "name": "PetValidator",
+                                       "size": 11,
+                                       "color": "#f6a283"
+                                    },
+                                    {
+                                       "name": "VisitController",
+                                       "size": 16,
+                                       "color": "#eb7d62"
+                                    },
+                                    {
+                                       "name": "VetController",
+                                       "size": 10,
+                                       "color": "#9ebeff"
+                                    },
+                                    {
+                                       "name": "CrashController",
+                                       "size": 2,
+                                       "color": "#dddcdc"
+                                    }
+                                 ]
+                              },
+                              {
+                                 "name": "util",
+                                 "children": [
+                                    {
+                                       "name": "EntityUtils",
+                                       "size": 6,
+                                       "color": "#3b4cc0"
+                                    },
+                                    {
+                                       "name": "CallMonitoringAspect",
+                                       "size": 24,
+                                       "color": "#e7d7ce"
+                                    }
+                                 ]
+                              },
+                              {
+                                 "name": "repository",
+                                 "children": [
+                                    {
+                                       "name": "jdbc",
+                                       "children": [
+                                          {
+                                             "name": "JdbcVisitRowMapper",
+                                             "size": 7,
+                                             "color": "#3b4cc0"
+                                          },
+                                          {
+                                             "name": "JdbcPetRepositoryImpl",
+                                             "size": 33,
+                                             "color": "#3b4cc0"
+                                          },
+                                          {
+                                             "name": "JdbcVetRepositoryImpl",
+                                             "size": 17,
+                                             "color": "#3b4cc0"
+                                          },
+                                          {
+                                             "name": "JdbcPetRowMapper",
+                                             "size": 9,
+                                             "color": "#3b4cc0"
+                                          },
+                                          {
+                                             "name": "JdbcVetRepositoryImpl.new BeanPropertyRowMapper() {...}",
+                                             "size": 2,
+                                             "color": "#3b4cc0"
+                                          },
+                                          {
+                                             "name": "JdbcVisitRepositoryImpl",
+                                             "size": 26,
+                                             "color": "#3b4cc0"
+                                          },
+                                          {
+                                             "name": "JdbcPet",
+                                             "size": 7,
+                                             "color": "#3b4cc0"
+                                          },
+                                          {
+                                             "name": "JdbcPetVisitExtractor",
+                                             "size": 8,
+                                             "color": "#3b4cc0"
+                                          },
+                                          {
+                                             "name": "JdbcOwnerRepositoryImpl",
+                                             "size": 43,
+                                             "color": "#3b4cc0"
+                                          }
+                                       ]
+                                    },
+                                    {
+                                       "name": "jpa",
+                                       "children": [
+                                          {
+                                             "name": "JpaVisitRepositoryImpl",
+                                             "size": 8,
+                                             "color": "#dddcdc"
+                                          },
+                                          {
+                                             "name": "JpaOwnerRepositoryImpl",
+                                             "size": 11,
+                                             "color": "#d44e41"
+                                          },
+                                          {
+                                             "name": "JpaVetRepositoryImpl",
+                                             "size": 2,
+                                             "color": "#dddcdc"
+                                          },
+                                          {
+                                             "name": "JpaPetRepositoryImpl",
+                                             "size": 7,
+                                             "color": "#e26952"
+                                          }
+                                       ]
+                                    }
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}
