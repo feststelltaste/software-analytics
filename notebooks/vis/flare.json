@@ -1,0 +1,467 @@
+{
+   "name": "flare",
+   "children": [
+      {
+         "name": "src",
+         "children": [
+            {
+               "name": "main",
+               "children": [
+                  {
+                     "name": "java",
+                     "children": [
+                        {
+                           "name": "org",
+                           "children": [
+                              {
+                                 "name": "springframework",
+                                 "children": [
+                                    {
+                                       "name": "samples",
+                                       "children": [
+                                          {
+                                             "name": "petclinic",
+                                             "children": [
+                                                {
+                                                   "name": "PetclinicInitializer.java [Antoine Rey,   1.00]",
+                                                   "weight": 1.0,
+                                                   "size": 111,
+                                                   "author_color": "#006837"
+                                                },
+                                                {
+                                                   "name": "model",
+                                                   "children": [
+                                                      {
+                                                         "name": "BaseEntity.java [boly38,   0.73]",
+                                                         "weight": 0.7285714285714285,
+                                                         "size": 47,
+                                                         "author_color": "#39a758"
+                                                      },
+                                                      {
+                                                         "name": "NamedEntity.java [Michael Isvy,   0.73]",
+                                                         "weight": 0.7313432835820896,
+                                                         "size": 48,
+                                                         "author_color": "#9dd569"
+                                                      },
+                                                      {
+                                                         "name": "Owner.java [None,   0.57]",
+                                                         "weight": 0.5655172413793104,
+                                                         "size": 153,
+                                                         "author_color": "white"
+                                                      },
+                                                      {
+                                                         "name": "Person.java [Michael Isvy,   0.75]",
+                                                         "weight": 0.7468354430379747,
+                                                         "size": 56,
+                                                         "author_color": "#9dd569"
+                                                      },
+                                                      {
+                                                         "name": "Pet.java [None,   0.61]",
+                                                         "weight": 0.6105769230769231,
+                                                         "size": 113,
+                                                         "author_color": "white"
+                                                      },
+                                                      {
+                                                         "name": "PetType.java [Michael Isvy,   0.90]",
+                                                         "weight": 0.9032258064516129,
+                                                         "size": 29,
+                                                         "author_color": "#9dd569"
+                                                      },
+                                                      {
+                                                         "name": "Specialty.java [Michael Isvy,   0.91]",
+                                                         "weight": 0.90625,
+                                                         "size": 30,
+                                                         "author_color": "#9dd569"
+                                                      },
+                                                      {
+                                                         "name": "Vet.java [Michael Isvy,   0.71]",
+                                                         "weight": 0.7076923076923077,
+                                                         "size": 78,
+                                                         "author_color": "#9dd569"
+                                                      },
+                                                      {
+                                                         "name": "Vets.java [Tomas Repel,   0.79]",
+                                                         "weight": 0.7903225806451613,
+                                                         "size": 43,
+                                                         "author_color": "#e3f399"
+                                                      },
+                                                      {
+                                                         "name": "Visit.java [None,   0.54]",
+                                                         "weight": 0.5373134328358209,
+                                                         "size": 123,
+                                                         "author_color": "white"
+                                                      },
+                                                      {
+                                                         "name": "package-info.java [Michael Isvy,   1.00]",
+                                                         "weight": 1.0,
+                                                         "size": 5,
+                                                         "author_color": "#9dd569"
+                                                      }
+                                                   ]
+                                                },
+                                                {
+                                                   "name": "repository",
+                                                   "children": [
+                                                      {
+                                                         "name": "OwnerRepository.java [Tomas Repel,   0.72]",
+                                                         "weight": 0.725,
+                                                         "size": 64,
+                                                         "author_color": "#e3f399"
+                                                      },
+                                                      {
+                                                         "name": "PetRepository.java [Michael Isvy,   0.75]",
+                                                         "weight": 0.7452830188679245,
+                                                         "size": 60,
+                                                         "author_color": "#9dd569"
+                                                      },
+                                                      {
+                                                         "name": "VetRepository.java [Michael Isvy,   0.84]",
+                                                         "weight": 0.8360655737704918,
+                                                         "size": 42,
+                                                         "author_color": "#9dd569"
+                                                      },
+                                                      {
+                                                         "name": "VisitRepository.java [Michael Isvy,   0.82]",
+                                                         "weight": 0.8208955223880597,
+                                                         "size": 45,
+                                                         "author_color": "#9dd569"
+                                                      },
+                                                      {
+                                                         "name": "jdbc",
+                                                         "children": [
+                                                            {
+                                                               "name": "JdbcOwnerRepositoryImpl.java [None,   0.63]",
+                                                               "weight": 0.634020618556701,
+                                                               "size": 158,
+                                                               "author_color": "white"
+                                                            },
+                                                            {
+                                                               "name": "JdbcPet.java [Michael Isvy,   0.72]",
+                                                               "weight": 0.7162162162162162,
+                                                               "size": 48,
+                                                               "author_color": "#9dd569"
+                                                            },
+                                                            {
+                                                               "name": "JdbcPetRepositoryImpl.java [None,   0.66]",
+                                                               "weight": 0.6582278481012658,
+                                                               "size": 123,
+                                                               "author_color": "white"
+                                                            },
+                                                            {
+                                                               "name": "JdbcPetRowMapper.java [None,   0.69]",
+                                                               "weight": 0.6857142857142857,
+                                                               "size": 43,
+                                                               "author_color": "white"
+                                                            },
+                                                            {
+                                                               "name": "JdbcPetVisitExtractor.java [Antoine Rey,   1.00]",
+                                                               "weight": 1.0,
+                                                               "size": 54,
+                                                               "author_color": "#006837"
+                                                            },
+                                                            {
+                                                               "name": "JdbcVetRepositoryImpl.java [Michael Isvy,   0.72]",
+                                                               "weight": 0.7241379310344828,
+                                                               "size": 89,
+                                                               "author_color": "#9dd569"
+                                                            },
+                                                            {
+                                                               "name": "JdbcVisitRepositoryImpl.java [None,   0.64]",
+                                                               "weight": 0.6374045801526718,
+                                                               "size": 105,
+                                                               "author_color": "white"
+                                                            },
+                                                            {
+                                                               "name": "JdbcVisitRowMapper.java [Tomas Repel,   0.96]",
+                                                               "weight": 0.9565217391304348,
+                                                               "size": 42,
+                                                               "author_color": "#e3f399"
+                                                            },
+                                                            {
+                                                               "name": "package-info.java [Michael Isvy,   1.00]",
+                                                               "weight": 1.0,
+                                                               "size": 6,
+                                                               "author_color": "#9dd569"
+                                                            }
+                                                         ]
+                                                      },
+                                                      {
+                                                         "name": "jpa",
+                                                         "children": [
+                                                            {
+                                                               "name": "JpaOwnerRepositoryImpl.java [Michael Isvy,   0.75]",
+                                                               "weight": 0.75,
+                                                               "size": 81,
+                                                               "author_color": "#9dd569"
+                                                            },
+                                                            {
+                                                               "name": "JpaPetRepositoryImpl.java [Michael Isvy,   0.75]",
+                                                               "weight": 0.7525773195876289,
+                                                               "size": 63,
+                                                               "author_color": "#9dd569"
+                                                            },
+                                                            {
+                                                               "name": "JpaVetRepositoryImpl.java [Michael Isvy,   0.82]",
+                                                               "weight": 0.8157894736842105,
+                                                               "size": 51,
+                                                               "author_color": "#9dd569"
+                                                            },
+                                                            {
+                                                               "name": "JpaVisitRepositoryImpl.java [Michael Isvy,   0.76]",
+                                                               "weight": 0.7551020408163265,
+                                                               "size": 64,
+                                                               "author_color": "#9dd569"
+                                                            },
+                                                            {
+                                                               "name": "package-info.java [Michael Isvy,   1.00]",
+                                                               "weight": 1.0,
+                                                               "size": 6,
+                                                               "author_color": "#9dd569"
+                                                            }
+                                                         ]
+                                                      },
+                                                      {
+                                                         "name": "springdatajpa",
+                                                         "children": [
+                                                            {
+                                                               "name": "SpringDataOwnerRepository.java [Michael Isvy,   0.88]",
+                                                               "weight": 0.8840579710144928,
+                                                               "size": 41,
+                                                               "author_color": "#9dd569"
+                                                            },
+                                                            {
+                                                               "name": "SpringDataPetRepository.java [Michael Isvy,   0.87]",
+                                                               "weight": 0.8723404255319149,
+                                                               "size": 38,
+                                                               "author_color": "#9dd569"
+                                                            },
+                                                            {
+                                                               "name": "SpringDataVetRepository.java [Michael Isvy,   1.00]",
+                                                               "weight": 1.0,
+                                                               "size": 29,
+                                                               "author_color": "#9dd569"
+                                                            },
+                                                            {
+                                                               "name": "SpringDataVisitRepository.java [Michael Isvy,   0.97]",
+                                                               "weight": 0.96875,
+                                                               "size": 29,
+                                                               "author_color": "#9dd569"
+                                                            }
+                                                         ]
+                                                      }
+                                                   ]
+                                                },
+                                                {
+                                                   "name": "service",
+                                                   "children": [
+                                                      {
+                                                         "name": "ClinicService.java [Michael Isvy,   0.76]",
+                                                         "weight": 0.7623762376237624,
+                                                         "size": 53,
+                                                         "author_color": "#9dd569"
+                                                      },
+                                                      {
+                                                         "name": "ClinicServiceImpl.java [None,   0.67]",
+                                                         "weight": 0.6666666666666666,
+                                                         "size": 114,
+                                                         "author_color": "white"
+                                                      }
+                                                   ]
+                                                },
+                                                {
+                                                   "name": "util",
+                                                   "children": [
+                                                      {
+                                                         "name": "CallMonitoringAspect.java [None,   0.61]",
+                                                         "weight": 0.6127167630057804,
+                                                         "size": 97,
+                                                         "author_color": "white"
+                                                      },
+                                                      {
+                                                         "name": "EntityUtils.java [None,   0.47]",
+                                                         "weight": 0.4659090909090909,
+                                                         "size": 54,
+                                                         "author_color": "white"
+                                                      }
+                                                   ]
+                                                },
+                                                {
+                                                   "name": "web",
+                                                   "children": [
+                                                      {
+                                                         "name": "CrashController.java [Michael Isvy,   0.79]",
+                                                         "weight": 0.7924528301886793,
+                                                         "size": 40,
+                                                         "author_color": "#9dd569"
+                                                      },
+                                                      {
+                                                         "name": "OwnerController.java [None,   0.62]",
+                                                         "weight": 0.617363344051447,
+                                                         "size": 138,
+                                                         "author_color": "white"
+                                                      },
+                                                      {
+                                                         "name": "PetController.java [None,   0.59]",
+                                                         "weight": 0.5875486381322957,
+                                                         "size": 113,
+                                                         "author_color": "white"
+                                                      },
+                                                      {
+                                                         "name": "PetTypeFormatter.java [Michael Isvy,   0.72]",
+                                                         "weight": 0.7227722772277227,
+                                                         "size": 66,
+                                                         "author_color": "#9dd569"
+                                                      },
+                                                      {
+                                                         "name": "PetValidator.java [None,   0.57]",
+                                                         "weight": 0.5666666666666667,
+                                                         "size": 65,
+                                                         "author_color": "white"
+                                                      },
+                                                      {
+                                                         "name": "VetController.java [Michael Isvy,   0.80]",
+                                                         "weight": 0.7982456140350878,
+                                                         "size": 66,
+                                                         "author_color": "#9dd569"
+                                                      },
+                                                      {
+                                                         "name": "VisitController.java [Rossen Stoyanchev,   0.74]",
+                                                         "weight": 0.7422680412371134,
+                                                         "size": 98,
+                                                         "author_color": "#fca55d"
+                                                      },
+                                                      {
+                                                         "name": "package-info.java [Costin Leau,   1.00]",
+                                                         "weight": 1.0,
+                                                         "size": 5,
+                                                         "author_color": "#e34933"
+                                                      }
+                                                   ]
+                                                }
+                                             ]
+                                          }
+                                       ]
+                                    }
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "name": "test",
+               "children": [
+                  {
+                     "name": "java",
+                     "children": [
+                        {
+                           "name": "org",
+                           "children": [
+                              {
+                                 "name": "springframework",
+                                 "children": [
+                                    {
+                                       "name": "samples",
+                                       "children": [
+                                          {
+                                             "name": "petclinic",
+                                             "children": [
+                                                {
+                                                   "name": "model",
+                                                   "children": [
+                                                      {
+                                                         "name": "ValidatorTests.java [Michael Isvy,   0.79]",
+                                                         "weight": 0.7894736842105263,
+                                                         "size": 45,
+                                                         "author_color": "#9dd569"
+                                                      }
+                                                   ]
+                                                },
+                                                {
+                                                   "name": "service",
+                                                   "children": [
+                                                      {
+                                                         "name": "AbstractClinicServiceTests.java [Michael Isvy,   0.73]",
+                                                         "weight": 0.7345360824742269,
+                                                         "size": 204,
+                                                         "author_color": "#9dd569"
+                                                      },
+                                                      {
+                                                         "name": "ClinicServiceJdbcTests.java [Michael Isvy,   0.95]",
+                                                         "weight": 0.9487179487179487,
+                                                         "size": 36,
+                                                         "author_color": "#9dd569"
+                                                      },
+                                                      {
+                                                         "name": "ClinicServiceJpaTests.java [Michael Isvy,   0.91]",
+                                                         "weight": 0.9090909090909091,
+                                                         "size": 22,
+                                                         "author_color": "#9dd569"
+                                                      },
+                                                      {
+                                                         "name": "ClinicServiceSpringDataJpaTests.java [Michael Isvy,   0.83]",
+                                                         "weight": 0.8333333333333334,
+                                                         "size": 20,
+                                                         "author_color": "#9dd569"
+                                                      }
+                                                   ]
+                                                },
+                                                {
+                                                   "name": "web",
+                                                   "children": [
+                                                      {
+                                                         "name": "CrashControllerTests.java [Colin But,   0.93]",
+                                                         "weight": 0.9298245614035088,
+                                                         "size": 52,
+                                                         "author_color": "#a50026"
+                                                      },
+                                                      {
+                                                         "name": "OwnerControllerTests.java [Colin But,   0.87]",
+                                                         "weight": 0.8697916666666666,
+                                                         "size": 185,
+                                                         "author_color": "#a50026"
+                                                      },
+                                                      {
+                                                         "name": "PetControllerTests.java [Colin But,   0.84]",
+                                                         "weight": 0.8432835820895522,
+                                                         "size": 125,
+                                                         "author_color": "#a50026"
+                                                      },
+                                                      {
+                                                         "name": "PetTypeFormatterTests.java [Colin But,   1.00]",
+                                                         "weight": 1.0,
+                                                         "size": 76,
+                                                         "author_color": "#a50026"
+                                                      },
+                                                      {
+                                                         "name": "VetControllerTests.java [None,   0.46]",
+                                                         "weight": 0.45689655172413796,
+                                                         "size": 84,
+                                                         "author_color": "white"
+                                                      },
+                                                      {
+                                                         "name": "VisitControllerTests.java [Colin But,   0.89]",
+                                                         "weight": 0.8876404494382022,
+                                                         "size": 83,
+                                                         "author_color": "#a50026"
+                                                      }
+                                                   ]
+                                                }
+                                             ]
+                                          }
+                                       ]
+                                    }
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}
