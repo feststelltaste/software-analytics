@@ -1,0 +1,361 @@
+[
+   {
+      "name": "org.springframework.samples.petclinic.web.PetValidator",
+      "imports": [
+         "org.springframework.samples.petclinic.model.Pet",
+         "org.springframework.samples.petclinic.web.PetValidator"
+      ]
+   },
+   {
+      "name": "org.springframework.samples.petclinic.repository.jdbc.JdbcOwnerRepositoryImpl",
+      "imports": [
+         "org.springframework.samples.petclinic.repository.jdbc.JdbcPetVisitExtractor",
+         "org.springframework.samples.petclinic.repository.OwnerRepository",
+         "org.springframework.samples.petclinic.model.Owner",
+         "org.springframework.samples.petclinic.util.EntityUtils",
+         "org.springframework.samples.petclinic.repository.jdbc.JdbcOwnerRepositoryImpl",
+         "org.springframework.samples.petclinic.model.PetType",
+         "org.springframework.samples.petclinic.repository.jdbc.JdbcPet"
+      ]
+   },
+   {
+      "name": "org.springframework.samples.petclinic.util.EntityUtils",
+      "imports": [
+         "org.springframework.samples.petclinic.util.EntityUtils",
+         "org.springframework.samples.petclinic.model.BaseEntity"
+      ]
+   },
+   {
+      "name": "org.springframework.samples.petclinic.model.Visit",
+      "imports": [
+         "org.springframework.samples.petclinic.model.Pet",
+         "org.springframework.samples.petclinic.model.BaseEntity",
+         "org.springframework.samples.petclinic.model.Visit"
+      ]
+   },
+   {
+      "name": "org.springframework.samples.petclinic.web.VetController",
+      "imports": [
+         "org.springframework.samples.petclinic.service.ClinicService",
+         "org.springframework.samples.petclinic.model.Vets",
+         "org.springframework.samples.petclinic.web.VetController"
+      ]
+   },
+   {
+      "name": "org.springframework.samples.petclinic.repository.jdbc.JdbcPetRowMapper",
+      "imports": [
+         "org.springframework.samples.petclinic.repository.jdbc.JdbcPetRowMapper",
+         "org.springframework.samples.petclinic.repository.jdbc.JdbcPet"
+      ]
+   },
+   {
+      "name": "org.springframework.samples.petclinic.model.Person",
+      "imports": [
+         "org.springframework.samples.petclinic.model.BaseEntity",
+         "org.springframework.samples.petclinic.model.Person"
+      ]
+   },
+   {
+      "name": "org.springframework.samples.petclinic.web.PetTypeFormatter",
+      "imports": [
+         "org.springframework.samples.petclinic.service.ClinicService",
+         "org.springframework.samples.petclinic.web.PetTypeFormatter",
+         "org.springframework.samples.petclinic.model.PetType"
+      ]
+   },
+   {
+      "name": "org.springframework.samples.petclinic.repository.springdatajpa.SpringDataPetRepository",
+      "imports": [
+         "org.springframework.samples.petclinic.repository.PetRepository",
+         "org.springframework.samples.petclinic.model.Pet",
+         "org.springframework.samples.petclinic.model.PetType",
+         "org.springframework.samples.petclinic.repository.springdatajpa.SpringDataPetRepository"
+      ]
+   },
+   {
+      "name": "org.springframework.samples.petclinic.repository.jdbc.JdbcPetRepositoryImpl",
+      "imports": [
+         "org.springframework.samples.petclinic.repository.OwnerRepository",
+         "org.springframework.samples.petclinic.model.Owner",
+         "org.springframework.samples.petclinic.repository.PetRepository",
+         "org.springframework.samples.petclinic.model.Pet",
+         "org.springframework.samples.petclinic.util.EntityUtils",
+         "org.springframework.samples.petclinic.repository.VisitRepository",
+         "org.springframework.samples.petclinic.model.PetType",
+         "org.springframework.samples.petclinic.repository.jdbc.JdbcPetRepositoryImpl"
+      ]
+   },
+   {
+      "name": "org.springframework.samples.petclinic.service.ClinicService",
+      "imports": [
+         "org.springframework.samples.petclinic.service.ClinicService",
+         "org.springframework.samples.petclinic.model.Owner",
+         "org.springframework.samples.petclinic.model.Vet",
+         "org.springframework.samples.petclinic.model.Pet",
+         "org.springframework.samples.petclinic.model.PetType",
+         "org.springframework.samples.petclinic.model.Visit"
+      ]
+   },
+   {
+      "name": "org.springframework.samples.petclinic.web.OwnerController",
+      "imports": [
+         "org.springframework.samples.petclinic.service.ClinicService",
+         "org.springframework.samples.petclinic.model.Owner",
+         "org.springframework.samples.petclinic.web.OwnerController"
+      ]
+   },
+   {
+      "name": "org.springframework.samples.petclinic.repository.jdbc.JdbcVetRepositoryImpl",
+      "imports": [
+         "org.springframework.samples.petclinic.repository.jdbc.JdbcVetRepositoryImpl",
+         "org.springframework.samples.petclinic.repository.VetRepository",
+         "org.springframework.samples.petclinic.model.Vet",
+         "org.springframework.samples.petclinic.util.EntityUtils",
+         "org.springframework.samples.petclinic.repository.jdbc.JdbcVetRepositoryImpl$1",
+         "org.springframework.samples.petclinic.model.Specialty"
+      ]
+   },
+   {
+      "name": "org.springframework.samples.petclinic.repository.jpa.JpaVisitRepositoryImpl",
+      "imports": [
+         "org.springframework.samples.petclinic.repository.jpa.JpaVisitRepositoryImpl",
+         "org.springframework.samples.petclinic.repository.VisitRepository",
+         "org.springframework.samples.petclinic.model.Visit"
+      ]
+   },
+   {
+      "name": "org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRepositoryImpl",
+      "imports": [
+         "org.springframework.samples.petclinic.repository.jdbc.JdbcPetRowMapper",
+         "org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRowMapper",
+         "org.springframework.samples.petclinic.model.Pet",
+         "org.springframework.samples.petclinic.repository.VisitRepository",
+         "org.springframework.samples.petclinic.repository.jdbc.JdbcPet",
+         "org.springframework.samples.petclinic.model.Visit",
+         "org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRepositoryImpl"
+      ]
+   },
+   {
+      "name": "org.springframework.samples.petclinic.model.BaseEntity",
+      "imports": [
+         "org.springframework.samples.petclinic.model.BaseEntity"
+      ]
+   },
+   {
+      "name": "org.springframework.samples.petclinic.repository.PetRepository",
+      "imports": [
+         "org.springframework.samples.petclinic.repository.PetRepository",
+         "org.springframework.samples.petclinic.model.Pet",
+         "org.springframework.samples.petclinic.model.PetType"
+      ]
+   },
+   {
+      "name": "org.springframework.samples.petclinic.repository.OwnerRepository",
+      "imports": [
+         "org.springframework.samples.petclinic.repository.OwnerRepository",
+         "org.springframework.samples.petclinic.model.Owner"
+      ]
+   },
+   {
+      "name": "org.springframework.samples.petclinic.model.Pet",
+      "imports": [
+         "org.springframework.samples.petclinic.model.Owner",
+         "org.springframework.samples.petclinic.model.Pet",
+         "org.springframework.samples.petclinic.model.NamedEntity",
+         "org.springframework.samples.petclinic.model.PetType",
+         "org.springframework.samples.petclinic.model.Visit"
+      ]
+   },
+   {
+      "name": "org.springframework.samples.petclinic.model.Vets",
+      "imports": [
+         "org.springframework.samples.petclinic.model.Vets",
+         "org.springframework.samples.petclinic.model.Vet"
+      ]
+   },
+   {
+      "name": "org.springframework.samples.petclinic.model.NamedEntity",
+      "imports": [
+         "org.springframework.samples.petclinic.model.NamedEntity",
+         "org.springframework.samples.petclinic.model.BaseEntity"
+      ]
+   },
+   {
+      "name": "org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVisitRepository",
+      "imports": [
+         "org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVisitRepository",
+         "org.springframework.samples.petclinic.repository.VisitRepository",
+         "org.springframework.samples.petclinic.model.Visit"
+      ]
+   },
+   {
+      "name": "org.springframework.samples.petclinic.util.CallMonitoringAspect",
+      "imports": [
+         "org.springframework.samples.petclinic.util.CallMonitoringAspect"
+      ]
+   },
+   {
+      "name": "org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVetRepository",
+      "imports": [
+         "org.springframework.samples.petclinic.repository.VetRepository",
+         "org.springframework.samples.petclinic.model.Vet",
+         "org.springframework.samples.petclinic.repository.springdatajpa.SpringDataVetRepository"
+      ]
+   },
+   {
+      "name": "org.springframework.samples.petclinic.model.Vet",
+      "imports": [
+         "org.springframework.samples.petclinic.model.Vet",
+         "org.springframework.samples.petclinic.model.Person",
+         "org.springframework.samples.petclinic.model.Specialty"
+      ]
+   },
+   {
+      "name": "org.springframework.samples.petclinic.repository.VetRepository",
+      "imports": [
+         "org.springframework.samples.petclinic.repository.VetRepository",
+         "org.springframework.samples.petclinic.model.Vet"
+      ]
+   },
+   {
+      "name": "org.springframework.samples.petclinic.repository.jdbc.JdbcPetVisitExtractor",
+      "imports": [
+         "org.springframework.samples.petclinic.repository.jdbc.JdbcPetRowMapper",
+         "org.springframework.samples.petclinic.repository.jdbc.JdbcPetVisitExtractor",
+         "org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRowMapper",
+         "org.springframework.samples.petclinic.repository.jdbc.JdbcPet",
+         "org.springframework.samples.petclinic.model.Visit"
+      ]
+   },
+   {
+      "name": "org.springframework.samples.petclinic.PetclinicInitializer",
+      "imports": [
+         "org.springframework.samples.petclinic.PetclinicInitializer"
+      ]
+   },
+   {
+      "name": "org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRowMapper",
+      "imports": [
+         "org.springframework.samples.petclinic.repository.jdbc.JdbcVisitRowMapper",
+         "org.springframework.samples.petclinic.model.Visit"
+      ]
+   },
+   {
+      "name": "org.springframework.samples.petclinic.model.Specialty",
+      "imports": [
+         "org.springframework.samples.petclinic.model.NamedEntity",
+         "org.springframework.samples.petclinic.model.Specialty"
+      ]
+   },
+   {
+      "name": "org.springframework.samples.petclinic.web.CrashController",
+      "imports": [
+         "org.springframework.samples.petclinic.web.CrashController"
+      ]
+   },
+   {
+      "name": "org.springframework.samples.petclinic.model.PetType",
+      "imports": [
+         "org.springframework.samples.petclinic.model.NamedEntity",
+         "org.springframework.samples.petclinic.model.PetType"
+      ]
+   },
+   {
+      "name": "org.springframework.samples.petclinic.repository.jpa.JpaVetRepositoryImpl",
+      "imports": [
+         "org.springframework.samples.petclinic.repository.VetRepository",
+         "org.springframework.samples.petclinic.model.Vet",
+         "org.springframework.samples.petclinic.repository.jpa.JpaVetRepositoryImpl"
+      ]
+   },
+   {
+      "name": "org.springframework.samples.petclinic.repository.jdbc.JdbcVetRepositoryImpl$1",
+      "imports": [
+         "org.springframework.samples.petclinic.repository.jdbc.JdbcVetRepositoryImpl",
+         "org.springframework.samples.petclinic.repository.jdbc.JdbcVetRepositoryImpl$1"
+      ]
+   },
+   {
+      "name": "org.springframework.samples.petclinic.repository.jpa.JpaPetRepositoryImpl",
+      "imports": [
+         "org.springframework.samples.petclinic.repository.jpa.JpaPetRepositoryImpl",
+         "org.springframework.samples.petclinic.repository.PetRepository",
+         "org.springframework.samples.petclinic.model.Pet",
+         "org.springframework.samples.petclinic.model.PetType"
+      ]
+   },
+   {
+      "name": "org.springframework.samples.petclinic.web.VisitController",
+      "imports": [
+         "org.springframework.samples.petclinic.service.ClinicService",
+         "org.springframework.samples.petclinic.model.Pet",
+         "org.springframework.samples.petclinic.web.VisitController",
+         "org.springframework.samples.petclinic.model.Visit"
+      ]
+   },
+   {
+      "name": "org.springframework.samples.petclinic.web.PetController",
+      "imports": [
+         "org.springframework.samples.petclinic.service.ClinicService",
+         "org.springframework.samples.petclinic.model.Owner",
+         "org.springframework.samples.petclinic.model.Pet",
+         "org.springframework.samples.petclinic.web.PetValidator",
+         "org.springframework.samples.petclinic.web.PetController",
+         "org.springframework.samples.petclinic.model.PetType"
+      ]
+   },
+   {
+      "name": "org.springframework.samples.petclinic.repository.VisitRepository",
+      "imports": [
+         "org.springframework.samples.petclinic.repository.VisitRepository",
+         "org.springframework.samples.petclinic.model.Visit"
+      ]
+   },
+   {
+      "name": "org.springframework.samples.petclinic.repository.springdatajpa.SpringDataOwnerRepository",
+      "imports": [
+         "org.springframework.samples.petclinic.repository.springdatajpa.SpringDataOwnerRepository",
+         "org.springframework.samples.petclinic.repository.OwnerRepository",
+         "org.springframework.samples.petclinic.model.Owner"
+      ]
+   },
+   {
+      "name": "org.springframework.samples.petclinic.service.ClinicServiceImpl",
+      "imports": [
+         "org.springframework.samples.petclinic.service.ClinicService",
+         "org.springframework.samples.petclinic.repository.OwnerRepository",
+         "org.springframework.samples.petclinic.model.Owner",
+         "org.springframework.samples.petclinic.repository.VetRepository",
+         "org.springframework.samples.petclinic.repository.PetRepository",
+         "org.springframework.samples.petclinic.service.ClinicServiceImpl",
+         "org.springframework.samples.petclinic.model.Vet",
+         "org.springframework.samples.petclinic.model.Pet",
+         "org.springframework.samples.petclinic.repository.VisitRepository",
+         "org.springframework.samples.petclinic.model.PetType",
+         "org.springframework.samples.petclinic.model.Visit"
+      ]
+   },
+   {
+      "name": "org.springframework.samples.petclinic.repository.jdbc.JdbcPet",
+      "imports": [
+         "org.springframework.samples.petclinic.model.Pet",
+         "org.springframework.samples.petclinic.repository.jdbc.JdbcPet"
+      ]
+   },
+   {
+      "name": "org.springframework.samples.petclinic.repository.jpa.JpaOwnerRepositoryImpl",
+      "imports": [
+         "org.springframework.samples.petclinic.repository.OwnerRepository",
+         "org.springframework.samples.petclinic.model.Owner",
+         "org.springframework.samples.petclinic.repository.jpa.JpaOwnerRepositoryImpl"
+      ]
+   },
+   {
+      "name": "org.springframework.samples.petclinic.model.Owner",
+      "imports": [
+         "org.springframework.samples.petclinic.model.Owner",
+         "org.springframework.samples.petclinic.model.Pet",
+         "org.springframework.samples.petclinic.model.Person"
+      ]
+   }
+]

@@ -1,0 +1,78 @@
+[
+    {
+        "name": "org.springframework.samples.petclinic.repository.springdatajpa",
+        "lines": 0,
+        "imports": [
+         "org.springframework.samples.petclinic.model",
+         "org.springframework.samples.petclinic.repository",
+         "org.springframework.samples.petclinic.repository.springdatajpa"
+      ]
+   },
+    {
+        "name": "org.springframework.samples.petclinic.repository.jpa",
+        "lines": 0,
+        "imports": [
+         "org.springframework.samples.petclinic.model",
+         "org.springframework.samples.petclinic.repository",
+         "org.springframework.samples.petclinic.repository.jpa"
+      ]
+   },
+    {
+        "name": "org.springframework.samples.petclinic.web",
+        "lines": 0,
+        "imports": [
+         "org.springframework.samples.petclinic.model",
+         "org.springframework.samples.petclinic.web",
+         "org.springframework.samples.petclinic.service"
+      ]
+   },
+    {
+        "name": "org.springframework.samples.petclinic",
+        "lines": 0,
+        "imports": [
+         "org.springframework.samples.petclinic"
+      ]
+   },
+    {
+        "name": "org.springframework.samples.petclinic.service",
+        "lines": 0,
+        "imports": [
+         "org.springframework.samples.petclinic.model",
+         "org.springframework.samples.petclinic.service",
+         "org.springframework.samples.petclinic.repository"
+      ]
+   },
+    {
+        "name": "org.springframework.samples.petclinic.repository.jdbc",
+        "lines": 0,
+        "imports": [
+         "org.springframework.samples.petclinic.model",
+         "org.springframework.samples.petclinic.util",
+         "org.springframework.samples.petclinic.repository",
+         "org.springframework.samples.petclinic.repository.jdbc"
+      ]
+   },
+    {
+        "name": "org.springframework.samples.petclinic.repository",
+        "lines": 0,
+        "imports": [
+         "org.springframework.samples.petclinic.model",
+         "org.springframework.samples.petclinic.repository"
+      ]
+   },
+    {
+        "name": "org.springframework.samples.petclinic.util",
+        "lines": 0,
+        "imports": [
+         "org.springframework.samples.petclinic.model",
+         "org.springframework.samples.petclinic.util"
+      ]
+   },
+    {
+        "name": "org.springframework.samples.petclinic.model",
+        "lines": 0,
+        "imports": [
+         "org.springframework.samples.petclinic.model"
+      ]
+   }
+]
