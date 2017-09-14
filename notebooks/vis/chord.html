@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+body {
+  font: 10px sans-serif;
+}
+
+svg text{
+  fill:grey;
+  font-size:11px;
+}
+svg .values text{
+  pointer-events:none;
+  stroke-width: 0.5px;
+}
+.groups:hover{
+  cursor:pointer;
+  font-weight:bold;
+}
+</style>
+<body>
+<script src="d3/d3.v4.min.js"></script>
+<script src="viz/viz.v1.1.0.min.js"></script>
+<script>
+
+
+
+ d3.json("chord_data.json", function(error, data) {
+		
+	
+var colors = {
+	"Arsenal":         "#da4480"
+	,"Aston Villa":    "#5ab449"
+	,"Bournemouth":    "#7f5acd"
+	,"Chelsea":        "#aab740"
+	,"Crystal Palace": "#ce58c0"
+	,"Everton":        "#50a26e"
+	,"Leicester City": "#d1434b"
+	,"Liverpool":      "#45c0bc"
+	,"Manchester City":"#ce5929"
+	,"Manchester Utd": "#4e7bda"
+	,"Newcastle Utd":  "#d49d3c"
+	,"Norwich City":   "#6660a3"
+	,"Southampton":    "#7b853c"
+	,"Stoke City":     "#b58dde"
+	,"Sunderland":     "#97622e"
+	,"Swansea City":   "#609dd6"
+	,"Tottenham":      "#e29074"
+	,"Watford":        "#9c4b88"
+	,"West Bromwich":  "#ab505f"
+	,"West Ham Utd":   "#dc85b6"
+	};
+
+var sortOrder =[
+	"Arsenal"
+	,"Aston Villa"
+	,"Bournemouth"
+	,"Chelsea"
+	,"Crystal Palace"
+	,"Everton"
+	,"Leicester City"
+	,"Liverpool"
+	,"Manchester City"
+	,"Manchester Utd"
+	,"Newcastle Utd"
+	,"Norwich City"
+	,"Southampton"
+	,"Stoke City"
+	,"Sunderland"
+	,"Swansea City"
+	,"Tottenham"
+	,"Watford"
+	,"West Bromwich"
+	,"West Ham Utd"
+	];
+
+function sort(a,b){ return d3.ascending(sortOrder.indexOf(a),sortOrder.indexOf(b)); }
+
+
+var ch = viz.ch().data(data)
+      .padding(.01)
+      .sort(sort)
+	  .innerRadius(430)
+	  .outerRadius(450)
+	  .duration(1000)
+	  .chordOpacity(0.3)
+	  .labelPadding(.03)
+      .fill(function(d){ return colors[d];});
+
+var width=1200, height=1100;
+
+var svg = d3.select("body").append("svg").attr("height",height).attr("width",width);
+
+svg.append("g").attr("transform", "translate(600,550)").call(ch);
+
+
+// adjust height of frame in bl.ocks.org
+d3.select(self.frameElement).style("height", height+"px").style("width", width+"px");  
+
+});   
+
+</script>
