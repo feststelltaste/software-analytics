@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="889.4683837890625"
+   height="751.3331298828125"
+   viewBox="-284.7590026855469 -276.1985168457031 889.4683837890625 751.3331298828125"
+   version="1.1"
+   id="svg220"
+   sodipodi:docname="higher_level_abstractions_with_jqassistant_subdomains.svg"
+   inkscape:version="0.92.1 r15371">
+  <metadata
+     id="metadata226">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Neo4j Graph Visualization</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs224" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     id="namedview222"
+     showgrid="false"
+     inkscape:zoom="1.59"
+     inkscape:cx="696.30652"
+     inkscape:cy="501.45273"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg220" />
+  <title
+     id="title2">Neo4j Graph Visualization</title>
+  <desc
+     id="desc4">Created using Neo4j (http://www.neo4j.com/)</desc>
+  <g
+     class="layer relationships"
+     id="g90">
+    <g
+       class="relationship"
+       transform="translate(575.7093604337981 -116.16292891504162) rotate(523.0068352969217)"
+       id="g10">
+      <path
+         class="outline"
+         fill="#A5ABB6"
+         stroke="none"
+         d="M 25 0.5 L 83.9619271630898 0.5 L 83.9619271630898 -0.5 L 25 -0.5 Z M 141.9619271630898 0.5 L 200.9238543261796 0.5 L 200.9238543261796 3.5 L 207.9238543261796 0 L 200.9238543261796 -3.5 L 200.9238543261796 -0.5 L 141.9619271630898 -0.5 Z"
+         id="path6" />
+      <text
+         text-anchor="middle"
+         pointer-events="none"
+         font-size="8px"
+         fill="#000000"
+         x="112.9619271630898"
+         y="3"
+         transform="rotate(180 112.9619271630898 0)"
+         font-family="sans-serif"
+         id="text8">BELONGS_TO</text>
+    </g>
+    <g
+       class="relationship"
+       transform="translate(407.5318358416571 66.16641570664808) rotate(244.4674595738099)"
+       id="g16">
+      <path
+         class="outline"
+         fill="#A5ABB6"
+         stroke="none"
+         d="M 25 0.5 L 30.810666471259097 0.5 L 30.810666471259097 -0.5 L 25 -0.5 Z M 88.8106664712591 0.5 L 94.6213329425182 0.5 L 94.6213329425182 3.5 L 101.6213329425182 0 L 94.6213329425182 -3.5 L 94.6213329425182 -0.5 L 88.8106664712591 -0.5 Z"
+         id="path12" />
+      <text
+         text-anchor="middle"
+         pointer-events="none"
+         font-size="8px"
+         fill="#000000"
+         x="59.8106664712591"
+         y="3"
+         transform="rotate(180 59.8106664712591 0)"
+         font-family="sans-serif"
+         id="text14">BELONGS_TO</text>
+    </g>
+    <g
+       class="relationship"
+       transform="translate(224.178200385026 -108.94142957936421) rotate(385.29262960994254)"
+       id="g22">
+      <path
+         class="outline"
+         fill="#A5ABB6"
+         stroke="none"
+         d="M 25 0.5 L 38.71529930768888 0.5 L 38.71529930768888 -0.5 L 25 -0.5 Z M 96.71529930768888 0.5 L 110.43059861537776 0.5 L 110.43059861537776 3.5 L 117.43059861537776 0 L 110.43059861537776 -3.5 L 110.43059861537776 -0.5 L 96.71529930768888 -0.5 Z"
+         id="path18" />
+      <text
+         text-anchor="middle"
+         pointer-events="none"
+         font-size="8px"
+         fill="#000000"
+         x="67.71529930768888"
+         y="3"
+         font-family="sans-serif"
+         id="text20">BELONGS_TO</text>
+    </g>
+    <g
+       class="relationship"
+       transform="translate(395.95228709360174 -141.42844348063215) rotate(474.7334125449206)"
+       id="g28">
+      <path
+         class="outline"
+         fill="#A5ABB6"
+         stroke="none"
+         d="M 25 0.5 L 27.883325890290443 0.5 L 27.883325890290443 -0.5 L 25 -0.5 Z M 67.88332589029045 0.5 L 70.76665178058089 0.5 L 70.76665178058089 3.5 L 77.76665178058089 0 L 70.76665178058089 -3.5 L 70.76665178058089 -0.5 L 67.88332589029045 -0.5 Z"
+         id="path24" />
+      <text
+         text-anchor="middle"
+         pointer-events="none"
+         font-size="8px"
+         fill="#000000"
+         x="47.88332589029044"
+         y="3"
+         transform="rotate(180 47.88332589029044 0)"
+         font-family="sans-serif"
+         id="text26">BELON…</text>
+    </g>
+    <g
+       class="relationship"
+       transform="translate(440.3999327402026 -30.551502428784794) rotate(191.34059794022988)"
+       id="g34">
+      <path
+         class="outline"
+         fill="#A5ABB6"
+         stroke="none"
+         d="M 25 0.5 L 27.09309707300605 0.5 L 27.09309707300605 -0.5 L 25 -0.5 Z M 55.09309707300605 0.5 L 57.1861941460121 0.5 L 57.1861941460121 3.5 L 64.1861941460121 0 L 57.1861941460121 -3.5 L 57.1861941460121 -0.5 L 55.09309707300605 -0.5 Z"
+         id="path30" />
+      <text
+         text-anchor="middle"
+         pointer-events="none"
+         font-size="8px"
+         fill="#000000"
+         x="41.09309707300605"
+         y="3"
+         transform="rotate(180 41.09309707300605 0)"
+         font-family="sans-serif"
+         id="text32">BEL…</text>
+    </g>
+    <g
+       class="relationship"
+       transform="translate(247.16093158915044 48.71013211922903) rotate(317.542172254682)"
+       id="g40">
+      <path
+         class="outline"
+         fill="#A5ABB6"
+         stroke="none"
+         d="M 25 0.5 L 39.19814801143262 0.5 L 39.19814801143262 -0.5 L 25 -0.5 Z M 97.19814801143262 0.5 L 111.39629602286524 0.5 L 111.39629602286524 3.5 L 118.39629602286524 0 L 111.39629602286524 -3.5 L 111.39629602286524 -0.5 L 97.19814801143262 -0.5 Z"
+         id="path36" />
+      <text
+         text-anchor="middle"
+         pointer-events="none"
+         font-size="8px"
+         fill="#000000"
+         x="68.19814801143262"
+         y="3"
+         font-family="sans-serif"
+         id="text38">BELONGS_TO</text>
+    </g>
+    <g
+       class="relationship"
+       transform="translate(211.50712118208543 -26.83581670564713) rotate(351.45491298521665)"
+       id="g46">
+      <path
+         class="outline"
+         fill="#A5ABB6"
+         stroke="none"
+         d="M 25 0.5 L 39.01786587024286 0.5 L 39.01786587024286 -0.5 L 25 -0.5 Z M 97.01786587024286 0.5 L 111.03573174048572 0.5 L 111.03573174048572 3.5 L 118.03573174048572 0 L 111.03573174048572 -3.5 L 111.03573174048572 -0.5 L 97.01786587024286 -0.5 Z"
+         id="path42" />
+      <text
+         text-anchor="middle"
+         pointer-events="none"
+         font-size="8px"
+         fill="#000000"
+         x="68.01786587024286"
+         y="3"
+         font-family="sans-serif"
+         id="text44">BELONGS_TO</text>
+    </g>
+    <g
+       class="relationship"
+       transform="translate(440.3999327402026 -30.551502428784794) rotate(327.67811465100635)"
+       id="g52">
+      <path
+         class="outline"
+         fill="#A5ABB6"
+         stroke="none"
+         d="M 25 0.5 L 46.55928673142816 0.5 L 46.55928673142816 -0.5 L 25 -0.5 Z M 106.55928673142816 0.5 L 128.11857346285632 0.5 L 128.11857346285632 3.5 L 135.11857346285632 0 L 128.11857346285632 -3.5 L 128.11857346285632 -0.5 L 106.55928673142816 -0.5 Z"
+         id="path48" />
+      <text
+         text-anchor="middle"
+         pointer-events="none"
+         font-size="8px"
+         fill="#000000"
+         x="76.55928673142816"
+         y="3"
+         font-family="sans-serif"
+         id="text50">DEPENDS_ON</text>
+    </g>
+    <g
+       class="relationship"
+       transform="translate(395.95228709360174 -141.42844348063215) rotate(368.00072059999144)"
+       id="g58">
+      <path
+         class="outline"
+         fill="#A5ABB6"
+         stroke="none"
+         d="M 25 0.5 L 57.26198494151723 0.5 L 57.26198494151723 -0.5 L 25 -0.5 Z M 117.26198494151723 0.5 L 149.52396988303445 0.5 L 149.52396988303445 3.5 L 156.52396988303445 0 L 149.52396988303445 -3.5 L 149.52396988303445 -0.5 L 117.26198494151723 -0.5 Z"
+         id="path54" />
+      <text
+         text-anchor="middle"
+         pointer-events="none"
+         font-size="8px"
+         fill="#000000"
+         x="87.26198494151723"
+         y="3"
+         font-family="sans-serif"
+         id="text56">DEPENDS_ON</text>
+    </g>
+    <g
+       class="relationship"
+       transform="translate(407.5318358416571 66.16641570664808) rotate(312.6879215187116)"
+       id="g64">
+      <path
+         class="outline"
+         fill="#A5ABB6"
+         stroke="none"
+         d="M 25 0.5 L 90.5238582774652 0.5 L 90.5238582774652 -0.5 L 25 -0.5 Z M 150.5238582774652 0.5 L 216.0477165549304 0.5 L 216.0477165549304 3.5 L 223.0477165549304 0 L 216.0477165549304 -3.5 L 216.0477165549304 -0.5 L 150.5238582774652 -0.5 Z"
+         id="path60" />
+      <text
+         text-anchor="middle"
+         pointer-events="none"
+         font-size="8px"
+         fill="#000000"
+         x="120.5238582774652"
+         y="3"
+         font-family="sans-serif"
+         id="text62">DEPENDS_ON</text>
+    </g>
+    <g
+       class="relationship"
+       transform="translate(247.16093158915044 48.71013211922903) rotate(366.21215642734705)"
+       id="g70">
+      <path
+         class="outline"
+         fill="#A5ABB6"
+         stroke="none"
+         d="M 25 0.5 L 47.15908003357565 0.5 L 47.15908003357565 -0.5 L 25 -0.5 Z M 107.15908003357565 0.5 L 129.3181600671513 0.5 L 129.3181600671513 3.5 L 136.3181600671513 0 L 129.3181600671513 -3.5 L 129.3181600671513 -0.5 L 107.15908003357565 -0.5 Z"
+         id="path66" />
+      <text
+         text-anchor="middle"
+         pointer-events="none"
+         font-size="8px"
+         fill="#000000"
+         x="77.15908003357565"
+         y="3"
+         font-family="sans-serif"
+         id="text68">DEPENDS_ON</text>
+    </g>
+    <g
+       class="relationship"
+       transform="translate(395.95228709360174 -141.42844348063215) rotate(529.2903504919593)"
+       id="g76">
+      <path
+         class="outline"
+         fill="#A5ABB6"
+         stroke="none"
+         d="M 21.40063509461097,12.933012701892217 L 21.90063509461097,12.06698729810778 A 128.73554355351902 128.73554355351902 0 0 0 60.0551821174941,26.617250253188047 L 59.85156139216599,27.59630009881228 A 129.73554355351902 129.73554355351902 0 0 1 21.40063509461097,12.933012701892217 Z M 107.75181425981152,28.523155659635876 L 107.58622041559582,27.536961622563126 A 128.73554355351902 128.73554355351902 0 0 0 146.2750828960111,14.473595649166446 L 144.8767120723459,11.819436829592549 L 152.70118194562772,11.653090197209961 L 148.1395773275647,18.01247407526498 L 146.7412065038995,15.35831525569108 A 129.73554355351902 129.73554355351902 0 0 1 107.75181425981152,28.523155659635876"
+         id="path72" />
+      <text
+         text-anchor="middle"
+         pointer-events="none"
+         font-size="8px"
+         fill="#000000"
+         x="83.76820577948355"
+         y="32.790092956497446"
+         transform="rotate(180 83.76820577948355 29.790092956497446)"
+         font-family="sans-serif"
+         id="text74">DECLARES</text>
+    </g>
+    <g
+       class="relationship"
+       transform="translate(224.178200385026 -108.94142957936421) rotate(349.2903504919593)"
+       id="g82">
+      <path
+         class="outline"
+         fill="#A5ABB6"
+         stroke="none"
+         d="M 25 0.5 L 53.90958605437173 0.5 L 53.90958605437173 -0.5 L 25 -0.5 Z M 113.90958605437173 0.5 L 142.81917210874346 0.5 L 142.81917210874346 3.5 L 149.81917210874346 0 L 142.81917210874346 -3.5 L 142.81917210874346 -0.5 L 113.90958605437173 -0.5 Z"
+         id="path78" />
+      <text
+         text-anchor="middle"
+         pointer-events="none"
+         font-size="8px"
+         fill="#000000"
+         x="83.90958605437173"
+         y="3"
+         font-family="sans-serif"
+         id="text80">DEPENDS_ON</text>
+    </g>
+    <g
+       class="relationship"
+       transform="translate(395.95228709360174 -141.42844348063215) rotate(529.2903504919593)"
+       id="g88">
+      <path
+         class="outline"
+         fill="#A5ABB6"
+         stroke="none"
+         d="M 21.40063509461097,-12.933012701892217 L 21.90063509461097,-12.06698729810778 A 128.73554355351902 128.73554355351902 0 0 1 54.23395766443174,-25.26487913782556 L 53.985118468024254,-26.233423950589156 A 129.73554355351902 129.73554355351902 0 0 0 21.40063509461097,-12.933012701892217 Z M 113.66658865889592,-27.388242541576204 L 113.45540380517676,-26.410796401085776 A 128.73554355351902 128.73554355351902 0 0 1 146.2750828960111,-14.473595649166446 L 144.8767120723459,-11.819436829592549 L 152.70118194562772,-11.653090197209961 L 148.1395773275647,-18.01247407526498 L 146.7412065038995,-15.35831525569108 A 129.73554355351902 129.73554355351902 0 0 0 113.66658865889592,-27.388242541576204"
+         id="path84" />
+      <text
+         text-anchor="middle"
+         pointer-events="none"
+         font-size="8px"
+         fill="#000000"
+         x="83.76820577948355"
+         y="-26.790092956497446"
+         transform="rotate(180 83.76820577948355 -29.790092956497446)"
+         font-family="sans-serif"
+         id="text86">DEPENDS_ON</text>
+    </g>
+  </g>
+  <g
+     class="layer nodes"
+     id="g218">
+    <g
+       class="node"
+       transform="translate(-12.085215126453248,438.49087721964844)"
+       id="g96">
+      <circle
+         class="outline"
+         cx="0"
+         cy="0"
+         r="25"
+         fill="#A5ABB6"
+         stroke="#9AA1AC"
+         stroke-width="2px"
+         id="circle92" />
+      <text
+         text-anchor="middle"
+         pointer-events="none"
+         y="5"
+         font-size="10px"
+         fill="#FFFFFF"
+         font-family="sans-serif"
+         id="text94"> Clinic</text>
+    </g>
+    <g
+       class="node"
+       transform="translate(207.12623540280978,278.94257879054425)"
+       id="g102">
+      <circle
+         class="outline"
+         cx="0"
+         cy="0"
+         r="25"
+         fill="#A5ABB6"
+         stroke="#9AA1AC"
+         stroke-width="2px"
+         id="circle98" />
+      <text
+         text-anchor="middle"
+         pointer-events="none"
+         y="5"
+         font-size="10px"
+         fill="#FFFFFF"
+         font-family="sans-serif"
+         id="text100"> Owner</text>
+    </g>
+    <g
+       class="node"
+       transform="translate(164.30631558263167,446.134563744898)"
+       id="g108">
+      <circle
+         class="outline"
+         cx="0"
+         cy="0"
+         r="25"
+         fill="#A5ABB6"
+         stroke="#9AA1AC"
+         stroke-width="2px"
+         id="circle104" />
+      <text
+         text-anchor="middle"
+         pointer-events="none"
+         y="5"
+         font-size="10px"
+         fill="#FFFFFF"
+         font-family="sans-serif"
+         id="text106"> Person</text>
+    </g>
+    <g
+       class="node"
+       transform="translate(345.6882396802674,350.21684195533305)"
+       id="g114">
+      <circle
+         class="outline"
+         cx="0"
+         cy="0"
+         r="25"
+         fill="#A5ABB6"
+         stroke="#9AA1AC"
+         stroke-width="2px"
+         id="circle110" />
+      <text
+         text-anchor="middle"
+         pointer-events="none"
+         y="5"
+         font-size="10px"
+         fill="#FFFFFF"
+         font-family="sans-serif"
+         id="text112"> Pet</text>
+    </g>
+    <g
+       class="node"
+       transform="translate(23.733878703414565,138.89146628325213)"
+       id="g120">
+      <circle
+         class="outline"
+         cx="0"
+         cy="0"
+         r="25"
+         fill="#A5ABB6"
+         stroke="#9AA1AC"
+         stroke-width="2px"
+         id="circle116" />
+      <text
+         text-anchor="middle"
+         pointer-events="none"
+         y="5"
+         font-size="10px"
+         fill="#FFFFFF"
+         font-family="sans-serif"
+         id="text118"> Specialty</text>
+    </g>
+    <g
+       class="node"
+       transform="translate(352.95504808490904,-48.08915831184311)"
+       id="g126">
+      <circle
+         class="outline"
+         cx="0"
+         cy="0"
+         r="25"
+         fill="#A5ABB6"
+         stroke="#9AA1AC"
+         stroke-width="2px"
+         id="circle122" />
+      <text
+         text-anchor="middle"
+         pointer-events="none"
+         y="5"
+         font-size="10px"
+         fill="#FFFFFF"
+         font-family="sans-serif"
+         id="text124"> Vet</text>
+    </g>
+    <g
+       class="node"
+       transform="translate(25.230607174359722,-247.19851328223982)"
+       id="g132">
+      <circle
+         class="outline"
+         cx="0"
+         cy="0"
+         r="25"
+         fill="#A5ABB6"
+         stroke="#9AA1AC"
+         stroke-width="2px"
+         id="circle128" />
+      <text
+         text-anchor="middle"
+         pointer-events="none"
+         y="5"
+         font-size="10px"
+         fill="#FFFFFF"
+         font-family="sans-serif"
+         id="text130"> Visit</text>
+    </g>
+    <g
+       class="node"
+       transform="translate(-174.12609655559223,-131.17421764483117)"
+       id="g138">
+      <circle
+         class="outline"
+         cx="0"
+         cy="0"
+         r="25"
+         fill="#A5ABB6"
+         stroke="#9AA1AC"
+         stroke-width="2px"
+         id="circle134" />
+      <text
+         text-anchor="middle"
+         pointer-events="none"
+         y="5"
+         font-size="10px"
+         fill="#FFFFFF"
+         font-family="sans-serif"
+         id="text136"> Clinic</text>
+    </g>
+    <g
+       class="node"
+       transform="translate(-255.7589997689759,39.59977345986043)"
+       id="g144">
+      <circle
+         class="outline"
+         cx="0"
+         cy="0"
+         r="25"
+         fill="#A5ABB6"
+         stroke="#9AA1AC"
+         stroke-width="2px"
+         id="circle140" />
+      <text
+         text-anchor="middle"
+         pointer-events="none"
+         y="5"
+         font-size="10px"
+         fill="#FFFFFF"
+         font-family="sans-serif"
+         id="text142"> Owner</text>
+    </g>
+    <g
+       class="node"
+       transform="translate(-20.380619290429156,-95.8778034070346)"
+       id="g150">
+      <circle
+         class="outline"
+         cx="0"
+         cy="0"
+         r="25"
+         fill="#A5ABB6"
+         stroke="#9AA1AC"
+         stroke-width="2px"
+         id="circle146" />
+      <text
+         text-anchor="middle"
+         pointer-events="none"
+         y="5"
+         font-size="10px"
+         fill="#FFFFFF"
+         font-family="sans-serif"
+         id="text148"> Person</text>
+    </g>
+    <g
+       class="node"
+       transform="translate(-101.95215579772209,61.428495330197826)"
+       id="g156">
+      <circle
+         class="outline"
+         cx="0"
+         cy="0"
+         r="25"
+         fill="#A5ABB6"
+         stroke="#9AA1AC"
+         stroke-width="2px"
+         id="circle152" />
+      <text
+         text-anchor="middle"
+         pointer-events="none"
+         y="5"
+         font-size="10px"
+         fill="#FFFFFF"
+         font-family="sans-serif"
+         id="text154"> Pet</text>
+    </g>
+    <g
+       class="node"
+       transform="translate(-216.71839191851672,205.1817651202655)"
+       id="g162">
+      <circle
+         class="outline"
+         cx="0"
+         cy="0"
+         r="25"
+         fill="#A5ABB6"
+         stroke="#9AA1AC"
+         stroke-width="2px"
+         id="circle158" />
+      <text
+         text-anchor="middle"
+         pointer-events="none"
+         y="5"
+         font-size="10px"
+         fill="#FFFFFF"
+         font-family="sans-serif"
+         id="text160"> Specialty</text>
+    </g>
+    <g
+       class="node"
+       transform="translate(31.86445699972726,284.4334146373092)"
+       id="g168">
+      <circle
+         class="outline"
+         cx="0"
+         cy="0"
+         r="25"
+         fill="#A5ABB6"
+         stroke="#9AA1AC"
+         stroke-width="2px"
+         id="circle164" />
+      <text
+         text-anchor="middle"
+         pointer-events="none"
+         y="5"
+         font-size="10px"
+         fill="#FFFFFF"
+         font-family="sans-serif"
+         id="text166"> Vet</text>
+    </g>
+    <g
+       class="node"
+       transform="translate(-146.87028122054943,339.626045159518)"
+       id="g174">
+      <circle
+         class="outline"
+         cx="0"
+         cy="0"
+         r="25"
+         fill="#A5ABB6"
+         stroke="#9AA1AC"
+         stroke-width="2px"
+         id="circle170" />
+      <text
+         text-anchor="middle"
+         pointer-events="none"
+         y="5"
+         font-size="10px"
+         fill="#FFFFFF"
+         font-family="sans-serif"
+         id="text172"> Visit</text>
+    </g>
+    <g
+       class="node"
+       transform="translate(575.7093604337981,-116.16292891504162)"
+       id="g180">
+      <circle
+         class="outline"
+         cx="0"
+         cy="0"
+         r="25"
+         fill="#68BDF6"
+         stroke="#5CA8DB"
+         stroke-width="2px"
+         id="circle176" />
+      <text
+         text-anchor="middle"
+         pointer-events="none"
+         y="5"
+         font-size="10px"
+         fill="#FFFFFF"
+         font-family="sans-serif"
+         id="text178"> Vet</text>
+    </g>
+    <g
+       class="node"
+       transform="translate(407.5318358416571,66.16641570664808)"
+       id="g186">
+      <circle
+         class="outline"
+         cx="0"
+         cy="0"
+         r="25"
+         fill="#68BDF6"
+         stroke="#5CA8DB"
+         stroke-width="2px"
+         id="circle182" />
+      <text
+         text-anchor="middle"
+         pointer-events="none"
+         y="5"
+         font-size="10px"
+         fill="#FFFFFF"
+         font-family="sans-serif"
+         id="text184"> Vets</text>
+    </g>
+    <g
+       class="node"
+       transform="translate(224.178200385026,-108.94142957936421)"
+       id="g192">
+      <circle
+         class="outline"
+         cx="0"
+         cy="0"
+         r="25"
+         fill="#68BDF6"
+         stroke="#5CA8DB"
+         stroke-width="2px"
+         id="circle188" />
+      <text
+         text-anchor="middle"
+         pointer-events="none"
+         y="5"
+         font-size="10px"
+         fill="#FFFFFF"
+         font-family="sans-serif"
+         id="text190"> JdbcVet…</text>
+    </g>
+    <g
+       class="node"
+       transform="translate(395.95228709360174,-141.42844348063215)"
+       id="g198">
+      <circle
+         class="outline"
+         cx="0"
+         cy="0"
+         r="25"
+         fill="#68BDF6"
+         stroke="#5CA8DB"
+         stroke-width="2px"
+         id="circle194" />
+      <text
+         text-anchor="middle"
+         pointer-events="none"
+         y="5"
+         font-size="10px"
+         fill="#FFFFFF"
+         font-family="sans-serif"
+         id="text196"> JdbcVet…</text>
+    </g>
+    <g
+       class="node"
+       transform="translate(440.3999327402026,-30.551502428784794)"
+       id="g204">
+      <circle
+         class="outline"
+         cx="0"
+         cy="0"
+         r="25"
+         fill="#68BDF6"
+         stroke="#5CA8DB"
+         stroke-width="2px"
+         id="circle200" />
+      <text
+         text-anchor="middle"
+         pointer-events="none"
+         y="5"
+         font-size="10px"
+         fill="#FFFFFF"
+         font-family="sans-serif"
+         id="text202"> JpaVet…</text>
+    </g>
+    <g
+       class="node"
+       transform="translate(247.16093158915044,48.71013211922903)"
+       id="g210">
+      <circle
+         class="outline"
+         cx="0"
+         cy="0"
+         r="25"
+         fill="#68BDF6"
+         stroke="#5CA8DB"
+         stroke-width="2px"
+         id="circle206" />
+      <text
+         text-anchor="middle"
+         pointer-events="none"
+         y="5"
+         font-size="10px"
+         fill="#FFFFFF"
+         font-family="sans-serif"
+         id="text208"> VetCont…</text>
+    </g>
+    <g
+       class="node"
+       transform="translate(211.50712118208543,-26.83581670564713)"
+       id="g216">
+      <circle
+         class="outline"
+         cx="0"
+         cy="0"
+         r="25"
+         fill="#68BDF6"
+         stroke="#5CA8DB"
+         stroke-width="2px"
+         id="circle212" />
+      <text
+         text-anchor="middle"
+         pointer-events="none"
+         y="5"
+         font-size="10px"
+         fill="#FFFFFF"
+         font-family="sans-serif"
+         id="text214"> VetCont…</text>
+    </g>
+  </g>
+</svg>

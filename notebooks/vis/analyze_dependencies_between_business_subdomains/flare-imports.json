@@ -1,0 +1,78 @@
+[
+   {
+      "name": "comment",
+      "imports": [
+         "comment",
+         "framework",
+         "creator",
+         "site"
+      ]
+   },
+   {
+      "name": "mail",
+      "imports": [
+         "site",
+         "mail",
+         "framework",
+         "creator"
+      ]
+   },
+   {
+      "name": "framework",
+      "imports": [
+         "scheduling",
+         "framework",
+         "files",
+         "creator",
+         "todo",
+         "mail",
+         "comment",
+         "site"
+      ]
+   },
+   {
+      "name": "files",
+      "imports": [
+         "site",
+         "files",
+         "framework",
+         "mail"
+      ]
+   },
+   {
+      "name": "creator",
+      "imports": [
+         "framework",
+         "creator"
+      ]
+   },
+   {
+      "name": "todo",
+      "imports": [
+         "todo",
+         "framework",
+         "site"
+      ]
+   },
+   {
+      "name": "site",
+      "imports": [
+         "site",
+         "framework",
+         "files",
+         "creator",
+         "scheduling",
+         "comment",
+         "todo"
+      ]
+   },
+   {
+      "name": "scheduling",
+      "imports": [
+         "scheduling",
+         "framework",
+         "site",
+         "creator"
+      ]
+   }
+]
