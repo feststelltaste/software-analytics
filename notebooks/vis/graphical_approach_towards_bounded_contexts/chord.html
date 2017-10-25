@@ -2,12 +2,12 @@
 <meta charset="utf-8">
 <style>
     body {
-        font: 18px sans-serif;
+        font: 14px sans-serif;
     }
     
     svg text {
         fill: grey;
-        font-size: 18px;
+        font-size: 14px;
     }
     
     svg .values text {
@@ -50,8 +50,8 @@
 
             var ch = viz.ch().data(data)
                 .padding(.01)
-                .innerRadius(210)
-                .outerRadius(230)
+                .innerRadius(155)
+                .outerRadius(170)
                 .duration(1000)
                 .chordOpacity(0.5)
                 .labelPadding(.1)
@@ -60,11 +60,11 @@
                 });
 
             var width = 1000,
-                height = 700;
+                height = 400;
 
             var svg = d3.select("body").append("svg").attr("height", height).attr("width", width);
 
-            svg.append("g").attr("transform", "translate(350,300)").call(ch);
+            svg.append("g").attr("transform", "translate(270,200)").call(ch);
 
 
             // adjust height of frame in bl.ocks.org

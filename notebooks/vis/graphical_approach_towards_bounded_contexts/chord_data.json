@@ -1,37 +1,57 @@
 [
    [
+      "Clinic",
+      "Clinic",
+      5
+   ],
+   [
+      "Clinic",
       "Framework",
-      "Visit",
       1
    ],
    [
-      "Visit",
       "Clinic",
+      "Owner",
+      4
+   ],
+   [
+      "Clinic",
+      "Pet",
+      7
+   ],
+   [
+      "Clinic",
+      "Specialty",
+      1
+   ],
+   [
+      "Clinic",
+      "Vet",
+      4
+   ],
+   [
+      "Clinic",
+      "Visit",
       4
    ],
    [
       "Framework",
-      "Owner",
-      1
-   ],
-   [
-      "Pet",
-      "Visit",
-      9
-   ],
-   [
-      "Specialty",
-      "Vet",
+      "Framework",
       3
    ],
    [
-      "Visit",
-      "Visit",
-      13
+      "Framework",
+      "Person",
+      1
    ],
    [
-      "Person",
       "Owner",
+      "Clinic",
+      2
+   ],
+   [
+      "Owner",
+      "Framework",
       1
    ],
    [
@@ -40,78 +60,38 @@
       10
    ],
    [
-      "Pet",
       "Owner",
+      "Person",
+      1
+   ],
+   [
+      "Owner",
+      "Pet",
       4
    ],
    [
-      "Clinic",
-      "Vet",
-      2
-   ],
-   [
+      "Owner",
       "Visit",
-      "Owner",
       1
    ],
    [
-      "Clinic",
+      "Person",
+      "Framework",
+      1
+   ],
+   [
       "Pet",
+      "Clinic",
       4
    ],
    [
-      "Framework",
+      "Pet",
       "Framework",
       3
    ],
    [
-      "Person",
-      "Framework",
-      1
-   ],
-   [
-      "Specialty",
-      "Clinic",
-      1
-   ],
-   [
-      "Framework",
-      "Person",
-      1
-   ],
-   [
-      "Framework",
-      "Vet",
-      1
-   ],
-   [
-      "Vet",
-      "Vet",
-      13
-   ],
-   [
-      "Clinic",
-      "Clinic",
-      5
-   ],
-   [
-      "Framework",
       "Pet",
-      3
-   ],
-   [
-      "Clinic",
       "Owner",
-      2
-   ],
-   [
-      "Person",
-      "Vet",
-      1
-   ],
-   [
-      "Owner",
-      "Pet",
       5
    ],
    [
@@ -120,38 +100,58 @@
       32
    ],
    [
-      "Framework",
-      "Clinic",
-      1
-   ],
-   [
-      "Clinic",
-      "Visit",
-      2
-   ],
-   [
-      "Framework",
-      "Specialty",
-      1
-   ],
-   [
-      "Owner",
-      "Clinic",
-      4
-   ],
-   [
-      "Visit",
       "Pet",
+      "Visit",
       5
+   ],
+   [
+      "Specialty",
+      "Framework",
+      1
    ],
    [
       "Vet",
       "Clinic",
-      4
+      2
    ],
    [
-      "Pet",
+      "Vet",
+      "Framework",
+      1
+   ],
+   [
+      "Vet",
+      "Person",
+      1
+   ],
+   [
+      "Vet",
+      "Specialty",
+      3
+   ],
+   [
+      "Vet",
+      "Vet",
+      13
+   ],
+   [
+      "Visit",
       "Clinic",
-      7
+      2
+   ],
+   [
+      "Visit",
+      "Framework",
+      1
+   ],
+   [
+      "Visit",
+      "Pet",
+      9
+   ],
+   [
+      "Visit",
+      "Visit",
+      13
    ]
 ]
