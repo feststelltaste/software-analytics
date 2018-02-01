@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="dependency_pet.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="335.76594"
+     inkscape:cy="677.69284"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       class="layer relationships"
+       id="g337"
+       transform="matrix(0.26458333,0,0,0.26458333,63.092302,101.34694)"
+       inkscape:export-xdpi="144"
+       inkscape:export-ydpi="144">
+      <g
+         class="relationship"
+         transform="rotate(139.63403,26.68825,48.134225)"
+         id="g287">
+        <path
+           style="fill:#a5abb6;stroke:none"
+           inkscape:connector-curvature="0"
+           class="outline"
+           d="M 24.018736,6.953439 24.277555,5.9875132 A 183.65897,183.65897 0 0 0 39.883414,9.4489025 L 39.709567,10.433675 A 184.65897,184.65897 0 0 1 24.018736,6.953439 Z m 75.5838,4.188935 -0.150496,-0.988611 a 183.65897,183.65897 0 0 0 15.68339,-3.0911515 l -0.70767,-2.9153388 7.62808,1.749994 L 116.079,10.94973 115.37132,8.0343911 A 184.65897,184.65897 0 0 1 99.602536,11.142374"
+           id="path283" />
+        <text
+           style="font-size:8px;font-family:sans-serif;text-anchor:middle;fill:#000000"
+           pointer-events="none"
+           font-size="8px"
+           x="69.633041"
+           y="15.73265"
+           transform="rotate(180,69.633041,12.73265)"
+           id="text285">DEPENDS_ON</text>
+      </g>
+      <g
+         class="relationship"
+         transform="rotate(-157.73547,45.742365,26.068096)"
+         id="g293">
+        <path
+           style="fill:#a5abb6;stroke:none"
+           inkscape:connector-curvature="0"
+           class="outline"
+           d="m 25,0.5 h 17.801687 v -1 H 25 Z m 77.80169,0 h 17.80168 v 3 l 7,-3.5 -7,-3.5 v 3 h -17.80168 z"
+           id="path289" />
+        <text
+           style="font-size:8px;font-family:sans-serif;text-anchor:middle;fill:#000000"
+           pointer-events="none"
+           font-size="8px"
+           x="72.801689"
+           y="3"
+           transform="rotate(180,72.801687,0)"
+           id="text291">DEPENDS_ON</text>
+      </g>
+      <g
+         class="relationship"
+         transform="rotate(-26.227658,184.02322,-134.07177)"
+         id="g299">
+        <path
+           style="fill:#a5abb6;stroke:none"
+           inkscape:connector-curvature="0"
+           class="outline"
+           d="M 24.018736,6.953439 24.277555,5.9875132 A 178.51917,178.51917 0 0 0 38.588727,9.1984149 L 38.410074,10.182327 A 179.51917,179.51917 0 0 1 24.018736,6.953439 Z m 74.27336,3.94975 L 98.13718,9.9152612 A 178.51917,178.51917 0 0 0 112.5215,7.0497968 l -0.70648,-2.9156291 7.62736,1.7531252 -5.97891,5.0500091 -0.70648,-2.9156289 A 179.51917,179.51917 0 0 1 98.292096,10.903189"
+           id="path295" />
+        <text
+           style="font-size:8px;font-family:sans-serif;text-anchor:middle;fill:#000000"
+           pointer-events="none"
+           font-size="8px"
+           x="68.326836"
+           y="15.557436"
+           id="text297">DEPENDS_ON</text>
+      </g>
+      <g
+         class="relationship"
+         transform="rotate(30.589176,-84.359521,176.73608)"
+         id="g305">
+        <path
+           style="fill:#a5abb6;stroke:none"
+           inkscape:connector-curvature="0"
+           class="outline"
+           d="m 24.018736,-6.953439 0.258819,0.9659258 a 189.38684,189.38684 0 0 1 17.050632,-3.7359386 l -0.168788,-0.9856522 a 190.38684,190.38684 0 0 0 -17.140663,3.755665 z m 77.044664,-4.451266 -0.14586,0.989306 a 189.38684,189.38684 0 0 1 17.13279,3.3390038 l -0.70896,2.9150261 7.62885,-1.7466253 -5.97461,-5.0551026 -0.70896,2.9150265 A 190.38684,190.38684 0 0 0 101.0634,-11.404705"
+           id="path301" />
+        <text
+           style="font-size:8px;font-family:sans-serif;text-anchor:middle;fill:#000000"
+           pointer-events="none"
+           font-size="8px"
+           x="71.089676"
+           y="-9.9279127"
+           id="text303">DEPENDS_ON</text>
+      </g>
+      <g
+         class="relationship"
+         transform="rotate(-149.41082,122.96263,43.478757)"
+         id="g311">
+        <path
+           style="fill:#a5abb6;stroke:none"
+           inkscape:connector-curvature="0"
+           class="outline"
+           d="m 24.018736,-6.953439 0.258819,0.9659258 a 189.38684,189.38684 0 0 1 17.050632,-3.7359386 l -0.168788,-0.9856522 a 190.38684,190.38684 0 0 0 -17.140663,3.755665 z m 77.044664,-4.451266 -0.14586,0.989306 a 189.38684,189.38684 0 0 1 17.13279,3.3390038 l -0.70896,2.9150261 7.62885,-1.7466253 -5.97461,-5.0551026 -0.70896,2.9150265 A 190.38684,190.38684 0 0 0 101.0634,-11.404705"
+           id="path307" />
+        <text
+           style="font-size:8px;font-family:sans-serif;text-anchor:middle;fill:#000000"
+           pointer-events="none"
+           font-size="8px"
+           x="71.089676"
+           y="-9.9279127"
+           transform="rotate(180,71.089673,-12.927913)"
+           id="text309">DEPENDS_ON</text>
+      </g>
+      <g
+         class="relationship"
+         transform="rotate(153.77234,103.10324,26.127493)"
+         id="g317">
+        <path
+           style="fill:#a5abb6;stroke:none"
+           inkscape:connector-curvature="0"
+           class="outline"
+           d="M 24.018736,6.953439 24.277555,5.9875132 A 178.51917,178.51917 0 0 0 38.588727,9.1984149 L 38.410074,10.182327 A 179.51917,179.51917 0 0 1 24.018736,6.953439 Z m 74.27336,3.94975 L 98.13718,9.9152612 A 178.51917,178.51917 0 0 0 112.5215,7.0497968 l -0.70648,-2.9156291 7.62736,1.7531252 -5.97891,5.0500091 -0.70648,-2.9156289 A 179.51917,179.51917 0 0 1 98.292096,10.903189"
+           id="path313" />
+        <text
+           style="font-size:8px;font-family:sans-serif;text-anchor:middle;fill:#000000"
+           pointer-events="none"
+           font-size="8px"
+           x="68.326836"
+           y="15.557436"
+           transform="rotate(180,68.326832,12.557436)"
+           id="text315">DEPENDS_ON</text>
+      </g>
+      <g
+         class="relationship"
+         transform="rotate(139.63403,26.68825,48.134225)"
+         id="g323">
+        <path
+           style="fill:#a5abb6;stroke:none"
+           inkscape:connector-curvature="0"
+           class="outline"
+           d="m 24.018736,-6.953439 0.258819,0.9659258 a 183.65897,183.65897 0 0 1 23.98474,-4.7419378 l -0.128225,-0.991745 a 184.65897,184.65897 0 0 0 -24.115334,4.767757 z m 67.13119,-5.276753 -0.104722,0.994501 a 183.65897,183.65897 0 0 1 24.090226,4.1730795 l -0.70767,2.9153388 7.62808,-1.749994 -5.97684,-5.0524633 -0.70768,2.9153389 A 184.65897,184.65897 0 0 0 91.149926,-12.230192"
+           id="path319" />
+        <text
+           style="font-size:8px;font-family:sans-serif;text-anchor:middle;fill:#000000"
+           pointer-events="none"
+           font-size="8px"
+           x="69.633041"
+           y="-9.7326498"
+           transform="rotate(180,69.633041,-12.73265)"
+           id="text321">EXTENDS</text>
+      </g>
+      <g
+         class="relationship"
+         transform="rotate(78.980171,-37.402689,-33.390809)"
+         id="g329">
+        <path
+           style="fill:#a5abb6;stroke:none"
+           inkscape:connector-curvature="0"
+           class="outline"
+           d="m 24.018736,6.953439 0.258819,-0.9659258 a 201.58961,201.58961 0 0 0 28.531821,5.4776908 l -0.117285,0.993099 A 202.58961,202.58961 0 0 1 24.018736,6.953439 Z m 71.69579,5.985315 -0.09508,-0.99547 A 201.58961,201.58961 0 0 0 124.26648,7.1041343 l -0.71155,-2.9143947 7.6304,1.7398438 -5.97011,5.0604106 -0.71155,-2.9143948 A 202.58961,202.58961 0 0 1 95.714526,12.938754"
+           id="path325" />
+        <text
+           style="font-size:8px;font-family:sans-serif;text-anchor:middle;fill:#000000"
+           pointer-events="none"
+           font-size="8px"
+           x="74.196098"
+           y="16.343912"
+           id="text327">EXTENDS</text>
+      </g>
+      <g
+         class="relationship"
+         transform="rotate(78.980171,-37.402689,-33.390809)"
+         id="g335">
+        <path
+           style="fill:#a5abb6;stroke:none"
+           inkscape:connector-curvature="0"
+           class="outline"
+           d="m 24.018736,-6.953439 0.258819,0.9659258 a 201.58961,201.58961 0 0 1 20.134764,-4.3064718 l -0.15894,-0.987288 a 202.58961,202.58961 0 0 0 -20.234643,4.327834 z m 80.158684,-4.997032 -0.13685,0.990591 a 201.58961,201.58961 0 0 1 20.22591,3.8557457 l -0.71155,2.9143947 7.6304,-1.7398438 -5.97011,-5.0604106 -0.71155,2.9143948 a 202.58961,202.58961 0 0 0 -20.32625,-3.8748718"
+           id="path331" />
+        <text
+           style="font-size:8px;font-family:sans-serif;text-anchor:middle;fill:#000000"
+           pointer-events="none"
+           font-size="8px"
+           x="74.196098"
+           y="-10.343912"
+           id="text333">DEPENDS_ON</text>
+      </g>
+    </g>
+    <circle
+       style="fill:#008080;stroke:#9aa1ac;stroke-width:0.52916664px"
+       class="outline"
+       cx="83.782089"
+       cy="119.21258"
+       r="6.614583"
+       id="circle345"
+       inkscape:export-xdpi="144"
+       inkscape:export-ydpi="144" />
+    <text
+       style="font-size:2.64583325px;font-family:sans-serif;text-anchor:middle;fill:#ffffff;stroke-width:0.26458332"
+       pointer-events="none"
+       y="120.5355"
+       font-size="10px"
+       id="text347"
+       x="83.782089"
+       inkscape:export-xdpi="144"
+       inkscape:export-ydpi="144">Pet</text>
+    <g
+       id="g355"
+       transform="matrix(0.26458333,0,0,0.26458333,117.77854,139.30936)"
+       class="node"
+       inkscape:export-xdpi="144"
+       inkscape:export-ydpi="144">
+      <circle
+         id="circle351"
+         r="25"
+         cy="0"
+         cx="0"
+         class="outline"
+         style="fill:#a5abb6;stroke:#9aa1ac;stroke-width:2px" />
+      <text
+         id="text353"
+         font-size="10px"
+         y="5"
+         pointer-events="none"
+         style="font-size:10px;font-family:sans-serif;text-anchor:middle;fill:#ffffff">Visit</text>
+    </g>
+    <g
+       id="g361"
+       transform="matrix(0.26458333,0,0,0.26458333,117.89763,102.40519)"
+       class="node"
+       inkscape:export-xdpi="144"
+       inkscape:export-ydpi="144">
+      <circle
+         id="circle357"
+         r="25"
+         cy="0"
+         cx="0"
+         class="outline"
+         style="fill:#a5abb6;stroke:#9aa1ac;stroke-width:2px" />
+      <text
+         id="text359"
+         font-size="10px"
+         y="5"
+         pointer-events="none"
+         style="font-size:10px;font-family:sans-serif;text-anchor:middle;fill:#ffffff">Owner</text>
+    </g>
+    <g
+       id="g367"
+       transform="matrix(0.26458333,0,0,0.26458333,46.416056,103.91467)"
+       class="node"
+       inkscape:export-xdpi="144"
+       inkscape:export-ydpi="144">
+      <circle
+         id="circle363"
+         r="25"
+         cy="0"
+         cx="0"
+         class="outline"
+         style="fill:#a5abb6;stroke:#9aa1ac;stroke-width:2px" />
+      <text
+         id="text365"
+         font-size="10px"
+         y="5"
+         pointer-events="none"
+         style="font-size:10px;font-family:sans-serif;text-anchor:middle;fill:#ffffff">PetType</text>
+    </g>
+    <g
+       id="g373"
+       transform="matrix(0.26458333,0,0,0.26458333,54.279013,144.29147)"
+       class="node"
+       inkscape:export-xdpi="144"
+       inkscape:export-ydpi="144">
+      <circle
+         id="circle369"
+         r="25"
+         cy="0"
+         cx="0"
+         class="outline"
+         style="fill:#a5abb6;stroke:#9aa1ac;stroke-width:2px" />
+      <text
+         id="text371"
+         font-size="10px"
+         y="5"
+         pointer-events="none"
+         style="font-size:10px;font-family:sans-serif;text-anchor:middle;fill:#ffffff">Named…</text>
+    </g>
+  </g>
+</svg>

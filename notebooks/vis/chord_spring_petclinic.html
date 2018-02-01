@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+body {
+  font: 10px sans-serif;
+}
+
+svg text{
+  fill:grey;
+  font-size:30px;
+}
+svg .values text{
+  pointer-events:none;
+  stroke-width: 0.5px;
+}
+.groups:hover{
+  cursor:pointer;
+  font-weight:bold;
+}
+</style>
+<body>
+<script src="d3/d3.v4.min.js"></script>
+<script src="viz/viz.v1.1.0.min.js"></script>
+<script>
+
+	var data = [['Framework', 'Visit', 1],
+  ['Visit', 'Clinic', 3],
+  ['Framework', 'Owner', 2],
+  ['Pet', 'Visit', 5],
+  ['Specialty', 'Vet', 2],
+  ['Visit', 'Visit', 10],
+  ['Owner', 'Owner', 8],
+  ['Pet', 'Owner', 4],
+  ['Clinic', 'Vet', 1],
+  ['Clinic', 'Pet', 2],
+  ['Framework', 'Framework', 3],
+  ['Framework', 'Vet', 2],
+  ['Vet', 'Vet', 11],
+  ['Clinic', 'Clinic', 1],
+  ['Framework', 'Pet', 3],
+  ['Clinic', 'Owner', 1],
+  ['Owner', 'Pet', 4],
+  ['Clinic', 'Visit', 1],
+  ['Pet', 'Pet', 21],
+  ['Framework', 'Specialty', 1],
+  ['Visit', 'Pet', 4],
+  ['Owner', 'Clinic', 3],
+  ['Vet', 'Clinic', 3],
+  ['Pet', 'Clinic', 5]
+	];
+
+	var colors = {
+	"Visit":         "#da4480"
+	,"Clinic":    "#5ab449"
+	,"Pet":    "#7f5acd"
+	,"Vet":        "#aab740"
+	,"Owner": "#ce58c0"
+	,"Framework":        "#50a26e"
+	,"Specialty": "#d1434b"
+	};
+
+	var sortOrder =[
+	"Owner"
+	,"Pet"
+	,"Visit"
+	,"Vet"
+	,"Specialty"
+	,"Clinic"
+	,"Framework"
+	];
+
+function sort(a,b){ return d3.ascending(sortOrder.indexOf(a),sortOrder.indexOf(b)); }
+
+var ch = viz.ch().data(data)
+      .padding(.01)
+      .sort(sort)
+	  .innerRadius(430)
+	  .outerRadius(450)
+	  .duration(1000)
+	  .chordOpacity(0.3)
+	  .labelPadding(.03)
+      .fill(function(d){ return colors[d];});
+
+var width=1500, height=1100;
+
+var svg = d3.select("body").append("svg").attr("height",height).attr("width",width);
+
+svg.append("g").attr("transform", "translate(800,550)").call(ch);
+
+// adjust height of frame in bl.ocks.org
+d3.select(self.frameElement).style("height", height+"px").style("width", width+"px");     
+</script>

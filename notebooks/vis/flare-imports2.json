@@ -1,0 +1,70 @@
+[
+   {
+      "name": "Owner",
+      "lines": 0,
+      "imports": [
+         "Owner",
+         "Framework",
+         "Pet",
+         "Clinic"
+      ]
+   },
+   {
+      "name": "Framework",
+      "lines": 0,
+      "imports": [
+         "Framework"
+      ]
+   },
+   {
+      "name": "Vet",
+      "lines": 0,
+      "imports": [
+         "Vet",
+         "Clinic",
+         "Specialty",
+         "Framework"
+      ]
+   },
+   {
+      "name": "Pet",
+      "lines": 0,
+      "imports": [
+         "Pet",
+         "Clinic",
+         "Owner",
+         "Framework",
+         "Visit"
+      ]
+   },
+   {
+      "name": "Specialty",
+      "lines": 0,
+      "imports": [
+         "Framework"
+      ]
+   },
+   {
+      "name": "Clinic",
+      "lines": 0,
+      "imports": [
+         "Owner",
+         "Clinic",
+         "Visit",
+         "Vet",
+         "Specialty",
+         "Framework",
+         "Pet"
+      ]
+   },
+   {
+      "name": "Visit",
+      "lines": 0,
+      "imports": [
+         "Visit",
+         "Pet",
+         "Clinic",
+         "Framework"
+      ]
+   }
+]

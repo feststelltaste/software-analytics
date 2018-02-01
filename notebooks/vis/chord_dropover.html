@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+body {
+  font: 10px sans-serif;
+}
+
+svg text{
+  fill:grey;
+  font-size:30px;
+}
+svg .values text{
+  pointer-events:none;
+  stroke-width: 0.5px;
+}
+.groups:hover{
+  cursor:pointer;
+  font-weight:bold;
+}
+</style>
+<body>
+<script src="d3/d3.v4.min.js"></script>
+<script src="viz/viz.v1.1.0.min.js"></script>
+<script>
+
+	var data = [['files', 'framework', 4],
+  ['site', 'files', 11],
+  ['site', 'mail', 4],
+  ['creator', 'framework', 4],
+  ['files', 'site', 1],
+  ['site', 'framework', 3],
+  ['todo', 'framework', 3],
+  ['creator', 'creator', 12],
+  ['creator', 'mail', 6],
+  ['framework', 'site', 20],
+  ['comment', 'comment', 64],
+  ['framework', 'todo', 51],
+  ['scheduling', 'framework', 3],
+  ['todo', 'site', 1],
+  ['framework', 'scheduling', 56],
+  ['site', 'todo', 2],
+  ['todo', 'todo', 123],
+  ['scheduling', 'site', 1],
+  ['comment', 'framework', 5],
+  ['creator', 'site', 12],
+  ['site', 'site', 55],
+  ['mail', 'files', 1],
+  ['mail', 'framework', 4],
+  ['framework', 'comment', 35],
+  ['mail', 'mail', 10],
+  ['creator', 'scheduling', 4],
+  ['comment', 'site', 5],
+  ['scheduling', 'scheduling', 121],
+  ['site', 'scheduling', 3],
+  ['framework', 'framework', 52],
+  ['files', 'files', 53],
+  ['framework', 'files', 27],
+  ['creator', 'comment', 9],
+  ['framework', 'mail', 10],
+  ['framework', 'creator', 6],
+  ['site', 'comment', 2]
+	];
+
+	var colors = {
+	"creator":         "#da4480"
+	,"comment":    "#5ab449"
+	,"scheduling":    "#7f5acd"
+	,"framework":        "#aab740"
+	,"site": "#ce58c0"
+	,"mail":        "#50a26e"
+	,"todo": "#d1434b"
+	,"files":      "#45c0bc"
+	,"Manchester City":"#ce5929"
+	,"Manchester Utd": "#4e7bda"
+	,"Newcastle Utd":  "#d49d3c"
+	,"Norwich City":   "#6660a3"
+	,"Southampton":    "#7b853c"
+	,"Stoke City":     "#b58dde"
+	,"Sunderland":     "#97622e"
+	,"Swansea City":   "#609dd6"
+	,"Tottenham":      "#e29074"
+	,"Watford":        "#9c4b88"
+	,"West Bromwich":  "#ab505f"
+	,"West Ham Utd":   "#dc85b6"
+	};
+
+	var sortOrder =[
+	"creator"
+	,"comment"
+	,"scheduling"
+	,"framework"
+	,"site"
+	,"mail"
+	,"todo"
+	,"files"
+	];
+
+function sort(a,b){ return d3.ascending(sortOrder.indexOf(a),sortOrder.indexOf(b)); }
+
+var ch = viz.ch().data(data)
+      .padding(.01)
+      .sort(sort)
+	  .innerRadius(430)
+	  .outerRadius(450)
+	  .duration(1000)
+	  .chordOpacity(0.3)
+	  .labelPadding(.03)
+      .fill(function(d){ return colors[d];});
+
+var width=1500, height=1100;
+
+var svg = d3.select("body").append("svg").attr("height",height).attr("width",width);
+
+svg.append("g").attr("transform", "translate(800,550)").call(ch);
+
+// adjust height of frame in bl.ocks.org
+d3.select(self.frameElement).style("height", height+"px").style("width", width+"px");     
+</script>
