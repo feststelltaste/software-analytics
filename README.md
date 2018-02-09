@@ -10,7 +10,7 @@ This is repository is kind of structured in the following way:
 * [`courses`](courses): Some first attempts to create learning materials for students and participants of my talks
 * [`demos`](demos): Things I've coded at various meetups and other events
 * [`notebooks`](notebooks): Mostly Jupyter notebooks with showing some Software Analytics with Python, Pandas, jQAssistant, Neo4j and D3
-* [`prototypes`]: Proof of concepts (finished and unfinished) that I try out occasionally
+* [`prototypes`](prototypes): Proof of concepts (finished and unfinished) that I try out occasionally
 
 
 ## More information
