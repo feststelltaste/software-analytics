@@ -47,7 +47,7 @@ https://pastebin.com/raw/vBwHw2tk
 
 _Zur Offline-Nutzung empfiehlt sich natürlich ein entsprechender Download vorab._
 
-### Hands-On 2: Analyse wertloser Codeteile
+## Hands-On 2: Analyse wertloser Codeteile
 
 Hier kombinieren wir das Datenanalysewerkzeug Pandas mit der Neo4j Graphdatenbank. Wir wollen in einer Java-Anwendung fachliche Module identifizieren, die
 
