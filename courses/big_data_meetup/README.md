@@ -26,7 +26,7 @@ Mit dem Ergebnis bekommen wir zahlreiche Einblicke in das Leben von Open-Source-
 
 Zur Offline-Nutzung auf dem eigenen Rechner kann die "Eierlegendewollmilchsau"-Python-Distribution Anaconda 5.0.1 (Version mit Python 3.6) installiert werden:
 
-https://www.anaconda.com/download/
+> https://www.anaconda.com/download/
 
 Zum Starten 
 * unter Windows die Verknüpfung "Jupyter Notebook" verwenden
@@ -39,7 +39,7 @@ Alternativ kann das Hands-On auch online mittels [https://mybinder.org/](mybinde
 
 Die URL zur Online-Testumgebung ist:
 
-https://mybinder.org/v2/gh/feststelltaste/software-data/master
+> https://mybinder.org/v2/gh/feststelltaste/software-data/master
 
 ### Dataset
 
@@ -72,13 +72,14 @@ Diese Bibliothek kann z. B über den "Anaconda Prompt" mit Hilfe des Python-Pake
 pip install py2neo
 ```
 
-* Die Demo-Applikation "Spring Petclinic" in einer mit jQAssistant ausgestatteten (und von mir bewusst verschlechterten) Version. Diese ist unter
+##### Demo-Applikation "Spring Petclinic"
+Dieses Open-Source-Projekt ist eine mit jQAssistant ausgestattete (und von mir bewusst verschlechterten) Java-Web-Applikation. Sie ist unter
 
-https://github.com/JavaOnAutobahn/spring-petclinic
+> https://github.com/JavaOnAutobahn/spring-petclinic
 
 zu finden. Die dortige Anleitung schildert die Installationsschritte:
 
-https://github.com/JavaOnAutobahn/spring-petclinic#refuctored-spring-petclinic-sample-application
+> https://github.com/JavaOnAutobahn/spring-petclinic#refuctored-spring-petclinic-sample-application
 
 _Zur Offline-Nutzung empfiehlt es sich, die Anwendung wie in der Anleitung beschrieben komplett zu bauen und auszuführen._
 
