@@ -1,8 +1,19 @@
 # Software Analytics
-A repository for various analysis of software artifacts
+A repository with my data analysis results of software artifacts 
 
 ## Description
-In this repository, some examples around mining valuable information out of software artifacts are presented.
+In this repository, I show some examples around mining valuable information out of software artifacts are presented.
 
 ## Table of Contents
-* <tt>[notebooks](./notebooks/Readme.md)</tt>: Jupyter notebooks with mostly Python Pandas analysis
+This is repository is kind of structured in the following way:
+
+* [`courses`](courses): Some first attempts to create learning materials for students and participants of my talks
+* [`demos`](demos): Things I've coded at various meetups and other events
+* [`notebooks`](notebooks): Mostly Jupyter notebooks with showing some Software Analytics with Python, Pandas, jQAssistant, Neo4j and D3
+* [`prototypes`]: Proof of concepts (finished and unfinished) that I try out occasionally
+
+
+## More information
+* My blog: https://www.feststelltaste.de
+* My business website: http://www.markusharrer.de
+* Some of my talks: https://www.slideshare.net/feststelltaste/
