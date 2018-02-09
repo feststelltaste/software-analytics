@@ -1,4 +1,13 @@
-notebooks/.ipynb_checkpoints
+.ipynb_checkpoints/
 notebooks/prototypes
 notebooks/data
-notebooks/demos
+
+target/*
+.settings/*
+.classpath
+.project
+.idea
+*.iml
+target
+
+generated/

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+    body {
+        font: 14px sans-serif;
+    }
+    
+    svg text {
+        fill: grey;
+        font-size: 14px;
+    }
+    
+    svg .values text {
+        pointer-events: none;
+        stroke-width: 0.5px;
+    }
+    
+    .groups:hover {
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+</style>
+
+<body>
+    <script src="d3/d3.v4.min.js"></script>
+    <script src="d3/d3-scale.v1.0.6.min.js"></script>
+    <script src="d3/d3-scale-chromatic.v1.1.1.min.js"></script>
+    <script src="viz/viz.v1.1.0.min.js"></script>
+    <script>
+        d3.json("chord_data.json", function(data) {
+
+
+            var index;
+
+            var colormap = {};
+            var dictIndex = 0;
+            for (index = 0; index < data.length;++index) {
+                key = data[index][0];
+                if(!(key in colormap)){
+                    colormap[data[index][0]] = dictIndex;
+                    ++dictIndex
+                }
+            }
+
+            for (var key in colormap) {
+                t = colormap[key]/dictIndex;
+                colormap[key] = d3.interpolateSpectral(t);
+            }
+
+            var ch = viz.ch().data(data)
+                .padding(.01)
+                .innerRadius(155)
+                .outerRadius(170)
+                .duration(1000)
+                .chordOpacity(0.5)
+                .labelPadding(.1)
+                .fill(function(d) {
+                    return colormap[d];
+                });
+
+            var width = 1000,
+                height = 400;
+
+            var svg = d3.select("body").append("svg").attr("height", height).attr("width", width);
+
+            svg.append("g").attr("transform", "translate(270,200)").call(ch);
+
+
+            // adjust height of frame in bl.ocks.org
+            d3.select(self.frameElement).style("height", height + "px").style("width", width + "px");
+
+        });
+
+    </script>
+</body>
