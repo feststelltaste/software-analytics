@@ -28,6 +28,10 @@ Zur Offline-Nutzung auf dem eigenen Rechner kann die "Eierlegendewollmilchsau"-P
 
 https://www.anaconda.com/download/
 
+Zum Starten 
+* unter Windows die Verknüpfung "Jupyter Notebook" verwenden
+* unter Linux den Befehl `~/anaconda3/bin/jupyter notebook` ausführen
+
 
 #### Online-Testumgebung
 
@@ -59,11 +63,10 @@ Mit dem Ergebnis können wir Wartungsarbeiten am bestehenden Softwaresystem nach
 ### Einrichtung
 #### Lokale Umgebung
 
-Voraussetzung ist eine eingerichtete, lokale Umgebung vom 1. Hands-On.
+Voraussetzung ist eine eingerichtete, lokale Umgebung vom 1. Hands-On. Zusätzlich wird noch folgendes benötigt:
 
-Zusätzlich wird benötigt:
-
-* Der Python-Neo4j-Adapter `py2neo`. Dieser kann z. B über den Anaconda Prompt mit Hilfe des Python-Paketmanagers `pip` installiert werden:
+##### Python-Neo4j-Adapter `py2neo`
+Diese Bibliothek kann z. B über den "Anaconda Prompt" mit Hilfe des Python-Paketmanagers `pip` installiert werden:
 
 ```
 pip install py2neo
