@@ -4,7 +4,7 @@ Datum: 15.02.2018
 
 ## Einleitung
 
-Herzlich Willkommen auf der Begleitseite zum Hackerkegeln-Treffen "Hands-On Software Analytics"!
+Herzlich Willkommen auf der Begleitseite zum Hackerkegeln-Vortrag "Hands-On Software Analytics"!
 
 Hier findet ihr alle notwendigen Informationen, um im Mini-Workshop mitmachen zu können.
 
@@ -85,7 +85,7 @@ _Zur Offline-Nutzung empfiehlt es sich, die Anwendung wie in der Anleitung besch
 
 #### Online-Testumgebung
 
-Es kann sein, dass bis zum Meetup eine gesonderte Neo4j-Instanz zur Verfügung steht. Weitere Details zur Nutzung folgen dann hier.
+Vor dem Treffen wird noch eine Neo4j-Graphdatenbank-Instanz mit den Softwaredaten des obigen Java-Projekts bestückt. Die Datenbank kann dann direkt über das Browser-Frontend oder über die Jupyter Notebooks angesprochen werden.
 
 ### Dataset
 
