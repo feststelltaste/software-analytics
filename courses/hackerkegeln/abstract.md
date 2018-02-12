@@ -1,6 +1,6 @@
 # Titel
 
-Hands-Ons Software Analytics
+Hands-On Software Analytics
 
 
 # Abstract

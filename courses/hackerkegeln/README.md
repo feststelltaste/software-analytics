@@ -1,10 +1,10 @@
-# Big Data Meetup
+# Hackerkegeln
 Ort: Nürnberg
-Datum: 28.02.2018
+Datum: 15.02.2018
 
 ## Einleitung
 
-Herzlich Willkommen auf der Begleitseite zum Big Data Meetup "Datenanalysen in der Softwareentwicklung mit Software Analytics"!
+Herzlich Willkommen auf der Begleitseite zum Hackerkegeln-Treffen "Hands-On Software Analytics"!
 
 Hier findet ihr alle notwendigen Informationen, um im Mini-Workshop mitmachen zu können.
 
