@@ -39,7 +39,7 @@ Alternativ kann das Hands-On auch online mittels [https://mybinder.org/](mybinde
 
 Die URL zur Online-Testumgebung ist:
 
-> https://mybinder.org/v2/gh/feststelltaste/software-data/master
+> https://mybinder.org/v2/gh/feststelltaste/software-analytics/master
 
 ### Dataset
 
