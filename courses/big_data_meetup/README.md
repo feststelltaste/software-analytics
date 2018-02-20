@@ -1,5 +1,5 @@
 # Big Data Meetup
-Ort: Nürnberg, Hohfederstraße 40, Raum HQ.013
+Ort: Nürnberg, Hohfederstraße 40, Raum HQ.013  
 Datum: Mittwoch, 07.03.2018
 
 ## Einleitung
