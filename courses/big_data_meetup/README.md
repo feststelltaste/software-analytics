@@ -1,6 +1,6 @@
 # Big Data Meetup
-Ort: Nürnberg
-Datum: 28.02.2018
+Ort: Nürnberg, Hohfederstraße 40, Raum HQ.013  
+Datum: Mittwoch, 07.03.2018
 
 ## Einleitung
 
