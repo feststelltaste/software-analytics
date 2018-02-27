@@ -2,3 +2,4 @@
 pandas
 matplotlib
 py2neo
+neo4j-driver
