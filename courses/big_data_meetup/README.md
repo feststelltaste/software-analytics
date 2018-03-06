@@ -37,9 +37,12 @@ Zum Starten
 
 Alternativ kann das Hands-On auch online mittels [https://mybinder.org/](mybinder.org) durchgeführt werden. Hier ist dann lediglich ein Laptop mit Browser und Internetzugang notwendig.
 
-Die URL zur Online-Testumgebung ist:
+Zum Vorab-Test gibt es hier eine Online-Testumgebung:
 
 > https://mybinder.org/v2/gh/feststelltaste/software-analytics/master?urlpath=tree%2Fcourses%2Fbig_data_meetup
+
+Für das Meetup selbst wird es noch eine separate Online-Testumgebung geben.
+
 
 ### Dataset
 
@@ -85,7 +88,7 @@ _Zur Offline-Nutzung empfiehlt es sich, die Anwendung wie in der Anleitung besch
 
 #### Online-Testumgebung
 
-Es kann sein, dass bis zum Meetup eine gesonderte Neo4j-Instanz zur Verfügung steht. Weitere Details zur Nutzung folgen dann hier.
+Zum Meetup wird eine gesonderte Neo4j-Instanz zur Verfügung stehen. Weitere Details zur Nutzung folgen beim Treffen.
 
 ### Dataset
 
