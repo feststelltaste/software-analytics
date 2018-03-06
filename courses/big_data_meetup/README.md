@@ -46,7 +46,7 @@ Die URL zur Online-Testumgebung ist:
 Für beide Varianten ist hier die URL zum notwendigen Dataset (für Copy'n'Paste):
 
 ```
-https://pastebin.com/raw/vBwHw2tk
+https://pastebin.com/raw/C40C9S82
 ```
 
 _Zur Offline-Nutzung empfiehlt sich natürlich ein entsprechender Download vorab._
