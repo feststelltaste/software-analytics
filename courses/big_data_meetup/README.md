@@ -1,7 +1,8 @@
 # Big Data Meetup
 Ort: Nürnberg, Hohfederstraße 40, Raum HQ.013  
-Datum: Mittwoch, 07.03.2018
-Kurzlink zu dieser Seite: https://git.io/vALLM
+Datum: Mittwoch, 07.03.2018  
+Kurzlink zu dieser Seite: https://git.io/vALLM  
+Meetup-Seite: https://www.meetup.com/de-DE/Nuernberg-Big-Data/events/247954125/
 
 ## Einleitung
 
