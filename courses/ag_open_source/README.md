@@ -1,7 +1,7 @@
 # AG Open Source
 Ort: Nürnberg, Hohfederstraße 40, Raum noch nicht bekannt  
 Datum: Donnerstag, 17.05.2018  
-Kurzlink zu dieser Seite: https://git.io/vALLM  
+Kurzlink zu dieser Seite: https://git.io/vxLQL  
 
 ## Einleitung
 
