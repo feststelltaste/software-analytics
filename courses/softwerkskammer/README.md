@@ -14,7 +14,6 @@ Gleich vorab: Wer sofort richtig loslegen möchte, kann sich gerne eine "lokale 
 Hier geht es um den Einstieg in die Datenanalyse mit Python und Pandas mittels Daten aus dem Versionskontrollsystem Git. Wir wollen einige einfache Statistiken über das Open-Source-Betriebssystem Linux erheben:
 
 * Wer sind die TOP-10-Committer?
-* In welcher Zeitzone leben die meisten Entwickler?
 * Zu welchen Uhrzeiten arbeiten die Entwickler?
 * Wie verteilen sich die Commits über die Jahre?
 
