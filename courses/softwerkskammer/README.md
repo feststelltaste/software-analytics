@@ -1,5 +1,5 @@
-# AG Open Source
-Kurzlink zu dieser Seite: https://git.io/vxLQL  
+# Softwerkskammer Nürnberg
+Kurzlink zu dieser Seite: https://git.io/vxufx  
 
 ## Einleitung
 
