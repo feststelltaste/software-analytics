@@ -1,0 +1,13 @@
+td,th {
+	font-size: 20px;
+}
+
+.rendered_html h2:first-child {
+    margin-top: 0em;
+}
+.rendered_html h3:first-child {
+    margin-top: 0em;
+}
+.rendered_html h3:first-child {
+    margin-top: 0em;
+}
