@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+    body {
+        font: 14px sans-serif;
+    }
+    
+    svg text {
+        fill: grey;
+        font-size: 14px;
+    }
+    
+    svg .values text {
+        pointer-events: none;
+        stroke-width: 0.5px;
+    }
+    
+    .groups:hover {
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+</style>
+
+<body>
+
+    <script src="d3/d3.v4.min.js"></script>
+	<script src="d3/d3-request-v1.0.6.js"></script>
+    <script src="d3/d3-scale.v1.0.6.min.js"></script>
+    <script src="d3/d3-scale-chromatic.v1.1.1.min.js"></script>
+    <script src="viz/viz.v1.1.0.min.js"></script>
+	
+	<script>
+	
+	function getMessage() {
+	
+		var query = "MATCH (s1:Subdomain)-[r:DEPENDS_ON]->(s2:Subdomain) RETURN s1.name, s2.name, r.weight";
+
+		query = document.getElementById("query_id").value;
+	  console.log(query)
+      //d3.select("#d3node").text("D3b:" + d3.select("#msg").node().value);
+      //query = document.getElementById("dom").innerHTML = "DOM:" + document.getElementById("msg").value;
+	  
+	  d3.request("http://localhost:7474/db/data/transaction/commit")
+    .header("X-Requested-With", "XMLHttpRequest")
+    .header("Content-Type", "application/json")
+    .post('{ "statements" : [ { "statement" : "' + query + '" } ]}', function(error, xhr) {
+		if (error) throw error;
+	
+
+			neo4jJson = JSON.parse(xhr.response)
+			
+			console.log(neo4jJson);
+
+            var index;
+
+            var colormap = {};
+            var dictIndex = 0;
+			
+			var data = [];
+			var neo4jData = neo4jJson["results"][0]["data"];
+			
+			console.log(neo4jData);
+
+						
+			for (index = 0; index < neo4jData.length; ++index) {
+				data.push(neo4jData[index]['row']);
+			}
+			
+			console.log(data);
+			
+			
+            for (index = 0; index < data.length;++index) {
+                key = data[index][0];
+                if(!(key in colormap)){
+                    colormap[data[index][0]] = dictIndex;
+                    ++dictIndex
+                }
+            }
+
+            for (var key in colormap) {
+                t = colormap[key]/dictIndex;
+                colormap[key] = d3.interpolateSpectral(t);
+            }
+
+            var ch = viz.ch().data(data)
+                .padding(.01)
+                .innerRadius(155)
+                .outerRadius(170)
+                .duration(1000)
+                .chordOpacity(0.5)
+                .labelPadding(.1)
+                .fill(function(d) {
+                    return colormap[d];
+                });
+
+            var width = 1000,
+                height = 400;
+
+            var svg = d3.select("body").append("svg").attr("height", height).attr("width", width);
+
+            svg.append("g").attr("transform", "translate(370,200)").call(ch);
+
+
+            // adjust height of frame in bl.ocks.org
+            d3.select(self.frameElement).style("height", height + "px").style("width", width + "px");
+
+        });
+		
+    }
+	
+	var query = "MATCH (s1:Subdomain)-[r:DEPENDS_ON]->(s2:Subdomain) RETURN s1.name, s2.name, r.weight";
+	
+	
+
+    </script>
+	
+	<form>
+	Cypher Query: <input type="text" name="query", id="query_id", size="100">
+
+	</form>
+	<button onclick="getMessage()">Execute</button>
+	<br/>
+</body>
