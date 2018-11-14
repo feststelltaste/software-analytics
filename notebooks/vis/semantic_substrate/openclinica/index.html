@@ -23,7 +23,7 @@ svg {
 .links line {
   fill: none;
   stroke: #999;
-  stroke-opacity: 0.6;
+  stroke-opacity: 0.05;
 }
 
 .nodes circle {
@@ -122,14 +122,15 @@ d3.json('jean.json', function (error, graph) {
     .attr('y2', function (d) { return y(d.target.degree); })
     .attr('stroke-width', function (d) { return linkWidth(d.chapters.length); })
     .on('mouseover', function (d) {
-      link.style('stroke', null);
-      d3.select(this).style('stroke', '#d62333');
+      link.style('stroke', null),
+	  d3.select(this).style('stroke', '#d62333');
       node.style('fill', function (node_d) {
         return node_d === d.source ? 'blue' : node_d === d.target ? 'green' : null;
       });
     })
     .on('mouseout', function (d) {
-      link.style('stroke', null);
+      link.style('stroke', null),
+	  link.style('stroke-opacity', '0.05');
       node.style('fill', null);
     });
 
@@ -154,11 +155,16 @@ d3.json('jean.json', function (error, graph) {
         .style('fill', '#555');
       link.style('stroke', function (link_d) {
         return link_d.source === d ? 'blue' : link_d.target === d ? 'green' : null;
-      });
+      }),
+	  link.style('stroke-opacity', function (link_d) {
+        return link_d.source === d || link_d.target === d ? 0.5 : null;
+      })
+	  ;
     })
     .on('mouseout', function (d) {
       node.style('fill', null);
-      link.style('stroke', null);
+      link.style('stroke', null),
+	  link.style('stroke-opacity', 0.05);
     });
 
   node.append('title').text(function (d) { return d.name; });
