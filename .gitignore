@@ -11,4 +11,5 @@ target/*
 *.iml
 target
 
+dask-worker-space/
 generated/
