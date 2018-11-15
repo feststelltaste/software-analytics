@@ -1,0 +1,1009 @@
+4	5	src/test/java/org/springframework/samples/petclinic/web/CrashControllerTests.java
+25	7	src/test/java/org/springframework/samples/petclinic/web/OwnerControllerTests.java
+21	9	src/test/java/org/springframework/samples/petclinic/web/PetControllerTests.java
+23	3	src/test/java/org/springframework/samples/petclinic/web/VetControllerTests.java
+10	6	src/test/java/org/springframework/samples/petclinic/web/VisitControllerTests.java
+
+111	0	src/main/java/org/springframework/samples/petclinic/PetclinicInitializer.java
+
+4	14	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPetRepositoryImpl.java
+
+2	2	src/main/java/org/springframework/samples/petclinic/web/VetController.java
+14	14	src/test/java/org/springframework/samples/petclinic/web/VetControllerTests.java
+
+22	5	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVisitRepositoryImpl.java
+1	1	src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaVisitRepositoryImpl.java
+2	0	src/main/java/org/springframework/samples/petclinic/service/ClinicService.java
+5	0	src/main/java/org/springframework/samples/petclinic/service/ClinicServiceImpl.java
+10	0	src/test/java/org/springframework/samples/petclinic/service/AbstractClinicServiceTests.java
+
+1	1	src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java
+5	4	src/main/java/org/springframework/samples/petclinic/web/OwnerController.java
+7	6	src/main/java/org/springframework/samples/petclinic/web/PetController.java
+5	3	src/main/java/org/springframework/samples/petclinic/web/PetValidator.java
+1	1	src/test/java/org/springframework/samples/petclinic/service/AbstractClinicServiceTests.java
+
+53	0	src/test/java/org/springframework/samples/petclinic/web/CrashControllerTests.java
+167	0	src/test/java/org/springframework/samples/petclinic/web/OwnerControllerTests.java
+113	0	src/test/java/org/springframework/samples/petclinic/web/PetControllerTests.java
+76	0	src/test/java/org/springframework/samples/petclinic/web/PetTypeFormatterTests.java
+22	6	src/test/java/org/springframework/samples/petclinic/web/VetControllerTests.java
+79	0	src/test/java/org/springframework/samples/petclinic/web/VisitControllerTests.java
+
+6	6	src/main/java/org/springframework/samples/petclinic/model/Visit.java
+2	2	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVisitRowMapper.java
+
+5	4	src/main/java/org/springframework/samples/petclinic/model/Pet.java
+2	1	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPetRowMapper.java
+2	1	src/test/java/org/springframework/samples/petclinic/service/AbstractClinicServiceTests.java
+
+1	1	src/main/java/org/springframework/samples/petclinic/web/OwnerController.java
+1	1	src/main/java/org/springframework/samples/petclinic/web/PetController.java
+
+2	1	src/main/java/org/springframework/samples/petclinic/web/OwnerController.java
+
+2	7	src/main/java/org/springframework/samples/petclinic/web/OwnerController.java
+32	25	src/main/java/org/springframework/samples/petclinic/web/PetController.java
+0	2	src/main/java/org/springframework/samples/petclinic/web/PetValidator.java
+
+0	1	src/main/java/org/springframework/samples/petclinic/model/Vets.java
+0	15	src/main/java/org/springframework/samples/petclinic/repository/OwnerRepository.java
+
+3	4	src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java
+3	4	src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java
+12	12	src/main/java/org/springframework/samples/petclinic/model/Owner.java
+10	11	src/main/java/org/springframework/samples/petclinic/model/Pet.java
+1	1	src/main/java/org/springframework/samples/petclinic/model/PetType.java
+5	6	src/main/java/org/springframework/samples/petclinic/model/Vet.java
+0	3	src/main/java/org/springframework/samples/petclinic/model/package-info.java
+2	3	src/main/java/org/springframework/samples/petclinic/repository/OwnerRepository.java
+1	2	src/main/java/org/springframework/samples/petclinic/repository/PetRepository.java
+16	16	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcOwnerRepositoryImpl.java
+5	6	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPet.java
+17	17	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPetRepositoryImpl.java
+2	2	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPetVisitExtractor.java
+12	12	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVetRepositoryImpl.java
+9	9	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVisitRepositoryImpl.java
+0	3	src/main/java/org/springframework/samples/petclinic/repository/jdbc/package-info.java
+6	7	src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaOwnerRepositoryImpl.java
+5	6	src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaPetRepositoryImpl.java
+5	6	src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaVisitRepositoryImpl.java
+0	3	src/main/java/org/springframework/samples/petclinic/repository/jpa/package-info.java
+8	8	src/main/java/org/springframework/samples/petclinic/repository/springdatajpa/SpringDataOwnerRepository.java
+10	11	src/main/java/org/springframework/samples/petclinic/util/CallMonitoringAspect.java
+2	3	src/main/java/org/springframework/samples/petclinic/util/EntityUtils.java
+1	1	src/main/java/org/springframework/samples/petclinic/web/CrashController.java
+6	8	src/main/java/org/springframework/samples/petclinic/web/OwnerController.java
+3	3	src/main/java/org/springframework/samples/petclinic/web/PetValidator.java
+7	5	src/main/java/org/springframework/samples/petclinic/web/VetController.java
+10	9	src/main/java/org/springframework/samples/petclinic/web/VisitController.java
+0	3	src/main/java/org/springframework/samples/petclinic/web/package-info.java
+13	15	src/test/java/org/springframework/samples/petclinic/model/ValidatorTests.java
+86	86	src/test/java/org/springframework/samples/petclinic/service/AbstractClinicServiceTests.java
+2	2	src/test/java/org/springframework/samples/petclinic/service/ClinicServiceJdbcTests.java
+3	4	src/test/java/org/springframework/samples/petclinic/service/ClinicServiceJpaTests.java
+4	4	src/test/java/org/springframework/samples/petclinic/service/ClinicServiceSpringDataJpaTests.java
+4	4	src/test/java/org/springframework/samples/petclinic/web/VetControllerTests.java
+
+
+
+3	0	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcOwnerRepositoryImpl.java
+1	1	src/main/java/org/springframework/samples/petclinic/web/PetValidator.java
+2	0	src/test/java/org/springframework/samples/petclinic/service/AbstractClinicServiceTests.java
+
+1	1	src/main/java/org/springframework/samples/petclinic/web/OwnerController.java
+1	1	src/main/java/org/springframework/samples/petclinic/web/PetController.java
+
+2	0	src/main/java/org/springframework/samples/petclinic/util/CallMonitoringAspect.java
+
+1	1	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcOwnerRepositoryImpl.java
+1	1	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVisitRepositoryImpl.java
+1	1	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVisitRowMapper.java
+
+1	1	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVisitRepositoryImpl.java
+1	1	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVisitRowMapper.java
+
+1	4	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVetRepositoryImpl.java
+
+2	2	src/main/java/org/springframework/samples/petclinic/model/Owner.java
+2	2	src/main/java/org/springframework/samples/petclinic/model/Pet.java
+2	2	src/main/java/org/springframework/samples/petclinic/model/Vet.java
+1	1	src/main/java/org/springframework/samples/petclinic/model/Vets.java
+3	3	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcOwnerRepositoryImpl.java
+2	2	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPetRepositoryImpl.java
+1	1	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVetRepositoryImpl.java
+
+6	6	src/main/java/org/springframework/samples/petclinic/web/PetController.java
+17	2	src/main/java/org/springframework/samples/petclinic/web/PetValidator.java
+
+0	2	src/test/java/org/springframework/samples/petclinic/web/VetControllerTests.java
+
+1	1	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcOwnerRepositoryImpl.java
+
+1	3	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcOwnerRepositoryImpl.java
+
+0	3	src/test/java/org/springframework/samples/petclinic/web/VetControllerTests.java
+
+1	1	src/test/java/org/springframework/samples/petclinic/service/AbstractClinicServiceTests.java
+
+1	1	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPetRepositoryImpl.java
+2	2	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVetRepositoryImpl.java
+1	1	src/main/java/org/springframework/samples/petclinic/util/EntityUtils.java
+
+0	4	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVisitRepositoryImpl.java
+
+3	3	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPetRowMapper.java
+
+0	4	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcOwnerRepositoryImpl.java
+
+6	2	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPetVisitExtractor.java
+4	0	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVisitRowMapper.java
+
+2	8	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcOwnerRepositoryImpl.java
+1	1	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPetRowMapper.java
+50	0	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPetVisitExtractor.java
+6	24	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVisitRepositoryImpl.java
+38	0	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVisitRowMapper.java
+
+
+
+1	1	src/main/java/org/springframework/samples/petclinic/web/VetController.java
+
+1	1	src/test/java/org/springframework/samples/petclinic/web/{VetControllerTest.java => VetControllerTests.java}
+
+11	1	src/main/java/org/springframework/samples/petclinic/web/VetController.java
+0	73	src/main/java/org/springframework/samples/petclinic/web/VetsAtomView.java
+53	0	src/test/java/org/springframework/samples/petclinic/web/VetControllerTest.java
+
+0	71	src/test/java/org/springframework/samples/petclinic/web/VisitsViewTests.java
+
+1	3	src/test/java/org/springframework/samples/petclinic/model/ValidatorTests.java
+
+1	0	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcOwnerRepositoryImpl.java
+1	1	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPet.java
+
+1	1	src/test/java/org/springframework/samples/petclinic/service/AbstractClinicServiceTests.java
+
+4	4	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcOwnerRepositoryImpl.java
+2	2	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPetRepositoryImpl.java
+3	3	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPetRowMapper.java
+4	5	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVetRepositoryImpl.java
+2	2	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVisitRepositoryImpl.java
+
+35	39	src/test/java/org/springframework/samples/petclinic/service/AbstractClinicServiceTests.java
+
+5	2	src/test/java/org/springframework/samples/petclinic/model/ValidatorTests.java
+33	33	src/test/java/org/springframework/samples/petclinic/service/AbstractClinicServiceTests.java
+0	1	src/test/java/org/springframework/samples/petclinic/web/VisitsViewTests.java
+
+0	2	src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java
+0	5	src/test/java/org/springframework/samples/petclinic/model/ValidatorTests.java
+0	1	src/test/java/org/springframework/samples/petclinic/service/AbstractClinicServiceTests.java
+
+4	1	src/main/java/org/springframework/samples/petclinic/util/CallMonitoringAspect.java
+
+8	7	src/main/java/org/springframework/samples/petclinic/web/OwnerController.java
+
+1	0	src/main/java/org/springframework/samples/petclinic/model/PetType.java
+1	1	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVetRepositoryImpl.java
+1	1	src/main/java/org/springframework/samples/petclinic/service/ClinicService.java
+0	44	src/test/java/org/springframework/samples/petclinic/model/OwnerTests.java
+1	1	src/test/java/org/springframework/samples/petclinic/model/ValidatorTests.java
+15	13	src/test/java/org/springframework/samples/petclinic/service/AbstractClinicServiceTests.java
+1	1	src/test/java/org/springframework/samples/petclinic/web/VisitsViewTests.java
+
+6	4	src/test/java/org/springframework/samples/petclinic/web/VisitsViewTests.java
+
+24	14	src/main/java/org/springframework/samples/petclinic/web/VisitController.java
+
+9	10	src/main/java/org/springframework/samples/petclinic/web/VetsAtomView.java
+
+1	2	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPet.java
+
+3	3	src/main/java/org/springframework/samples/petclinic/web/PetValidator.java
+
+
+7	7	src/main/java/org/springframework/samples/petclinic/service/ClinicService.java
+
+3	0	src/test/java/org/springframework/samples/petclinic/model/ValidatorTests.java
+
+2	1	src/test/java/org/springframework/samples/petclinic/service/ClinicServiceJpaTests.java
+
+10	1	src/main/java/org/springframework/samples/petclinic/web/PetValidator.java
+
+3	1	src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java
+
+1	1	src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java
+
+1	2	src/test/java/org/springframework/samples/petclinic/service/ClinicServiceJpaTests.java
+
+7	4	src/test/java/org/springframework/samples/petclinic/model/ValidatorTests.java
+
+1	1	src/test/java/org/springframework/samples/petclinic/model/ValidatorTests.java
+
+2	2	src/test/java/org/springframework/samples/petclinic/web/{VisitsViewTest.java => VisitsViewTests.java}
+
+2	2	src/test/java/org/springframework/samples/petclinic/model/{ValidatorTest.java => ValidatorTests.java}
+
+2	0	src/main/java/org/springframework/samples/petclinic/web/PetValidator.java
+
+0	1	src/main/java/org/springframework/samples/petclinic/web/PetController.java
+0	1	src/main/java/org/springframework/samples/petclinic/web/VetController.java
+0	1	src/main/java/org/springframework/samples/petclinic/web/VisitController.java
+
+7	6	src/main/java/org/springframework/samples/petclinic/web/OwnerController.java
+5	4	src/main/java/org/springframework/samples/petclinic/web/PetController.java
+4	2	src/main/java/org/springframework/samples/petclinic/web/VetController.java
+4	2	src/main/java/org/springframework/samples/petclinic/web/VisitController.java
+
+1	1	src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaVetRepositoryImpl.java
+
+6	1	src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaOwnerRepositoryImpl.java
+6	1	src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaPetRepositoryImpl.java
+6	1	src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaVisitRepositoryImpl.java
+1	1	src/test/java/org/springframework/samples/petclinic/service/AbstractClinicServiceTests.java
+
+1	1	src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaOwnerRepositoryImpl.java
+1	1	src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaPetRepositoryImpl.java
+1	1	src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaVisitRepositoryImpl.java
+5	0	src/test/java/org/springframework/samples/petclinic/service/AbstractClinicServiceTests.java
+
+45	0	src/test/java/org/springframework/samples/petclinic/model/ValidatorTest.java
+
+0	70	src/main/java/org/springframework/samples/petclinic/repository/springdatajpa/JpaOwnerRepositoryImpl.java
+41	0	src/main/java/org/springframework/samples/petclinic/repository/springdatajpa/SpringDataOwnerRepository.java
+
+1	1	src/test/java/org/springframework/samples/petclinic/web/VisitsViewTest.java
+
+2	0	src/main/java/org/springframework/samples/petclinic/repository/springdatajpa/JpaOwnerRepositoryImpl.java
+
+4	4	src/main/java/org/springframework/samples/petclinic/util/CallMonitoringAspect.java
+
+1	1	src/main/java/org/springframework/samples/petclinic/util/EntityUtils.java
+
+0	1	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVetRepositoryImpl.java
+
+1	1	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcOwnerRepositoryImpl.java
+
+1	0	src/main/java/org/springframework/samples/petclinic/service/ClinicServiceImpl.java
+
+0	1	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVetRepositoryImpl.java
+2	0	src/main/java/org/springframework/samples/petclinic/service/ClinicServiceImpl.java
+
+13	4	src/main/java/org/springframework/samples/petclinic/model/Owner.java
+2	2	src/main/java/org/springframework/samples/petclinic/model/Person.java
+15	3	src/main/java/org/springframework/samples/petclinic/model/Pet.java
+14	4	src/main/java/org/springframework/samples/petclinic/model/Vet.java
+3	2	src/main/java/org/springframework/samples/petclinic/model/Vets.java
+6	2	src/main/java/org/springframework/samples/petclinic/model/Visit.java
+2	2	src/main/java/org/springframework/samples/petclinic/repository/OwnerRepository.java
+2	2	src/main/java/org/springframework/samples/petclinic/repository/PetRepository.java
+2	2	src/main/java/org/springframework/samples/petclinic/repository/VetRepository.java
+2	2	src/main/java/org/springframework/samples/petclinic/repository/VisitRepository.java
+7	6	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcOwnerRepositoryImpl.java
+6	5	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPetRepositoryImpl.java
+3	3	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPetRowMapper.java
+6	6	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVetRepositoryImpl.java
+7	6	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVisitRepositoryImpl.java
+6	5	src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaOwnerRepositoryImpl.java
+5	4	src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaPetRepositoryImpl.java
+5	4	src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaVetRepositoryImpl.java
+5	4	src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaVisitRepositoryImpl.java
+5	4	src/main/java/org/springframework/samples/petclinic/repository/springdatajpa/JpaOwnerRepositoryImpl.java
+2	2	src/main/java/org/springframework/samples/petclinic/repository/springdatajpa/SpringDataPetRepository.java
+7	3	src/main/java/org/springframework/samples/petclinic/service/ClinicService.java
+7	3	src/main/java/org/springframework/samples/petclinic/service/ClinicServiceImpl.java
+2	2	src/main/java/org/springframework/samples/petclinic/util/EntityUtils.java
+9	4	src/main/java/org/springframework/samples/petclinic/web/OwnerController.java
+8	3	src/main/java/org/springframework/samples/petclinic/web/PetController.java
+4	4	src/main/java/org/springframework/samples/petclinic/web/PetTypeFormatter.java
+10	8	src/main/java/org/springframework/samples/petclinic/web/VetsAtomView.java
+7	3	src/main/java/org/springframework/samples/petclinic/web/VisitController.java
+3	3	src/test/java/org/springframework/samples/petclinic/model/OwnerTests.java
+5	6	src/test/java/org/springframework/samples/petclinic/service/AbstractClinicServiceTests.java
+7	6	src/test/java/org/springframework/samples/petclinic/web/VisitsViewTest.java
+
+8	1	src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaOwnerRepositoryImpl.java
+
+1	1	src/test/java/org/springframework/samples/petclinic/service/AbstractClinicServiceTests.java
+2	1	src/test/java/org/springframework/samples/petclinic/service/ClinicServiceJdbcTests.java
+2	4	src/test/java/org/springframework/samples/petclinic/service/ClinicServiceJpaTests.java
+2	0	src/test/java/org/springframework/samples/petclinic/service/ClinicServiceSpringDataJpaTests.java
+
+0	103	src/test/java/org/springframework/samples/petclinic/repository/AbstractPetRepositoryTests.java
+0	60	src/test/java/org/springframework/samples/petclinic/repository/AbstractVetRepositoryTests.java
+0	59	src/test/java/org/springframework/samples/petclinic/repository/AbstractVisitRepositoryTests.java
+0	21	src/test/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPetRepositoryImplTests.java
+0	21	src/test/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVetRepositoryImplTests.java
+0	21	src/test/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVisitRepositoryImplTests.java
+0	21	src/test/java/org/springframework/samples/petclinic/repository/jpa/JpaPetRepositoryImplTests.java
+0	21	src/test/java/org/springframework/samples/petclinic/repository/jpa/JpaVetRepositoryImplTests.java
+0	21	src/test/java/org/springframework/samples/petclinic/repository/jpa/JpaVisitRepositoryImplTests.java
+0	26	src/test/java/org/springframework/samples/petclinic/repository/springdatajpa/JpaOwnerRepositoryImplTests.java
+0	21	src/test/java/org/springframework/samples/petclinic/repository/springdatajpa/JpaPetRepositoryImplTests.java
+0	21	src/test/java/org/springframework/samples/petclinic/repository/springdatajpa/JpaVetRepositoryImplTests.java
+0	21	src/test/java/org/springframework/samples/petclinic/repository/springdatajpa/JpaVisitRepositoryImplTests.java
+91	2	src/test/java/org/springframework/samples/petclinic/{repository/AbstractOwnerRepositoryTests.java => service/AbstractClinicServiceTests.java}
+2	3	src/test/java/org/springframework/samples/petclinic/{repository/jdbc/JdbcOwnerRepositoryImplTests.java => service/ClinicServiceJdbcTests.java}
+2	3	src/test/java/org/springframework/samples/petclinic/{repository/jpa/JpaOwnerRepositoryImplTests.java => service/ClinicServiceJpaTests.java}
+2	3	src/test/java/org/springframework/samples/petclinic/{repository/springdatajpa/SpringDataOwnerRepositoryTests.java => service/ClinicServiceSpringDataJpaTests.java}
+
+1	1	src/test/java/org/springframework/samples/petclinic/repository/jdbc/JdbcOwnerRepositoryImplTests.java
+1	1	src/test/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPetRepositoryImplTests.java
+1	1	src/test/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVetRepositoryImplTests.java
+1	1	src/test/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVisitRepositoryImplTests.java
+1	1	src/test/java/org/springframework/samples/petclinic/repository/jpa/JpaOwnerRepositoryImplTests.java
+1	1	src/test/java/org/springframework/samples/petclinic/repository/jpa/JpaPetRepositoryImplTests.java
+1	1	src/test/java/org/springframework/samples/petclinic/repository/jpa/JpaVetRepositoryImplTests.java
+1	1	src/test/java/org/springframework/samples/petclinic/repository/jpa/JpaVisitRepositoryImplTests.java
+1	1	src/test/java/org/springframework/samples/petclinic/repository/springdatajpa/JpaOwnerRepositoryImplTests.java
+1	1	src/test/java/org/springframework/samples/petclinic/repository/springdatajpa/JpaPetRepositoryImplTests.java
+1	1	src/test/java/org/springframework/samples/petclinic/repository/springdatajpa/JpaVetRepositoryImplTests.java
+1	1	src/test/java/org/springframework/samples/petclinic/repository/springdatajpa/JpaVisitRepositoryImplTests.java
+1	1	src/test/java/org/springframework/samples/petclinic/repository/springdatajpa/SpringDataOwnerRepositoryTests.java
+
+15	15	src/test/java/org/springframework/samples/petclinic/repository/AbstractOwnerRepositoryTests.java
+15	19	src/test/java/org/springframework/samples/petclinic/repository/AbstractPetRepositoryTests.java
+8	9	src/test/java/org/springframework/samples/petclinic/repository/AbstractVetRepositoryTests.java
+7	9	src/test/java/org/springframework/samples/petclinic/repository/AbstractVisitRepositoryTests.java
+
+1	1	src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaOwnerRepositoryImpl.java
+1	1	src/main/java/org/springframework/samples/petclinic/repository/springdatajpa/JpaOwnerRepositoryImpl.java
+
+0	92	src/test/java/org/springframework/samples/petclinic/web/VisitsAtomViewTest.java
+12	12	src/test/java/org/springframework/samples/petclinic/web/{VisitsAtomViewWithContainerTest.java => VisitsViewTest.java}
+
+14	14	src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java
+15	15	src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java
+112	119	src/main/java/org/springframework/samples/petclinic/model/Owner.java
+20	21	src/main/java/org/springframework/samples/petclinic/model/Person.java
+64	75	src/main/java/org/springframework/samples/petclinic/model/Pet.java
+2	1	src/main/java/org/springframework/samples/petclinic/model/PetType.java
+3	2	src/main/java/org/springframework/samples/petclinic/model/Specialty.java
+31	40	src/main/java/org/springframework/samples/petclinic/model/Vet.java
+12	13	src/main/java/org/springframework/samples/petclinic/model/Vets.java
+87	70	src/main/java/org/springframework/samples/petclinic/model/Visit.java
+31	29	src/main/java/org/springframework/samples/petclinic/repository/OwnerRepository.java
+26	24	src/main/java/org/springframework/samples/petclinic/repository/PetRepository.java
+10	11	src/main/java/org/springframework/samples/petclinic/repository/VetRepository.java
+12	13	src/main/java/org/springframework/samples/petclinic/repository/VisitRepository.java
+115	121	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcOwnerRepositoryImpl.java
+16	16	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPet.java
+84	86	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPetRepositoryImpl.java
+16	15	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPetRowMapper.java
+48	45	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVetRepositoryImpl.java
+56	57	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVisitRepositoryImpl.java
+28	26	src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaOwnerRepositoryImpl.java
+19	17	src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaPetRepositoryImpl.java
+14	14	src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaVetRepositoryImpl.java
+18	17	src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaVisitRepositoryImpl.java
+31	29	src/main/java/org/springframework/samples/petclinic/repository/springdatajpa/JpaOwnerRepositoryImpl.java
+6	5	src/main/java/org/springframework/samples/petclinic/repository/springdatajpa/SpringDataPetRepository.java
+1	1	src/main/java/org/springframework/samples/petclinic/repository/springdatajpa/SpringDataVisitRepository.java
+15	19	src/main/java/org/springframework/samples/petclinic/service/ClinicService.java
+67	72	src/main/java/org/springframework/samples/petclinic/service/ClinicServiceImpl.java
+55	58	src/main/java/org/springframework/samples/petclinic/util/CallMonitoringAspect.java
+24	25	src/main/java/org/springframework/samples/petclinic/util/EntityUtils.java
+10	10	src/main/java/org/springframework/samples/petclinic/web/CrashController.java
+97	106	src/main/java/org/springframework/samples/petclinic/web/OwnerController.java
+53	61	src/main/java/org/springframework/samples/petclinic/web/PetController.java
+28	29	src/main/java/org/springframework/samples/petclinic/web/PetTypeFormatter.java
+8	9	src/main/java/org/springframework/samples/petclinic/web/PetValidator.java
+14	18	src/main/java/org/springframework/samples/petclinic/web/VetController.java
+37	39	src/main/java/org/springframework/samples/petclinic/web/VetsAtomView.java
+36	42	src/main/java/org/springframework/samples/petclinic/web/VisitController.java
+15	16	src/test/java/org/springframework/samples/petclinic/model/OwnerTests.java
+60	72	src/test/java/org/springframework/samples/petclinic/repository/AbstractOwnerRepositoryTests.java
+63	63	src/test/java/org/springframework/samples/petclinic/repository/AbstractPetRepositoryTests.java
+25	28	src/test/java/org/springframework/samples/petclinic/repository/AbstractVetRepositoryTests.java
+23	27	src/test/java/org/springframework/samples/petclinic/repository/AbstractVisitRepositoryTests.java
+4	9	src/test/java/org/springframework/samples/petclinic/repository/jdbc/JdbcOwnerRepositoryImplTests.java
+4	9	src/test/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPetRepositoryImplTests.java
+4	9	src/test/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVetRepositoryImplTests.java
+4	9	src/test/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVisitRepositoryImplTests.java
+6	14	src/test/java/org/springframework/samples/petclinic/repository/jpa/JpaOwnerRepositoryImplTests.java
+4	9	src/test/java/org/springframework/samples/petclinic/repository/jpa/JpaPetRepositoryImplTests.java
+4	9	src/test/java/org/springframework/samples/petclinic/repository/jpa/JpaVetRepositoryImplTests.java
+4	9	src/test/java/org/springframework/samples/petclinic/repository/jpa/JpaVisitRepositoryImplTests.java
+6	14	src/test/java/org/springframework/samples/petclinic/repository/springdatajpa/JpaOwnerRepositoryImplTests.java
+4	9	src/test/java/org/springframework/samples/petclinic/repository/springdatajpa/JpaPetRepositoryImplTests.java
+4	9	src/test/java/org/springframework/samples/petclinic/repository/springdatajpa/JpaVetRepositoryImplTests.java
+4	9	src/test/java/org/springframework/samples/petclinic/repository/springdatajpa/JpaVisitRepositoryImplTests.java
+2	2	src/test/java/org/springframework/samples/petclinic/repository/springdatajpa/SpringDataOwnerRepositoryTests.java
+60	61	src/test/java/org/springframework/samples/petclinic/web/VisitsAtomViewTest.java
+23	24	src/test/java/org/springframework/samples/petclinic/web/VisitsAtomViewWithContainerTest.java
+
+0	1	src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaVisitRepositoryImpl.java
+15	23	src/main/java/org/springframework/samples/petclinic/web/{VisitsAtomView.java => VetsAtomView.java}
+2	44	src/test/java/org/springframework/samples/petclinic/web/VisitsAtomViewTest.java
+70	0	src/test/java/org/springframework/samples/petclinic/web/VisitsAtomViewWithContainerTest.java
+
+1	1	src/test/java/org/springframework/samples/petclinic/web/VisitsAtomViewTest.java
+
+48	4	src/test/java/org/springframework/samples/petclinic/web/VisitsAtomViewTest.java
+
+1	1	src/test/java/org/springframework/samples/petclinic/{ => model}/OwnerTests.java
+1	1	src/test/java/org/springframework/samples/petclinic/{ => repository}/AbstractOwnerRepositoryTests.java
+1	1	src/test/java/org/springframework/samples/petclinic/{ => repository}/AbstractPetRepositoryTests.java
+1	1	src/test/java/org/springframework/samples/petclinic/{ => repository}/AbstractVetRepositoryTests.java
+1	1	src/test/java/org/springframework/samples/petclinic/{ => repository}/AbstractVisitRepositoryTests.java
+2	2	src/test/java/org/springframework/samples/petclinic/{ => repository}/jdbc/JdbcOwnerRepositoryImplTests.java
+2	2	src/test/java/org/springframework/samples/petclinic/{ => repository}/jdbc/JdbcPetRepositoryImplTests.java
+2	2	src/test/java/org/springframework/samples/petclinic/{ => repository}/jdbc/JdbcVetRepositoryImplTests.java
+2	2	src/test/java/org/springframework/samples/petclinic/{ => repository}/jdbc/JdbcVisitRepositoryImplTests.java
+2	2	src/test/java/org/springframework/samples/petclinic/{ => repository}/jpa/JpaOwnerRepositoryImplTests.java
+2	2	src/test/java/org/springframework/samples/petclinic/{ => repository}/jpa/JpaPetRepositoryImplTests.java
+2	2	src/test/java/org/springframework/samples/petclinic/{ => repository}/jpa/JpaVetRepositoryImplTests.java
+2	2	src/test/java/org/springframework/samples/petclinic/{ => repository}/jpa/JpaVisitRepositoryImplTests.java
+2	2	src/test/java/org/springframework/samples/petclinic/{ => repository}/springdatajpa/JpaOwnerRepositoryImplTests.java
+2	2	src/test/java/org/springframework/samples/petclinic/{ => repository}/springdatajpa/JpaPetRepositoryImplTests.java
+2	2	src/test/java/org/springframework/samples/petclinic/{ => repository}/springdatajpa/JpaVetRepositoryImplTests.java
+2	2	src/test/java/org/springframework/samples/petclinic/{ => repository}/springdatajpa/JpaVisitRepositoryImplTests.java
+2	2	src/test/java/org/springframework/samples/petclinic/{ => repository}/springdatajpa/SpringDataOwnerRepositoryTests.java
+
+22	44	src/test/java/org/springframework/samples/petclinic/AbstractOwnerRepositoryTests.java
+18	61	src/test/java/org/springframework/samples/petclinic/AbstractPetRepositoryTests.java
+19	61	src/test/java/org/springframework/samples/petclinic/AbstractVetRepositoryTests.java
+19	61	src/test/java/org/springframework/samples/petclinic/AbstractVisitRepositoryTests.java
+15	0	src/test/java/org/springframework/samples/petclinic/OwnerTests.java
+15	0	src/test/java/org/springframework/samples/petclinic/jdbc/JdbcOwnerRepositoryImplTests.java
+
+15	0	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcOwnerRepositoryImpl.java
+15	0	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPet.java
+15	0	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPetRepositoryImpl.java
+15	0	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPetRowMapper.java
+18	0	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVetRepositoryImpl.java
+16	5	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVisitRepositoryImpl.java
+
+16	5	src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaOwnerRepositoryImpl.java
+16	3	src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaPetRepositoryImpl.java
+17	4	src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaVetRepositoryImpl.java
+15	2	src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaVisitRepositoryImpl.java
+0	2	src/main/java/org/springframework/samples/petclinic/repository/springdatajpa/JpaOwnerRepositoryImpl.java
+
+16	1	src/main/java/org/springframework/samples/petclinic/repository/springdatajpa/JpaOwnerRepositoryImpl.java
+16	0	src/main/java/org/springframework/samples/petclinic/repository/springdatajpa/SpringDataPetRepository.java
+16	0	src/main/java/org/springframework/samples/petclinic/repository/springdatajpa/SpringDataVetRepository.java
+17	1	src/main/java/org/springframework/samples/petclinic/repository/springdatajpa/SpringDataVisitRepository.java
+
+36	5	src/main/java/org/springframework/samples/petclinic/repository/OwnerRepository.java
+20	4	src/main/java/org/springframework/samples/petclinic/repository/PetRepository.java
+20	4	src/main/java/org/springframework/samples/petclinic/repository/VetRepository.java
+20	4	src/main/java/org/springframework/samples/petclinic/repository/VisitRepository.java
+
+15	0	src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java
+15	0	src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java
+15	0	src/main/java/org/springframework/samples/petclinic/model/Owner.java
+15	0	src/main/java/org/springframework/samples/petclinic/model/Person.java
+15	0	src/main/java/org/springframework/samples/petclinic/model/Pet.java
+15	0	src/main/java/org/springframework/samples/petclinic/model/PetType.java
+15	0	src/main/java/org/springframework/samples/petclinic/model/Specialty.java
+15	0	src/main/java/org/springframework/samples/petclinic/model/Vet.java
+2	2	src/main/java/org/springframework/samples/petclinic/model/Vets.java
+15	0	src/main/java/org/springframework/samples/petclinic/model/Visit.java
+16	7	src/main/java/org/springframework/samples/petclinic/service/ClinicService.java
+20	0	src/main/java/org/springframework/samples/petclinic/service/ClinicServiceImpl.java
+17	2	src/main/java/org/springframework/samples/petclinic/util/CallMonitoringAspect.java
+15	0	src/main/java/org/springframework/samples/petclinic/util/EntityUtils.java
+
+1	1	src/main/java/org/springframework/samples/petclinic/web/PetTypeFormatter.java
+
+9	28	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVetRepositoryImpl.java
+2	0	src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaVetRepositoryImpl.java
+
+0	11	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcOwnerRepositoryImpl.java
+0	2	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVetRepositoryImpl.java
+0	2	src/main/java/org/springframework/samples/petclinic/service/ClinicServiceImpl.java
+2	4	src/test/java/org/springframework/samples/petclinic/AbstractOwnerRepositoryTests.java
+2	2	src/test/java/org/springframework/samples/petclinic/AbstractPetRepositoryTests.java
+2	1	src/test/java/org/springframework/samples/petclinic/OwnerTests.java
+
+1	1	src/main/java/org/springframework/samples/petclinic/{ => model}/BaseEntity.java
+1	1	src/main/java/org/springframework/samples/petclinic/{ => model}/NamedEntity.java
+1	1	src/main/java/org/springframework/samples/petclinic/{ => model}/Owner.java
+1	1	src/main/java/org/springframework/samples/petclinic/{ => model}/Person.java
+1	1	src/main/java/org/springframework/samples/petclinic/{ => model}/Pet.java
+1	1	src/main/java/org/springframework/samples/petclinic/{ => model}/PetType.java
+1	1	src/main/java/org/springframework/samples/petclinic/{ => model}/Specialty.java
+1	1	src/main/java/org/springframework/samples/petclinic/{ => model}/Vet.java
+1	1	src/main/java/org/springframework/samples/petclinic/{ => model}/Vets.java
+1	1	src/main/java/org/springframework/samples/petclinic/{ => model}/Visit.java
+1	1	src/main/java/org/springframework/samples/petclinic/{ => model}/package-info.java
+2	2	src/main/java/org/springframework/samples/petclinic/repository/OwnerRepository.java
+3	3	src/main/java/org/springframework/samples/petclinic/repository/PetRepository.java
+1	1	src/main/java/org/springframework/samples/petclinic/repository/VetRepository.java
+2	2	src/main/java/org/springframework/samples/petclinic/repository/VisitRepository.java
+4	4	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcOwnerRepositoryImpl.java
+1	1	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPet.java
+4	4	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPetRepositoryImpl.java
+3	3	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVetRepositoryImpl.java
+1	1	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVisitRepositoryImpl.java
+1	1	src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaOwnerRepositoryImpl.java
+2	2	src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaPetRepositoryImpl.java
+1	1	src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaVetRepositoryImpl.java
+1	1	src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaVisitRepositoryImpl.java
+1	1	src/main/java/org/springframework/samples/petclinic/repository/springdatajpa/JpaOwnerRepositoryImpl.java
+2	2	src/main/java/org/springframework/samples/petclinic/repository/springdatajpa/SpringDataPetRepository.java
+1	1	src/main/java/org/springframework/samples/petclinic/repository/springdatajpa/SpringDataVetRepository.java
+1	1	src/main/java/org/springframework/samples/petclinic/repository/springdatajpa/SpringDataVisitRepository.java
+5	5	src/main/java/org/springframework/samples/petclinic/service/ClinicService.java
+5	5	src/main/java/org/springframework/samples/petclinic/service/ClinicServiceImpl.java
+2	2	src/main/java/org/springframework/samples/petclinic/util/EntityUtils.java
+1	1	src/main/java/org/springframework/samples/petclinic/web/OwnerController.java
+3	3	src/main/java/org/springframework/samples/petclinic/web/PetController.java
+1	1	src/main/java/org/springframework/samples/petclinic/web/PetTypeFormatter.java
+1	1	src/main/java/org/springframework/samples/petclinic/web/PetValidator.java
+1	1	src/main/java/org/springframework/samples/petclinic/web/VetController.java
+2	2	src/main/java/org/springframework/samples/petclinic/web/VisitController.java
+1	1	src/main/java/org/springframework/samples/petclinic/web/VisitsAtomView.java
+1	0	src/test/java/org/springframework/samples/petclinic/AbstractOwnerRepositoryTests.java
+3	0	src/test/java/org/springframework/samples/petclinic/AbstractPetRepositoryTests.java
+1	0	src/test/java/org/springframework/samples/petclinic/AbstractVetRepositoryTests.java
+2	0	src/test/java/org/springframework/samples/petclinic/AbstractVisitRepositoryTests.java
+2	0	src/test/java/org/springframework/samples/petclinic/OwnerTests.java
+3	3	src/test/java/org/springframework/samples/petclinic/web/VisitsAtomViewTest.java
+
+1	1	src/main/java/org/springframework/samples/petclinic/{aspects => util}/CallMonitoringAspect.java
+
+0	9	src/main/java/org/springframework/samples/petclinic/validation/package-info.java
+0	1	src/main/java/org/springframework/samples/petclinic/web/PetController.java
+1	1	src/main/java/org/springframework/samples/petclinic/{validation => web}/PetValidator.java
+
+15	0	src/main/java/org/springframework/samples/petclinic/validation/PetValidator.java
+15	1	src/main/java/org/springframework/samples/petclinic/web/CrashController.java
+15	1	src/main/java/org/springframework/samples/petclinic/web/OwnerController.java
+15	1	src/main/java/org/springframework/samples/petclinic/web/PetController.java
+15	0	src/main/java/org/springframework/samples/petclinic/web/PetTypeFormatter.java
+15	1	src/main/java/org/springframework/samples/petclinic/web/VetController.java
+15	1	src/main/java/org/springframework/samples/petclinic/web/VisitController.java
+15	0	src/main/java/org/springframework/samples/petclinic/web/VisitsAtomView.java
+
+1	1	src/main/java/org/springframework/samples/petclinic/Pet.java
+1	1	src/main/java/org/springframework/samples/petclinic/Vets.java
+4	1	src/main/java/org/springframework/samples/petclinic/web/CrashController.java
+0	1	src/main/java/org/springframework/samples/petclinic/web/OwnerController.java
+0	2	src/main/java/org/springframework/samples/petclinic/web/PetController.java
+8	0	src/main/java/org/springframework/samples/petclinic/web/PetTypeFormatter.java
+2	13	src/main/java/org/springframework/samples/petclinic/web/VetController.java
+1	8	src/main/java/org/springframework/samples/petclinic/web/VisitController.java
+0	16	src/main/java/org/springframework/samples/petclinic/web/VisitsAtomView.java
+0	1	src/test/java/org/springframework/samples/petclinic/web/VisitsAtomViewTest.java
+
+5	0	src/main/java/org/springframework/samples/petclinic/service/ClinicService.java
+14	0	src/main/java/org/springframework/samples/petclinic/service/ClinicServiceImpl.java
+9	9	src/main/java/org/springframework/samples/petclinic/web/OwnerController.java
+
+5	5	src/main/java/org/springframework/samples/petclinic/web/OwnerController.java
+6	6	src/main/java/org/springframework/samples/petclinic/web/PetController.java
+4	4	src/main/java/org/springframework/samples/petclinic/web/VisitController.java
+
+1	1	src/main/java/org/springframework/samples/petclinic/aspects/CallMonitoringAspect.java
+
+5	2	src/main/java/org/springframework/samples/petclinic/aspects/CallMonitoringAspect.java
+0	48	src/main/java/org/springframework/samples/petclinic/aspects/UsageLogAspect.java
+2	2	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcOwnerRepositoryImpl.java
+2	2	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVetRepositoryImpl.java
+2	2	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVisitRepositoryImpl.java
+0	56	src/test/java/org/springframework/samples/petclinic/aspects/UsageLogAspectTests.java
+1	1	src/test/java/org/springframework/samples/petclinic/jdbc/JdbcOwnerRepositoryImplTests.java
+1	1	src/test/java/org/springframework/samples/petclinic/jdbc/JdbcPetRepositoryImplTests.java
+1	1	src/test/java/org/springframework/samples/petclinic/jdbc/JdbcVetRepositoryImplTests.java
+1	1	src/test/java/org/springframework/samples/petclinic/jdbc/JdbcVisitRepositoryImplTests.java
+1	1	src/test/java/org/springframework/samples/petclinic/jpa/JpaOwnerRepositoryImplTests.java
+1	1	src/test/java/org/springframework/samples/petclinic/jpa/JpaPetRepositoryImplTests.java
+1	1	src/test/java/org/springframework/samples/petclinic/jpa/JpaVetRepositoryImplTests.java
+1	1	src/test/java/org/springframework/samples/petclinic/jpa/JpaVisitRepositoryImplTests.java
+1	1	src/test/java/org/springframework/samples/petclinic/springdatajpa/JpaOwnerRepositoryImplTests.java
+1	1	src/test/java/org/springframework/samples/petclinic/springdatajpa/JpaPetRepositoryImplTests.java
+1	1	src/test/java/org/springframework/samples/petclinic/springdatajpa/JpaVetRepositoryImplTests.java
+1	1	src/test/java/org/springframework/samples/petclinic/springdatajpa/JpaVisitRepositoryImplTests.java
+1	1	src/test/java/org/springframework/samples/petclinic/springdatajpa/SpringDataOwnerRepositoryTests.java
+
+3	1	src/main/java/org/springframework/samples/petclinic/Vet.java
+1	1	src/main/java/org/springframework/samples/petclinic/web/VetController.java
+
+1	1	src/main/java/org/springframework/samples/petclinic/web/VisitController.java
+
+52	0	src/main/java/org/springframework/samples/petclinic/repository/springdatajpa/JpaOwnerRepositoryImpl.java
+0	20	src/main/java/org/springframework/samples/petclinic/repository/springdatajpa/SpringDataOwnerRepository.java
+
+2	3	src/main/java/org/springframework/samples/petclinic/Visit.java
+
+2	0	src/main/java/org/springframework/samples/petclinic/Visit.java
+
+2	0	src/main/java/org/springframework/samples/petclinic/Pet.java
+0	30	src/main/java/org/springframework/samples/petclinic/web/ClinicBindingInitializer.java
+0	30	src/main/java/org/springframework/samples/petclinic/web/PetTypeEditor.java
+44	0	src/main/java/org/springframework/samples/petclinic/web/PetTypeFormatter.java
+
+4	5	src/main/java/org/springframework/samples/petclinic/Owner.java
+
+2	2	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcOwnerRepositoryImpl.java
+
+23	0	src/main/java/org/springframework/samples/petclinic/web/CrashController.java
+2	1	src/main/java/org/springframework/samples/petclinic/web/OwnerController.java
+
+2	4	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcOwnerRepositoryImpl.java
+4	2	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVetRepositoryImpl.java
+1	2	src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaOwnerRepositoryImpl.java
+7	0	src/main/java/org/springframework/samples/petclinic/repository/springdatajpa/SpringDataOwnerRepository.java
+9	8	src/main/java/org/springframework/samples/petclinic/service/ClinicServiceImpl.java
+
+31	23	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcOwnerRepositoryImpl.java
+16	11	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPetRepositoryImpl.java
+1	1	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVisitRepositoryImpl.java
+1	2	src/main/java/org/springframework/samples/petclinic/web/OwnerController.java
+
+2	1	src/main/java/org/springframework/samples/petclinic/Pet.java
+3	3	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcOwnerRepositoryImpl.java
+9	2	src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaOwnerRepositoryImpl.java
+1	1	src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaVetRepositoryImpl.java
+6	15	src/test/java/org/springframework/samples/petclinic/AbstractOwnerRepositoryTests.java
+25	25	src/test/java/org/springframework/samples/petclinic/AbstractPetRepositoryTests.java
+6	7	src/test/java/org/springframework/samples/petclinic/AbstractVisitRepositoryTests.java
+
+0	2	src/test/java/org/springframework/samples/petclinic/jdbc/JdbcOwnerRepositoryImplTests.java
+0	2	src/test/java/org/springframework/samples/petclinic/jdbc/JdbcPetRepositoryImplTests.java
+0	2	src/test/java/org/springframework/samples/petclinic/jdbc/JdbcVetRepositoryImplTests.java
+0	2	src/test/java/org/springframework/samples/petclinic/jdbc/JdbcVisitRepositoryImplTests.java
+1	1	src/test/java/org/springframework/samples/petclinic/jpa/JpaOwnerRepositoryImplTests.java
+1	3	src/test/java/org/springframework/samples/petclinic/jpa/JpaPetRepositoryImplTests.java
+1	3	src/test/java/org/springframework/samples/petclinic/jpa/JpaVetRepositoryImplTests.java
+1	3	src/test/java/org/springframework/samples/petclinic/jpa/JpaVisitRepositoryImplTests.java
+1	1	src/test/java/org/springframework/samples/petclinic/springdatajpa/JpaOwnerRepositoryImplTests.java
+1	3	src/test/java/org/springframework/samples/petclinic/springdatajpa/JpaPetRepositoryImplTests.java
+1	3	src/test/java/org/springframework/samples/petclinic/springdatajpa/JpaVetRepositoryImplTests.java
+1	3	src/test/java/org/springframework/samples/petclinic/springdatajpa/JpaVisitRepositoryImplTests.java
+1	1	src/test/java/org/springframework/samples/petclinic/springdatajpa/SpringDataOwnerRepositoryTests.java
+
+6	4	src/main/java/org/springframework/samples/petclinic/Pet.java
+8	6	src/main/java/org/springframework/samples/petclinic/Visit.java
+1	1	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPetRepositoryImpl.java
+4	1	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPetRowMapper.java
+5	2	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVisitRepositoryImpl.java
+0	7	src/main/java/org/springframework/samples/petclinic/web/ClinicBindingInitializer.java
+3	3	src/main/java/org/springframework/samples/petclinic/web/VisitsAtomView.java
+2	2	src/test/java/org/springframework/samples/petclinic/AbstractPetRepositoryTests.java
+4	3	src/test/java/org/springframework/samples/petclinic/web/VisitsAtomViewTest.java
+
+1	1	src/main/java/org/springframework/samples/petclinic/web/VetController.java
+
+0	1	src/main/java/org/springframework/samples/petclinic/Person.java
+1	0	src/main/java/org/springframework/samples/petclinic/Vets.java
+0	31	src/main/java/org/springframework/samples/petclinic/aspects/AbstractTraceAspect.java
+2	5	src/main/java/org/springframework/samples/petclinic/aspects/CallMonitoringAspect.java
+1	1	src/main/java/org/springframework/samples/petclinic/aspects/UsageLogAspect.java
+3	11	src/main/java/org/springframework/samples/petclinic/repository/PetRepository.java
+1	1	src/main/java/org/springframework/samples/petclinic/repository/VetRepository.java
+1	1	src/main/java/org/springframework/samples/petclinic/repository/VisitRepository.java
+0	20	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcClinicImplMBean.java
+1	13	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcOwnerRepositoryImpl.java
+4	50	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPetRepositoryImpl.java
+3	28	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVetRepositoryImpl.java
+2	37	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVisitRepositoryImpl.java
+0	86	src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaClinicImpl.java
+0	7	src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaOwnerRepositoryImpl.java
+43	0	src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaPetRepositoryImpl.java
+35	0	src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaVetRepositoryImpl.java
+46	0	src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaVisitRepositoryImpl.java
+0	45	src/main/java/org/springframework/samples/petclinic/repository/jpa/SpringDataClinic.java
+1	1	src/main/java/org/springframework/samples/petclinic/repository/{jpa => springdatajpa}/SpringDataOwnerRepository.java
+21	0	src/main/java/org/springframework/samples/petclinic/repository/springdatajpa/SpringDataPetRepository.java
+13	0	src/main/java/org/springframework/samples/petclinic/repository/springdatajpa/SpringDataVetRepository.java
+13	0	src/main/java/org/springframework/samples/petclinic/repository/springdatajpa/SpringDataVisitRepository.java
+4	6	src/main/java/org/springframework/samples/petclinic/service/ClinicService.java
+15	12	src/main/java/org/springframework/samples/petclinic/service/ClinicServiceImpl.java
+3	10	src/main/java/org/springframework/samples/petclinic/web/PetController.java
+1	1	src/main/java/org/springframework/samples/petclinic/web/PetTypeEditor.java
+1	1	src/main/java/org/springframework/samples/petclinic/web/VetController.java
+1	1	src/main/java/org/springframework/samples/petclinic/web/VisitController.java
+4	3	src/main/java/org/springframework/samples/petclinic/web/VisitsAtomView.java
+5	7	src/test/java/org/springframework/samples/petclinic/AbstractOwnerRepositoryTests.java
+9	9	src/test/java/org/springframework/samples/petclinic/AbstractPetRepositoryTests.java
+4	6	src/test/java/org/springframework/samples/petclinic/AbstractVetRepositoryTests.java
+3	8	src/test/java/org/springframework/samples/petclinic/AbstractVisitRepositoryTests.java
+0	1	src/test/java/org/springframework/samples/petclinic/jdbc/JdbcOwnerRepositoryImplTests.java
+0	1	src/test/java/org/springframework/samples/petclinic/jdbc/JdbcPetRepositoryImplTests.java
+0	1	src/test/java/org/springframework/samples/petclinic/jdbc/JdbcVetRepositoryImplTests.java
+0	1	src/test/java/org/springframework/samples/petclinic/jdbc/JdbcVisitRepositoryImplTests.java
+0	1	src/test/java/org/springframework/samples/petclinic/jpa/JpaPetRepositoryImplTests.java
+0	1	src/test/java/org/springframework/samples/petclinic/jpa/JpaVetRepositoryImplTests.java
+0	1	src/test/java/org/springframework/samples/petclinic/jpa/JpaVisitRepositoryImplTests.java
+34	0	src/test/java/org/springframework/samples/petclinic/springdatajpa/JpaOwnerRepositoryImplTests.java
+28	0	src/test/java/org/springframework/samples/petclinic/springdatajpa/JpaPetRepositoryImplTests.java
+28	0	src/test/java/org/springframework/samples/petclinic/springdatajpa/JpaVetRepositoryImplTests.java
+28	0	src/test/java/org/springframework/samples/petclinic/springdatajpa/JpaVisitRepositoryImplTests.java
+1	1	src/test/java/org/springframework/samples/petclinic/{jpa => springdatajpa}/SpringDataOwnerRepositoryTests.java
+6	5	src/test/java/org/springframework/samples/petclinic/web/VisitsAtomViewTest.java
+
+0	82	src/main/java/org/springframework/samples/petclinic/Clinic.java
+0	7	src/main/java/org/springframework/samples/petclinic/Owner.java
+1	1	src/main/java/org/springframework/samples/petclinic/aspects/UsageLogAspect.java
+0	344	src/main/java/org/springframework/samples/petclinic/jdbc/JdbcClinicImpl.java
+47	0	src/main/java/org/springframework/samples/petclinic/repository/OwnerRepository.java
+51	0	src/main/java/org/springframework/samples/petclinic/repository/PetRepository.java
+27	0	src/main/java/org/springframework/samples/petclinic/repository/VetRepository.java
+30	0	src/main/java/org/springframework/samples/petclinic/repository/VisitRepository.java
+3	3	src/main/java/org/springframework/samples/petclinic/{ => repository}/jdbc/JdbcClinicImplMBean.java
+173	0	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcOwnerRepositoryImpl.java
+2	2	src/main/java/org/springframework/samples/petclinic/{ => repository}/jdbc/JdbcPet.java
+160	0	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPetRepositoryImpl.java
+23	0	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPetRowMapper.java
+118	0	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVetRepositoryImpl.java
+131	0	src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVisitRepositoryImpl.java
+1	1	src/main/java/org/springframework/samples/petclinic/{ => repository}/jdbc/package-info.java
+4	4	src/main/java/org/springframework/samples/petclinic/{ => repository}/jpa/JpaClinicImpl.java
+57	0	src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaOwnerRepositoryImpl.java
+3	3	src/main/java/org/springframework/samples/petclinic/{ => repository}/jpa/SpringDataClinic.java
+13	0	src/main/java/org/springframework/samples/petclinic/repository/jpa/SpringDataOwnerRepository.java
+1	1	src/main/java/org/springframework/samples/petclinic/{ => repository}/jpa/package-info.java
+39	0	src/main/java/org/springframework/samples/petclinic/service/ClinicService.java
+71	0	src/main/java/org/springframework/samples/petclinic/service/ClinicServiceImpl.java
+3	3	src/main/java/org/springframework/samples/petclinic/web/ClinicBindingInitializer.java
+0	99	src/main/java/org/springframework/samples/petclinic/web/ClinicController.java
+22	8	src/main/java/org/springframework/samples/petclinic/web/OwnerController.java
+12	12	src/main/java/org/springframework/samples/petclinic/web/PetController.java
+5	5	src/main/java/org/springframework/samples/petclinic/web/PetTypeEditor.java
+54	0	src/main/java/org/springframework/samples/petclinic/web/VetController.java
+22	8	src/main/java/org/springframework/samples/petclinic/web/VisitController.java
+1	1	src/main/java/org/springframework/samples/petclinic/web/VisitsAtomView.java
+147	0	src/test/java/org/springframework/samples/petclinic/AbstractOwnerRepositoryTests.java
+24	98	src/test/java/org/springframework/samples/petclinic/{AbstractClinicTests.java => AbstractPetRepositoryTests.java}
+107	0	src/test/java/org/springframework/samples/petclinic/AbstractVetRepositoryTests.java
+111	0	src/test/java/org/springframework/samples/petclinic/AbstractVisitRepositoryTests.java
+7	8	src/test/java/org/springframework/samples/petclinic/aspects/UsageLogAspectTests.java
+29	0	src/test/java/org/springframework/samples/petclinic/jdbc/JdbcOwnerRepositoryImplTests.java
+3	2	src/test/java/org/springframework/samples/petclinic/jdbc/{JdbcClinicImplTests.java => JdbcPetRepositoryImplTests.java}
+29	0	src/test/java/org/springframework/samples/petclinic/jdbc/JdbcVetRepositoryImplTests.java
+29	0	src/test/java/org/springframework/samples/petclinic/jdbc/JdbcVisitRepositoryImplTests.java
+2	27	src/test/java/org/springframework/samples/petclinic/jpa/{JpaClinicImplTests.java => JpaOwnerRepositoryImplTests.java}
+29	0	src/test/java/org/springframework/samples/petclinic/jpa/JpaPetRepositoryImplTests.java
+29	0	src/test/java/org/springframework/samples/petclinic/jpa/JpaVetRepositoryImplTests.java
+29	0	src/test/java/org/springframework/samples/petclinic/jpa/JpaVisitRepositoryImplTests.java
+2	2	src/test/java/org/springframework/samples/petclinic/jpa/{SpringDataClinicTests.java => SpringDataOwnerRepositoryTests.java}
+
+8	0	src/main/java/org/springframework/samples/petclinic/web/ClinicController.java
+
+3	0	src/main/java/org/springframework/samples/petclinic/Visit.java
+0	21	src/main/java/org/springframework/samples/petclinic/validation/VisitValidator.java
+7	9	src/main/java/org/springframework/samples/petclinic/web/{AddVisitController.java => VisitController.java}
+
+1	1	src/main/java/org/springframework/samples/petclinic/web/PetController.java
+
+1	0	src/main/java/org/springframework/samples/petclinic/NamedEntity.java
+7	5	src/main/java/org/springframework/samples/petclinic/Owner.java
+0	80	src/main/java/org/springframework/samples/petclinic/web/EditPetController.java
+34	7	src/main/java/org/springframework/samples/petclinic/web/{AddPetController.java => PetController.java}
+
+5	0	src/main/java/org/springframework/samples/petclinic/Owner.java
+5	0	src/main/java/org/springframework/samples/petclinic/Person.java
+0	43	src/main/java/org/springframework/samples/petclinic/validation/OwnerValidator.java
+0	65	src/main/java/org/springframework/samples/petclinic/web/AddOwnerController.java
+0	65	src/main/java/org/springframework/samples/petclinic/web/EditOwnerController.java
+50	6	src/main/java/org/springframework/samples/petclinic/web/{FindOwnersController.java => OwnerController.java}
+19	0	src/test/java/org/springframework/samples/petclinic/jpa/SpringDataClinicTests.java
+
+2	2	src/main/java/org/springframework/samples/petclinic/jdbc/{JdbcClinic.java => JdbcClinicImpl.java}
+3	3	src/main/java/org/springframework/samples/petclinic/jdbc/{JdbcClinicMBean.java => JdbcClinicImplMBean.java}
+1	1	src/main/java/org/springframework/samples/petclinic/jdbc/JdbcPet.java
+1	1	src/main/java/org/springframework/samples/petclinic/jpa/{JpaClinic.java => JpaClinicImpl.java}
+45	0	src/main/java/org/springframework/samples/petclinic/jpa/SpringDataClinic.java
+2	2	src/test/java/org/springframework/samples/petclinic/aspects/UsageLogAspectTests.java
+2	2	src/test/java/org/springframework/samples/petclinic/jdbc/{JdbcClinicTests.java => JdbcClinicImplTests.java}
+2	2	src/test/java/org/springframework/samples/petclinic/jpa/{JpaClinicTests.java => JpaClinicImplTests.java}
+
+2	2	src/main/java/org/springframework/samples/petclinic/web/AddOwnerController.java
+2	2	src/main/java/org/springframework/samples/petclinic/web/AddPetController.java
+2	2	src/main/java/org/springframework/samples/petclinic/web/AddVisitController.java
+2	2	src/main/java/org/springframework/samples/petclinic/web/ClinicController.java
+2	2	src/main/java/org/springframework/samples/petclinic/web/EditOwnerController.java
+2	2	src/main/java/org/springframework/samples/petclinic/web/EditPetController.java
+4	4	src/main/java/org/springframework/samples/petclinic/web/FindOwnersController.java
+
+3	1	src/test/java/org/springframework/samples/petclinic/aspects/UsageLogAspectTests.java
+4	2	src/test/java/org/springframework/samples/petclinic/jdbc/JdbcClinicTests.java
+3	13	src/test/java/org/springframework/samples/petclinic/jpa/JpaClinicTests.java
+
+1	1	src/main/java/org/springframework/samples/petclinic/jpa/{EntityManagerClinic.java => JpaClinic.java}
+8	8	src/test/java/org/springframework/samples/petclinic/aspects/UsageLogAspectTests.java
+
+19	16	src/main/java/org/springframework/samples/petclinic/jdbc/{SimpleJdbcClinic.java => JdbcClinic.java}
+3	3	src/main/java/org/springframework/samples/petclinic/jdbc/{SimpleJdbcClinicMBean.java => JdbcClinicMBean.java}
+1	1	src/main/java/org/springframework/samples/petclinic/jdbc/JdbcPet.java
+5	6	src/test/java/org/springframework/samples/petclinic/AbstractClinicTests.java
+5	1	src/test/java/org/springframework/samples/petclinic/aspects/UsageLogAspectTests.java
+26	0	src/test/java/org/springframework/samples/petclinic/jdbc/JdbcClinicTests.java
+0	21	src/test/java/org/springframework/samples/petclinic/jdbc/SimpleJdbcClinicTests.java
+4	119	src/test/java/org/springframework/samples/petclinic/jpa/JpaClinicTests.java
+
+3	1	src/main/java/org/springframework/samples/petclinic/BaseEntity.java
+4	1	src/main/java/org/springframework/samples/petclinic/Vet.java
+5	15	src/main/java/org/springframework/samples/petclinic/jpa/EntityManagerClinic.java
+4	3	src/test/java/org/springframework/samples/petclinic/jpa/JpaClinicTests.java
+
+6	2	src/main/java/org/springframework/samples/petclinic/BaseEntity.java
+2	2	src/main/java/org/springframework/samples/petclinic/Clinic.java
+5	0	src/main/java/org/springframework/samples/petclinic/NamedEntity.java
+12	2	src/main/java/org/springframework/samples/petclinic/Owner.java
+9	3	src/main/java/org/springframework/samples/petclinic/Person.java
+17	2	src/main/java/org/springframework/samples/petclinic/Pet.java
+4	0	src/main/java/org/springframework/samples/petclinic/PetType.java
+4	0	src/main/java/org/springframework/samples/petclinic/Specialty.java
+6	0	src/main/java/org/springframework/samples/petclinic/Vet.java
+11	0	src/main/java/org/springframework/samples/petclinic/Visit.java
+0	98	src/main/java/org/springframework/samples/petclinic/hibernate/HibernateClinic.java
+0	9	src/main/java/org/springframework/samples/petclinic/hibernate/package-info.java
+3	3	src/main/java/org/springframework/samples/petclinic/jdbc/SimpleJdbcClinic.java
+3	3	src/main/java/org/springframework/samples/petclinic/jpa/EntityManagerClinic.java
+1	1	src/main/java/org/springframework/samples/petclinic/web/AddPetController.java
+1	1	src/main/java/org/springframework/samples/petclinic/web/AddVisitController.java
+2	2	src/main/java/org/springframework/samples/petclinic/web/ClinicController.java
+1	1	src/main/java/org/springframework/samples/petclinic/web/EditOwnerController.java
+2	2	src/main/java/org/springframework/samples/petclinic/web/EditPetController.java
+12	12	src/test/java/org/springframework/samples/petclinic/AbstractClinicTests.java
+4	4	src/test/java/org/springframework/samples/petclinic/{jpa/EntityManagerClinicTests.java => aspects/UsageLogAspectTests.java}
+0	25	src/test/java/org/springframework/samples/petclinic/hibernate/HibernateClinicTests.java
+0	24	src/test/java/org/springframework/samples/petclinic/jpa/HibernateEntityManagerClinicTests.java
+24	28	src/test/java/org/springframework/samples/petclinic/jpa/{AbstractJpaClinicTests.java => JpaClinicTests.java}
+
+5	3	src/main/java/org/springframework/samples/petclinic/web/ClinicController.java
+
+2	2	src/main/java/org/springframework/samples/petclinic/web/{AddOwnerForm.java => AddOwnerController.java}
+2	2	src/main/java/org/springframework/samples/petclinic/web/{AddPetForm.java => AddPetController.java}
+2	2	src/main/java/org/springframework/samples/petclinic/web/{AddVisitForm.java => AddVisitController.java}
+2	2	src/main/java/org/springframework/samples/petclinic/web/{EditOwnerForm.java => EditOwnerController.java}
+2	2	src/main/java/org/springframework/samples/petclinic/web/{EditPetForm.java => EditPetController.java}
+2	2	src/main/java/org/springframework/samples/petclinic/web/{FindOwnersForm.java => FindOwnersController.java}
+
+0	15	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/HomeController.java
+0	37	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/appointments/Appointment.java
+0	13	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/appointments/AppointmentBook.java
+0	67	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/appointments/AppointmentForm.java
+0	15	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/appointments/Appointments.java
+0	42	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/appointments/AppointmentsController.java
+0	23	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/appointments/StubAppointmentBook.java
+0	69	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/owners/Owner.java
+0	39	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/owners/OwnerController.java
+0	13	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/owners/OwnerRepository.java
+0	15	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/owners/OwnerSearchForm.java
+0	43	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/owners/OwnersController.java
+0	22	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/owners/StubOwnerRepository.java
+0	5	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/owners/pets/Gender.java
+0	25	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/owners/pets/Pet.java
+0	41	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/owners/pets/PetController.java
+0	9	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/owners/pets/PetRepository.java
+0	15	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/owners/pets/StubPetRepository.java
+0	22	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/util/ExternalContext.java
+0	10	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/util/Measurement.java
+0	5	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/util/Unit.java
+3	3	src/main/java/org/springframework/samples/petclinic/jdbc/SimpleJdbcClinic.java
+0	56	src/main/java/org/springframework/samples/petclinic/toplink/EssentialsHSQLPlatformWithNativeSequence.java
+0	10	src/main/java/org/springframework/samples/petclinic/toplink/package-info.java
+5	7	src/test/java/org/springframework/samples/petclinic/AbstractClinicTests.java
+3	0	src/test/java/org/springframework/samples/petclinic/hibernate/HibernateClinicTests.java
+31	42	src/test/java/org/springframework/samples/petclinic/jpa/AbstractJpaClinicTests.java
+12	12	src/test/java/org/springframework/samples/petclinic/jpa/EntityManagerClinicTests.java
+7	9	src/test/java/org/springframework/samples/petclinic/jpa/HibernateEntityManagerClinicTests.java
+0	27	src/test/java/org/springframework/samples/petclinic/jpa/OpenJpaEntityManagerClinicTests.java
+
+2	2	src/test/java/org/springframework/samples/petclinic/AbstractClinicTests.java
+2	2	src/test/java/org/springframework/samples/petclinic/jpa/AbstractJpaClinicTests.java
+
+3	3	src/main/java/org/springframework/samples/petclinic/aspects/AbstractTraceAspect.java
+3	4	src/main/java/org/springframework/samples/petclinic/jdbc/SimpleJdbcClinic.java
+
+1	2	src/test/java/org/springframework/samples/petclinic/jpa/AbstractJpaClinicTests.java
+
+2	0	src/test/java/org/springframework/samples/petclinic/hibernate/HibernateClinicTests.java
+2	0	src/test/java/org/springframework/samples/petclinic/jdbc/SimpleJdbcClinicTests.java
+
+0	29	src/test/java/org/springframework/samples/petclinic/PetClinicTestSuite.java
+
+0	261	src/main/java/org/springframework/samples/petclinic/config/DbcpDataSourceFactory.java
+
+27	0	src/main/java/org/springframework/samples/petclinic/BaseEntity.java
+82	0	src/main/java/org/springframework/samples/petclinic/Clinic.java
+28	0	src/main/java/org/springframework/samples/petclinic/NamedEntity.java
+127	0	src/main/java/org/springframework/samples/petclinic/Owner.java
+32	0	src/main/java/org/springframework/samples/petclinic/Person.java
+77	0	src/main/java/org/springframework/samples/petclinic/Pet.java
+8	0	src/main/java/org/springframework/samples/petclinic/PetType.java
+10	0	src/main/java/org/springframework/samples/petclinic/Specialty.java
+52	0	src/main/java/org/springframework/samples/petclinic/Vet.java
+43	0	src/main/java/org/springframework/samples/petclinic/Vets.java
+70	0	src/main/java/org/springframework/samples/petclinic/Visit.java
+31	0	src/main/java/org/springframework/samples/petclinic/aspects/AbstractTraceAspect.java
+81	0	src/main/java/org/springframework/samples/petclinic/aspects/CallMonitoringAspect.java
+48	0	src/main/java/org/springframework/samples/petclinic/aspects/UsageLogAspect.java
+261	0	src/main/java/org/springframework/samples/petclinic/config/DbcpDataSourceFactory.java
+98	0	src/main/java/org/springframework/samples/petclinic/hibernate/HibernateClinic.java
+9	0	src/main/java/org/springframework/samples/petclinic/hibernate/package-info.java
+35	0	src/main/java/org/springframework/samples/petclinic/jdbc/JdbcPet.java
+342	0	src/main/java/org/springframework/samples/petclinic/jdbc/SimpleJdbcClinic.java
+20	0	src/main/java/org/springframework/samples/petclinic/jdbc/SimpleJdbcClinicMBean.java
+9	0	src/main/java/org/springframework/samples/petclinic/jdbc/package-info.java
+96	0	src/main/java/org/springframework/samples/petclinic/jpa/EntityManagerClinic.java
+9	0	src/main/java/org/springframework/samples/petclinic/jpa/package-info.java
+8	0	src/main/java/org/springframework/samples/petclinic/package-info.java
+56	0	src/main/java/org/springframework/samples/petclinic/toplink/EssentialsHSQLPlatformWithNativeSequence.java
+10	0	src/main/java/org/springframework/samples/petclinic/toplink/package-info.java
+41	0	src/main/java/org/springframework/samples/petclinic/util/EntityUtils.java
+43	0	src/main/java/org/springframework/samples/petclinic/validation/OwnerValidator.java
+25	0	src/main/java/org/springframework/samples/petclinic/validation/PetValidator.java
+21	0	src/main/java/org/springframework/samples/petclinic/validation/VisitValidator.java
+9	0	src/main/java/org/springframework/samples/petclinic/validation/package-info.java
+65	0	src/main/java/org/springframework/samples/petclinic/web/AddOwnerForm.java
+77	0	src/main/java/org/springframework/samples/petclinic/web/AddPetForm.java
+69	0	src/main/java/org/springframework/samples/petclinic/web/AddVisitForm.java
+37	0	src/main/java/org/springframework/samples/petclinic/web/ClinicBindingInitializer.java
+89	0	src/main/java/org/springframework/samples/petclinic/web/ClinicController.java
+65	0	src/main/java/org/springframework/samples/petclinic/web/EditOwnerForm.java
+80	0	src/main/java/org/springframework/samples/petclinic/web/EditPetForm.java
+74	0	src/main/java/org/springframework/samples/petclinic/web/FindOwnersForm.java
+30	0	src/main/java/org/springframework/samples/petclinic/web/PetTypeEditor.java
+82	0	src/main/java/org/springframework/samples/petclinic/web/VisitsAtomView.java
+8	0	src/main/java/org/springframework/samples/petclinic/web/package-info.java
+224	0	src/test/java/org/springframework/samples/petclinic/AbstractClinicTests.java
+27	0	src/test/java/org/springframework/samples/petclinic/OwnerTests.java
+29	0	src/test/java/org/springframework/samples/petclinic/PetClinicTestSuite.java
+20	0	src/test/java/org/springframework/samples/petclinic/hibernate/HibernateClinicTests.java
+19	0	src/test/java/org/springframework/samples/petclinic/jdbc/SimpleJdbcClinicTests.java
+199	0	src/test/java/org/springframework/samples/petclinic/jpa/AbstractJpaClinicTests.java
+51	0	src/test/java/org/springframework/samples/petclinic/jpa/EntityManagerClinicTests.java
+26	0	src/test/java/org/springframework/samples/petclinic/jpa/HibernateEntityManagerClinicTests.java
+27	0	src/test/java/org/springframework/samples/petclinic/jpa/OpenJpaEntityManagerClinicTests.java
+90	0	src/test/java/org/springframework/samples/petclinic/web/VisitsAtomViewTest.java
+
+37	0	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/appointments/Appointment.java
+13	0	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/appointments/AppointmentBook.java
+67	0	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/appointments/AppointmentForm.java
+15	0	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/appointments/Appointments.java
+28	2	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/appointments/AppointmentsController.java
+23	0	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/appointments/StubAppointmentBook.java
+6	7	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/owners/Owner.java
+0	1	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/owners/OwnersController.java
+
+47	2	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/owners/Owner.java
+9	6	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/owners/OwnerController.java
+1	1	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/owners/OwnerRepository.java
+15	0	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/owners/OwnerSearchForm.java
+6	6	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/owners/OwnersController.java
+3	2	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/owners/StubOwnerRepository.java
+3	3	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/owners/pets/PetController.java
+22	0	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/util/ExternalContext.java
+0	9	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/util/ResponseContext.java
+
+16	0	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/appointments/AppointmentsController.java
+
+1	1	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/{owner => owners}/Owner.java
+1	1	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/{owner => owners}/OwnerController.java
+1	1	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/{owner => owners}/OwnerRepository.java
+1	1	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/{owner => owners}/OwnersController.java
+1	1	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/{owner => owners}/StubOwnerRepository.java
+5	0	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/owners/pets/Gender.java
+1	1	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/{pet => owners/pets}/Pet.java
+1	1	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/{pet => owners/pets}/PetController.java
+1	1	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/{pet => owners/pets}/PetRepository.java
+1	1	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/{pet => owners/pets}/StubPetRepository.java
+0	5	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/pet/Gender.java
+
+1	1	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/HomeController.java
+0	1	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/owner/Owner.java
+6	1	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnersController.java
+
+2	1	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/HomeController.java
+21	0	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/owner/StubOwnerRepository.java
+15	0	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/pet/StubPetRepository.java
+
+14	0	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/HomeController.java
+26	0	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/owner/Owner.java
+36	0	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java
+13	0	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.java
+39	0	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnersController.java
+5	0	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/pet/Gender.java
+25	0	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/pet/Pet.java
+41	0	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/pet/PetController.java
+9	0	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/pet/PetRepository.java
+10	0	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/util/Measurement.java
+9	0	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/util/ResponseContext.java
+5	0	org.springframework.samples.petclinic/src/main/java/org/springframework/samples/petclinic/util/Unit.java
