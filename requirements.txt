@@ -1,5 +1,7 @@
-# This are the requirements for mybinder.org
+# This are the requirements for the notebooks
+# Especially useful when running the notebooks with mybinder.org
 pandas
 matplotlib
 py2neo
-neo4j-driver
+# experimental library for importing software data
+git+git://github.com/feststelltaste/ozapfdis.git
