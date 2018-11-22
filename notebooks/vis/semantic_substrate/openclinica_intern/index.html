@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+svg {
+  font: 10px sans-serif;
+}
+
+.label-in {
+  fill: green;
+  font-size: 22px;
+  font-weight: bold;
+  text-anchor: end;
+}
+
+.label-out {
+  fill: blue;
+  font-size: 22px;
+  font-weight: bold;
+  text-anchor: end;
+}
+
+.links line {
+  fill: none;
+  stroke: #999;
+  stroke-opacity: 0.05;
+}
+
+.nodes circle {
+  fill: #d62333;
+  stroke: #fff;
+  stroke-width: 1px;
+}
+
+</style>
+<svg></svg>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script>
+
+var nodeRadius = 4;
+
+var linkWidth = d3.scaleLinear().range([1.5, 2 * nodeRadius]);
+
+var margin = {
+  top: 20,
+  right: 20,
+  bottom: 50,
+  left: 80
+};
+
+var width = 960 - margin.left - margin.right;
+var height = 500 - margin.top - margin.bottom;
+
+var x = d3.scaleLinear().range([0, width]);
+var y = d3.scaleLinear().range([height, 0]);
+
+var xAxis = d3.axisBottom().scale(x);
+var yAxis = d3.axisLeft().scale(y);
+
+var svg = d3.select('svg')
+  .attr('width', width + margin.left + margin.right)
+  .attr('height', height + margin.top + margin.bottom)
+  .append('g')
+  .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
+
+d3.json('jean.json', function (error, graph) {
+  if (error) throw error;
+
+  var idToNode = {};
+
+  graph.nodes.forEach(function (n) {
+    n.degree = 0;
+    idToNode[n.id] = n;
+  });
+
+  graph.links.forEach(function (e) {
+    e.source = idToNode[e.source];
+    e.target = idToNode[e.target];
+    e.source.degree++;
+    e.target.degree++;
+  });
+
+  x.domain([0, d3.max(graph.nodes, function (d) { return d.chapters.length; })]);
+  y.domain([0, d3.max(graph.nodes, function (d) { return d.degree; })]);
+
+  linkWidth.domain(d3.extent(graph.links, function (d) { return d.chapters.length; }));
+
+  svg.append('g')
+    .attr('class', 'x axis')
+    .attr('transform', 'translate(0,' + height + ')')
+    .call(xAxis)
+    .append('text')
+    .attr('class', 'label-out')
+    .attr('x', width)
+    .attr('y', 40)
+    .text('Fan Out');
+
+  svg.append('g')
+    .attr('class', 'y axis')
+    .call(yAxis)
+    .append('text')
+    .attr('class', 'label-in')
+    .attr('y', -50)
+    .attr('dy', '.71em')
+    .attr('transform', 'rotate(-90)')
+    .text('Fan In');
+
+  svg.selectAll('.tick line, .axis path')
+    .attr('stroke', '#999');
+
+  svg.selectAll('.tick text')
+    .attr('fill', '#777');
+
+  var link = svg.append('g')
+    .attr('class', 'links')
+    .selectAll('line')
+    .data(graph.links)
+    .enter().append('line')
+    .attr('x1', function (d) { return x(d.source.chapters.length); })
+    .attr('x2', function (d) { return x(d.target.chapters.length); })
+    .attr('y1', function (d) { return y(d.source.degree); })
+    .attr('y2', function (d) { return y(d.target.degree); })
+    .attr('stroke-width', function (d) { return linkWidth(d.chapters.length); })
+    .on('mouseover', function (d) {
+      link.style('stroke', null),
+	  d3.select(this).style('stroke', '#d62333');
+      node.style('fill', function (node_d) {
+        return node_d === d.source ? 'blue' : node_d === d.target ? 'green' : null;
+      });
+    })
+    .on('mouseout', function (d) {
+      link.style('stroke', null),
+	  link.style('stroke-opacity', '0.05');
+      node.style('fill', null);
+    });
+
+  var node = svg.append('g')
+    .attr('class', 'nodes')
+    .selectAll('circle')
+    .data(graph.nodes)
+    .enter().append('circle')
+    .attr('cx', function (d) {
+      return (d.degree == 0 ? (Math.random() - 0.5) * nodeRadius : 0) + x(d.chapters.length);
+    })
+    .attr('cy', function (d) {
+      return (d.degree == 0 ? (Math.random() - 0.5) * nodeRadius : 0) + y(d.degree);
+    })
+    .attr('r', nodeRadius)
+    .on('mouseover', function (d) {
+      node.style('fill', null);
+      d3.select(this).style('fill', 'black');
+      var nodesToHighlight = graph.links.map(function (e) { return e.source === d ? e.target : e.target === d ? e.source : 0})
+        .filter(function (d) { return d; });
+      node.filter(function (d) { return nodesToHighlight.indexOf(d) >= 0; })
+        .style('fill', '#555');
+      link.style('stroke', function (link_d) {
+        return link_d.source === d ? 'blue' : link_d.target === d ? 'green' : null;
+      }),
+	  link.style('stroke-opacity', function (link_d) {
+        return link_d.source === d || link_d.target === d ? 0.5 : null;
+      })
+	  ;
+    })
+    .on('mouseout', function (d) {
+      node.style('fill', null);
+      link.style('stroke', null),
+	  link.style('stroke-opacity', 0.05);
+    });
+
+  node.append('title').text(function (d) { return d.name; });
+});
+
+</script>
