@@ -1,55 +1,22 @@
 @font-face {
-  font-family: FreightTextPro;
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-  src: url("https://assets.innoq.com/fonts/350ED6_0_unhinted_0.woff2?cachebuster=7d0a3995eec718ff34fa844413298153") format("woff2"), url("https://assets.innoq.com/fonts/350ED6_0_unhinted_0.woff?cachebuster=7d0a3995eec718ff34fa844413298153") format("woff"), url("https://assets.innoq.com/fonts/350ED6_0_unhinted_0.ttf?cachebuster=7d0a3995eec718ff34fa844413298153") format("truetype");
-}
-@font-face {
-  font-family: FreightTextPro;
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap;
-  src: url("https://assets.innoq.com/fonts/350ED6_1_unhinted_0.woff2?cachebuster=7d0a3995eec718ff34fa844413298153") format("woff2"), url("https://assets.innoq.com/fonts/350ED6_1_unhinted_0.woff?cachebuster=7d0a3995eec718ff34fa844413298153") format("woff"), url("https://assets.innoq.com/fonts/350ED6_1_unhinted_0.ttf?cachebuster=7d0a3995eec718ff34fa844413298153") format("truetype");
-}
-@font-face {
-  font-family: FreightTextPro;
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-  src: url("https://assets.innoq.com/fonts/350ED6_2_unhinted_0.woff2?cachebuster=7d0a3995eec718ff34fa844413298153") format("woff2"), url("https://assets.innoq.com/fonts/350ED6_2_unhinted_0.woff?cachebuster=7d0a3995eec718ff34fa844413298153") format("woff"), url("https://assets.innoq.com/fonts/350ED6_2_unhinted_0.ttf?cachebuster=7d0a3995eec718ff34fa844413298153") format("truetype");
-}
-@font-face {
-  font-family: FreightTextPro;
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap;
-  src: url("https://assets.innoq.com/fonts/350ED6_3_unhinted_0.woff2?cachebuster=7d0a3995eec718ff34fa844413298153") format("woff2"), url("https://assets.innoq.com/fonts/350ED6_3_unhinted_0.woff?cachebuster=7d0a3995eec718ff34fa844413298153") format("woff"), url("https://assets.innoq.com/fonts/350ED6_3_unhinted_0.ttf?cachebuster=7d0a3995eec718ff34fa844413298153") format("truetype");
-}
-@font-face {
   font-family: FFMarkWebProBook;
   font-display: swap;
-  src: url("https://assets.innoq.com/fonts/350ED6_4_unhinted_0.woff2?cachebuster=7d0a3995eec718ff34fa844413298153") format("woff2"), url("https://assets.innoq.com/fonts/350ED6_4_unhinted_0.woff?cachebuster=7d0a3995eec718ff34fa844413298153") format("woff"), url("https://assets.innoq.com/fonts/350ED6_4_unhinted_0.ttf?cachebuster=7d0a3995eec718ff34fa844413298153") format("truetype");
+  /* src: url("https://assets.innoq.com/fonts/350ED6_4_unhinted_0.woff2?cachebuster=7d0a3995eec718ff34fa844413298153") format("woff2"), url("https://assets.innoq.com/fonts/350ED6_4_unhinted_0.woff?cachebuster=7d0a3995eec718ff34fa844413298153") format("woff"), url("https://assets.innoq.com/fonts/350ED6_4_unhinted_0.ttf?cachebuster=7d0a3995eec718ff34fa844413298153") format("truetype"); */
+  src: url("../resources/350ED6_4_unhinted_0.woff2") format("woff2");
 }
-@font-face {
-  font-family: FFMarkWebProBold;
-  font-display: swap;
-  src: url("https://assets.innoq.com/fonts/350ED6_5_unhinted_0.woff2?cachebuster=7d0a3995eec718ff34fa844413298153") format("woff2"), url("https://assets.innoq.com/fonts/350ED6_5_unhinted_0.woff?cachebuster=7d0a3995eec718ff34fa844413298153") format("woff"), url("https://assets.innoq.com/fonts/350ED6_5_unhinted_0.ttf?cachebuster=7d0a3995eec718ff34fa844413298153") format("truetype");
-}
+
 @font-face {
   font-family: FFMarkWebProHeavy;
   font-display: swap;
-  src: url("https://assets.innoq.com/fonts/350ED6_6_unhinted_0.woff2?cachebuster=7d0a3995eec718ff34fa844413298153") format("woff2"), url("https://assets.innoq.com/fonts/350ED6_6_unhinted_0.woff?cachebuster=7d0a3995eec718ff34fa844413298153") format("woff"), url("https://assets.innoq.com/fonts/350ED6_6_unhinted_0.ttf?cachebuster=7d0a3995eec718ff34fa844413298153") format("truetype");
+  /* src: url("https://assets.innoq.com/fonts/350ED6_6_unhinted_0.woff2?cachebuster=7d0a3995eec718ff34fa844413298153") format("woff2"), url("https://assets.innoq.com/fonts/350ED6_6_unhinted_0.woff?cachebuster=7d0a3995eec718ff34fa844413298153") format("woff"), url("https://assets.innoq.com/fonts/350ED6_6_unhinted_0.ttf?cachebuster=7d0a3995eec718ff34fa844413298153") format("truetype");*/
+  src: url("../resources/350ED6_6_unhinted_0.woff2") format("woff2");
 }
-@font-face {
-  font-family: HackRegular;
-  font-display: swap;
-  src: url("https://assets.innoq.com/fonts/hack-regular.woff2?cachebuster=7d0a3995eec718ff34fa844413298153") format("woff2"), url("https://assets.innoq.com/fonts/hack-regular.woff?cachebuster=7d0a3995eec718ff34fa844413298153") format("woff");
-}
+
 @font-face {
   font-family: "icons";
   font-display: swap;
-  src: url("https://assets.innoq.com/fonts/icomoon.woff2?cachebuster=7d0a3995eec718ff34fa8444132981c6") format("woff2"), url("https://assets.innoq.com/fonts/icomoon.woff?cachebuster=7d0a3995eec718ff34fa8444132981c6") format("woff"), url("https://assets.innoq.com/fonts/icomoon.ttf?cachebuster=7d0a3995eec718ff34fa8444132981c6") format("truetype"), url("https://assets.innoq.com/fonts/icomoon.svg?cachebuster=7d0a3995eec718ff34fa8444132981c6#icons") format("svg");
+  /* src: url("https://assets.innoq.com/fonts/icomoon.woff2?cachebuster=7d0a3995eec718ff34fa8444132981c6") format("woff2"), url("https://assets.innoq.com/fonts/icomoon.woff?cachebuster=7d0a3995eec718ff34fa8444132981c6") format("woff"), url("https://assets.innoq.com/fonts/icomoon.ttf?cachebuster=7d0a3995eec718ff34fa8444132981c6") format("truetype"), url("https://assets.innoq.com/fonts/icomoon.svg?cachebuster=7d0a3995eec718ff34fa8444132981c6#icons") format("svg");*/
+  src: url("../resources/icomoon.woff2") format("woff2");
   font-style: normal;
   font-weight: normal;
 }
