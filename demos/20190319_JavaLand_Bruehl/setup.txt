@@ -1,0 +1,6 @@
+Jupyter notebook 8888
+Jupyter notebook Ubuntu 8889
+Jupyter notebook Ubuntu ~/docker/repos/start_beakerx.sh
+  oder: docker run -p 8890:8888 -v /c/dev/repos/software-analytics/:/home/beakerx/software-analytics beakerx/beakerx
+
+buschmais-spring-petclinic_joa/mvn jqassistant:server
