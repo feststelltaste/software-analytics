@@ -63,19 +63,16 @@ if( window.location.search.match( /print-pdf/gi ) ) {
 
 <style type="text/css">
 
-
 @font-face {
   font-family: FFMarkWebProBook;
   font-display: swap;
   src: url("https://assets.innoq.com/fonts/350ED6_4_unhinted_0.woff2?cachebuster=7d0a3995eec718ff34fa844413298153") format("woff2"), url("https://assets.innoq.com/fonts/350ED6_4_unhinted_0.woff?cachebuster=7d0a3995eec718ff34fa844413298153") format("woff"), url("https://assets.innoq.com/fonts/350ED6_4_unhinted_0.ttf?cachebuster=7d0a3995eec718ff34fa844413298153") format("truetype");
-
 }
 
 @font-face {
   font-family: FFMarkWebProHeavy;
   font-display: swap;
-   src: url("https://assets.innoq.com/fonts/350ED6_6_unhinted_0.woff2?cachebuster=7d0a3995eec718ff34fa844413298153") format("woff2"), url("https://assets.innoq.com/fonts/350ED6_6_unhinted_0.woff?cachebuster=7d0a3995eec718ff34fa844413298153") format("woff"), url("https://assets.innoq.com/fonts/350ED6_6_unhinted_0.ttf?cachebuster=7d0a3995eec718ff34fa844413298153") format("truetype");
-  
+  src: url("https://assets.innoq.com/fonts/350ED6_6_unhinted_0.woff2?cachebuster=7d0a3995eec718ff34fa844413298153") format("woff2"), url("https://assets.innoq.com/fonts/350ED6_6_unhinted_0.woff?cachebuster=7d0a3995eec718ff34fa844413298153") format("woff"), url("https://assets.innoq.com/fonts/350ED6_6_unhinted_0.ttf?cachebuster=7d0a3995eec718ff34fa844413298153") format("truetype");
 }
 
 @font-face {
@@ -102,7 +99,7 @@ h6,
 
 strong {color: #ff4d67;}
 
-body, .reveal {
+body, small, i, .reveal {
 	font-family: FFMarkWebProBook; !important;
 }
 .rise-enabled .reveal .slide-number{
@@ -132,7 +129,6 @@ td,th {
 .blue {color: #24244C;}
 .yellow {color: #FFF019;}
 .grey {color: #CCCCCC;}
-
 
 
 
@@ -13316,7 +13312,7 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Data-Science-on-Software-Data">Data Science on Software Data<a class="anchor-link" href="#Data-Science-on-Software-Data">&#182;</a></h1><p><b>Markus Harrer</b>, Software Development Analyst</p>
+<h1 id="Data-Science-on--Software-Data">Data Science on <br /> Software Data<a class="anchor-link" href="#Data-Science-on--Software-Data">&#182;</a></h1><p><b>Markus Harrer</b>, Software Development Analyst</p>
 <p><code>@feststelltaste</code></p>
 <p><small>Java Forum Stuttgart 2019, 04.07.2019</small></p>
 <p><img src="../resources/innoq_logo.jpg" width=20% height="20%" align="right"/></p>
@@ -13392,6 +13388,34 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Vorgehen">Vorgehen<a class="anchor-link" href="#Vorgehen">&#182;</a></h3><p><small>Nach Roger Pengs "Stages of Data Analysis"</small><br/>
+I. Fragestellung<br>
+II. Datenbeschaffung<br>
+III. Modellierung<br>
+IV. Interpretation<br>
+V. Kommunikation</p>
+
+</div>
+</div>
+</div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><b>=> von der <strong>Frage</strong> über die <span class="green">Daten</span> zur <span class="blue" style="background-color: #FFFF00">Erkenntnis</span>!</b></p>
+
+</div>
+</div>
+</div></div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Was-hat-das-mit-Softwareentwicklung-zu-tun?">Was hat das mit Softwareentwicklung zu tun?<a class="anchor-link" href="#Was-hat-das-mit-Softwareentwicklung-zu-tun?">&#182;</a></h1>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Was-ist-ein-Data-Scientist?">Was ist ein Data Scientist?<a class="anchor-link" href="#Was-ist-ein-Data-Scientist?">&#182;</a></h3><p>"Jemand, der mehr Ahnung von <strong>Statistik</strong><br/>
 &nbsp;&nbsp;hat als ein <b><span class="green">Softwareentwickler</span></b><br/>
 &nbsp;&nbsp;und mehr Ahnung von <b><span class="green">Softwareentwicklung</span></b><br/>
@@ -13458,40 +13482,39 @@ a.anchor-link {
 <ul>
 <li>Performance-Bottlenecks</li>
 <li>Verborgene Teamkommunikation</li>
-<li>No-Go-Areas</li>
+<li>Modularisierungsschnitte</li>
 <li>Architektur-/Design-/Code-Smells</li>
 <li>...</li>
 </ul>
 
 </div>
 </div>
+</div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><b>=> Individuelle Analysen für individuelle Probleme!</b></p>
+
+</div>
+</div>
+</div></div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="L&#246;sungsstrategie">L&#246;sungsstrategie<a class="anchor-link" href="#L&#246;sungsstrategie">&#182;</a></h1>
+</div>
+</div>
 </div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Vorgehen">Vorgehen<a class="anchor-link" href="#Vorgehen">&#182;</a></h2><p>I. Fragestellung<br>
-II. Datenbeschaffung<br>
-III. Modellierung<br>
-IV. Interpretation<br>
-V. Kommunikation</p>
-
-</div>
-</div>
-</div><div class="fragment">
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p><b>=> von der <strong>Frage</strong> über die <span class="green">Daten</span> zur <span class="blue" style="background-color: #FFFF00">Erkenntnis</span>!</b></p>
-
-</div>
-</div>
-</div></div></section></section><section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Grundprinzip">Grundprinzip<a class="anchor-link" href="#Grundprinzip">&#182;</a></h2><p><code>
-(Data + Code + Ergebnis) * Automatisierung
-= Reproduzierbare Analysen</code></p>
+    (Intent + Code + Data + Results)</p>
+<ul>
+<li>Logical Step</li>
+<li>Automation
+= Literate Statistical Programming&lt;/code&gt;</li>
+</ul>
 
 </div>
 </div>
@@ -13499,7 +13522,7 @@ V. Kommunikation</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Schlüssel: <strong>Computational notebooks</strong></p>
+<p>Implementierung: <strong>Computational notebooks</strong></p>
 
 </div>
 </div>
@@ -13507,7 +13530,7 @@ V. Kommunikation</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Der-Notebook-Ansatz">Der Notebook-Ansatz<a class="anchor-link" href="#Der-Notebook-Ansatz">&#182;</a></h3><p><br/></p>
+<h3 id="Computational-Notebooks">Computational Notebooks<a class="anchor-link" href="#Computational-Notebooks">&#182;</a></h3><p><br/></p>
 <div align="center"><img src="../resources/notebook_approach.jpg"></div>
 </div>
 </div>
@@ -13538,7 +13561,7 @@ V. Kommunikation</p>
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Technologie-(2/2)">Technologie (2/2)<a class="anchor-link" href="#Technologie-(2/2)">&#182;</a></h3><p><strong>Jupyter</strong> funktioniert und integriert sich auch mit</p>
 <ul>
-<li>Cypher / Neo4j / jQAssistant</li>
+<li>jQAssistant / Cypher / Neo4j </li>
 <li>JVM-Sprachen über beakerx / Tablesaw</li>
 <li>bash</li>
 <li>...</li>
@@ -13564,7 +13587,7 @@ V. Kommunikation</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Code-Hot-Spots-ermitteln">Code-Hot-Spots ermitteln<a class="anchor-link" href="#Code-Hot-Spots-ermitteln">&#182;</a></h3><h4 id="Untersuchungsobjekt:-IntelliJ-IDEA">Untersuchungsobjekt: IntelliJ IDEA<a class="anchor-link" href="#Untersuchungsobjekt:-IntelliJ-IDEA">&#182;</a></h4><ul>
+<h3 id="Fallbeispiel">Fallbeispiel<a class="anchor-link" href="#Fallbeispiel">&#182;</a></h3><h4 id="IntelliJ-IDEA">IntelliJ IDEA<a class="anchor-link" href="#IntelliJ-IDEA">&#182;</a></h4><ul>
 <li>IDE für die Java-Entwicklung</li>
 <li>Vieles in Java geschrieben</li>
 <li>Großes und lang entwickeltes Projekt</li>
@@ -13576,9 +13599,9 @@ V. Kommunikation</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="I.-Fragestellung-(1/2)">I. Fragestellung (1/2)<a class="anchor-link" href="#I.-Fragestellung-(1/2)">&#182;</a></h3><p><b>Frage</b></p>
-<ul>
-<li>Gibt es Code Hotspots (Code, der besonders komplex ist und oft geändert wird)?</li>
+<h3 id="I.-Fragestellung-(1/3)">I. Fragestellung (1/3)<a class="anchor-link" href="#I.-Fragestellung-(1/3)">&#182;</a></h3><ul>
+<li>Offene Frage explizit niederschreiben</li>
+<li>Analyseidee verständlich darstellen</li>
 </ul>
 
 </div>
@@ -13587,11 +13610,23 @@ V. Kommunikation</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="I.-Fragestellung-(2/2)">I. Fragestellung (2/2)<a class="anchor-link" href="#I.-Fragestellung-(2/2)">&#182;</a></h3><h4 id="Umsetzungsidee">Umsetzungsidee<a class="anchor-link" href="#Umsetzungsidee">&#182;</a></h4><ul>
+<h3 id="I.-Fragestellung-(2/3)">I. Fragestellung (2/3)<a class="anchor-link" href="#I.-Fragestellung-(2/3)">&#182;</a></h3><p><b>Frage</b></p>
+<ul>
+<li>Welche Code ist besonders komplex und oft wird in letzter Zeit häufig geändert?</li>
+</ul>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="I.-Fragestellung-(3/3)">I. Fragestellung (3/3)<a class="anchor-link" href="#I.-Fragestellung-(3/3)">&#182;</a></h3><h4 id="Umsetzungsidee">Umsetzungsidee<a class="anchor-link" href="#Umsetzungsidee">&#182;</a></h4><ul>
 <li>Werkzeuge: Jupyter, Python, pandas, matplotlib</li>
-<li>Heuristik:<ul>
-<li>"komplex": Lines of Code</li>
-<li>"geändert": Anzahl Git commits</li>
+<li>Heuristiken:<ul>
+<li>"komplex": Lines of Code </li>
+<li>"letzter Zeit": Letzte 3 Monate</li>
+<li>"oft geändert": Anzahl Git Commits</li>
 </ul>
 </li>
 </ul>
@@ -13602,7 +13637,7 @@ V. Kommunikation</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Meta-Ziel:</strong> Grundfunktionen anhand eines einfachen Show-Cases sehen.</p>
+<p><strong>Meta-Ziel:</strong> Grundmechaniken kennenlernen.</p>
 
 </div>
 </div>
@@ -13611,8 +13646,8 @@ V. Kommunikation</p>
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="II.-Datenbeschaffung">II. Datenbeschaffung<a class="anchor-link" href="#II.-Datenbeschaffung">&#182;</a></h3><ul>
-<li>Daten müssen aus Software-typischen Datenquellen in die Data Science Welt geladen werden</li>
-<li>Daten müssen hier teils auch bereinigt oder gefiltert werden</li>
+<li>Daten in Data-Science-Welt laden</li>
+<li>Rohdaten bereinigen und filtern</li>
 </ul>
 
 </div>
@@ -13621,11 +13656,11 @@ V. Kommunikation</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><em>Wir holen Git Log Daten aus einem Git Repo</em></p>
+<p><em>Wir laden Git Log Daten eines Git Repos.</em></p>
 
 </div>
 </div>
-</div>
+</div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[1]:</div>
@@ -13633,7 +13668,7 @@ V. Kommunikation</p>
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
 
-<span class="n">log</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;../dataset/git_log_intellij.csv&quot;</span><span class="p">)</span>
+<span class="n">log</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;../dataset/git_log_intellij.csv.gz&quot;</span><span class="p">)</span>
 <span class="n">log</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
@@ -13672,7 +13707,7 @@ V. Kommunikation</p>
       <th></th>
       <th>additions</th>
       <th>deletions</th>
-      <th>file</th>
+      <th>filename</th>
       <th>sha</th>
       <th>timestamp</th>
       <th>author</th>
@@ -13681,48 +13716,48 @@ V. Kommunikation</p>
   <tbody>
     <tr>
       <th>0</th>
-      <td>9.0</td>
-      <td>1.0</td>
-      <td>resources/src/META-INF/JavaIdePlugin.xml</td>
-      <td>259f603ff89b</td>
-      <td>2019-03-19 15:02:59</td>
-      <td>Nikolay Chashnikov</td>
+      <td>4</td>
+      <td>0</td>
+      <td>java/java-impl/src/com/intellij/codeInsight/hi...</td>
+      <td>be6247932aa9</td>
+      <td>2019-07-01 14:40:24</td>
+      <td>Roman.Ivanov</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>2.0</td>
-      <td>0.0</td>
-      <td>resources/src/META-INF/JavaIdePlugin.xml</td>
-      <td>dff02c4c04e9</td>
-      <td>2019-03-19 12:45:15</td>
-      <td>Nikolay Chashnikov</td>
+      <td>4</td>
+      <td>6</td>
+      <td>java/java-impl/src/com/intellij/codeInsight/hi...</td>
+      <td>ee2032b77eca</td>
+      <td>2019-07-01 11:36:14</td>
+      <td>Roman.Ivanov</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>0.0</td>
-      <td>1.0</td>
-      <td>resources/src/META-INF/JavaIdePlugin.xml</td>
-      <td>b3d671515bc6</td>
-      <td>2019-03-13 16:28:28</td>
-      <td>Gregory Shrago</td>
+      <td>0</td>
+      <td>3</td>
+      <td>java/java-impl/src/META-INF/JavaPlugin.xml</td>
+      <td>fbeb4d639dc1</td>
+      <td>2019-06-26 11:14:34</td>
+      <td>Roman.Ivanov</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>1.0</td>
-      <td>1.0</td>
-      <td>resources/src/META-INF/JavaIdePlugin.xml</td>
-      <td>212b3f5c52e7</td>
-      <td>2019-03-12 14:59:53</td>
-      <td>Kirill Kirichenko</td>
+      <td>6</td>
+      <td>3</td>
+      <td>java/java-impl/src/com/intellij/codeInsight/hi...</td>
+      <td>fbeb4d639dc1</td>
+      <td>2019-06-26 11:14:34</td>
+      <td>Roman.Ivanov</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>1.0</td>
-      <td>1.0</td>
-      <td>resources/src/META-INF/JavaIdePlugin.xml</td>
-      <td>166487b26534</td>
-      <td>2019-03-12 12:15:43</td>
-      <td>Dmitry Krasilschikov</td>
+      <td>11</td>
+      <td>6</td>
+      <td>java/java-impl/src/com/intellij/codeInsight/hi...</td>
+      <td>a3d5a9b855fe</td>
+      <td>2019-06-14 10:32:15</td>
+      <td>Roman.Ivanov</td>
     </tr>
   </tbody>
 </table>
@@ -13734,7 +13769,7 @@ V. Kommunikation</p>
 </div>
 </div>
 
-</div></section></section><section><section>
+</div></div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -13766,16 +13801,16 @@ V. Kommunikation</p>
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
-RangeIndex: 551620 entries, 0 to 551619
+RangeIndex: 1128819 entries, 0 to 1128818
 Data columns (total 6 columns):
-additions    542444 non-null float64
-deletions    542444 non-null float64
-file         551620 non-null object
-sha          551619 non-null object
-timestamp    551619 non-null object
-author       551619 non-null object
-dtypes: float64(2), object(4)
-memory usage: 25.3+ MB
+additions    1128819 non-null object
+deletions    1128819 non-null object
+filename     1128819 non-null object
+sha          1128819 non-null object
+timestamp    1128819 non-null object
+author       1128819 non-null object
+dtypes: object(6)
+memory usage: 51.7+ MB
 </pre>
 </div>
 </div>
@@ -13787,7 +13822,7 @@ memory usage: 25.3+ MB
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><b>1</b> <strong>DataFrame</strong> (~ programmierbares Excel-Arbeitsblatt), <b>6</b> <strong>Series</strong> (= Spalten), <b>551620 </b> <strong>Rows</strong> (= Einträge)</p>
+<p><b>1</b> <strong>DataFrame</strong> (~ programmierbares Excel-Arbeitsblatt), <b>6</b> <strong>Series</strong> (= Spalten), <b>1128819</b> <strong>Rows</strong> (= Einträge)</p>
 
 </div>
 </div>
@@ -13795,7 +13830,7 @@ memory usage: 25.3+ MB
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><em>Wir wandeln den Zeitstempeltext in ein Zeitstempelobjekt um.</em></p>
+<p><em>Wir wandeln die Zeitstempel von Texte in Objekte um.</em></p>
 
 </div>
 </div>
@@ -13844,7 +13879,7 @@ memory usage: 25.3+ MB
       <th></th>
       <th>additions</th>
       <th>deletions</th>
-      <th>file</th>
+      <th>filename</th>
       <th>sha</th>
       <th>timestamp</th>
       <th>author</th>
@@ -13853,48 +13888,48 @@ memory usage: 25.3+ MB
   <tbody>
     <tr>
       <th>0</th>
-      <td>9.0</td>
-      <td>1.0</td>
-      <td>resources/src/META-INF/JavaIdePlugin.xml</td>
-      <td>259f603ff89b</td>
-      <td>2019-03-19 15:02:59</td>
-      <td>Nikolay Chashnikov</td>
+      <td>4</td>
+      <td>0</td>
+      <td>java/java-impl/src/com/intellij/codeInsight/hi...</td>
+      <td>be6247932aa9</td>
+      <td>2019-07-01 14:40:24</td>
+      <td>Roman.Ivanov</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>2.0</td>
-      <td>0.0</td>
-      <td>resources/src/META-INF/JavaIdePlugin.xml</td>
-      <td>dff02c4c04e9</td>
-      <td>2019-03-19 12:45:15</td>
-      <td>Nikolay Chashnikov</td>
+      <td>4</td>
+      <td>6</td>
+      <td>java/java-impl/src/com/intellij/codeInsight/hi...</td>
+      <td>ee2032b77eca</td>
+      <td>2019-07-01 11:36:14</td>
+      <td>Roman.Ivanov</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>0.0</td>
-      <td>1.0</td>
-      <td>resources/src/META-INF/JavaIdePlugin.xml</td>
-      <td>b3d671515bc6</td>
-      <td>2019-03-13 16:28:28</td>
-      <td>Gregory Shrago</td>
+      <td>0</td>
+      <td>3</td>
+      <td>java/java-impl/src/META-INF/JavaPlugin.xml</td>
+      <td>fbeb4d639dc1</td>
+      <td>2019-06-26 11:14:34</td>
+      <td>Roman.Ivanov</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>1.0</td>
-      <td>1.0</td>
-      <td>resources/src/META-INF/JavaIdePlugin.xml</td>
-      <td>212b3f5c52e7</td>
-      <td>2019-03-12 14:59:53</td>
-      <td>Kirill Kirichenko</td>
+      <td>6</td>
+      <td>3</td>
+      <td>java/java-impl/src/com/intellij/codeInsight/hi...</td>
+      <td>fbeb4d639dc1</td>
+      <td>2019-06-26 11:14:34</td>
+      <td>Roman.Ivanov</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>1.0</td>
-      <td>1.0</td>
-      <td>resources/src/META-INF/JavaIdePlugin.xml</td>
-      <td>166487b26534</td>
-      <td>2019-03-12 12:15:43</td>
-      <td>Dmitry Krasilschikov</td>
+      <td>11</td>
+      <td>6</td>
+      <td>java/java-impl/src/com/intellij/codeInsight/hi...</td>
+      <td>a3d5a9b855fe</td>
+      <td>2019-06-14 10:32:15</td>
+      <td>Roman.Ivanov</td>
     </tr>
   </tbody>
 </table>
@@ -13920,8 +13955,8 @@ memory usage: 25.3+ MB
 <div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">recent_log</span> <span class="o">=</span> <span class="n">log</span><span class="p">[</span><span class="n">log</span><span class="p">[</span><span class="s1">&#39;timestamp&#39;</span><span class="p">]</span> <span class="o">&gt;</span> <span class="n">log</span><span class="p">[</span><span class="s1">&#39;timestamp&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">max</span><span class="p">()</span> <span class="o">-</span> <span class="n">pd</span><span class="o">.</span><span class="n">Timedelta</span><span class="p">(</span><span class="s1">&#39;90 days&#39;</span><span class="p">)]</span>
-<span class="n">recent_log</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">recent</span> <span class="o">=</span> <span class="n">log</span><span class="p">[</span><span class="n">log</span><span class="p">[</span><span class="s1">&#39;timestamp&#39;</span><span class="p">]</span> <span class="o">&gt;</span> <span class="n">pd</span><span class="o">.</span><span class="n">Timestamp</span><span class="p">(</span><span class="s1">&#39;today&#39;</span><span class="p">)</span> <span class="o">-</span> <span class="n">pd</span><span class="o">.</span><span class="n">Timedelta</span><span class="p">(</span><span class="s1">&#39;90 days&#39;</span><span class="p">)]</span>
+<span class="n">recent</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
     </div>
@@ -13959,7 +13994,7 @@ memory usage: 25.3+ MB
       <th></th>
       <th>additions</th>
       <th>deletions</th>
-      <th>file</th>
+      <th>filename</th>
       <th>sha</th>
       <th>timestamp</th>
       <th>author</th>
@@ -13968,48 +14003,48 @@ memory usage: 25.3+ MB
   <tbody>
     <tr>
       <th>0</th>
-      <td>9.0</td>
-      <td>1.0</td>
-      <td>resources/src/META-INF/JavaIdePlugin.xml</td>
-      <td>259f603ff89b</td>
-      <td>2019-03-19 15:02:59</td>
-      <td>Nikolay Chashnikov</td>
+      <td>4</td>
+      <td>0</td>
+      <td>java/java-impl/src/com/intellij/codeInsight/hi...</td>
+      <td>be6247932aa9</td>
+      <td>2019-07-01 14:40:24</td>
+      <td>Roman.Ivanov</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>2.0</td>
-      <td>0.0</td>
-      <td>resources/src/META-INF/JavaIdePlugin.xml</td>
-      <td>dff02c4c04e9</td>
-      <td>2019-03-19 12:45:15</td>
-      <td>Nikolay Chashnikov</td>
+      <td>4</td>
+      <td>6</td>
+      <td>java/java-impl/src/com/intellij/codeInsight/hi...</td>
+      <td>ee2032b77eca</td>
+      <td>2019-07-01 11:36:14</td>
+      <td>Roman.Ivanov</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>0.0</td>
-      <td>1.0</td>
-      <td>resources/src/META-INF/JavaIdePlugin.xml</td>
-      <td>b3d671515bc6</td>
-      <td>2019-03-13 16:28:28</td>
-      <td>Gregory Shrago</td>
+      <td>0</td>
+      <td>3</td>
+      <td>java/java-impl/src/META-INF/JavaPlugin.xml</td>
+      <td>fbeb4d639dc1</td>
+      <td>2019-06-26 11:14:34</td>
+      <td>Roman.Ivanov</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>1.0</td>
-      <td>1.0</td>
-      <td>resources/src/META-INF/JavaIdePlugin.xml</td>
-      <td>212b3f5c52e7</td>
-      <td>2019-03-12 14:59:53</td>
-      <td>Kirill Kirichenko</td>
+      <td>6</td>
+      <td>3</td>
+      <td>java/java-impl/src/com/intellij/codeInsight/hi...</td>
+      <td>fbeb4d639dc1</td>
+      <td>2019-06-26 11:14:34</td>
+      <td>Roman.Ivanov</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>1.0</td>
-      <td>1.0</td>
-      <td>resources/src/META-INF/JavaIdePlugin.xml</td>
-      <td>166487b26534</td>
-      <td>2019-03-12 12:15:43</td>
-      <td>Dmitry Krasilschikov</td>
+      <td>11</td>
+      <td>6</td>
+      <td>java/java-impl/src/com/intellij/codeInsight/hi...</td>
+      <td>a3d5a9b855fe</td>
+      <td>2019-06-14 10:32:15</td>
+      <td>Roman.Ivanov</td>
     </tr>
   </tbody>
 </table>
@@ -14035,8 +14070,8 @@ memory usage: 25.3+ MB
 <div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">java</span> <span class="o">=</span> <span class="n">recent_log</span><span class="p">[</span><span class="n">recent_log</span><span class="p">[</span><span class="s1">&#39;file&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s2">&quot;.java&quot;</span><span class="p">)]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
-<span class="n">java</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">java</span> <span class="o">=</span> <span class="n">recent</span><span class="p">[</span><span class="n">recent</span><span class="p">[</span><span class="s1">&#39;filename&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s2">&quot;.java&quot;</span><span class="p">)]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+<span class="n">java</span><span class="o">.</span><span class="n">head</span><span class="p">()</span> 
 </pre></div>
 
     </div>
@@ -14074,7 +14109,7 @@ memory usage: 25.3+ MB
       <th></th>
       <th>additions</th>
       <th>deletions</th>
-      <th>file</th>
+      <th>filename</th>
       <th>sha</th>
       <th>timestamp</th>
       <th>author</th>
@@ -14082,49 +14117,49 @@ memory usage: 25.3+ MB
   </thead>
   <tbody>
     <tr>
-      <th>250</th>
-      <td>17.0</td>
-      <td>2.0</td>
-      <td>plugins/gradle/native/tooling/src/builder/CppM...</td>
-      <td>5d0fc88e519c</td>
-      <td>2019-03-01 11:57:43</td>
-      <td>Nikita Skvortsov</td>
+      <th>27</th>
+      <td>1</td>
+      <td>10</td>
+      <td>platform/smRunner/src/com/intellij/execution/t...</td>
+      <td>f4ed78c8f574</td>
+      <td>2019-06-28 18:28:41</td>
+      <td>Ilya.Kazakevich</td>
     </tr>
     <tr>
-      <th>271</th>
-      <td>20.0</td>
-      <td>1.0</td>
-      <td>plugins/gradle/src/org/jetbrains/plugins/gradl...</td>
-      <td>5d0fc88e519c</td>
-      <td>2019-03-01 11:57:43</td>
-      <td>Nikita Skvortsov</td>
+      <th>29</th>
+      <td>28</td>
+      <td>0</td>
+      <td>platform/smRunner/testSrc/com/intellij/executi...</td>
+      <td>f4ed78c8f574</td>
+      <td>2019-06-28 18:28:41</td>
+      <td>Ilya.Kazakevich</td>
     </tr>
     <tr>
-      <th>272</th>
-      <td>62.0</td>
-      <td>44.0</td>
-      <td>plugins/gradle/src/org/jetbrains/plugins/gradl...</td>
-      <td>abd0a37dc2e3</td>
-      <td>2019-02-21 13:08:32</td>
-      <td>Vladislav Soroka</td>
+      <th>30</th>
+      <td>6</td>
+      <td>3</td>
+      <td>plugins/InspectionGadgets/InspectionGadgetsAna...</td>
+      <td>a724467ad1a5</td>
+      <td>2019-07-01 19:47:38</td>
+      <td>Roman Shevchenko</td>
     </tr>
     <tr>
-      <th>273</th>
-      <td>42.0</td>
-      <td>8.0</td>
-      <td>plugins/gradle/src/org/jetbrains/plugins/gradl...</td>
-      <td>d776fddb8625</td>
-      <td>2019-02-19 11:13:43</td>
-      <td>Vladislav Soroka</td>
+      <th>31</th>
+      <td>2</td>
+      <td>2</td>
+      <td>plugins/InspectionGadgets/test/com/siyeh/igfix...</td>
+      <td>a724467ad1a5</td>
+      <td>2019-07-01 19:47:38</td>
+      <td>Roman Shevchenko</td>
     </tr>
     <tr>
-      <th>274</th>
-      <td>6.0</td>
-      <td>0.0</td>
-      <td>plugins/gradle/src/org/jetbrains/plugins/gradl...</td>
-      <td>489676110b06</td>
-      <td>2019-02-01 14:17:51</td>
-      <td>Bradley Smith</td>
+      <th>32</th>
+      <td>2</td>
+      <td>2</td>
+      <td>plugins/InspectionGadgets/test/com/siyeh/igfix...</td>
+      <td>a724467ad1a5</td>
+      <td>2019-07-01 19:47:38</td>
+      <td>Roman Shevchenko</td>
     </tr>
   </tbody>
 </table>
@@ -14141,11 +14176,8 @@ memory usage: 25.3+ MB
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="III.-Modellierung">III. Modellierung<a class="anchor-link" href="#III.-Modellierung">&#182;</a></h3><ul>
-<li>Vorhandene Daten noch zusätzlich mit anderen Datenquellen verschneiden<ul>
-<li>Aber auch: Teile aus vorhanden Daten extrahieren</li>
-</ul>
-</li>
-<li>Neue Sichten auf die Daten schaffen</li>
+<li>Neue Sichten schaffen</li>
+<li>Weitere Daten verschneiden</li>
 </ul>
 
 </div>
@@ -14154,7 +14186,7 @@ memory usage: 25.3+ MB
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><em>Wir zählen die Code-Zeilen.</em></p>
+<p><em>Wir aggregieren die Zeilen sowie die Anzahl der Änderungen pro Datei.</em></p>
 
 </div>
 </div>
@@ -14164,8 +14196,8 @@ memory usage: 25.3+ MB
 <div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">java</span><span class="p">[</span><span class="s1">&#39;loc&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">java</span><span class="p">[</span><span class="s1">&#39;additions&#39;</span><span class="p">]</span> <span class="o">-</span> <span class="n">java</span><span class="p">[</span><span class="s1">&#39;deletions&#39;</span><span class="p">]</span>
-<span class="n">java</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">changes</span> <span class="o">=</span> <span class="n">java</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">&#39;filename&#39;</span><span class="p">)[[</span><span class="s1">&#39;sha&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">count</span><span class="p">()</span>
+<span class="n">changes</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
     </div>
@@ -14201,65 +14233,33 @@ memory usage: 25.3+ MB
   <thead>
     <tr style="text-align: right;">
       <th></th>
-      <th>additions</th>
-      <th>deletions</th>
-      <th>file</th>
       <th>sha</th>
-      <th>timestamp</th>
-      <th>author</th>
-      <th>loc</th>
+    </tr>
+    <tr>
+      <th>filename</th>
+      <th></th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th>250</th>
-      <td>17.0</td>
-      <td>2.0</td>
-      <td>plugins/gradle/native/tooling/src/builder/CppM...</td>
-      <td>5d0fc88e519c</td>
-      <td>2019-03-01 11:57:43</td>
-      <td>Nikita Skvortsov</td>
-      <td>15.0</td>
+      <th>RegExpSupport/src/org/intellij/lang/regexp/RegExpFileType.java</th>
+      <td>3</td>
     </tr>
     <tr>
-      <th>271</th>
-      <td>20.0</td>
-      <td>1.0</td>
-      <td>plugins/gradle/src/org/jetbrains/plugins/gradl...</td>
-      <td>5d0fc88e519c</td>
-      <td>2019-03-01 11:57:43</td>
-      <td>Nikita Skvortsov</td>
-      <td>19.0</td>
+      <th>RegExpSupport/src/org/intellij/lang/regexp/RegExpLanguageHost.java</th>
+      <td>14</td>
     </tr>
     <tr>
-      <th>272</th>
-      <td>62.0</td>
-      <td>44.0</td>
-      <td>plugins/gradle/src/org/jetbrains/plugins/gradl...</td>
-      <td>abd0a37dc2e3</td>
-      <td>2019-02-21 13:08:32</td>
-      <td>Vladislav Soroka</td>
-      <td>18.0</td>
+      <th>RegExpSupport/src/org/intellij/lang/regexp/RegExpLanguageHosts.java</th>
+      <td>13</td>
     </tr>
     <tr>
-      <th>273</th>
-      <td>42.0</td>
-      <td>8.0</td>
-      <td>plugins/gradle/src/org/jetbrains/plugins/gradl...</td>
-      <td>d776fddb8625</td>
-      <td>2019-02-19 11:13:43</td>
-      <td>Vladislav Soroka</td>
-      <td>34.0</td>
+      <th>RegExpSupport/src/org/intellij/lang/regexp/RegExpSupportLoader.java</th>
+      <td>7</td>
     </tr>
     <tr>
-      <th>274</th>
-      <td>6.0</td>
-      <td>0.0</td>
-      <td>plugins/gradle/src/org/jetbrains/plugins/gradl...</td>
-      <td>489676110b06</td>
-      <td>2019-02-01 14:17:51</td>
-      <td>Bradley Smith</td>
-      <td>6.0</td>
+      <th>RegExpSupport/src/org/intellij/lang/regexp/UnicodeCharacterNames.java</th>
+      <td>7</td>
     </tr>
   </tbody>
 </table>
@@ -14275,7 +14275,7 @@ memory usage: 25.3+ MB
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><em>Wir aggregieren die Zeilen sowie die Anzahl der Änderungen pro Datei.</em></p>
+<p><em>Wir holen Infos über die Code-Zeilen hinzu...</em></p>
 
 </div>
 </div>
@@ -14285,9 +14285,8 @@ memory usage: 25.3+ MB
 <div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">hotspots</span> <span class="o">=</span> <span class="n">java</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">&#39;file&#39;</span><span class="p">)[</span><span class="s1">&#39;loc&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">agg</span><span class="p">([</span><span class="s1">&#39;sum&#39;</span><span class="p">,</span> <span class="s1">&#39;count&#39;</span><span class="p">])</span>
-<span class="n">hotspots</span><span class="o">.</span><span class="n">columns</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;loc&#39;</span><span class="p">,</span> <span class="s1">&#39;changes&#39;</span><span class="p">]</span>
-<span class="n">hotspots</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">loc</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;../dataset/cloc_intellij.csv.gz&quot;</span><span class="p">,</span> <span class="n">index_col</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">loc</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
     </div>
@@ -14323,40 +14322,54 @@ memory usage: 25.3+ MB
   <thead>
     <tr style="text-align: right;">
       <th></th>
-      <th>loc</th>
-      <th>changes</th>
+      <th>language</th>
+      <th>blank</th>
+      <th>comment</th>
+      <th>code</th>
     </tr>
     <tr>
-      <th>file</th>
+      <th>filename</th>
+      <th></th>
+      <th></th>
       <th></th>
       <th></th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th>RegExpSupport/gen/org/intellij/lang/regexp/_RegExLexer.java</th>
-      <td>109.0</td>
-      <td>1</td>
+      <th>java/java-tests/testData/psi/resolve/ThinletBig.java</th>
+      <td>Java</td>
+      <td>299</td>
+      <td>1140</td>
+      <td>20125</td>
     </tr>
     <tr>
-      <th>RegExpSupport/src/org/intellij/lang/regexp/RegExpCapability.java</th>
-      <td>5.0</td>
-      <td>1</td>
+      <th>java/java-tests/testData/psi/parser-full/declarationParsing/class/LongClass.java</th>
+      <td>Java</td>
+      <td>10121</td>
+      <td>10164</td>
+      <td>10166</td>
     </tr>
     <tr>
-      <th>RegExpSupport/src/org/intellij/lang/regexp/RegExpCompletionContributor.java</th>
-      <td>22.0</td>
-      <td>1</td>
+      <th>python/gen/com/jetbrains/python/console/protocol/PythonConsoleBackendService.java</th>
+      <td>Java</td>
+      <td>1971</td>
+      <td>591</td>
+      <td>10086</td>
     </tr>
     <tr>
-      <th>RegExpSupport/src/org/intellij/lang/regexp/RegExpLanguageHost.java</th>
-      <td>12.0</td>
-      <td>1</td>
+      <th>jps/jps-builders/src/org/jetbrains/jps/api/CmdlineRemoteProto.java</th>
+      <td>Java</td>
+      <td>502</td>
+      <td>3066</td>
+      <td>8605</td>
     </tr>
     <tr>
-      <th>RegExpSupport/src/org/intellij/lang/regexp/RegExpLanguageHosts.java</th>
-      <td>11.0</td>
+      <th>plugins/java-decompiler/engine/testData/obfuscated/aj.java</th>
+      <td>Java</td>
+      <td>551</td>
       <td>1</td>
+      <td>8043</td>
     </tr>
   </tbody>
 </table>
@@ -14372,18 +14385,7 @@ memory usage: 25.3+ MB
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="VI.-Interpretation">VI. Interpretation<a class="anchor-link" href="#VI.-Interpretation">&#182;</a></h3><ul>
-<li>Vorhandene Daten sind oft zu viel für manuelle Sichtung</li>
-<li>Neue Einsichten über eine Frage aber oft auf hoher Flugbahn möglich</li>
-</ul>
-
-</div>
-</div>
-</div></section></section><section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p><em>Wir zeigen die TOP 10 Hotspots an.</em></p>
+<p><em>...und verschneiden diese mit den vorhandenen Daten.</em></p>
 
 </div>
 </div>
@@ -14393,8 +14395,8 @@ memory usage: 25.3+ MB
 <div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">top10_hotspots</span> <span class="o">=</span> <span class="n">hotspots</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="s2">&quot;changes&quot;</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
-<span class="n">top10_hotspots</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">hotspots</span> <span class="o">=</span> <span class="n">changes</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">loc</span><span class="p">[[</span><span class="s1">&#39;code&#39;</span><span class="p">]])</span>
+<span class="n">hotspots</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
     </div>
@@ -14430,65 +14432,172 @@ memory usage: 25.3+ MB
   <thead>
     <tr style="text-align: right;">
       <th></th>
-      <th>loc</th>
-      <th>changes</th>
+      <th>sha</th>
+      <th>code</th>
     </tr>
     <tr>
-      <th>file</th>
+      <th>filename</th>
       <th></th>
       <th></th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th>platform/platform-impl/src/com/intellij/ide/actions/RecentLocationsAction.java</th>
-      <td>377.0</td>
-      <td>54</td>
+      <th>RegExpSupport/src/org/intellij/lang/regexp/RegExpFileType.java</th>
+      <td>3</td>
+      <td>40.0</td>
+    </tr>
+    <tr>
+      <th>RegExpSupport/src/org/intellij/lang/regexp/RegExpLanguageHost.java</th>
+      <td>14</td>
+      <td>92.0</td>
+    </tr>
+    <tr>
+      <th>RegExpSupport/src/org/intellij/lang/regexp/RegExpLanguageHosts.java</th>
+      <td>13</td>
+      <td>168.0</td>
+    </tr>
+    <tr>
+      <th>RegExpSupport/src/org/intellij/lang/regexp/RegExpSupportLoader.java</th>
+      <td>7</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>RegExpSupport/src/org/intellij/lang/regexp/UnicodeCharacterNames.java</th>
+      <td>7</td>
+      <td>119.0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="VI.-Interpretation">VI. Interpretation<a class="anchor-link" href="#VI.-Interpretation">&#182;</a></h3><ul>
+<li>Problem: Ergebnisse oft umfangreich</li>
+<li>Daher: Kernaussagen klar darstellen</li>
+</ul>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><em>Wir zeigen die TOP 10 Hotspots an.</em></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">top10</span> <span class="o">=</span> <span class="n">hotspots</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="s2">&quot;sha&quot;</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+<span class="n">top10</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[9]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>sha</th>
+      <th>code</th>
+    </tr>
+    <tr>
+      <th>filename</th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>platform/structuralsearch/source/com/intellij/structuralsearch/plugin/ui/StructuralSearchDialog.java</th>
+      <td>81</td>
+      <td>1097.0</td>
+    </tr>
+    <tr>
+      <th>platform/platform-impl/src/com/intellij/idea/IdeaApplication.java</th>
+      <td>68</td>
+      <td>366.0</td>
     </tr>
     <tr>
       <th>platform/core-impl/src/com/intellij/ide/plugins/PluginManagerCore.java</th>
-      <td>78.0</td>
-      <td>35</td>
+      <td>64</td>
+      <td>1425.0</td>
     </tr>
     <tr>
-      <th>platform/extensions/src/com/intellij/openapi/extensions/impl/ExtensionPointImpl.java</th>
-      <td>232.0</td>
-      <td>32</td>
+      <th>platform/platform-impl/src/com/intellij/openapi/project/impl/ProjectManagerImpl.java</th>
+      <td>63</td>
+      <td>810.0</td>
     </tr>
     <tr>
-      <th>platform/util/src/com/intellij/icons/AllIcons.java</th>
-      <td>-18.0</td>
-      <td>30</td>
+      <th>java/java-analysis-impl/src/com/intellij/codeInspection/dataFlow/TrackingRunner.java</th>
+      <td>61</td>
+      <td>1300.0</td>
     </tr>
     <tr>
-      <th>platform/platform-impl/src/com/intellij/openapi/application/impl/ApplicationImpl.java</th>
-      <td>-7.0</td>
-      <td>28</td>
+      <th>platform/lang-impl/src/com/intellij/build/BuildTreeConsoleView.java</th>
+      <td>60</td>
+      <td>936.0</td>
     </tr>
     <tr>
-      <th>platform/platform-impl/src/com/intellij/ide/actions/Switcher.java</th>
-      <td>104.0</td>
-      <td>27</td>
+      <th>platform/platform-impl/src/com/intellij/ide/plugins/PluginManagerConfigurableNewLayout.java</th>
+      <td>58</td>
+      <td>1284.0</td>
     </tr>
     <tr>
       <th>platform/platform-impl/src/com/intellij/idea/StartupUtil.java</th>
-      <td>118.0</td>
-      <td>27</td>
+      <td>57</td>
+      <td>551.0</td>
     </tr>
     <tr>
-      <th>platform/core-impl/src/com/intellij/openapi/components/impl/ComponentManagerImpl.java</th>
-      <td>21.0</td>
-      <td>27</td>
+      <th>java/structuralsearch-java/src/com/intellij/structuralsearch/JavaStructuralSearchProfile.java</th>
+      <td>55</td>
+      <td>1012.0</td>
     </tr>
     <tr>
-      <th>platform/platform-impl/src/com/intellij/openapi/vfs/newvfs/persistent/LocalFileSystemRefreshWorker.java</th>
-      <td>92.0</td>
-      <td>26</td>
-    </tr>
-    <tr>
-      <th>java/debugger/impl/src/com/intellij/debugger/memory/agent/MemoryAgentUtil.java</th>
-      <td>288.0</td>
-      <td>26</td>
+      <th>platform/platform-impl/src/com/intellij/openapi/project/impl/ProjectImpl.java</th>
+      <td>55</td>
+      <td>299.0</td>
     </tr>
   </tbody>
 </table>
@@ -14505,8 +14614,8 @@ memory usage: 25.3+ MB
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="V.-Kommunikation">V. Kommunikation<a class="anchor-link" href="#V.-Kommunikation">&#182;</a></h3><ul>
-<li>Grafische Darstellung geben den letzten Schliff</li>
-<li>Probleme können Außenstehenden visuell dargestellt besser kommuniziert werden</li>
+<li>Ergebnisse managementtauglich darstellen</li>
+<li>Nächste Schritte lostreten</li>
 </ul>
 
 </div>
@@ -14522,10 +14631,10 @@ memory usage: 25.3+ MB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">top10_hotspots</span><span class="o">.</span><span class="n">plot</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="s1">&#39;loc&#39;</span><span class="p">,</span> <span class="s1">&#39;changes&#39;</span><span class="p">);</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">top10</span><span class="o">.</span><span class="n">plot</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="s1">&#39;sha&#39;</span><span class="p">,</span> <span class="s1">&#39;code&#39;</span><span class="p">);</span>
 </pre></div>
 
     </div>
@@ -14544,9 +14653,9 @@ memory usage: 25.3+ MB
 
 
 <div class="output_png output_subarea ">
-<img src="data:image/png;base64,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
+<img src="data:image/png;base64,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
 "
-width=384
+width=397
 height=263
 >
 </div>
@@ -14568,29 +14677,14 @@ height=263
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Weitere-Analysen">Weitere Analysen<a class="anchor-link" href="#Weitere-Analysen">&#182;</a></h2><ul>
-<li>Bewertung von CPU-Performance-Problemen</li>
-<li>Performance-Hotspots mit Neo4j</li>
-<li>Priorisieren von Aufräumarbeiten mit Tablesaw</li>
+<li>Abhängigkeitsanalyse mit Daten von <code>jdeps</code> und Visualisierung mit <code>D3</code> (<a href="https://github.com/feststelltaste/software-analytics/blob/master/demos/20190704_JFS_2019/jdeps_demo.ipynb">Code</a>, <a href="https://nbviewer.jupyter.org/github/feststelltaste/software-analytics/blob/master/demos/20190704_JFS_2019/jdeps_demo.ipynb">Statisch</a>, <a href="https://mybinder.org/v2/gh/feststelltaste/software-analytics/master?filepath=demos%2F20190704_JFS_2019%2Fjdeps_demo.ipynb">Interaktiv</a>).</li>
+<li>Analyse von Performance-Hotspots mit jQAssistant / Neo4j (<a href="https://github.com/feststelltaste/software-analytics/blob/master/notebooks/Mining%20performance%20HotSpots%20with%20JProfiler%2C%20jQAssistant%2C%20Neo4j%20and%20Pandas.ipynb">Code</a>, <a href="https://www.feststelltaste.de/mining-performance-hotspots-with-jprofiler-jqassistant-neo4j-and-pandas-part-1-the-call-graph/">Blog Teil 1</a>, <a href="https://www.feststelltaste.de/mining-performance-hotspots-with-jprofiler-jqassistant-neo4j-and-pandas-part-2-the-call-graph/">Blog Teil 2</a>)</li>
+<li>Priorisieren von Aufräumarbeiten mit Groovy / Tablesaw (<a href="https://github.com/feststelltaste/software-analytics/blob/master/notebooks/Production%20Coverage%20Demo%20with%20Tablesaw%20and%20BeakerX.ipynb">Code</a>)</li>
 </ul>
 
 </div>
 </div>
 </div></section></section><section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Ausblick">Ausblick<a class="anchor-link" href="#Ausblick">&#182;</a></h2><h1 id="EVA-mit-OZAPFDIS,-pandas-und-AUSI"><strong>E</strong><span class="grey"><b>V</b></span><span class="green"><b>A</b></span> mit <strong>OZAPFDIS</strong>, <span class="grey"><b>pandas</b></span> und <span class="green"><b>AUSI</b></span><a class="anchor-link" href="#EVA-mit-OZAPFDIS,-pandas-und-AUSI">&#182;</a></h1>
-</div>
-</div>
-</div><div class="fragment">
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Beispiel: Abhängigkeitsanalyse mit Daten von <code>jdeps</code> und Visualisierung mit <code>D3</code>.</p>
-
-</div>
-</div>
-</div></div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -14605,11 +14699,12 @@ height=263
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Literatur">Literatur<a class="anchor-link" href="#Literatur">&#182;</a></h2><ul>
+<h2 id="Tipps-zum-Einstieg">Tipps zum Einstieg<a class="anchor-link" href="#Tipps-zum-Einstieg">&#182;</a></h2><ul>
 <li>Adam Tornhill: Software Design X-Ray </li>
 <li>Wes McKinney: Python For Data Analysis</li>
 <li>Leek, Jeff: The Elements of Data Analytic Style</li>
 <li>Tim Menzies, Laurie Williams, Thomas Zimmermann: Perspectives on Data Science for Software Engineering</li>
+<li>Mini-Tutorial (<a href="https://www.feststelltaste.de/mini-tutorial-git-log-analyse-mit-python-und-pandas/">Blog</a>)</li>
 </ul>
 
 </div>
