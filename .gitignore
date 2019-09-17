@@ -3,7 +3,7 @@ __pycache__/
 
 notebooks/data
 _archive/
-
+_clean_notebook.py
 
 target/*
 .settings/*
