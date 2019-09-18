@@ -1,5 +1,9 @@
+[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/feststelltaste/software-analytics-workshop)
+ 
 # Software Analytics
-A repository with my data analysis results of software artifacts 
+A repository with my data analysis results of software artifacts
+
+**=> for an interactive tutorial, please visit https://github.com/feststelltaste/software-analytics-workshop**
 
 ## Description
 In this repository, I show some examples around mining valuable information out of software artifacts are presented.
