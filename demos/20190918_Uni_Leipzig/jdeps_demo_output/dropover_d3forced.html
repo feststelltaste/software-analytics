@@ -24,7 +24,7 @@ var simulation = d3.forceSimulation()
     .force("link", d3.forceLink().id(function(d) { return d.id; }))
     .force("charge", d3.forceManyBody())
     .force("center", d3.forceCenter(width / 2, height / 2));
-d3.json("jdeps_demo_output/dropover_d3forced.json", function(error, graph) {
+d3.json("dropover_d3forced.json", function(error, graph) {
   if (error) throw error;
   var link = svg.append("g")
       .attr("class", "links")

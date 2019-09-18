@@ -66,7 +66,7 @@ var svg = d3.select('svg')
   .append('g')
   .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
 
-d3.json("jdeps_demo_output/dropover_semantic_substrate.json", function (error, graph) {
+d3.json("dropover_semantic_substrate.json", function (error, graph) {
   if (error) throw error;
 
   var idToNode = {};
