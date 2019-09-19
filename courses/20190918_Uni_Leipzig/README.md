@@ -2,9 +2,9 @@
 
 ## Introduction
 
-In this repository, you can find the presentation and some demos that I've shown to you during my lecture on September 18, 2019.
+In this repository, you can find the presentation and some demos that I've shown to you during my session at the [international summer school "Visual Software Analytics - Software Comprehension through Analysis and Visualization"](https://www.wifa.uni-leipzig.de/en/information-systems-institute/se/teaching/summer-school.html) on September 18, 2019 at the University of Leipzig, Germany.
 
-You can play around with the content by opening this repository with Binder Hub by simply clicking on the following button:
+You can play around with all the presented content by opening this repository with Binder Hub by simply clicking on the following button:
 
 [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/feststelltaste/software-analytics/)
 
