@@ -62,7 +62,7 @@ This notebook shows some advanced analysis techniques. The analysis wants to fin
 This notebook uses a little helper library called [OZAPFDIS](https://github.com/feststelltaste/ozapfdis/) to import data from the Linux tool `vmstat`. It demonstrates how easy our lives could be if we develop such little helper tools to get software data into the Data Science world.
 
 
-### `Parsing and Analysing vmstat Data the Hard Way (Demo Notebook)`
+### Parsing and Analysing vmstat Data the Hard Way (Demo Notebook)
 <small><a href="Parsing%20and%20Analysing%20vmstat%20Data%20the%20Hard%20Way%20%28Demo%20Notebook%29.ipynb">open notebook</a></small>
 
 This notebook shows the typical effort that has to be made when you want to get a dataset from a software system into the Data Science world. You'll see that there is much data wrangling involved. But thanks to the functionality of pandas, getting somehow structured data into a DataFrame is straightforward.
