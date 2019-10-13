@@ -1,0 +1,4218 @@
+{
+   "nodes": [
+      {
+         "id": "at.dropover.comment.boundary.AddCommentRequestModel",
+         "group": 0.0
+      },
+      {
+         "id": "at.dropover.comment.boundary.ChangeCommentRequestModel",
+         "group": 0.0
+      },
+      {
+         "id": "at.dropover.comment.boundary.CommentData",
+         "group": 0.0
+      },
+      {
+         "id": "at.dropover.comment.boundary.GetCommentRequestModel",
+         "group": 0.0
+      },
+      {
+         "id": "at.dropover.comment.boundary.GetCommentResponseModel",
+         "group": 0.0
+      },
+      {
+         "id": "at.dropover.comment.boundary.GetCommentsRequestModel",
+         "group": 0.0
+      },
+      {
+         "id": "at.dropover.comment.boundary.GetCommentsResponseModel",
+         "group": 0.0
+      },
+      {
+         "id": "at.dropover.comment.boundary.GetRangedCommentsRequestModel",
+         "group": 0.0
+      },
+      {
+         "id": "at.dropover.comment.boundary.TimeDiffRequestModel",
+         "group": 0.0
+      },
+      {
+         "id": "at.dropover.comment.boundary.TimeDiffResponseModel",
+         "group": 0.0
+      },
+      {
+         "id": "at.dropover.comment.delivery.rest.CommentResource",
+         "group": 0.0
+      },
+      {
+         "id": "at.dropover.comment.delivery.rest.CommentsResource",
+         "group": 0.0
+      },
+      {
+         "id": "at.dropover.comment.entity.Comment",
+         "group": 0.0
+      },
+      {
+         "id": "at.dropover.comment.entity.gateway.CommentGateway",
+         "group": 0.0
+      },
+      {
+         "id": "at.dropover.comment.entity.gateway.aws.CommentSorter",
+         "group": 0.0
+      },
+      {
+         "id": "at.dropover.comment.entity.gateway.aws.DynamoDbCommentGateway",
+         "group": 0.0
+      },
+      {
+         "id": "at.dropover.comment.entity.gateway.inmemory.InMemoryCommentStorage",
+         "group": 0.0
+      },
+      {
+         "id": "at.dropover.comment.entity.pojo.PojoComment",
+         "group": 0.0
+      },
+      {
+         "id": "at.dropover.comment.interactor.AddComment",
+         "group": 0.0
+      },
+      {
+         "id": "at.dropover.comment.interactor.ChangeComment",
+         "group": 0.0
+      },
+      {
+         "id": "at.dropover.comment.interactor.CommentResponseBuilder",
+         "group": 0.0
+      },
+      {
+         "id": "at.dropover.comment.interactor.CreateTimeDiff",
+         "group": 0.0
+      },
+      {
+         "id": "at.dropover.comment.interactor.GetComments",
+         "group": 0.0
+      },
+      {
+         "id": "at.dropover.comment.interactor.GetRangedComments",
+         "group": 0.0
+      },
+      {
+         "id": "at.dropover.comment.interactor.exception.CommentNotFoundException",
+         "group": 0.0
+      },
+      {
+         "id": "at.dropover.comment.interactor.validation.CommentRequestValidator",
+         "group": 0.0
+      },
+      {
+         "id": "at.dropover.creator.boundary.CreatorData",
+         "group": 0.1428571429
+      },
+      {
+         "id": "at.dropover.creator.entity.gateway.CreatorGateway",
+         "group": 0.1428571429
+      },
+      {
+         "id": "at.dropover.creator.entity.gateway.aws.DynamoDbCreatorGateway",
+         "group": 0.1428571429
+      },
+      {
+         "id": "at.dropover.creator.entity.gateway.inmemory.InMemoryCreatorGateway",
+         "group": 0.1428571429
+      },
+      {
+         "id": "at.dropover.creator.entity.pojo.PojoCreator",
+         "group": 0.1428571429
+      },
+      {
+         "id": "at.dropover.creator.interactor.FormatCreatorNicely",
+         "group": 0.1428571429
+      },
+      {
+         "id": "at.dropover.files.boundary.DownloadFileRequestModel",
+         "group": 0.2857142857
+      },
+      {
+         "id": "at.dropover.files.boundary.DownloadFileResponseModel",
+         "group": 0.2857142857
+      },
+      {
+         "id": "at.dropover.files.boundary.ListFilesResponseModel",
+         "group": 0.2857142857
+      },
+      {
+         "id": "at.dropover.files.boundary.ReportAbuseRequestModel",
+         "group": 0.2857142857
+      },
+      {
+         "id": "at.dropover.files.boundary.ReportAbuseResponeModel",
+         "group": 0.2857142857
+      },
+      {
+         "id": "at.dropover.files.boundary.UploadFileRequestModel",
+         "group": 0.2857142857
+      },
+      {
+         "id": "at.dropover.files.boundary.UploadFileResponseModel",
+         "group": 0.2857142857
+      },
+      {
+         "id": "at.dropover.files.delivery.rest.FilesResource",
+         "group": 0.2857142857
+      },
+      {
+         "id": "at.dropover.files.delivery.rest.FilesResource_innerClass_1",
+         "group": 0.2857142857
+      },
+      {
+         "id": "at.dropover.files.delivery.rest.FilesResource_innerClass_2",
+         "group": 0.2857142857
+      },
+      {
+         "id": "at.dropover.files.delivery.rest.FilesResource_innerClass_3",
+         "group": 0.2857142857
+      },
+      {
+         "id": "at.dropover.files.delivery.rest.FilesResource_innerClass_4",
+         "group": 0.2857142857
+      },
+      {
+         "id": "at.dropover.files.delivery.rest.FilesResource_innerClass_5",
+         "group": 0.2857142857
+      },
+      {
+         "id": "at.dropover.files.delivery.rest.FilesResource_innerClass_6",
+         "group": 0.2857142857
+      },
+      {
+         "id": "at.dropover.files.entity.gateway.StreamingFileGateway",
+         "group": 0.2857142857
+      },
+      {
+         "id": "at.dropover.files.entity.gateway.inmemory.FileWithMetadata",
+         "group": 0.2857142857
+      },
+      {
+         "id": "at.dropover.files.entity.gateway.inmemory.InMemoryFileGateway",
+         "group": 0.2857142857
+      },
+      {
+         "id": "at.dropover.files.entity.gateway.s3.S3FileGateway",
+         "group": 0.2857142857
+      },
+      {
+         "id": "at.dropover.files.entity.pojo.PojoUploaderInfo",
+         "group": 0.2857142857
+      },
+      {
+         "id": "at.dropover.files.exception.FileNotPersistentException",
+         "group": 0.2857142857
+      },
+      {
+         "id": "at.dropover.files.interactor.DownloadFile",
+         "group": 0.2857142857
+      },
+      {
+         "id": "at.dropover.files.interactor.ListFiles",
+         "group": 0.2857142857
+      },
+      {
+         "id": "at.dropover.files.interactor.ReportAbuse",
+         "group": 0.2857142857
+      },
+      {
+         "id": "at.dropover.files.interactor.UploadFile",
+         "group": 0.2857142857
+      },
+      {
+         "id": "at.dropover.files.validation.FileTransferValidator",
+         "group": 0.2857142857
+      },
+      {
+         "id": "at.dropover.framework.autoupdate.Autoupdate",
+         "group": 0.4285714286
+      },
+      {
+         "id": "at.dropover.framework.autoupdate.Autoupdate_innerClass_1",
+         "group": 0.4285714286
+      },
+      {
+         "id": "at.dropover.framework.autoupdate.DynamoDBCurrentVersionDeterminor",
+         "group": 0.4285714286
+      },
+      {
+         "id": "at.dropover.framework.autoupdate.scripts.UpdateToV1",
+         "group": 0.4285714286
+      },
+      {
+         "id": "at.dropover.framework.boundary.RequestModel",
+         "group": 0.4285714286
+      },
+      {
+         "id": "at.dropover.framework.boundary.ResponseModel",
+         "group": 0.4285714286
+      },
+      {
+         "id": "at.dropover.framework.boundary.SiteDependentRequestModel",
+         "group": 0.4285714286
+      },
+      {
+         "id": "at.dropover.framework.boundary.SynchronousDeliveryInteractorBoundary",
+         "group": 0.4285714286
+      },
+      {
+         "id": "at.dropover.framework.configuration.GatewayFactory",
+         "group": 0.4285714286
+      },
+      {
+         "id": "at.dropover.framework.configuration.GatewayFactory_innerClass_1",
+         "group": 0.4285714286
+      },
+      {
+         "id": "at.dropover.framework.configuration.GatewayFactory_innerClass_GatewayType",
+         "group": 0.4285714286
+      },
+      {
+         "id": "at.dropover.framework.configuration.GatewayFactory_innerClass_NotificationType",
+         "group": 0.4285714286
+      },
+      {
+         "id": "at.dropover.framework.configuration.InterceptorFactory",
+         "group": 0.4285714286
+      },
+      {
+         "id": "at.dropover.framework.delivery.rest.jerseyconfiguration.GenericDropoverMessageBody",
+         "group": 0.4285714286
+      },
+      {
+         "id": "at.dropover.framework.delivery.rest.jerseyconfiguration.InteractorException2Status",
+         "group": 0.4285714286
+      },
+      {
+         "id": "at.dropover.framework.delivery.rest.jerseyconfiguration.JsonMessageBody",
+         "group": 0.4285714286
+      },
+      {
+         "id": "at.dropover.framework.delivery.rest.jerseyconfiguration.XMLMessageBody",
+         "group": 0.4285714286
+      },
+      {
+         "id": "at.dropover.framework.dependencyinjection.GuiceConfig",
+         "group": 0.4285714286
+      },
+      {
+         "id": "at.dropover.framework.dependencyinjection.GuiceConfig_innerClass_1",
+         "group": 0.4285714286
+      },
+      {
+         "id": "at.dropover.framework.dependencyinjection.GuiceConfig_innerClass_GuiceServletModule",
+         "group": 0.4285714286
+      },
+      {
+         "id": "at.dropover.framework.dependencyinjection.GuiceConfig_innerClass_GuiceServletModule_innerClass_1",
+         "group": 0.4285714286
+      },
+      {
+         "id": "at.dropover.framework.entity.aws.AWS",
+         "group": 0.4285714286
+      },
+      {
+         "id": "at.dropover.framework.entity.gateway.CreatedAtComparator",
+         "group": 0.4285714286
+      },
+      {
+         "id": "at.dropover.mail.boundary.SendMailToCreatorRequestModel",
+         "group": 0.5714285714
+      },
+      {
+         "id": "at.dropover.mail.boundary.SendMailToCreatorRequestModel_innerClass_EventType",
+         "group": 0.5714285714
+      },
+      {
+         "id": "at.dropover.mail.boundary.SendMailToCreatorResponseModel",
+         "group": 0.5714285714
+      },
+      {
+         "id": "at.dropover.mail.entity.channel.MailChannel",
+         "group": 0.5714285714
+      },
+      {
+         "id": "at.dropover.mail.entity.channel.common.MailChannelValidator",
+         "group": 0.5714285714
+      },
+      {
+         "id": "at.dropover.mail.entity.channel.email.EmailChannel",
+         "group": 0.5714285714
+      },
+      {
+         "id": "at.dropover.mail.entity.channel.inmemory.InMemoryMailChannel",
+         "group": 0.5714285714
+      },
+      {
+         "id": "at.dropover.mail.interactor.SendMailToCreator",
+         "group": 0.5714285714
+      },
+      {
+         "id": "at.dropover.mail.interactor.validation.SendMailValidation",
+         "group": 0.5714285714
+      },
+      {
+         "id": "at.dropover.scheduling.boundary.AddSchedulingDateRequestModel",
+         "group": 0.7142857143
+      },
+      {
+         "id": "at.dropover.scheduling.boundary.AddSchedulingDateResponseModel",
+         "group": 0.7142857143
+      },
+      {
+         "id": "at.dropover.scheduling.boundary.AddSchedulingRequestModel",
+         "group": 0.7142857143
+      },
+      {
+         "id": "at.dropover.scheduling.boundary.AddSchedulingResponseModel",
+         "group": 0.7142857143
+      },
+      {
+         "id": "at.dropover.scheduling.boundary.AddSchedulingUserRequestModel",
+         "group": 0.7142857143
+      },
+      {
+         "id": "at.dropover.scheduling.boundary.AddSchedulingUserResponseModel",
+         "group": 0.7142857143
+      },
+      {
+         "id": "at.dropover.scheduling.boundary.DeleteSchedulingUserRequestModel",
+         "group": 0.7142857143
+      },
+      {
+         "id": "at.dropover.scheduling.boundary.DeleteSchedulingUserResponseModel",
+         "group": 0.7142857143
+      },
+      {
+         "id": "at.dropover.scheduling.boundary.GetSchedulingDateRequestModel",
+         "group": 0.7142857143
+      },
+      {
+         "id": "at.dropover.scheduling.boundary.GetSchedulingDateResponseModel",
+         "group": 0.7142857143
+      },
+      {
+         "id": "at.dropover.scheduling.boundary.GetSchedulingRequestModel",
+         "group": 0.7142857143
+      },
+      {
+         "id": "at.dropover.scheduling.boundary.GetSchedulingResponseModel",
+         "group": 0.7142857143
+      },
+      {
+         "id": "at.dropover.scheduling.boundary.GetSchedulingsRequestModel",
+         "group": 0.7142857143
+      },
+      {
+         "id": "at.dropover.scheduling.boundary.GetSchedulingsResponseModel",
+         "group": 0.7142857143
+      },
+      {
+         "id": "at.dropover.scheduling.boundary.SetFinalDateRequestModel",
+         "group": 0.7142857143
+      },
+      {
+         "id": "at.dropover.scheduling.boundary.VoteForSchedulingDateRequestModel",
+         "group": 0.7142857143
+      },
+      {
+         "id": "at.dropover.scheduling.boundary.VoteForSchedulingDateResponseModel",
+         "group": 0.7142857143
+      },
+      {
+         "id": "at.dropover.scheduling.delivery.rest.SchedulingDateResource",
+         "group": 0.7142857143
+      },
+      {
+         "id": "at.dropover.scheduling.delivery.rest.SchedulingDatesResource",
+         "group": 0.7142857143
+      },
+      {
+         "id": "at.dropover.scheduling.delivery.rest.SchedulingResource",
+         "group": 0.7142857143
+      },
+      {
+         "id": "at.dropover.scheduling.delivery.rest.SchedulingUserResource",
+         "group": 0.7142857143
+      },
+      {
+         "id": "at.dropover.scheduling.delivery.rest.SchedulingUsersResource",
+         "group": 0.7142857143
+      },
+      {
+         "id": "at.dropover.scheduling.delivery.rest.SchedulingsResource",
+         "group": 0.7142857143
+      },
+      {
+         "id": "at.dropover.scheduling.entity.Scheduling",
+         "group": 0.7142857143
+      },
+      {
+         "id": "at.dropover.scheduling.entity.SchedulingKey",
+         "group": 0.7142857143
+      },
+      {
+         "id": "at.dropover.scheduling.entity.exception.SchedulingNotPersistentException",
+         "group": 0.7142857143
+      },
+      {
+         "id": "at.dropover.scheduling.entity.gateway.DateKey",
+         "group": 0.7142857143
+      },
+      {
+         "id": "at.dropover.scheduling.entity.gateway.LoadSchedulingDate",
+         "group": 0.7142857143
+      },
+      {
+         "id": "at.dropover.scheduling.entity.gateway.SchedulingGateway",
+         "group": 0.7142857143
+      },
+      {
+         "id": "at.dropover.scheduling.entity.gateway.aws.DynamoDbSchedulingGateway",
+         "group": 0.7142857143
+      },
+      {
+         "id": "at.dropover.scheduling.entity.gateway.inmemory.InMemorySchedulingGateway",
+         "group": 0.7142857143
+      },
+      {
+         "id": "at.dropover.scheduling.entity.pojo.PojoScheduling",
+         "group": 0.7142857143
+      },
+      {
+         "id": "at.dropover.scheduling.entity.pojo.PojoSchedulingDate",
+         "group": 0.7142857143
+      },
+      {
+         "id": "at.dropover.scheduling.entity.pojo.PojoSchedulingUser",
+         "group": 0.7142857143
+      },
+      {
+         "id": "at.dropover.scheduling.exception.DuplicateKeyException",
+         "group": 0.7142857143
+      },
+      {
+         "id": "at.dropover.scheduling.exception.DuplicateSchedulingPositionException",
+         "group": 0.7142857143
+      },
+      {
+         "id": "at.dropover.scheduling.interactor.AddScheduling",
+         "group": 0.7142857143
+      },
+      {
+         "id": "at.dropover.scheduling.interactor.AddSchedulingDate",
+         "group": 0.7142857143
+      },
+      {
+         "id": "at.dropover.scheduling.interactor.AddSchedulingUser",
+         "group": 0.7142857143
+      },
+      {
+         "id": "at.dropover.scheduling.interactor.DeleteSchedulingUser",
+         "group": 0.7142857143
+      },
+      {
+         "id": "at.dropover.scheduling.interactor.GetScheduling",
+         "group": 0.7142857143
+      },
+      {
+         "id": "at.dropover.scheduling.interactor.GetSchedulingDate",
+         "group": 0.7142857143
+      },
+      {
+         "id": "at.dropover.scheduling.interactor.GetSchedulings",
+         "group": 0.7142857143
+      },
+      {
+         "id": "at.dropover.scheduling.interactor.SetFinalDate",
+         "group": 0.7142857143
+      },
+      {
+         "id": "at.dropover.scheduling.interactor.VoteForSchedulingDate",
+         "group": 0.7142857143
+      },
+      {
+         "id": "at.dropover.scheduling.interactor.validation.SchedulingRequestValidator",
+         "group": 0.7142857143
+      },
+      {
+         "id": "at.dropover.site.boundary.CreateSiteRequestModel",
+         "group": 0.8571428571
+      },
+      {
+         "id": "at.dropover.site.boundary.CreateSiteResponseModel",
+         "group": 0.8571428571
+      },
+      {
+         "id": "at.dropover.site.boundary.GetSiteRequestModel",
+         "group": 0.8571428571
+      },
+      {
+         "id": "at.dropover.site.boundary.GetSiteResponseModel",
+         "group": 0.8571428571
+      },
+      {
+         "id": "at.dropover.site.boundary.SiteData",
+         "group": 0.8571428571
+      },
+      {
+         "id": "at.dropover.site.delivery.rest.SiteResource",
+         "group": 0.8571428571
+      },
+      {
+         "id": "at.dropover.site.delivery.rest.SitesResource",
+         "group": 0.8571428571
+      },
+      {
+         "id": "at.dropover.site.entity.Site",
+         "group": 0.8571428571
+      },
+      {
+         "id": "at.dropover.site.entity.exception.SiteNotPersistentException",
+         "group": 0.8571428571
+      },
+      {
+         "id": "at.dropover.site.entity.gateway.SiteGateway",
+         "group": 0.8571428571
+      },
+      {
+         "id": "at.dropover.site.entity.gateway.aws.DynamoDbSiteGateway",
+         "group": 0.8571428571
+      },
+      {
+         "id": "at.dropover.site.entity.gateway.inmemory.InMemorySiteGateway",
+         "group": 0.8571428571
+      },
+      {
+         "id": "at.dropover.site.entity.pojo.PojoLocation",
+         "group": 0.8571428571
+      },
+      {
+         "id": "at.dropover.site.entity.pojo.PojoSite",
+         "group": 0.8571428571
+      },
+      {
+         "id": "at.dropover.site.interactor.CreateSite",
+         "group": 0.8571428571
+      },
+      {
+         "id": "at.dropover.site.interactor.GetSite",
+         "group": 0.8571428571
+      },
+      {
+         "id": "at.dropover.site.interactor.GetSiteData",
+         "group": 0.8571428571
+      },
+      {
+         "id": "at.dropover.site.interactor.namegeneration.AlphabeticBase26Encoder",
+         "group": 0.8571428571
+      },
+      {
+         "id": "at.dropover.site.interactor.namegeneration.RandomSiteNameGenerator",
+         "group": 0.8571428571
+      },
+      {
+         "id": "at.dropover.site.validation.SiteDependentRequestValidator",
+         "group": 0.8571428571
+      },
+      {
+         "id": "at.dropover.todo.boundary.AddTodoListRequest",
+         "group": 1.0
+      },
+      {
+         "id": "at.dropover.todo.boundary.AddTodoListResponse",
+         "group": 1.0
+      },
+      {
+         "id": "at.dropover.todo.boundary.AddTodoRequestModel",
+         "group": 1.0
+      },
+      {
+         "id": "at.dropover.todo.boundary.ChangeTodoRequestModel",
+         "group": 1.0
+      },
+      {
+         "id": "at.dropover.todo.boundary.DeleteTodoListRequestModel",
+         "group": 1.0
+      },
+      {
+         "id": "at.dropover.todo.boundary.DeleteTodoListResponseModel",
+         "group": 1.0
+      },
+      {
+         "id": "at.dropover.todo.boundary.DeleteTodoResponseModel",
+         "group": 1.0
+      },
+      {
+         "id": "at.dropover.todo.boundary.GetAllTodoListsRequest",
+         "group": 1.0
+      },
+      {
+         "id": "at.dropover.todo.boundary.GetAllTodoListsResponse",
+         "group": 1.0
+      },
+      {
+         "id": "at.dropover.todo.boundary.GetAllTodosRequest",
+         "group": 1.0
+      },
+      {
+         "id": "at.dropover.todo.boundary.GetAllTodosResponse",
+         "group": 1.0
+      },
+      {
+         "id": "at.dropover.todo.boundary.GetTodoListRequestModel",
+         "group": 1.0
+      },
+      {
+         "id": "at.dropover.todo.boundary.GetTodoListResponseModel",
+         "group": 1.0
+      },
+      {
+         "id": "at.dropover.todo.boundary.GetTodoRequestModel",
+         "group": 1.0
+      },
+      {
+         "id": "at.dropover.todo.boundary.GetTodosRequestModel",
+         "group": 1.0
+      },
+      {
+         "id": "at.dropover.todo.boundary.GetTodosResponseModel",
+         "group": 1.0
+      },
+      {
+         "id": "at.dropover.todo.boundary.TodoData",
+         "group": 1.0
+      },
+      {
+         "id": "at.dropover.todo.boundary.TodoRequestModel",
+         "group": 1.0
+      },
+      {
+         "id": "at.dropover.todo.delivery.rest.TodoResource",
+         "group": 1.0
+      },
+      {
+         "id": "at.dropover.todo.delivery.rest.TodolistResource",
+         "group": 1.0
+      },
+      {
+         "id": "at.dropover.todo.delivery.rest.TodolistsResource",
+         "group": 1.0
+      },
+      {
+         "id": "at.dropover.todo.delivery.rest.TodosResource",
+         "group": 1.0
+      },
+      {
+         "id": "at.dropover.todo.entity.TodoList",
+         "group": 1.0
+      },
+      {
+         "id": "at.dropover.todo.entity.gateway.TodoGateway",
+         "group": 1.0
+      },
+      {
+         "id": "at.dropover.todo.entity.gateway.TodoKey",
+         "group": 1.0
+      },
+      {
+         "id": "at.dropover.todo.entity.gateway.aws.DynamoDbTodoGateway",
+         "group": 1.0
+      },
+      {
+         "id": "at.dropover.todo.entity.gateway.inmemory.InMemoryTodoGateway",
+         "group": 1.0
+      },
+      {
+         "id": "at.dropover.todo.entity.gateway.validation.TodoValidation",
+         "group": 1.0
+      },
+      {
+         "id": "at.dropover.todo.entity.gateway.validation.TodoValidation_innerClass_ValidationMode",
+         "group": 1.0
+      },
+      {
+         "id": "at.dropover.todo.entity.pojo.PojoTodo",
+         "group": 1.0
+      },
+      {
+         "id": "at.dropover.todo.entity.pojo.PojoTodoList",
+         "group": 1.0
+      },
+      {
+         "id": "at.dropover.todo.entity.pojo.PojoTodoList_innerClass_1",
+         "group": 1.0
+      },
+      {
+         "id": "at.dropover.todo.interactor.AddTodo",
+         "group": 1.0
+      },
+      {
+         "id": "at.dropover.todo.interactor.AddTodoList",
+         "group": 1.0
+      },
+      {
+         "id": "at.dropover.todo.interactor.ChangeTodo",
+         "group": 1.0
+      },
+      {
+         "id": "at.dropover.todo.interactor.DeleteTodo",
+         "group": 1.0
+      },
+      {
+         "id": "at.dropover.todo.interactor.DeleteTodoList",
+         "group": 1.0
+      },
+      {
+         "id": "at.dropover.todo.interactor.GetAllTodoLists",
+         "group": 1.0
+      },
+      {
+         "id": "at.dropover.todo.interactor.GetAllTodos",
+         "group": 1.0
+      },
+      {
+         "id": "at.dropover.todo.interactor.GetTodo",
+         "group": 1.0
+      },
+      {
+         "id": "at.dropover.todo.interactor.GetTodoList",
+         "group": 1.0
+      },
+      {
+         "id": "at.dropover.todo.interactor.exception.TodoListNotPersistedException",
+         "group": 1.0
+      },
+      {
+         "id": "at.dropover.todo.interactor.exception.TodoNotFoundException",
+         "group": 1.0
+      },
+      {
+         "id": "at.dropover.todo.interactor.validation.TodoRequestValidator",
+         "group": 1.0
+      },
+      {
+         "id": "at.dropover.framework.delivery.LocaleDeterminator",
+         "group": 0.4285714286
+      },
+      {
+         "id": "at.dropover.creator.entity.Creator",
+         "group": 0.1428571429
+      },
+      {
+         "id": "at.dropover.comment.entity.gateway.exception.NotSoManyCommentsAvailable",
+         "group": 0.0
+      },
+      {
+         "id": "at.dropover.creator.entity.gateway.CreatorKey",
+         "group": 0.1428571429
+      },
+      {
+         "id": "at.dropover.framework.configuration.ConfigurationFile",
+         "group": 0.4285714286
+      },
+      {
+         "id": "at.dropover.framework.entity.aws.BetweenWrapper",
+         "group": 0.4285714286
+      },
+      {
+         "id": "at.dropover.framework.entity.aws.ConditionWrapper",
+         "group": 0.4285714286
+      },
+      {
+         "id": "at.dropover.framework.entity.aws.KeyValue",
+         "group": 0.4285714286
+      },
+      {
+         "id": "at.dropover.framework.exception.InvalidRequestException",
+         "group": 0.4285714286
+      },
+      {
+         "id": "at.dropover.comment.interactor.exception.PostNotInPastException",
+         "group": 0.0
+      },
+      {
+         "id": "at.dropover.framework.internationalization.Translation",
+         "group": 0.4285714286
+      },
+      {
+         "id": "at.dropover.framework.exception.NotPersistentException",
+         "group": 0.4285714286
+      },
+      {
+         "id": "at.dropover.files.entity.UploaderInformation",
+         "group": 0.2857142857
+      },
+      {
+         "id": "at.dropover.files.exception.InvalidFileException",
+         "group": 0.2857142857
+      },
+      {
+         "id": "at.dropover.files.exception.FileTransferException",
+         "group": 0.2857142857
+      },
+      {
+         "id": "at.dropover.framework.autoupdate.IllegalUpdateScriptsException",
+         "group": 0.4285714286
+      },
+      {
+         "id": "at.dropover.framework.autoupdate.UpdateScript",
+         "group": 0.4285714286
+      },
+      {
+         "id": "at.dropover.framework.boundary.DropoverModel",
+         "group": 0.4285714286
+      },
+      {
+         "id": "at.dropover.framework.configuration.MisconfigurationException",
+         "group": 0.4285714286
+      },
+      {
+         "id": "at.dropover.framework.entity.gateway.exception.InvalidGatewayConfigurationException",
+         "group": 0.4285714286
+      },
+      {
+         "id": "at.dropover.scheduling.interactor.VoteOption",
+         "group": 0.7142857143
+      },
+      {
+         "id": "at.dropover.scheduling.entity.SchedulingDate",
+         "group": 0.7142857143
+      },
+      {
+         "id": "at.dropover.scheduling.entity.SchedulingUser",
+         "group": 0.7142857143
+      },
+      {
+         "id": "at.dropover.site.boundary.LocationData",
+         "group": 0.8571428571
+      },
+      {
+         "id": "at.dropover.site.entity.Location",
+         "group": 0.8571428571
+      },
+      {
+         "id": "at.dropover.site.interactor.namegeneration.BaseEncoder",
+         "group": 0.8571428571
+      },
+      {
+         "id": "at.dropover.todo.entity.Todo",
+         "group": 1.0
+      }
+   ],
+   "links": [
+      {
+         "source": "at.dropover.comment.boundary.AddCommentRequestModel",
+         "target": "at.dropover.framework.boundary.SiteDependentRequestModel"
+      },
+      {
+         "source": "at.dropover.comment.boundary.ChangeCommentRequestModel",
+         "target": "at.dropover.framework.boundary.SiteDependentRequestModel"
+      },
+      {
+         "source": "at.dropover.comment.boundary.CommentData",
+         "target": "at.dropover.comment.boundary.TimeDiffResponseModel"
+      },
+      {
+         "source": "at.dropover.comment.boundary.CommentData",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.comment.boundary.GetCommentRequestModel",
+         "target": "at.dropover.framework.boundary.SiteDependentRequestModel"
+      },
+      {
+         "source": "at.dropover.comment.boundary.GetCommentResponseModel",
+         "target": "at.dropover.comment.boundary.CommentData"
+      },
+      {
+         "source": "at.dropover.comment.boundary.GetCommentResponseModel",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.comment.boundary.GetCommentsRequestModel",
+         "target": "at.dropover.framework.boundary.SiteDependentRequestModel"
+      },
+      {
+         "source": "at.dropover.comment.boundary.GetCommentsResponseModel",
+         "target": "at.dropover.comment.boundary.CommentData"
+      },
+      {
+         "source": "at.dropover.comment.boundary.GetCommentsResponseModel",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.comment.boundary.GetRangedCommentsRequestModel",
+         "target": "at.dropover.framework.boundary.SiteDependentRequestModel"
+      },
+      {
+         "source": "at.dropover.comment.boundary.TimeDiffRequestModel",
+         "target": "at.dropover.framework.boundary.RequestModel"
+      },
+      {
+         "source": "at.dropover.comment.boundary.TimeDiffResponseModel",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.comment.delivery.rest.CommentResource",
+         "target": "at.dropover.comment.boundary.AddCommentRequestModel"
+      },
+      {
+         "source": "at.dropover.comment.delivery.rest.CommentResource",
+         "target": "at.dropover.comment.boundary.ChangeCommentRequestModel"
+      },
+      {
+         "source": "at.dropover.comment.delivery.rest.CommentResource",
+         "target": "at.dropover.comment.boundary.CommentData"
+      },
+      {
+         "source": "at.dropover.comment.delivery.rest.CommentResource",
+         "target": "at.dropover.comment.boundary.GetCommentResponseModel"
+      },
+      {
+         "source": "at.dropover.comment.delivery.rest.CommentResource",
+         "target": "at.dropover.comment.interactor.AddComment"
+      },
+      {
+         "source": "at.dropover.comment.delivery.rest.CommentResource",
+         "target": "at.dropover.comment.interactor.ChangeComment"
+      },
+      {
+         "source": "at.dropover.comment.delivery.rest.CommentResource",
+         "target": "at.dropover.comment.interactor.exception.CommentNotFoundException"
+      },
+      {
+         "source": "at.dropover.comment.delivery.rest.CommentResource",
+         "target": "at.dropover.framework.delivery.LocaleDeterminator"
+      },
+      {
+         "source": "at.dropover.comment.delivery.rest.CommentsResource",
+         "target": "at.dropover.comment.boundary.AddCommentRequestModel"
+      },
+      {
+         "source": "at.dropover.comment.delivery.rest.CommentsResource",
+         "target": "at.dropover.comment.boundary.CommentData"
+      },
+      {
+         "source": "at.dropover.comment.delivery.rest.CommentsResource",
+         "target": "at.dropover.comment.boundary.GetCommentResponseModel"
+      },
+      {
+         "source": "at.dropover.comment.delivery.rest.CommentsResource",
+         "target": "at.dropover.comment.boundary.GetCommentsRequestModel"
+      },
+      {
+         "source": "at.dropover.comment.delivery.rest.CommentsResource",
+         "target": "at.dropover.comment.boundary.GetCommentsResponseModel"
+      },
+      {
+         "source": "at.dropover.comment.delivery.rest.CommentsResource",
+         "target": "at.dropover.comment.delivery.rest.CommentResource"
+      },
+      {
+         "source": "at.dropover.comment.delivery.rest.CommentsResource",
+         "target": "at.dropover.comment.interactor.AddComment"
+      },
+      {
+         "source": "at.dropover.comment.delivery.rest.CommentsResource",
+         "target": "at.dropover.comment.interactor.GetComments"
+      },
+      {
+         "source": "at.dropover.comment.delivery.rest.CommentsResource",
+         "target": "at.dropover.framework.delivery.LocaleDeterminator"
+      },
+      {
+         "source": "at.dropover.comment.entity.Comment",
+         "target": "at.dropover.creator.entity.Creator"
+      },
+      {
+         "source": "at.dropover.comment.entity.gateway.CommentGateway",
+         "target": "at.dropover.comment.entity.Comment"
+      },
+      {
+         "source": "at.dropover.comment.entity.gateway.CommentGateway",
+         "target": "at.dropover.creator.entity.Creator"
+      },
+      {
+         "source": "at.dropover.comment.entity.gateway.aws.CommentSorter",
+         "target": "at.dropover.comment.entity.Comment"
+      },
+      {
+         "source": "at.dropover.comment.entity.gateway.aws.DynamoDbCommentGateway",
+         "target": "at.dropover.comment.entity.Comment"
+      },
+      {
+         "source": "at.dropover.comment.entity.gateway.aws.DynamoDbCommentGateway",
+         "target": "at.dropover.comment.entity.gateway.CommentGateway"
+      },
+      {
+         "source": "at.dropover.comment.entity.gateway.aws.DynamoDbCommentGateway",
+         "target": "at.dropover.comment.entity.gateway.aws.CommentSorter"
+      },
+      {
+         "source": "at.dropover.comment.entity.gateway.aws.DynamoDbCommentGateway",
+         "target": "at.dropover.comment.entity.gateway.exception.NotSoManyCommentsAvailable"
+      },
+      {
+         "source": "at.dropover.comment.entity.gateway.aws.DynamoDbCommentGateway",
+         "target": "at.dropover.comment.entity.pojo.PojoComment"
+      },
+      {
+         "source": "at.dropover.comment.entity.gateway.aws.DynamoDbCommentGateway",
+         "target": "at.dropover.comment.interactor.exception.CommentNotFoundException"
+      },
+      {
+         "source": "at.dropover.comment.entity.gateway.aws.DynamoDbCommentGateway",
+         "target": "at.dropover.creator.entity.Creator"
+      },
+      {
+         "source": "at.dropover.comment.entity.gateway.aws.DynamoDbCommentGateway",
+         "target": "at.dropover.creator.entity.gateway.CreatorGateway"
+      },
+      {
+         "source": "at.dropover.comment.entity.gateway.aws.DynamoDbCommentGateway",
+         "target": "at.dropover.creator.entity.gateway.CreatorKey"
+      },
+      {
+         "source": "at.dropover.comment.entity.gateway.aws.DynamoDbCommentGateway",
+         "target": "at.dropover.framework.configuration.ConfigurationFile"
+      },
+      {
+         "source": "at.dropover.comment.entity.gateway.aws.DynamoDbCommentGateway",
+         "target": "at.dropover.framework.entity.aws.AWS"
+      },
+      {
+         "source": "at.dropover.comment.entity.gateway.aws.DynamoDbCommentGateway",
+         "target": "at.dropover.framework.entity.aws.BetweenWrapper"
+      },
+      {
+         "source": "at.dropover.comment.entity.gateway.aws.DynamoDbCommentGateway",
+         "target": "at.dropover.framework.entity.aws.ConditionWrapper"
+      },
+      {
+         "source": "at.dropover.comment.entity.gateway.aws.DynamoDbCommentGateway",
+         "target": "at.dropover.framework.entity.aws.KeyValue"
+      },
+      {
+         "source": "at.dropover.comment.entity.gateway.inmemory.InMemoryCommentStorage",
+         "target": "at.dropover.comment.entity.Comment"
+      },
+      {
+         "source": "at.dropover.comment.entity.gateway.inmemory.InMemoryCommentStorage",
+         "target": "at.dropover.comment.entity.gateway.CommentGateway"
+      },
+      {
+         "source": "at.dropover.comment.entity.gateway.inmemory.InMemoryCommentStorage",
+         "target": "at.dropover.comment.entity.gateway.exception.NotSoManyCommentsAvailable"
+      },
+      {
+         "source": "at.dropover.comment.entity.gateway.inmemory.InMemoryCommentStorage",
+         "target": "at.dropover.comment.entity.pojo.PojoComment"
+      },
+      {
+         "source": "at.dropover.comment.entity.gateway.inmemory.InMemoryCommentStorage",
+         "target": "at.dropover.comment.interactor.exception.CommentNotFoundException"
+      },
+      {
+         "source": "at.dropover.comment.entity.gateway.inmemory.InMemoryCommentStorage",
+         "target": "at.dropover.creator.entity.Creator"
+      },
+      {
+         "source": "at.dropover.comment.entity.gateway.inmemory.InMemoryCommentStorage",
+         "target": "at.dropover.framework.entity.gateway.CreatedAtComparator"
+      },
+      {
+         "source": "at.dropover.comment.entity.pojo.PojoComment",
+         "target": "at.dropover.comment.entity.Comment"
+      },
+      {
+         "source": "at.dropover.comment.entity.pojo.PojoComment",
+         "target": "at.dropover.creator.entity.Creator"
+      },
+      {
+         "source": "at.dropover.comment.interactor.AddComment",
+         "target": "at.dropover.comment.boundary.AddCommentRequestModel"
+      },
+      {
+         "source": "at.dropover.comment.interactor.AddComment",
+         "target": "at.dropover.comment.boundary.GetCommentResponseModel"
+      },
+      {
+         "source": "at.dropover.comment.interactor.AddComment",
+         "target": "at.dropover.comment.entity.Comment"
+      },
+      {
+         "source": "at.dropover.comment.interactor.AddComment",
+         "target": "at.dropover.comment.entity.gateway.CommentGateway"
+      },
+      {
+         "source": "at.dropover.comment.interactor.AddComment",
+         "target": "at.dropover.comment.interactor.CommentResponseBuilder"
+      },
+      {
+         "source": "at.dropover.comment.interactor.AddComment",
+         "target": "at.dropover.comment.interactor.validation.CommentRequestValidator"
+      },
+      {
+         "source": "at.dropover.comment.interactor.AddComment",
+         "target": "at.dropover.creator.entity.Creator"
+      },
+      {
+         "source": "at.dropover.comment.interactor.AddComment",
+         "target": "at.dropover.creator.entity.gateway.CreatorGateway"
+      },
+      {
+         "source": "at.dropover.comment.interactor.AddComment",
+         "target": "at.dropover.framework.boundary.RequestModel"
+      },
+      {
+         "source": "at.dropover.comment.interactor.AddComment",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.comment.interactor.AddComment",
+         "target": "at.dropover.framework.boundary.SiteDependentRequestModel"
+      },
+      {
+         "source": "at.dropover.comment.interactor.AddComment",
+         "target": "at.dropover.framework.boundary.SynchronousDeliveryInteractorBoundary"
+      },
+      {
+         "source": "at.dropover.comment.interactor.AddComment",
+         "target": "at.dropover.framework.exception.InvalidRequestException"
+      },
+      {
+         "source": "at.dropover.comment.interactor.ChangeComment",
+         "target": "at.dropover.comment.boundary.ChangeCommentRequestModel"
+      },
+      {
+         "source": "at.dropover.comment.interactor.ChangeComment",
+         "target": "at.dropover.comment.boundary.GetCommentResponseModel"
+      },
+      {
+         "source": "at.dropover.comment.interactor.ChangeComment",
+         "target": "at.dropover.comment.entity.Comment"
+      },
+      {
+         "source": "at.dropover.comment.interactor.ChangeComment",
+         "target": "at.dropover.comment.entity.gateway.CommentGateway"
+      },
+      {
+         "source": "at.dropover.comment.interactor.ChangeComment",
+         "target": "at.dropover.comment.interactor.CommentResponseBuilder"
+      },
+      {
+         "source": "at.dropover.comment.interactor.ChangeComment",
+         "target": "at.dropover.comment.interactor.validation.CommentRequestValidator"
+      },
+      {
+         "source": "at.dropover.comment.interactor.ChangeComment",
+         "target": "at.dropover.framework.boundary.RequestModel"
+      },
+      {
+         "source": "at.dropover.comment.interactor.ChangeComment",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.comment.interactor.ChangeComment",
+         "target": "at.dropover.framework.boundary.SiteDependentRequestModel"
+      },
+      {
+         "source": "at.dropover.comment.interactor.ChangeComment",
+         "target": "at.dropover.framework.boundary.SynchronousDeliveryInteractorBoundary"
+      },
+      {
+         "source": "at.dropover.comment.interactor.ChangeComment",
+         "target": "at.dropover.framework.exception.InvalidRequestException"
+      },
+      {
+         "source": "at.dropover.comment.interactor.CommentResponseBuilder",
+         "target": "at.dropover.comment.boundary.CommentData"
+      },
+      {
+         "source": "at.dropover.comment.interactor.CommentResponseBuilder",
+         "target": "at.dropover.comment.boundary.GetCommentResponseModel"
+      },
+      {
+         "source": "at.dropover.comment.interactor.CommentResponseBuilder",
+         "target": "at.dropover.comment.boundary.GetCommentsResponseModel"
+      },
+      {
+         "source": "at.dropover.comment.interactor.CommentResponseBuilder",
+         "target": "at.dropover.comment.boundary.TimeDiffRequestModel"
+      },
+      {
+         "source": "at.dropover.comment.interactor.CommentResponseBuilder",
+         "target": "at.dropover.comment.boundary.TimeDiffResponseModel"
+      },
+      {
+         "source": "at.dropover.comment.interactor.CommentResponseBuilder",
+         "target": "at.dropover.comment.entity.Comment"
+      },
+      {
+         "source": "at.dropover.comment.interactor.CommentResponseBuilder",
+         "target": "at.dropover.comment.interactor.CreateTimeDiff"
+      },
+      {
+         "source": "at.dropover.comment.interactor.CommentResponseBuilder",
+         "target": "at.dropover.creator.entity.Creator"
+      },
+      {
+         "source": "at.dropover.comment.interactor.CommentResponseBuilder",
+         "target": "at.dropover.creator.interactor.FormatCreatorNicely"
+      },
+      {
+         "source": "at.dropover.comment.interactor.CreateTimeDiff",
+         "target": "at.dropover.comment.boundary.TimeDiffRequestModel"
+      },
+      {
+         "source": "at.dropover.comment.interactor.CreateTimeDiff",
+         "target": "at.dropover.comment.boundary.TimeDiffResponseModel"
+      },
+      {
+         "source": "at.dropover.comment.interactor.CreateTimeDiff",
+         "target": "at.dropover.comment.interactor.exception.PostNotInPastException"
+      },
+      {
+         "source": "at.dropover.comment.interactor.CreateTimeDiff",
+         "target": "at.dropover.framework.exception.InvalidRequestException"
+      },
+      {
+         "source": "at.dropover.comment.interactor.CreateTimeDiff",
+         "target": "at.dropover.framework.internationalization.Translation"
+      },
+      {
+         "source": "at.dropover.comment.interactor.GetComments",
+         "target": "at.dropover.comment.boundary.GetCommentsRequestModel"
+      },
+      {
+         "source": "at.dropover.comment.interactor.GetComments",
+         "target": "at.dropover.comment.boundary.GetCommentsResponseModel"
+      },
+      {
+         "source": "at.dropover.comment.interactor.GetComments",
+         "target": "at.dropover.comment.entity.gateway.CommentGateway"
+      },
+      {
+         "source": "at.dropover.comment.interactor.GetComments",
+         "target": "at.dropover.comment.interactor.CommentResponseBuilder"
+      },
+      {
+         "source": "at.dropover.comment.interactor.GetComments",
+         "target": "at.dropover.comment.interactor.validation.CommentRequestValidator"
+      },
+      {
+         "source": "at.dropover.comment.interactor.GetComments",
+         "target": "at.dropover.framework.boundary.RequestModel"
+      },
+      {
+         "source": "at.dropover.comment.interactor.GetComments",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.comment.interactor.GetComments",
+         "target": "at.dropover.framework.boundary.SiteDependentRequestModel"
+      },
+      {
+         "source": "at.dropover.comment.interactor.GetComments",
+         "target": "at.dropover.framework.boundary.SynchronousDeliveryInteractorBoundary"
+      },
+      {
+         "source": "at.dropover.comment.interactor.GetRangedComments",
+         "target": "at.dropover.comment.boundary.GetCommentsResponseModel"
+      },
+      {
+         "source": "at.dropover.comment.interactor.GetRangedComments",
+         "target": "at.dropover.comment.boundary.GetRangedCommentsRequestModel"
+      },
+      {
+         "source": "at.dropover.comment.interactor.GetRangedComments",
+         "target": "at.dropover.comment.entity.gateway.CommentGateway"
+      },
+      {
+         "source": "at.dropover.comment.interactor.GetRangedComments",
+         "target": "at.dropover.comment.interactor.CommentResponseBuilder"
+      },
+      {
+         "source": "at.dropover.comment.interactor.GetRangedComments",
+         "target": "at.dropover.comment.interactor.validation.CommentRequestValidator"
+      },
+      {
+         "source": "at.dropover.comment.interactor.GetRangedComments",
+         "target": "at.dropover.framework.boundary.RequestModel"
+      },
+      {
+         "source": "at.dropover.comment.interactor.GetRangedComments",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.comment.interactor.GetRangedComments",
+         "target": "at.dropover.framework.boundary.SiteDependentRequestModel"
+      },
+      {
+         "source": "at.dropover.comment.interactor.GetRangedComments",
+         "target": "at.dropover.framework.boundary.SynchronousDeliveryInteractorBoundary"
+      },
+      {
+         "source": "at.dropover.comment.interactor.exception.CommentNotFoundException",
+         "target": "at.dropover.framework.exception.NotPersistentException"
+      },
+      {
+         "source": "at.dropover.comment.interactor.validation.CommentRequestValidator",
+         "target": "at.dropover.site.entity.gateway.SiteGateway"
+      },
+      {
+         "source": "at.dropover.comment.interactor.validation.CommentRequestValidator",
+         "target": "at.dropover.site.validation.SiteDependentRequestValidator"
+      },
+      {
+         "source": "at.dropover.creator.boundary.CreatorData",
+         "target": "at.dropover.creator.entity.Creator"
+      },
+      {
+         "source": "at.dropover.creator.boundary.CreatorData",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.creator.entity.gateway.CreatorGateway",
+         "target": "at.dropover.creator.entity.Creator"
+      },
+      {
+         "source": "at.dropover.creator.entity.gateway.aws.DynamoDbCreatorGateway",
+         "target": "at.dropover.creator.entity.Creator"
+      },
+      {
+         "source": "at.dropover.creator.entity.gateway.aws.DynamoDbCreatorGateway",
+         "target": "at.dropover.creator.entity.gateway.CreatorGateway"
+      },
+      {
+         "source": "at.dropover.creator.entity.gateway.aws.DynamoDbCreatorGateway",
+         "target": "at.dropover.creator.entity.gateway.CreatorKey"
+      },
+      {
+         "source": "at.dropover.creator.entity.gateway.aws.DynamoDbCreatorGateway",
+         "target": "at.dropover.creator.entity.pojo.PojoCreator"
+      },
+      {
+         "source": "at.dropover.creator.entity.gateway.aws.DynamoDbCreatorGateway",
+         "target": "at.dropover.framework.configuration.ConfigurationFile"
+      },
+      {
+         "source": "at.dropover.creator.entity.gateway.aws.DynamoDbCreatorGateway",
+         "target": "at.dropover.framework.entity.aws.AWS"
+      },
+      {
+         "source": "at.dropover.creator.entity.gateway.aws.DynamoDbCreatorGateway",
+         "target": "at.dropover.framework.entity.aws.ConditionWrapper"
+      },
+      {
+         "source": "at.dropover.creator.entity.gateway.aws.DynamoDbCreatorGateway",
+         "target": "at.dropover.framework.entity.aws.KeyValue"
+      },
+      {
+         "source": "at.dropover.creator.entity.gateway.inmemory.InMemoryCreatorGateway",
+         "target": "at.dropover.creator.entity.Creator"
+      },
+      {
+         "source": "at.dropover.creator.entity.gateway.inmemory.InMemoryCreatorGateway",
+         "target": "at.dropover.creator.entity.gateway.CreatorGateway"
+      },
+      {
+         "source": "at.dropover.creator.entity.gateway.inmemory.InMemoryCreatorGateway",
+         "target": "at.dropover.creator.entity.gateway.CreatorKey"
+      },
+      {
+         "source": "at.dropover.creator.entity.gateway.inmemory.InMemoryCreatorGateway",
+         "target": "at.dropover.creator.entity.pojo.PojoCreator"
+      },
+      {
+         "source": "at.dropover.creator.entity.pojo.PojoCreator",
+         "target": "at.dropover.creator.entity.Creator"
+      },
+      {
+         "source": "at.dropover.creator.interactor.FormatCreatorNicely",
+         "target": "at.dropover.creator.entity.Creator"
+      },
+      {
+         "source": "at.dropover.creator.interactor.FormatCreatorNicely",
+         "target": "at.dropover.framework.exception.InvalidRequestException"
+      },
+      {
+         "source": "at.dropover.files.boundary.DownloadFileRequestModel",
+         "target": "at.dropover.framework.boundary.SiteDependentRequestModel"
+      },
+      {
+         "source": "at.dropover.files.boundary.DownloadFileResponseModel",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.files.boundary.ListFilesResponseModel",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.files.boundary.ReportAbuseRequestModel",
+         "target": "at.dropover.framework.boundary.SiteDependentRequestModel"
+      },
+      {
+         "source": "at.dropover.files.boundary.ReportAbuseResponeModel",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.files.boundary.UploadFileRequestModel",
+         "target": "at.dropover.framework.boundary.SiteDependentRequestModel"
+      },
+      {
+         "source": "at.dropover.files.boundary.UploadFileResponseModel",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.files.delivery.rest.FilesResource",
+         "target": "at.dropover.files.boundary.DownloadFileRequestModel"
+      },
+      {
+         "source": "at.dropover.files.delivery.rest.FilesResource",
+         "target": "at.dropover.files.boundary.DownloadFileResponseModel"
+      },
+      {
+         "source": "at.dropover.files.delivery.rest.FilesResource",
+         "target": "at.dropover.files.boundary.ListFilesResponseModel"
+      },
+      {
+         "source": "at.dropover.files.delivery.rest.FilesResource",
+         "target": "at.dropover.files.boundary.ReportAbuseRequestModel"
+      },
+      {
+         "source": "at.dropover.files.delivery.rest.FilesResource",
+         "target": "at.dropover.files.boundary.UploadFileRequestModel"
+      },
+      {
+         "source": "at.dropover.files.delivery.rest.FilesResource",
+         "target": "at.dropover.files.boundary.UploadFileResponseModel"
+      },
+      {
+         "source": "at.dropover.files.delivery.rest.FilesResource",
+         "target": "at.dropover.files.delivery.rest.FilesResource_innerClass_1"
+      },
+      {
+         "source": "at.dropover.files.delivery.rest.FilesResource",
+         "target": "at.dropover.files.delivery.rest.FilesResource_innerClass_2"
+      },
+      {
+         "source": "at.dropover.files.delivery.rest.FilesResource",
+         "target": "at.dropover.files.delivery.rest.FilesResource_innerClass_3"
+      },
+      {
+         "source": "at.dropover.files.delivery.rest.FilesResource",
+         "target": "at.dropover.files.delivery.rest.FilesResource_innerClass_4"
+      },
+      {
+         "source": "at.dropover.files.delivery.rest.FilesResource",
+         "target": "at.dropover.files.delivery.rest.FilesResource_innerClass_5"
+      },
+      {
+         "source": "at.dropover.files.delivery.rest.FilesResource",
+         "target": "at.dropover.files.delivery.rest.FilesResource_innerClass_6"
+      },
+      {
+         "source": "at.dropover.files.delivery.rest.FilesResource",
+         "target": "at.dropover.files.interactor.DownloadFile"
+      },
+      {
+         "source": "at.dropover.files.delivery.rest.FilesResource",
+         "target": "at.dropover.files.interactor.ListFiles"
+      },
+      {
+         "source": "at.dropover.files.delivery.rest.FilesResource",
+         "target": "at.dropover.files.interactor.ReportAbuse"
+      },
+      {
+         "source": "at.dropover.files.delivery.rest.FilesResource",
+         "target": "at.dropover.files.interactor.UploadFile"
+      },
+      {
+         "source": "at.dropover.files.delivery.rest.FilesResource",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.files.delivery.rest.FilesResource",
+         "target": "at.dropover.framework.boundary.SiteDependentRequestModel"
+      },
+      {
+         "source": "at.dropover.files.delivery.rest.FilesResource",
+         "target": "at.dropover.framework.delivery.LocaleDeterminator"
+      },
+      {
+         "source": "at.dropover.files.delivery.rest.FilesResource",
+         "target": "at.dropover.framework.internationalization.Translation"
+      },
+      {
+         "source": "at.dropover.files.delivery.rest.FilesResource_innerClass_1",
+         "target": "at.dropover.files.boundary.ListFilesResponseModel"
+      },
+      {
+         "source": "at.dropover.files.delivery.rest.FilesResource_innerClass_1",
+         "target": "at.dropover.files.delivery.rest.FilesResource"
+      },
+      {
+         "source": "at.dropover.files.delivery.rest.FilesResource_innerClass_1",
+         "target": "at.dropover.framework.boundary.SiteDependentRequestModel"
+      },
+      {
+         "source": "at.dropover.files.delivery.rest.FilesResource_innerClass_2",
+         "target": "at.dropover.files.boundary.DownloadFileRequestModel"
+      },
+      {
+         "source": "at.dropover.files.delivery.rest.FilesResource_innerClass_2",
+         "target": "at.dropover.files.delivery.rest.FilesResource"
+      },
+      {
+         "source": "at.dropover.files.delivery.rest.FilesResource_innerClass_3",
+         "target": "at.dropover.files.delivery.rest.FilesResource"
+      },
+      {
+         "source": "at.dropover.files.delivery.rest.FilesResource_innerClass_4",
+         "target": "at.dropover.files.boundary.UploadFileRequestModel"
+      },
+      {
+         "source": "at.dropover.files.delivery.rest.FilesResource_innerClass_4",
+         "target": "at.dropover.files.delivery.rest.FilesResource"
+      },
+      {
+         "source": "at.dropover.files.delivery.rest.FilesResource_innerClass_5",
+         "target": "at.dropover.files.boundary.ReportAbuseRequestModel"
+      },
+      {
+         "source": "at.dropover.files.delivery.rest.FilesResource_innerClass_5",
+         "target": "at.dropover.files.delivery.rest.FilesResource"
+      },
+      {
+         "source": "at.dropover.files.delivery.rest.FilesResource_innerClass_6",
+         "target": "at.dropover.files.boundary.ReportAbuseRequestModel"
+      },
+      {
+         "source": "at.dropover.files.delivery.rest.FilesResource_innerClass_6",
+         "target": "at.dropover.files.delivery.rest.FilesResource"
+      },
+      {
+         "source": "at.dropover.files.entity.gateway.StreamingFileGateway",
+         "target": "at.dropover.files.entity.UploaderInformation"
+      },
+      {
+         "source": "at.dropover.files.entity.gateway.StreamingFileGateway",
+         "target": "at.dropover.site.entity.Site"
+      },
+      {
+         "source": "at.dropover.files.entity.gateway.inmemory.FileWithMetadata",
+         "target": "at.dropover.files.entity.UploaderInformation"
+      },
+      {
+         "source": "at.dropover.files.entity.gateway.inmemory.FileWithMetadata",
+         "target": "at.dropover.files.entity.pojo.PojoUploaderInfo"
+      },
+      {
+         "source": "at.dropover.files.entity.gateway.inmemory.InMemoryFileGateway",
+         "target": "at.dropover.files.entity.UploaderInformation"
+      },
+      {
+         "source": "at.dropover.files.entity.gateway.inmemory.InMemoryFileGateway",
+         "target": "at.dropover.files.entity.gateway.StreamingFileGateway"
+      },
+      {
+         "source": "at.dropover.files.entity.gateway.inmemory.InMemoryFileGateway",
+         "target": "at.dropover.files.entity.gateway.inmemory.FileWithMetadata"
+      },
+      {
+         "source": "at.dropover.files.entity.gateway.inmemory.InMemoryFileGateway",
+         "target": "at.dropover.files.exception.FileNotPersistentException"
+      },
+      {
+         "source": "at.dropover.files.entity.gateway.inmemory.InMemoryFileGateway",
+         "target": "at.dropover.files.exception.InvalidFileException"
+      },
+      {
+         "source": "at.dropover.files.entity.gateway.inmemory.InMemoryFileGateway",
+         "target": "at.dropover.files.validation.FileTransferValidator"
+      },
+      {
+         "source": "at.dropover.files.entity.gateway.inmemory.InMemoryFileGateway",
+         "target": "at.dropover.site.entity.Site"
+      },
+      {
+         "source": "at.dropover.files.entity.gateway.s3.S3FileGateway",
+         "target": "at.dropover.files.entity.UploaderInformation"
+      },
+      {
+         "source": "at.dropover.files.entity.gateway.s3.S3FileGateway",
+         "target": "at.dropover.files.entity.gateway.StreamingFileGateway"
+      },
+      {
+         "source": "at.dropover.files.entity.gateway.s3.S3FileGateway",
+         "target": "at.dropover.files.entity.pojo.PojoUploaderInfo"
+      },
+      {
+         "source": "at.dropover.files.entity.gateway.s3.S3FileGateway",
+         "target": "at.dropover.files.exception.FileNotPersistentException"
+      },
+      {
+         "source": "at.dropover.files.entity.gateway.s3.S3FileGateway",
+         "target": "at.dropover.files.exception.FileTransferException"
+      },
+      {
+         "source": "at.dropover.files.entity.gateway.s3.S3FileGateway",
+         "target": "at.dropover.files.exception.InvalidFileException"
+      },
+      {
+         "source": "at.dropover.files.entity.gateway.s3.S3FileGateway",
+         "target": "at.dropover.files.validation.FileTransferValidator"
+      },
+      {
+         "source": "at.dropover.files.entity.gateway.s3.S3FileGateway",
+         "target": "at.dropover.framework.configuration.ConfigurationFile"
+      },
+      {
+         "source": "at.dropover.files.entity.gateway.s3.S3FileGateway",
+         "target": "at.dropover.site.entity.Site"
+      },
+      {
+         "source": "at.dropover.files.entity.pojo.PojoUploaderInfo",
+         "target": "at.dropover.files.entity.UploaderInformation"
+      },
+      {
+         "source": "at.dropover.files.exception.FileNotPersistentException",
+         "target": "at.dropover.framework.exception.NotPersistentException"
+      },
+      {
+         "source": "at.dropover.files.interactor.DownloadFile",
+         "target": "at.dropover.files.boundary.DownloadFileRequestModel"
+      },
+      {
+         "source": "at.dropover.files.interactor.DownloadFile",
+         "target": "at.dropover.files.boundary.DownloadFileResponseModel"
+      },
+      {
+         "source": "at.dropover.files.interactor.DownloadFile",
+         "target": "at.dropover.files.entity.gateway.StreamingFileGateway"
+      },
+      {
+         "source": "at.dropover.files.interactor.DownloadFile",
+         "target": "at.dropover.framework.boundary.RequestModel"
+      },
+      {
+         "source": "at.dropover.files.interactor.DownloadFile",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.files.interactor.DownloadFile",
+         "target": "at.dropover.framework.boundary.SiteDependentRequestModel"
+      },
+      {
+         "source": "at.dropover.files.interactor.DownloadFile",
+         "target": "at.dropover.framework.boundary.SynchronousDeliveryInteractorBoundary"
+      },
+      {
+         "source": "at.dropover.files.interactor.DownloadFile",
+         "target": "at.dropover.framework.exception.InvalidRequestException"
+      },
+      {
+         "source": "at.dropover.files.interactor.DownloadFile",
+         "target": "at.dropover.site.entity.Site"
+      },
+      {
+         "source": "at.dropover.files.interactor.DownloadFile",
+         "target": "at.dropover.site.entity.gateway.SiteGateway"
+      },
+      {
+         "source": "at.dropover.files.interactor.DownloadFile",
+         "target": "at.dropover.site.validation.SiteDependentRequestValidator"
+      },
+      {
+         "source": "at.dropover.files.interactor.ListFiles",
+         "target": "at.dropover.files.boundary.ListFilesResponseModel"
+      },
+      {
+         "source": "at.dropover.files.interactor.ListFiles",
+         "target": "at.dropover.files.entity.gateway.StreamingFileGateway"
+      },
+      {
+         "source": "at.dropover.files.interactor.ListFiles",
+         "target": "at.dropover.framework.boundary.RequestModel"
+      },
+      {
+         "source": "at.dropover.files.interactor.ListFiles",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.files.interactor.ListFiles",
+         "target": "at.dropover.framework.boundary.SiteDependentRequestModel"
+      },
+      {
+         "source": "at.dropover.files.interactor.ListFiles",
+         "target": "at.dropover.framework.boundary.SynchronousDeliveryInteractorBoundary"
+      },
+      {
+         "source": "at.dropover.files.interactor.ListFiles",
+         "target": "at.dropover.site.entity.Site"
+      },
+      {
+         "source": "at.dropover.files.interactor.ListFiles",
+         "target": "at.dropover.site.entity.gateway.SiteGateway"
+      },
+      {
+         "source": "at.dropover.files.interactor.ListFiles",
+         "target": "at.dropover.site.validation.SiteDependentRequestValidator"
+      },
+      {
+         "source": "at.dropover.files.interactor.ReportAbuse",
+         "target": "at.dropover.files.boundary.ReportAbuseRequestModel"
+      },
+      {
+         "source": "at.dropover.files.interactor.ReportAbuse",
+         "target": "at.dropover.files.boundary.ReportAbuseResponeModel"
+      },
+      {
+         "source": "at.dropover.files.interactor.ReportAbuse",
+         "target": "at.dropover.files.validation.FileTransferValidator"
+      },
+      {
+         "source": "at.dropover.files.interactor.ReportAbuse",
+         "target": "at.dropover.framework.boundary.RequestModel"
+      },
+      {
+         "source": "at.dropover.files.interactor.ReportAbuse",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.files.interactor.ReportAbuse",
+         "target": "at.dropover.framework.boundary.SynchronousDeliveryInteractorBoundary"
+      },
+      {
+         "source": "at.dropover.files.interactor.ReportAbuse",
+         "target": "at.dropover.framework.internationalization.Translation"
+      },
+      {
+         "source": "at.dropover.files.interactor.ReportAbuse",
+         "target": "at.dropover.mail.entity.channel.MailChannel"
+      },
+      {
+         "source": "at.dropover.files.interactor.UploadFile",
+         "target": "at.dropover.files.boundary.UploadFileRequestModel"
+      },
+      {
+         "source": "at.dropover.files.interactor.UploadFile",
+         "target": "at.dropover.files.boundary.UploadFileResponseModel"
+      },
+      {
+         "source": "at.dropover.files.interactor.UploadFile",
+         "target": "at.dropover.files.entity.gateway.StreamingFileGateway"
+      },
+      {
+         "source": "at.dropover.files.interactor.UploadFile",
+         "target": "at.dropover.files.exception.InvalidFileException"
+      },
+      {
+         "source": "at.dropover.files.interactor.UploadFile",
+         "target": "at.dropover.framework.boundary.RequestModel"
+      },
+      {
+         "source": "at.dropover.files.interactor.UploadFile",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.files.interactor.UploadFile",
+         "target": "at.dropover.framework.boundary.SiteDependentRequestModel"
+      },
+      {
+         "source": "at.dropover.files.interactor.UploadFile",
+         "target": "at.dropover.framework.boundary.SynchronousDeliveryInteractorBoundary"
+      },
+      {
+         "source": "at.dropover.files.interactor.UploadFile",
+         "target": "at.dropover.site.entity.Site"
+      },
+      {
+         "source": "at.dropover.files.interactor.UploadFile",
+         "target": "at.dropover.site.entity.gateway.SiteGateway"
+      },
+      {
+         "source": "at.dropover.files.interactor.UploadFile",
+         "target": "at.dropover.site.validation.SiteDependentRequestValidator"
+      },
+      {
+         "source": "at.dropover.files.validation.FileTransferValidator",
+         "target": "at.dropover.files.exception.InvalidFileException"
+      },
+      {
+         "source": "at.dropover.files.validation.FileTransferValidator",
+         "target": "at.dropover.site.entity.Site"
+      },
+      {
+         "source": "at.dropover.framework.autoupdate.Autoupdate",
+         "target": "at.dropover.framework.autoupdate.Autoupdate_innerClass_1"
+      },
+      {
+         "source": "at.dropover.framework.autoupdate.Autoupdate",
+         "target": "at.dropover.framework.autoupdate.IllegalUpdateScriptsException"
+      },
+      {
+         "source": "at.dropover.framework.autoupdate.Autoupdate",
+         "target": "at.dropover.framework.autoupdate.UpdateScript"
+      },
+      {
+         "source": "at.dropover.framework.autoupdate.Autoupdate_innerClass_1",
+         "target": "at.dropover.framework.autoupdate.Autoupdate"
+      },
+      {
+         "source": "at.dropover.framework.autoupdate.Autoupdate_innerClass_1",
+         "target": "at.dropover.framework.autoupdate.UpdateScript"
+      },
+      {
+         "source": "at.dropover.framework.autoupdate.DynamoDBCurrentVersionDeterminor",
+         "target": "at.dropover.framework.configuration.ConfigurationFile"
+      },
+      {
+         "source": "at.dropover.framework.autoupdate.DynamoDBCurrentVersionDeterminor",
+         "target": "at.dropover.framework.entity.aws.AWS"
+      },
+      {
+         "source": "at.dropover.framework.autoupdate.scripts.UpdateToV1",
+         "target": "at.dropover.framework.autoupdate.UpdateScript"
+      },
+      {
+         "source": "at.dropover.framework.autoupdate.scripts.UpdateToV1",
+         "target": "at.dropover.framework.configuration.ConfigurationFile"
+      },
+      {
+         "source": "at.dropover.framework.autoupdate.scripts.UpdateToV1",
+         "target": "at.dropover.framework.entity.aws.AWS"
+      },
+      {
+         "source": "at.dropover.framework.boundary.RequestModel",
+         "target": "at.dropover.framework.boundary.DropoverModel"
+      },
+      {
+         "source": "at.dropover.framework.boundary.ResponseModel",
+         "target": "at.dropover.framework.boundary.DropoverModel"
+      },
+      {
+         "source": "at.dropover.framework.boundary.SiteDependentRequestModel",
+         "target": "at.dropover.framework.boundary.RequestModel"
+      },
+      {
+         "source": "at.dropover.framework.boundary.SynchronousDeliveryInteractorBoundary",
+         "target": "at.dropover.framework.boundary.RequestModel"
+      },
+      {
+         "source": "at.dropover.framework.boundary.SynchronousDeliveryInteractorBoundary",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.framework.configuration.GatewayFactory",
+         "target": "at.dropover.comment.entity.gateway.CommentGateway"
+      },
+      {
+         "source": "at.dropover.framework.configuration.GatewayFactory",
+         "target": "at.dropover.comment.entity.gateway.aws.DynamoDbCommentGateway"
+      },
+      {
+         "source": "at.dropover.framework.configuration.GatewayFactory",
+         "target": "at.dropover.comment.entity.gateway.inmemory.InMemoryCommentStorage"
+      },
+      {
+         "source": "at.dropover.framework.configuration.GatewayFactory",
+         "target": "at.dropover.creator.entity.gateway.CreatorGateway"
+      },
+      {
+         "source": "at.dropover.framework.configuration.GatewayFactory",
+         "target": "at.dropover.creator.entity.gateway.aws.DynamoDbCreatorGateway"
+      },
+      {
+         "source": "at.dropover.framework.configuration.GatewayFactory",
+         "target": "at.dropover.creator.entity.gateway.inmemory.InMemoryCreatorGateway"
+      },
+      {
+         "source": "at.dropover.framework.configuration.GatewayFactory",
+         "target": "at.dropover.files.entity.gateway.StreamingFileGateway"
+      },
+      {
+         "source": "at.dropover.framework.configuration.GatewayFactory",
+         "target": "at.dropover.files.entity.gateway.inmemory.InMemoryFileGateway"
+      },
+      {
+         "source": "at.dropover.framework.configuration.GatewayFactory",
+         "target": "at.dropover.files.entity.gateway.s3.S3FileGateway"
+      },
+      {
+         "source": "at.dropover.framework.configuration.GatewayFactory",
+         "target": "at.dropover.framework.configuration.ConfigurationFile"
+      },
+      {
+         "source": "at.dropover.framework.configuration.GatewayFactory",
+         "target": "at.dropover.framework.configuration.GatewayFactory_innerClass_1"
+      },
+      {
+         "source": "at.dropover.framework.configuration.GatewayFactory",
+         "target": "at.dropover.framework.configuration.GatewayFactory_innerClass_GatewayType"
+      },
+      {
+         "source": "at.dropover.framework.configuration.GatewayFactory",
+         "target": "at.dropover.framework.configuration.GatewayFactory_innerClass_NotificationType"
+      },
+      {
+         "source": "at.dropover.framework.configuration.GatewayFactory",
+         "target": "at.dropover.mail.entity.channel.MailChannel"
+      },
+      {
+         "source": "at.dropover.framework.configuration.GatewayFactory",
+         "target": "at.dropover.mail.entity.channel.email.EmailChannel"
+      },
+      {
+         "source": "at.dropover.framework.configuration.GatewayFactory",
+         "target": "at.dropover.mail.entity.channel.inmemory.InMemoryMailChannel"
+      },
+      {
+         "source": "at.dropover.framework.configuration.GatewayFactory",
+         "target": "at.dropover.scheduling.entity.gateway.SchedulingGateway"
+      },
+      {
+         "source": "at.dropover.framework.configuration.GatewayFactory",
+         "target": "at.dropover.scheduling.entity.gateway.aws.DynamoDbSchedulingGateway"
+      },
+      {
+         "source": "at.dropover.framework.configuration.GatewayFactory",
+         "target": "at.dropover.scheduling.entity.gateway.inmemory.InMemorySchedulingGateway"
+      },
+      {
+         "source": "at.dropover.framework.configuration.GatewayFactory",
+         "target": "at.dropover.site.entity.gateway.SiteGateway"
+      },
+      {
+         "source": "at.dropover.framework.configuration.GatewayFactory",
+         "target": "at.dropover.site.entity.gateway.aws.DynamoDbSiteGateway"
+      },
+      {
+         "source": "at.dropover.framework.configuration.GatewayFactory",
+         "target": "at.dropover.site.entity.gateway.inmemory.InMemorySiteGateway"
+      },
+      {
+         "source": "at.dropover.framework.configuration.GatewayFactory",
+         "target": "at.dropover.todo.entity.gateway.TodoGateway"
+      },
+      {
+         "source": "at.dropover.framework.configuration.GatewayFactory",
+         "target": "at.dropover.todo.entity.gateway.aws.DynamoDbTodoGateway"
+      },
+      {
+         "source": "at.dropover.framework.configuration.GatewayFactory",
+         "target": "at.dropover.todo.entity.gateway.inmemory.InMemoryTodoGateway"
+      },
+      {
+         "source": "at.dropover.framework.configuration.GatewayFactory_innerClass_1",
+         "target": "at.dropover.framework.configuration.GatewayFactory"
+      },
+      {
+         "source": "at.dropover.framework.configuration.GatewayFactory_innerClass_1",
+         "target": "at.dropover.framework.configuration.GatewayFactory_innerClass_GatewayType"
+      },
+      {
+         "source": "at.dropover.framework.configuration.GatewayFactory_innerClass_1",
+         "target": "at.dropover.framework.configuration.GatewayFactory_innerClass_NotificationType"
+      },
+      {
+         "source": "at.dropover.framework.configuration.GatewayFactory_innerClass_GatewayType",
+         "target": "at.dropover.framework.configuration.GatewayFactory"
+      },
+      {
+         "source": "at.dropover.framework.configuration.GatewayFactory_innerClass_NotificationType",
+         "target": "at.dropover.framework.configuration.GatewayFactory"
+      },
+      {
+         "source": "at.dropover.framework.configuration.InterceptorFactory",
+         "target": "at.dropover.comment.entity.gateway.CommentGateway"
+      },
+      {
+         "source": "at.dropover.framework.configuration.InterceptorFactory",
+         "target": "at.dropover.creator.entity.Creator"
+      },
+      {
+         "source": "at.dropover.framework.configuration.InterceptorFactory",
+         "target": "at.dropover.mail.interactor.SendMailToCreator"
+      },
+      {
+         "source": "at.dropover.framework.delivery.rest.jerseyconfiguration.GenericDropoverMessageBody",
+         "target": "at.dropover.framework.boundary.DropoverModel"
+      },
+      {
+         "source": "at.dropover.framework.delivery.rest.jerseyconfiguration.InteractorException2Status",
+         "target": "at.dropover.files.exception.InvalidFileException"
+      },
+      {
+         "source": "at.dropover.framework.delivery.rest.jerseyconfiguration.InteractorException2Status",
+         "target": "at.dropover.framework.exception.InvalidRequestException"
+      },
+      {
+         "source": "at.dropover.framework.delivery.rest.jerseyconfiguration.InteractorException2Status",
+         "target": "at.dropover.framework.exception.NotPersistentException"
+      },
+      {
+         "source": "at.dropover.framework.delivery.rest.jerseyconfiguration.JsonMessageBody",
+         "target": "at.dropover.framework.boundary.DropoverModel"
+      },
+      {
+         "source": "at.dropover.framework.delivery.rest.jerseyconfiguration.JsonMessageBody",
+         "target": "at.dropover.framework.delivery.rest.jerseyconfiguration.GenericDropoverMessageBody"
+      },
+      {
+         "source": "at.dropover.framework.delivery.rest.jerseyconfiguration.XMLMessageBody",
+         "target": "at.dropover.framework.boundary.DropoverModel"
+      },
+      {
+         "source": "at.dropover.framework.delivery.rest.jerseyconfiguration.XMLMessageBody",
+         "target": "at.dropover.framework.delivery.rest.jerseyconfiguration.GenericDropoverMessageBody"
+      },
+      {
+         "source": "at.dropover.framework.dependencyinjection.GuiceConfig",
+         "target": "at.dropover.framework.configuration.ConfigurationFile"
+      },
+      {
+         "source": "at.dropover.framework.dependencyinjection.GuiceConfig",
+         "target": "at.dropover.framework.configuration.GatewayFactory"
+      },
+      {
+         "source": "at.dropover.framework.dependencyinjection.GuiceConfig",
+         "target": "at.dropover.framework.configuration.InterceptorFactory"
+      },
+      {
+         "source": "at.dropover.framework.dependencyinjection.GuiceConfig",
+         "target": "at.dropover.framework.dependencyinjection.GuiceConfig_innerClass_1"
+      },
+      {
+         "source": "at.dropover.framework.dependencyinjection.GuiceConfig",
+         "target": "at.dropover.framework.dependencyinjection.GuiceConfig_innerClass_GuiceServletModule"
+      },
+      {
+         "source": "at.dropover.framework.dependencyinjection.GuiceConfig_innerClass_1",
+         "target": "at.dropover.framework.dependencyinjection.GuiceConfig"
+      },
+      {
+         "source": "at.dropover.framework.dependencyinjection.GuiceConfig_innerClass_GuiceServletModule",
+         "target": "at.dropover.framework.autoupdate.Autoupdate"
+      },
+      {
+         "source": "at.dropover.framework.dependencyinjection.GuiceConfig_innerClass_GuiceServletModule",
+         "target": "at.dropover.framework.autoupdate.DynamoDBCurrentVersionDeterminor"
+      },
+      {
+         "source": "at.dropover.framework.dependencyinjection.GuiceConfig_innerClass_GuiceServletModule",
+         "target": "at.dropover.framework.autoupdate.UpdateScript"
+      },
+      {
+         "source": "at.dropover.framework.dependencyinjection.GuiceConfig_innerClass_GuiceServletModule",
+         "target": "at.dropover.framework.autoupdate.scripts.UpdateToV1"
+      },
+      {
+         "source": "at.dropover.framework.dependencyinjection.GuiceConfig_innerClass_GuiceServletModule",
+         "target": "at.dropover.framework.configuration.ConfigurationFile"
+      },
+      {
+         "source": "at.dropover.framework.dependencyinjection.GuiceConfig_innerClass_GuiceServletModule",
+         "target": "at.dropover.framework.configuration.GatewayFactory"
+      },
+      {
+         "source": "at.dropover.framework.dependencyinjection.GuiceConfig_innerClass_GuiceServletModule",
+         "target": "at.dropover.framework.configuration.InterceptorFactory"
+      },
+      {
+         "source": "at.dropover.framework.dependencyinjection.GuiceConfig_innerClass_GuiceServletModule",
+         "target": "at.dropover.framework.configuration.MisconfigurationException"
+      },
+      {
+         "source": "at.dropover.framework.dependencyinjection.GuiceConfig_innerClass_GuiceServletModule",
+         "target": "at.dropover.framework.dependencyinjection.GuiceConfig"
+      },
+      {
+         "source": "at.dropover.framework.dependencyinjection.GuiceConfig_innerClass_GuiceServletModule",
+         "target": "at.dropover.framework.dependencyinjection.GuiceConfig_innerClass_1"
+      },
+      {
+         "source": "at.dropover.framework.dependencyinjection.GuiceConfig_innerClass_GuiceServletModule",
+         "target": "at.dropover.framework.dependencyinjection.GuiceConfig_innerClass_GuiceServletModule_innerClass_1"
+      },
+      {
+         "source": "at.dropover.framework.dependencyinjection.GuiceConfig_innerClass_GuiceServletModule_innerClass_1",
+         "target": "at.dropover.framework.dependencyinjection.GuiceConfig"
+      },
+      {
+         "source": "at.dropover.framework.dependencyinjection.GuiceConfig_innerClass_GuiceServletModule_innerClass_1",
+         "target": "at.dropover.framework.dependencyinjection.GuiceConfig_innerClass_GuiceServletModule"
+      },
+      {
+         "source": "at.dropover.framework.entity.aws.AWS",
+         "target": "at.dropover.framework.configuration.ConfigurationFile"
+      },
+      {
+         "source": "at.dropover.framework.entity.aws.AWS",
+         "target": "at.dropover.framework.entity.aws.BetweenWrapper"
+      },
+      {
+         "source": "at.dropover.framework.entity.aws.AWS",
+         "target": "at.dropover.framework.entity.aws.ConditionWrapper"
+      },
+      {
+         "source": "at.dropover.framework.entity.aws.AWS",
+         "target": "at.dropover.framework.entity.aws.KeyValue"
+      },
+      {
+         "source": "at.dropover.framework.entity.aws.AWS",
+         "target": "at.dropover.framework.entity.gateway.exception.InvalidGatewayConfigurationException"
+      },
+      {
+         "source": "at.dropover.framework.entity.gateway.CreatedAtComparator",
+         "target": "at.dropover.comment.entity.Comment"
+      },
+      {
+         "source": "at.dropover.mail.boundary.SendMailToCreatorRequestModel",
+         "target": "at.dropover.framework.boundary.RequestModel"
+      },
+      {
+         "source": "at.dropover.mail.boundary.SendMailToCreatorRequestModel",
+         "target": "at.dropover.mail.boundary.SendMailToCreatorRequestModel_innerClass_EventType"
+      },
+      {
+         "source": "at.dropover.mail.boundary.SendMailToCreatorRequestModel_innerClass_EventType",
+         "target": "at.dropover.mail.boundary.SendMailToCreatorRequestModel"
+      },
+      {
+         "source": "at.dropover.mail.boundary.SendMailToCreatorResponseModel",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.mail.entity.channel.MailChannel",
+         "target": "at.dropover.creator.entity.Creator"
+      },
+      {
+         "source": "at.dropover.mail.entity.channel.common.MailChannelValidator",
+         "target": "at.dropover.creator.entity.Creator"
+      },
+      {
+         "source": "at.dropover.mail.entity.channel.email.EmailChannel",
+         "target": "at.dropover.creator.entity.Creator"
+      },
+      {
+         "source": "at.dropover.mail.entity.channel.email.EmailChannel",
+         "target": "at.dropover.framework.configuration.ConfigurationFile"
+      },
+      {
+         "source": "at.dropover.mail.entity.channel.email.EmailChannel",
+         "target": "at.dropover.framework.internationalization.Translation"
+      },
+      {
+         "source": "at.dropover.mail.entity.channel.email.EmailChannel",
+         "target": "at.dropover.mail.entity.channel.MailChannel"
+      },
+      {
+         "source": "at.dropover.mail.entity.channel.email.EmailChannel",
+         "target": "at.dropover.mail.entity.channel.common.MailChannelValidator"
+      },
+      {
+         "source": "at.dropover.mail.entity.channel.inmemory.InMemoryMailChannel",
+         "target": "at.dropover.creator.entity.Creator"
+      },
+      {
+         "source": "at.dropover.mail.entity.channel.inmemory.InMemoryMailChannel",
+         "target": "at.dropover.mail.entity.channel.MailChannel"
+      },
+      {
+         "source": "at.dropover.mail.entity.channel.inmemory.InMemoryMailChannel",
+         "target": "at.dropover.mail.entity.channel.common.MailChannelValidator"
+      },
+      {
+         "source": "at.dropover.mail.interactor.SendMailToCreator",
+         "target": "at.dropover.creator.entity.Creator"
+      },
+      {
+         "source": "at.dropover.mail.interactor.SendMailToCreator",
+         "target": "at.dropover.creator.entity.gateway.CreatorGateway"
+      },
+      {
+         "source": "at.dropover.mail.interactor.SendMailToCreator",
+         "target": "at.dropover.framework.boundary.RequestModel"
+      },
+      {
+         "source": "at.dropover.mail.interactor.SendMailToCreator",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.mail.interactor.SendMailToCreator",
+         "target": "at.dropover.framework.boundary.SiteDependentRequestModel"
+      },
+      {
+         "source": "at.dropover.mail.interactor.SendMailToCreator",
+         "target": "at.dropover.framework.boundary.SynchronousDeliveryInteractorBoundary"
+      },
+      {
+         "source": "at.dropover.mail.interactor.SendMailToCreator",
+         "target": "at.dropover.framework.exception.InvalidRequestException"
+      },
+      {
+         "source": "at.dropover.mail.interactor.SendMailToCreator",
+         "target": "at.dropover.framework.internationalization.Translation"
+      },
+      {
+         "source": "at.dropover.mail.interactor.SendMailToCreator",
+         "target": "at.dropover.mail.boundary.SendMailToCreatorRequestModel"
+      },
+      {
+         "source": "at.dropover.mail.interactor.SendMailToCreator",
+         "target": "at.dropover.mail.boundary.SendMailToCreatorRequestModel_innerClass_EventType"
+      },
+      {
+         "source": "at.dropover.mail.interactor.SendMailToCreator",
+         "target": "at.dropover.mail.boundary.SendMailToCreatorResponseModel"
+      },
+      {
+         "source": "at.dropover.mail.interactor.SendMailToCreator",
+         "target": "at.dropover.mail.entity.channel.MailChannel"
+      },
+      {
+         "source": "at.dropover.mail.interactor.SendMailToCreator",
+         "target": "at.dropover.mail.interactor.validation.SendMailValidation"
+      },
+      {
+         "source": "at.dropover.mail.interactor.SendMailToCreator",
+         "target": "at.dropover.site.entity.Site"
+      },
+      {
+         "source": "at.dropover.mail.interactor.SendMailToCreator",
+         "target": "at.dropover.site.entity.gateway.SiteGateway"
+      },
+      {
+         "source": "at.dropover.mail.interactor.validation.SendMailValidation",
+         "target": "at.dropover.site.entity.gateway.SiteGateway"
+      },
+      {
+         "source": "at.dropover.mail.interactor.validation.SendMailValidation",
+         "target": "at.dropover.site.validation.SiteDependentRequestValidator"
+      },
+      {
+         "source": "at.dropover.scheduling.boundary.AddSchedulingDateRequestModel",
+         "target": "at.dropover.framework.boundary.RequestModel"
+      },
+      {
+         "source": "at.dropover.scheduling.boundary.AddSchedulingDateResponseModel",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.scheduling.boundary.AddSchedulingRequestModel",
+         "target": "at.dropover.framework.boundary.RequestModel"
+      },
+      {
+         "source": "at.dropover.scheduling.boundary.AddSchedulingResponseModel",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.scheduling.boundary.AddSchedulingUserRequestModel",
+         "target": "at.dropover.framework.boundary.RequestModel"
+      },
+      {
+         "source": "at.dropover.scheduling.boundary.AddSchedulingUserResponseModel",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.scheduling.boundary.DeleteSchedulingUserRequestModel",
+         "target": "at.dropover.framework.boundary.RequestModel"
+      },
+      {
+         "source": "at.dropover.scheduling.boundary.DeleteSchedulingUserResponseModel",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.scheduling.boundary.GetSchedulingDateRequestModel",
+         "target": "at.dropover.framework.boundary.RequestModel"
+      },
+      {
+         "source": "at.dropover.scheduling.boundary.GetSchedulingDateResponseModel",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.scheduling.boundary.GetSchedulingRequestModel",
+         "target": "at.dropover.framework.boundary.SiteDependentRequestModel"
+      },
+      {
+         "source": "at.dropover.scheduling.boundary.GetSchedulingResponseModel",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.scheduling.boundary.GetSchedulingsRequestModel",
+         "target": "at.dropover.framework.boundary.SiteDependentRequestModel"
+      },
+      {
+         "source": "at.dropover.scheduling.boundary.GetSchedulingsResponseModel",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.scheduling.boundary.SetFinalDateRequestModel",
+         "target": "at.dropover.framework.boundary.RequestModel"
+      },
+      {
+         "source": "at.dropover.scheduling.boundary.VoteForSchedulingDateRequestModel",
+         "target": "at.dropover.framework.boundary.RequestModel"
+      },
+      {
+         "source": "at.dropover.scheduling.boundary.VoteForSchedulingDateRequestModel",
+         "target": "at.dropover.scheduling.interactor.VoteOption"
+      },
+      {
+         "source": "at.dropover.scheduling.boundary.VoteForSchedulingDateResponseModel",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.scheduling.delivery.rest.SchedulingDateResource",
+         "target": "at.dropover.scheduling.boundary.AddSchedulingDateResponseModel"
+      },
+      {
+         "source": "at.dropover.scheduling.delivery.rest.SchedulingDateResource",
+         "target": "at.dropover.scheduling.boundary.GetSchedulingDateRequestModel"
+      },
+      {
+         "source": "at.dropover.scheduling.delivery.rest.SchedulingDateResource",
+         "target": "at.dropover.scheduling.boundary.GetSchedulingDateResponseModel"
+      },
+      {
+         "source": "at.dropover.scheduling.delivery.rest.SchedulingDateResource",
+         "target": "at.dropover.scheduling.boundary.SetFinalDateRequestModel"
+      },
+      {
+         "source": "at.dropover.scheduling.delivery.rest.SchedulingDateResource",
+         "target": "at.dropover.scheduling.boundary.VoteForSchedulingDateRequestModel"
+      },
+      {
+         "source": "at.dropover.scheduling.delivery.rest.SchedulingDateResource",
+         "target": "at.dropover.scheduling.boundary.VoteForSchedulingDateResponseModel"
+      },
+      {
+         "source": "at.dropover.scheduling.delivery.rest.SchedulingDateResource",
+         "target": "at.dropover.scheduling.interactor.GetSchedulingDate"
+      },
+      {
+         "source": "at.dropover.scheduling.delivery.rest.SchedulingDateResource",
+         "target": "at.dropover.scheduling.interactor.SetFinalDate"
+      },
+      {
+         "source": "at.dropover.scheduling.delivery.rest.SchedulingDateResource",
+         "target": "at.dropover.scheduling.interactor.VoteForSchedulingDate"
+      },
+      {
+         "source": "at.dropover.scheduling.delivery.rest.SchedulingDateResource",
+         "target": "at.dropover.scheduling.interactor.VoteOption"
+      },
+      {
+         "source": "at.dropover.scheduling.delivery.rest.SchedulingDatesResource",
+         "target": "at.dropover.scheduling.boundary.AddSchedulingDateRequestModel"
+      },
+      {
+         "source": "at.dropover.scheduling.delivery.rest.SchedulingDatesResource",
+         "target": "at.dropover.scheduling.boundary.AddSchedulingDateResponseModel"
+      },
+      {
+         "source": "at.dropover.scheduling.delivery.rest.SchedulingDatesResource",
+         "target": "at.dropover.scheduling.delivery.rest.SchedulingDateResource"
+      },
+      {
+         "source": "at.dropover.scheduling.delivery.rest.SchedulingDatesResource",
+         "target": "at.dropover.scheduling.interactor.AddSchedulingDate"
+      },
+      {
+         "source": "at.dropover.scheduling.delivery.rest.SchedulingResource",
+         "target": "at.dropover.scheduling.boundary.GetSchedulingRequestModel"
+      },
+      {
+         "source": "at.dropover.scheduling.delivery.rest.SchedulingResource",
+         "target": "at.dropover.scheduling.boundary.GetSchedulingResponseModel"
+      },
+      {
+         "source": "at.dropover.scheduling.delivery.rest.SchedulingResource",
+         "target": "at.dropover.scheduling.delivery.rest.SchedulingDatesResource"
+      },
+      {
+         "source": "at.dropover.scheduling.delivery.rest.SchedulingResource",
+         "target": "at.dropover.scheduling.delivery.rest.SchedulingUsersResource"
+      },
+      {
+         "source": "at.dropover.scheduling.delivery.rest.SchedulingResource",
+         "target": "at.dropover.scheduling.interactor.GetScheduling"
+      },
+      {
+         "source": "at.dropover.scheduling.delivery.rest.SchedulingUserResource",
+         "target": "at.dropover.scheduling.boundary.DeleteSchedulingUserRequestModel"
+      },
+      {
+         "source": "at.dropover.scheduling.delivery.rest.SchedulingUserResource",
+         "target": "at.dropover.scheduling.boundary.DeleteSchedulingUserResponseModel"
+      },
+      {
+         "source": "at.dropover.scheduling.delivery.rest.SchedulingUserResource",
+         "target": "at.dropover.scheduling.interactor.DeleteSchedulingUser"
+      },
+      {
+         "source": "at.dropover.scheduling.delivery.rest.SchedulingUsersResource",
+         "target": "at.dropover.scheduling.boundary.AddSchedulingUserRequestModel"
+      },
+      {
+         "source": "at.dropover.scheduling.delivery.rest.SchedulingUsersResource",
+         "target": "at.dropover.scheduling.boundary.AddSchedulingUserResponseModel"
+      },
+      {
+         "source": "at.dropover.scheduling.delivery.rest.SchedulingUsersResource",
+         "target": "at.dropover.scheduling.delivery.rest.SchedulingUserResource"
+      },
+      {
+         "source": "at.dropover.scheduling.delivery.rest.SchedulingUsersResource",
+         "target": "at.dropover.scheduling.interactor.AddSchedulingUser"
+      },
+      {
+         "source": "at.dropover.scheduling.delivery.rest.SchedulingsResource",
+         "target": "at.dropover.scheduling.boundary.AddSchedulingRequestModel"
+      },
+      {
+         "source": "at.dropover.scheduling.delivery.rest.SchedulingsResource",
+         "target": "at.dropover.scheduling.boundary.AddSchedulingResponseModel"
+      },
+      {
+         "source": "at.dropover.scheduling.delivery.rest.SchedulingsResource",
+         "target": "at.dropover.scheduling.boundary.GetSchedulingsRequestModel"
+      },
+      {
+         "source": "at.dropover.scheduling.delivery.rest.SchedulingsResource",
+         "target": "at.dropover.scheduling.boundary.GetSchedulingsResponseModel"
+      },
+      {
+         "source": "at.dropover.scheduling.delivery.rest.SchedulingsResource",
+         "target": "at.dropover.scheduling.delivery.rest.SchedulingResource"
+      },
+      {
+         "source": "at.dropover.scheduling.delivery.rest.SchedulingsResource",
+         "target": "at.dropover.scheduling.interactor.AddScheduling"
+      },
+      {
+         "source": "at.dropover.scheduling.delivery.rest.SchedulingsResource",
+         "target": "at.dropover.scheduling.interactor.GetSchedulings"
+      },
+      {
+         "source": "at.dropover.scheduling.entity.Scheduling",
+         "target": "at.dropover.scheduling.entity.SchedulingDate"
+      },
+      {
+         "source": "at.dropover.scheduling.entity.Scheduling",
+         "target": "at.dropover.scheduling.entity.SchedulingUser"
+      },
+      {
+         "source": "at.dropover.scheduling.entity.SchedulingKey",
+         "target": "at.dropover.framework.entity.aws.KeyValue"
+      },
+      {
+         "source": "at.dropover.scheduling.entity.exception.SchedulingNotPersistentException",
+         "target": "at.dropover.framework.exception.NotPersistentException"
+      },
+      {
+         "source": "at.dropover.scheduling.entity.gateway.DateKey",
+         "target": "at.dropover.framework.entity.aws.KeyValue"
+      },
+      {
+         "source": "at.dropover.scheduling.entity.gateway.LoadSchedulingDate",
+         "target": "at.dropover.scheduling.entity.Scheduling"
+      },
+      {
+         "source": "at.dropover.scheduling.entity.gateway.LoadSchedulingDate",
+         "target": "at.dropover.scheduling.entity.SchedulingDate"
+      },
+      {
+         "source": "at.dropover.scheduling.entity.gateway.LoadSchedulingDate",
+         "target": "at.dropover.scheduling.entity.exception.SchedulingNotPersistentException"
+      },
+      {
+         "source": "at.dropover.scheduling.entity.gateway.SchedulingGateway",
+         "target": "at.dropover.scheduling.entity.Scheduling"
+      },
+      {
+         "source": "at.dropover.scheduling.entity.gateway.SchedulingGateway",
+         "target": "at.dropover.scheduling.entity.SchedulingDate"
+      },
+      {
+         "source": "at.dropover.scheduling.entity.gateway.SchedulingGateway",
+         "target": "at.dropover.scheduling.entity.SchedulingUser"
+      },
+      {
+         "source": "at.dropover.scheduling.entity.gateway.aws.DynamoDbSchedulingGateway",
+         "target": "at.dropover.creator.entity.Creator"
+      },
+      {
+         "source": "at.dropover.scheduling.entity.gateway.aws.DynamoDbSchedulingGateway",
+         "target": "at.dropover.creator.entity.gateway.CreatorGateway"
+      },
+      {
+         "source": "at.dropover.scheduling.entity.gateway.aws.DynamoDbSchedulingGateway",
+         "target": "at.dropover.creator.entity.gateway.CreatorKey"
+      },
+      {
+         "source": "at.dropover.scheduling.entity.gateway.aws.DynamoDbSchedulingGateway",
+         "target": "at.dropover.creator.entity.pojo.PojoCreator"
+      },
+      {
+         "source": "at.dropover.scheduling.entity.gateway.aws.DynamoDbSchedulingGateway",
+         "target": "at.dropover.framework.configuration.ConfigurationFile"
+      },
+      {
+         "source": "at.dropover.scheduling.entity.gateway.aws.DynamoDbSchedulingGateway",
+         "target": "at.dropover.framework.entity.aws.AWS"
+      },
+      {
+         "source": "at.dropover.scheduling.entity.gateway.aws.DynamoDbSchedulingGateway",
+         "target": "at.dropover.framework.entity.aws.ConditionWrapper"
+      },
+      {
+         "source": "at.dropover.scheduling.entity.gateway.aws.DynamoDbSchedulingGateway",
+         "target": "at.dropover.framework.entity.aws.KeyValue"
+      },
+      {
+         "source": "at.dropover.scheduling.entity.gateway.aws.DynamoDbSchedulingGateway",
+         "target": "at.dropover.framework.exception.InvalidRequestException"
+      },
+      {
+         "source": "at.dropover.scheduling.entity.gateway.aws.DynamoDbSchedulingGateway",
+         "target": "at.dropover.scheduling.entity.Scheduling"
+      },
+      {
+         "source": "at.dropover.scheduling.entity.gateway.aws.DynamoDbSchedulingGateway",
+         "target": "at.dropover.scheduling.entity.SchedulingDate"
+      },
+      {
+         "source": "at.dropover.scheduling.entity.gateway.aws.DynamoDbSchedulingGateway",
+         "target": "at.dropover.scheduling.entity.SchedulingKey"
+      },
+      {
+         "source": "at.dropover.scheduling.entity.gateway.aws.DynamoDbSchedulingGateway",
+         "target": "at.dropover.scheduling.entity.SchedulingUser"
+      },
+      {
+         "source": "at.dropover.scheduling.entity.gateway.aws.DynamoDbSchedulingGateway",
+         "target": "at.dropover.scheduling.entity.exception.SchedulingNotPersistentException"
+      },
+      {
+         "source": "at.dropover.scheduling.entity.gateway.aws.DynamoDbSchedulingGateway",
+         "target": "at.dropover.scheduling.entity.gateway.DateKey"
+      },
+      {
+         "source": "at.dropover.scheduling.entity.gateway.aws.DynamoDbSchedulingGateway",
+         "target": "at.dropover.scheduling.entity.gateway.LoadSchedulingDate"
+      },
+      {
+         "source": "at.dropover.scheduling.entity.gateway.aws.DynamoDbSchedulingGateway",
+         "target": "at.dropover.scheduling.entity.gateway.SchedulingGateway"
+      },
+      {
+         "source": "at.dropover.scheduling.entity.gateway.aws.DynamoDbSchedulingGateway",
+         "target": "at.dropover.scheduling.entity.pojo.PojoScheduling"
+      },
+      {
+         "source": "at.dropover.scheduling.entity.gateway.aws.DynamoDbSchedulingGateway",
+         "target": "at.dropover.scheduling.entity.pojo.PojoSchedulingDate"
+      },
+      {
+         "source": "at.dropover.scheduling.entity.gateway.aws.DynamoDbSchedulingGateway",
+         "target": "at.dropover.scheduling.entity.pojo.PojoSchedulingUser"
+      },
+      {
+         "source": "at.dropover.scheduling.entity.gateway.inmemory.InMemorySchedulingGateway",
+         "target": "at.dropover.scheduling.entity.Scheduling"
+      },
+      {
+         "source": "at.dropover.scheduling.entity.gateway.inmemory.InMemorySchedulingGateway",
+         "target": "at.dropover.scheduling.entity.SchedulingDate"
+      },
+      {
+         "source": "at.dropover.scheduling.entity.gateway.inmemory.InMemorySchedulingGateway",
+         "target": "at.dropover.scheduling.entity.SchedulingUser"
+      },
+      {
+         "source": "at.dropover.scheduling.entity.gateway.inmemory.InMemorySchedulingGateway",
+         "target": "at.dropover.scheduling.entity.gateway.LoadSchedulingDate"
+      },
+      {
+         "source": "at.dropover.scheduling.entity.gateway.inmemory.InMemorySchedulingGateway",
+         "target": "at.dropover.scheduling.entity.gateway.SchedulingGateway"
+      },
+      {
+         "source": "at.dropover.scheduling.entity.gateway.inmemory.InMemorySchedulingGateway",
+         "target": "at.dropover.scheduling.entity.pojo.PojoScheduling"
+      },
+      {
+         "source": "at.dropover.scheduling.entity.pojo.PojoScheduling",
+         "target": "at.dropover.scheduling.entity.Scheduling"
+      },
+      {
+         "source": "at.dropover.scheduling.entity.pojo.PojoScheduling",
+         "target": "at.dropover.scheduling.entity.SchedulingDate"
+      },
+      {
+         "source": "at.dropover.scheduling.entity.pojo.PojoScheduling",
+         "target": "at.dropover.scheduling.entity.SchedulingKey"
+      },
+      {
+         "source": "at.dropover.scheduling.entity.pojo.PojoScheduling",
+         "target": "at.dropover.scheduling.entity.SchedulingUser"
+      },
+      {
+         "source": "at.dropover.scheduling.entity.pojo.PojoScheduling",
+         "target": "at.dropover.scheduling.entity.pojo.PojoSchedulingDate"
+      },
+      {
+         "source": "at.dropover.scheduling.entity.pojo.PojoScheduling",
+         "target": "at.dropover.scheduling.entity.pojo.PojoSchedulingUser"
+      },
+      {
+         "source": "at.dropover.scheduling.entity.pojo.PojoSchedulingDate",
+         "target": "at.dropover.scheduling.entity.SchedulingDate"
+      },
+      {
+         "source": "at.dropover.scheduling.entity.pojo.PojoSchedulingUser",
+         "target": "at.dropover.scheduling.entity.SchedulingUser"
+      },
+      {
+         "source": "at.dropover.scheduling.exception.DuplicateKeyException",
+         "target": "at.dropover.framework.exception.InvalidRequestException"
+      },
+      {
+         "source": "at.dropover.scheduling.exception.DuplicateSchedulingPositionException",
+         "target": "at.dropover.framework.exception.InvalidRequestException"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.AddScheduling",
+         "target": "at.dropover.framework.boundary.RequestModel"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.AddScheduling",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.AddScheduling",
+         "target": "at.dropover.framework.boundary.SynchronousDeliveryInteractorBoundary"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.AddScheduling",
+         "target": "at.dropover.scheduling.boundary.AddSchedulingRequestModel"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.AddScheduling",
+         "target": "at.dropover.scheduling.boundary.AddSchedulingResponseModel"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.AddScheduling",
+         "target": "at.dropover.scheduling.entity.Scheduling"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.AddScheduling",
+         "target": "at.dropover.scheduling.entity.gateway.SchedulingGateway"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.AddScheduling",
+         "target": "at.dropover.scheduling.interactor.validation.SchedulingRequestValidator"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.AddSchedulingDate",
+         "target": "at.dropover.framework.boundary.RequestModel"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.AddSchedulingDate",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.AddSchedulingDate",
+         "target": "at.dropover.framework.boundary.SynchronousDeliveryInteractorBoundary"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.AddSchedulingDate",
+         "target": "at.dropover.scheduling.boundary.AddSchedulingDateRequestModel"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.AddSchedulingDate",
+         "target": "at.dropover.scheduling.boundary.AddSchedulingDateResponseModel"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.AddSchedulingDate",
+         "target": "at.dropover.scheduling.entity.Scheduling"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.AddSchedulingDate",
+         "target": "at.dropover.scheduling.entity.SchedulingDate"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.AddSchedulingDate",
+         "target": "at.dropover.scheduling.entity.gateway.SchedulingGateway"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.AddSchedulingDate",
+         "target": "at.dropover.scheduling.interactor.validation.SchedulingRequestValidator"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.AddSchedulingUser",
+         "target": "at.dropover.framework.boundary.RequestModel"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.AddSchedulingUser",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.AddSchedulingUser",
+         "target": "at.dropover.framework.boundary.SynchronousDeliveryInteractorBoundary"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.AddSchedulingUser",
+         "target": "at.dropover.scheduling.boundary.AddSchedulingUserRequestModel"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.AddSchedulingUser",
+         "target": "at.dropover.scheduling.boundary.AddSchedulingUserResponseModel"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.AddSchedulingUser",
+         "target": "at.dropover.scheduling.entity.SchedulingUser"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.AddSchedulingUser",
+         "target": "at.dropover.scheduling.entity.gateway.SchedulingGateway"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.AddSchedulingUser",
+         "target": "at.dropover.scheduling.interactor.validation.SchedulingRequestValidator"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.DeleteSchedulingUser",
+         "target": "at.dropover.framework.boundary.RequestModel"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.DeleteSchedulingUser",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.DeleteSchedulingUser",
+         "target": "at.dropover.framework.boundary.SynchronousDeliveryInteractorBoundary"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.DeleteSchedulingUser",
+         "target": "at.dropover.scheduling.boundary.DeleteSchedulingUserRequestModel"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.DeleteSchedulingUser",
+         "target": "at.dropover.scheduling.boundary.DeleteSchedulingUserResponseModel"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.DeleteSchedulingUser",
+         "target": "at.dropover.scheduling.entity.gateway.SchedulingGateway"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.DeleteSchedulingUser",
+         "target": "at.dropover.scheduling.interactor.validation.SchedulingRequestValidator"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.GetScheduling",
+         "target": "at.dropover.framework.boundary.RequestModel"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.GetScheduling",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.GetScheduling",
+         "target": "at.dropover.framework.boundary.SynchronousDeliveryInteractorBoundary"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.GetScheduling",
+         "target": "at.dropover.framework.exception.InvalidRequestException"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.GetScheduling",
+         "target": "at.dropover.scheduling.boundary.GetSchedulingRequestModel"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.GetScheduling",
+         "target": "at.dropover.scheduling.boundary.GetSchedulingResponseModel"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.GetScheduling",
+         "target": "at.dropover.scheduling.entity.Scheduling"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.GetScheduling",
+         "target": "at.dropover.scheduling.entity.SchedulingDate"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.GetScheduling",
+         "target": "at.dropover.scheduling.entity.SchedulingUser"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.GetScheduling",
+         "target": "at.dropover.scheduling.entity.exception.SchedulingNotPersistentException"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.GetScheduling",
+         "target": "at.dropover.scheduling.entity.gateway.SchedulingGateway"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.GetScheduling",
+         "target": "at.dropover.scheduling.interactor.validation.SchedulingRequestValidator"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.GetSchedulingDate",
+         "target": "at.dropover.framework.boundary.RequestModel"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.GetSchedulingDate",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.GetSchedulingDate",
+         "target": "at.dropover.framework.boundary.SynchronousDeliveryInteractorBoundary"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.GetSchedulingDate",
+         "target": "at.dropover.scheduling.boundary.GetSchedulingDateRequestModel"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.GetSchedulingDate",
+         "target": "at.dropover.scheduling.boundary.GetSchedulingDateResponseModel"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.GetSchedulingDate",
+         "target": "at.dropover.scheduling.entity.Scheduling"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.GetSchedulingDate",
+         "target": "at.dropover.scheduling.entity.SchedulingDate"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.GetSchedulingDate",
+         "target": "at.dropover.scheduling.entity.gateway.SchedulingGateway"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.GetSchedulingDate",
+         "target": "at.dropover.scheduling.interactor.validation.SchedulingRequestValidator"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.GetSchedulings",
+         "target": "at.dropover.framework.boundary.RequestModel"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.GetSchedulings",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.GetSchedulings",
+         "target": "at.dropover.framework.boundary.SynchronousDeliveryInteractorBoundary"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.GetSchedulings",
+         "target": "at.dropover.scheduling.boundary.GetSchedulingsRequestModel"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.GetSchedulings",
+         "target": "at.dropover.scheduling.boundary.GetSchedulingsResponseModel"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.GetSchedulings",
+         "target": "at.dropover.scheduling.entity.Scheduling"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.GetSchedulings",
+         "target": "at.dropover.scheduling.entity.gateway.SchedulingGateway"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.GetSchedulings",
+         "target": "at.dropover.scheduling.interactor.validation.SchedulingRequestValidator"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.SetFinalDate",
+         "target": "at.dropover.framework.boundary.RequestModel"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.SetFinalDate",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.SetFinalDate",
+         "target": "at.dropover.framework.boundary.SynchronousDeliveryInteractorBoundary"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.SetFinalDate",
+         "target": "at.dropover.scheduling.boundary.AddSchedulingDateResponseModel"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.SetFinalDate",
+         "target": "at.dropover.scheduling.boundary.SetFinalDateRequestModel"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.SetFinalDate",
+         "target": "at.dropover.scheduling.entity.SchedulingDate"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.SetFinalDate",
+         "target": "at.dropover.scheduling.entity.gateway.SchedulingGateway"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.VoteForSchedulingDate",
+         "target": "at.dropover.framework.boundary.RequestModel"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.VoteForSchedulingDate",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.VoteForSchedulingDate",
+         "target": "at.dropover.framework.boundary.SynchronousDeliveryInteractorBoundary"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.VoteForSchedulingDate",
+         "target": "at.dropover.scheduling.boundary.VoteForSchedulingDateRequestModel"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.VoteForSchedulingDate",
+         "target": "at.dropover.scheduling.boundary.VoteForSchedulingDateResponseModel"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.VoteForSchedulingDate",
+         "target": "at.dropover.scheduling.entity.gateway.SchedulingGateway"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.VoteForSchedulingDate",
+         "target": "at.dropover.scheduling.interactor.VoteOption"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.VoteForSchedulingDate",
+         "target": "at.dropover.scheduling.interactor.validation.SchedulingRequestValidator"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.validation.SchedulingRequestValidator",
+         "target": "at.dropover.framework.exception.InvalidRequestException"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.validation.SchedulingRequestValidator",
+         "target": "at.dropover.scheduling.boundary.AddSchedulingDateRequestModel"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.validation.SchedulingRequestValidator",
+         "target": "at.dropover.scheduling.boundary.AddSchedulingRequestModel"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.validation.SchedulingRequestValidator",
+         "target": "at.dropover.scheduling.boundary.AddSchedulingUserRequestModel"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.validation.SchedulingRequestValidator",
+         "target": "at.dropover.scheduling.boundary.DeleteSchedulingUserRequestModel"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.validation.SchedulingRequestValidator",
+         "target": "at.dropover.scheduling.boundary.GetSchedulingDateRequestModel"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.validation.SchedulingRequestValidator",
+         "target": "at.dropover.scheduling.boundary.GetSchedulingRequestModel"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.validation.SchedulingRequestValidator",
+         "target": "at.dropover.scheduling.boundary.GetSchedulingsRequestModel"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.validation.SchedulingRequestValidator",
+         "target": "at.dropover.scheduling.boundary.VoteForSchedulingDateRequestModel"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.validation.SchedulingRequestValidator",
+         "target": "at.dropover.scheduling.entity.exception.SchedulingNotPersistentException"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.validation.SchedulingRequestValidator",
+         "target": "at.dropover.scheduling.entity.gateway.SchedulingGateway"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.validation.SchedulingRequestValidator",
+         "target": "at.dropover.scheduling.interactor.VoteOption"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.validation.SchedulingRequestValidator",
+         "target": "at.dropover.site.entity.exception.SiteNotPersistentException"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.validation.SchedulingRequestValidator",
+         "target": "at.dropover.site.entity.gateway.SiteGateway"
+      },
+      {
+         "source": "at.dropover.scheduling.interactor.validation.SchedulingRequestValidator",
+         "target": "at.dropover.site.validation.SiteDependentRequestValidator"
+      },
+      {
+         "source": "at.dropover.site.boundary.CreateSiteRequestModel",
+         "target": "at.dropover.framework.boundary.RequestModel"
+      },
+      {
+         "source": "at.dropover.site.boundary.CreateSiteRequestModel",
+         "target": "at.dropover.site.boundary.SiteData"
+      },
+      {
+         "source": "at.dropover.site.boundary.CreateSiteResponseModel",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.site.boundary.CreateSiteResponseModel",
+         "target": "at.dropover.site.boundary.SiteData"
+      },
+      {
+         "source": "at.dropover.site.boundary.GetSiteRequestModel",
+         "target": "at.dropover.framework.boundary.RequestModel"
+      },
+      {
+         "source": "at.dropover.site.boundary.GetSiteResponseModel",
+         "target": "at.dropover.comment.boundary.TimeDiffResponseModel"
+      },
+      {
+         "source": "at.dropover.site.boundary.GetSiteResponseModel",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.site.boundary.GetSiteResponseModel",
+         "target": "at.dropover.site.boundary.SiteData"
+      },
+      {
+         "source": "at.dropover.site.boundary.SiteData",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.site.boundary.SiteData",
+         "target": "at.dropover.site.boundary.LocationData"
+      },
+      {
+         "source": "at.dropover.site.delivery.rest.SiteResource",
+         "target": "at.dropover.comment.delivery.rest.CommentsResource"
+      },
+      {
+         "source": "at.dropover.site.delivery.rest.SiteResource",
+         "target": "at.dropover.files.delivery.rest.FilesResource"
+      },
+      {
+         "source": "at.dropover.site.delivery.rest.SiteResource",
+         "target": "at.dropover.framework.delivery.LocaleDeterminator"
+      },
+      {
+         "source": "at.dropover.site.delivery.rest.SiteResource",
+         "target": "at.dropover.scheduling.delivery.rest.SchedulingsResource"
+      },
+      {
+         "source": "at.dropover.site.delivery.rest.SiteResource",
+         "target": "at.dropover.site.boundary.GetSiteRequestModel"
+      },
+      {
+         "source": "at.dropover.site.delivery.rest.SiteResource",
+         "target": "at.dropover.site.boundary.GetSiteResponseModel"
+      },
+      {
+         "source": "at.dropover.site.delivery.rest.SiteResource",
+         "target": "at.dropover.site.interactor.GetSite"
+      },
+      {
+         "source": "at.dropover.site.delivery.rest.SiteResource",
+         "target": "at.dropover.todo.delivery.rest.TodolistsResource"
+      },
+      {
+         "source": "at.dropover.site.delivery.rest.SitesResource",
+         "target": "at.dropover.site.boundary.CreateSiteRequestModel"
+      },
+      {
+         "source": "at.dropover.site.delivery.rest.SitesResource",
+         "target": "at.dropover.site.boundary.CreateSiteResponseModel"
+      },
+      {
+         "source": "at.dropover.site.delivery.rest.SitesResource",
+         "target": "at.dropover.site.boundary.LocationData"
+      },
+      {
+         "source": "at.dropover.site.delivery.rest.SitesResource",
+         "target": "at.dropover.site.boundary.SiteData"
+      },
+      {
+         "source": "at.dropover.site.delivery.rest.SitesResource",
+         "target": "at.dropover.site.delivery.rest.SiteResource"
+      },
+      {
+         "source": "at.dropover.site.delivery.rest.SitesResource",
+         "target": "at.dropover.site.interactor.CreateSite"
+      },
+      {
+         "source": "at.dropover.site.entity.Site",
+         "target": "at.dropover.creator.entity.Creator"
+      },
+      {
+         "source": "at.dropover.site.entity.Site",
+         "target": "at.dropover.site.entity.Location"
+      },
+      {
+         "source": "at.dropover.site.entity.exception.SiteNotPersistentException",
+         "target": "at.dropover.framework.exception.NotPersistentException"
+      },
+      {
+         "source": "at.dropover.site.entity.gateway.SiteGateway",
+         "target": "at.dropover.creator.entity.Creator"
+      },
+      {
+         "source": "at.dropover.site.entity.gateway.SiteGateway",
+         "target": "at.dropover.site.entity.Location"
+      },
+      {
+         "source": "at.dropover.site.entity.gateway.SiteGateway",
+         "target": "at.dropover.site.entity.Site"
+      },
+      {
+         "source": "at.dropover.site.entity.gateway.aws.DynamoDbSiteGateway",
+         "target": "at.dropover.creator.entity.Creator"
+      },
+      {
+         "source": "at.dropover.site.entity.gateway.aws.DynamoDbSiteGateway",
+         "target": "at.dropover.creator.entity.gateway.CreatorGateway"
+      },
+      {
+         "source": "at.dropover.site.entity.gateway.aws.DynamoDbSiteGateway",
+         "target": "at.dropover.creator.entity.gateway.CreatorKey"
+      },
+      {
+         "source": "at.dropover.site.entity.gateway.aws.DynamoDbSiteGateway",
+         "target": "at.dropover.framework.configuration.ConfigurationFile"
+      },
+      {
+         "source": "at.dropover.site.entity.gateway.aws.DynamoDbSiteGateway",
+         "target": "at.dropover.framework.entity.aws.AWS"
+      },
+      {
+         "source": "at.dropover.site.entity.gateway.aws.DynamoDbSiteGateway",
+         "target": "at.dropover.framework.entity.aws.KeyValue"
+      },
+      {
+         "source": "at.dropover.site.entity.gateway.aws.DynamoDbSiteGateway",
+         "target": "at.dropover.site.entity.Location"
+      },
+      {
+         "source": "at.dropover.site.entity.gateway.aws.DynamoDbSiteGateway",
+         "target": "at.dropover.site.entity.Site"
+      },
+      {
+         "source": "at.dropover.site.entity.gateway.aws.DynamoDbSiteGateway",
+         "target": "at.dropover.site.entity.exception.SiteNotPersistentException"
+      },
+      {
+         "source": "at.dropover.site.entity.gateway.aws.DynamoDbSiteGateway",
+         "target": "at.dropover.site.entity.gateway.SiteGateway"
+      },
+      {
+         "source": "at.dropover.site.entity.gateway.aws.DynamoDbSiteGateway",
+         "target": "at.dropover.site.entity.pojo.PojoLocation"
+      },
+      {
+         "source": "at.dropover.site.entity.gateway.aws.DynamoDbSiteGateway",
+         "target": "at.dropover.site.entity.pojo.PojoSite"
+      },
+      {
+         "source": "at.dropover.site.entity.gateway.inmemory.InMemorySiteGateway",
+         "target": "at.dropover.creator.entity.Creator"
+      },
+      {
+         "source": "at.dropover.site.entity.gateway.inmemory.InMemorySiteGateway",
+         "target": "at.dropover.site.entity.Location"
+      },
+      {
+         "source": "at.dropover.site.entity.gateway.inmemory.InMemorySiteGateway",
+         "target": "at.dropover.site.entity.Site"
+      },
+      {
+         "source": "at.dropover.site.entity.gateway.inmemory.InMemorySiteGateway",
+         "target": "at.dropover.site.entity.gateway.SiteGateway"
+      },
+      {
+         "source": "at.dropover.site.entity.gateway.inmemory.InMemorySiteGateway",
+         "target": "at.dropover.site.entity.pojo.PojoSite"
+      },
+      {
+         "source": "at.dropover.site.entity.pojo.PojoLocation",
+         "target": "at.dropover.site.entity.Location"
+      },
+      {
+         "source": "at.dropover.site.entity.pojo.PojoSite",
+         "target": "at.dropover.creator.entity.Creator"
+      },
+      {
+         "source": "at.dropover.site.entity.pojo.PojoSite",
+         "target": "at.dropover.site.entity.Location"
+      },
+      {
+         "source": "at.dropover.site.entity.pojo.PojoSite",
+         "target": "at.dropover.site.entity.Site"
+      },
+      {
+         "source": "at.dropover.site.interactor.CreateSite",
+         "target": "at.dropover.creator.entity.Creator"
+      },
+      {
+         "source": "at.dropover.site.interactor.CreateSite",
+         "target": "at.dropover.creator.entity.gateway.CreatorGateway"
+      },
+      {
+         "source": "at.dropover.site.interactor.CreateSite",
+         "target": "at.dropover.creator.interactor.FormatCreatorNicely"
+      },
+      {
+         "source": "at.dropover.site.interactor.CreateSite",
+         "target": "at.dropover.framework.boundary.RequestModel"
+      },
+      {
+         "source": "at.dropover.site.interactor.CreateSite",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.site.interactor.CreateSite",
+         "target": "at.dropover.framework.boundary.SynchronousDeliveryInteractorBoundary"
+      },
+      {
+         "source": "at.dropover.site.interactor.CreateSite",
+         "target": "at.dropover.framework.exception.InvalidRequestException"
+      },
+      {
+         "source": "at.dropover.site.interactor.CreateSite",
+         "target": "at.dropover.site.boundary.CreateSiteRequestModel"
+      },
+      {
+         "source": "at.dropover.site.interactor.CreateSite",
+         "target": "at.dropover.site.boundary.CreateSiteResponseModel"
+      },
+      {
+         "source": "at.dropover.site.interactor.CreateSite",
+         "target": "at.dropover.site.boundary.LocationData"
+      },
+      {
+         "source": "at.dropover.site.interactor.CreateSite",
+         "target": "at.dropover.site.boundary.SiteData"
+      },
+      {
+         "source": "at.dropover.site.interactor.CreateSite",
+         "target": "at.dropover.site.entity.Location"
+      },
+      {
+         "source": "at.dropover.site.interactor.CreateSite",
+         "target": "at.dropover.site.entity.Site"
+      },
+      {
+         "source": "at.dropover.site.interactor.CreateSite",
+         "target": "at.dropover.site.entity.gateway.SiteGateway"
+      },
+      {
+         "source": "at.dropover.site.interactor.CreateSite",
+         "target": "at.dropover.site.entity.pojo.PojoLocation"
+      },
+      {
+         "source": "at.dropover.site.interactor.CreateSite",
+         "target": "at.dropover.site.interactor.GetSiteData"
+      },
+      {
+         "source": "at.dropover.site.interactor.CreateSite",
+         "target": "at.dropover.site.interactor.namegeneration.RandomSiteNameGenerator"
+      },
+      {
+         "source": "at.dropover.site.interactor.GetSite",
+         "target": "at.dropover.comment.boundary.TimeDiffRequestModel"
+      },
+      {
+         "source": "at.dropover.site.interactor.GetSite",
+         "target": "at.dropover.comment.boundary.TimeDiffResponseModel"
+      },
+      {
+         "source": "at.dropover.site.interactor.GetSite",
+         "target": "at.dropover.comment.interactor.CreateTimeDiff"
+      },
+      {
+         "source": "at.dropover.site.interactor.GetSite",
+         "target": "at.dropover.creator.entity.Creator"
+      },
+      {
+         "source": "at.dropover.site.interactor.GetSite",
+         "target": "at.dropover.creator.interactor.FormatCreatorNicely"
+      },
+      {
+         "source": "at.dropover.site.interactor.GetSite",
+         "target": "at.dropover.framework.boundary.RequestModel"
+      },
+      {
+         "source": "at.dropover.site.interactor.GetSite",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.site.interactor.GetSite",
+         "target": "at.dropover.framework.boundary.SynchronousDeliveryInteractorBoundary"
+      },
+      {
+         "source": "at.dropover.site.interactor.GetSite",
+         "target": "at.dropover.framework.exception.InvalidRequestException"
+      },
+      {
+         "source": "at.dropover.site.interactor.GetSite",
+         "target": "at.dropover.site.boundary.GetSiteRequestModel"
+      },
+      {
+         "source": "at.dropover.site.interactor.GetSite",
+         "target": "at.dropover.site.boundary.GetSiteResponseModel"
+      },
+      {
+         "source": "at.dropover.site.interactor.GetSite",
+         "target": "at.dropover.site.boundary.LocationData"
+      },
+      {
+         "source": "at.dropover.site.interactor.GetSite",
+         "target": "at.dropover.site.boundary.SiteData"
+      },
+      {
+         "source": "at.dropover.site.interactor.GetSite",
+         "target": "at.dropover.site.entity.Location"
+      },
+      {
+         "source": "at.dropover.site.interactor.GetSite",
+         "target": "at.dropover.site.entity.Site"
+      },
+      {
+         "source": "at.dropover.site.interactor.GetSite",
+         "target": "at.dropover.site.entity.exception.SiteNotPersistentException"
+      },
+      {
+         "source": "at.dropover.site.interactor.GetSite",
+         "target": "at.dropover.site.entity.gateway.SiteGateway"
+      },
+      {
+         "source": "at.dropover.site.interactor.GetSiteData",
+         "target": "at.dropover.creator.entity.Creator"
+      },
+      {
+         "source": "at.dropover.site.interactor.GetSiteData",
+         "target": "at.dropover.creator.interactor.FormatCreatorNicely"
+      },
+      {
+         "source": "at.dropover.site.interactor.GetSiteData",
+         "target": "at.dropover.site.boundary.LocationData"
+      },
+      {
+         "source": "at.dropover.site.interactor.GetSiteData",
+         "target": "at.dropover.site.boundary.SiteData"
+      },
+      {
+         "source": "at.dropover.site.interactor.GetSiteData",
+         "target": "at.dropover.site.entity.Location"
+      },
+      {
+         "source": "at.dropover.site.interactor.GetSiteData",
+         "target": "at.dropover.site.entity.Site"
+      },
+      {
+         "source": "at.dropover.site.interactor.namegeneration.AlphabeticBase26Encoder",
+         "target": "at.dropover.site.interactor.namegeneration.BaseEncoder"
+      },
+      {
+         "source": "at.dropover.site.interactor.namegeneration.RandomSiteNameGenerator",
+         "target": "at.dropover.site.interactor.namegeneration.AlphabeticBase26Encoder"
+      },
+      {
+         "source": "at.dropover.site.interactor.namegeneration.RandomSiteNameGenerator",
+         "target": "at.dropover.site.interactor.namegeneration.BaseEncoder"
+      },
+      {
+         "source": "at.dropover.site.validation.SiteDependentRequestValidator",
+         "target": "at.dropover.framework.boundary.SiteDependentRequestModel"
+      },
+      {
+         "source": "at.dropover.site.validation.SiteDependentRequestValidator",
+         "target": "at.dropover.framework.exception.InvalidRequestException"
+      },
+      {
+         "source": "at.dropover.site.validation.SiteDependentRequestValidator",
+         "target": "at.dropover.site.entity.Site"
+      },
+      {
+         "source": "at.dropover.site.validation.SiteDependentRequestValidator",
+         "target": "at.dropover.site.entity.exception.SiteNotPersistentException"
+      },
+      {
+         "source": "at.dropover.site.validation.SiteDependentRequestValidator",
+         "target": "at.dropover.site.entity.gateway.SiteGateway"
+      },
+      {
+         "source": "at.dropover.todo.boundary.AddTodoListRequest",
+         "target": "at.dropover.framework.boundary.SiteDependentRequestModel"
+      },
+      {
+         "source": "at.dropover.todo.boundary.AddTodoListResponse",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.todo.boundary.AddTodoRequestModel",
+         "target": "at.dropover.todo.boundary.TodoRequestModel"
+      },
+      {
+         "source": "at.dropover.todo.boundary.ChangeTodoRequestModel",
+         "target": "at.dropover.todo.boundary.TodoRequestModel"
+      },
+      {
+         "source": "at.dropover.todo.boundary.DeleteTodoListRequestModel",
+         "target": "at.dropover.todo.boundary.TodoRequestModel"
+      },
+      {
+         "source": "at.dropover.todo.boundary.DeleteTodoListResponseModel",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.todo.boundary.DeleteTodoResponseModel",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.todo.boundary.GetAllTodoListsRequest",
+         "target": "at.dropover.framework.boundary.SiteDependentRequestModel"
+      },
+      {
+         "source": "at.dropover.todo.boundary.GetAllTodoListsResponse",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.todo.boundary.GetAllTodosRequest",
+         "target": "at.dropover.todo.boundary.TodoRequestModel"
+      },
+      {
+         "source": "at.dropover.todo.boundary.GetAllTodosResponse",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.todo.boundary.GetAllTodosResponse",
+         "target": "at.dropover.todo.boundary.TodoData"
+      },
+      {
+         "source": "at.dropover.todo.boundary.GetTodoListRequestModel",
+         "target": "at.dropover.todo.boundary.TodoRequestModel"
+      },
+      {
+         "source": "at.dropover.todo.boundary.GetTodoListResponseModel",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.todo.boundary.GetTodoListResponseModel",
+         "target": "at.dropover.todo.boundary.TodoData"
+      },
+      {
+         "source": "at.dropover.todo.boundary.GetTodoRequestModel",
+         "target": "at.dropover.todo.boundary.TodoRequestModel"
+      },
+      {
+         "source": "at.dropover.todo.boundary.GetTodosRequestModel",
+         "target": "at.dropover.framework.boundary.SiteDependentRequestModel"
+      },
+      {
+         "source": "at.dropover.todo.boundary.GetTodosResponseModel",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.todo.boundary.GetTodosResponseModel",
+         "target": "at.dropover.todo.boundary.TodoData"
+      },
+      {
+         "source": "at.dropover.todo.boundary.TodoData",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.todo.boundary.TodoRequestModel",
+         "target": "at.dropover.framework.boundary.SiteDependentRequestModel"
+      },
+      {
+         "source": "at.dropover.todo.delivery.rest.TodoResource",
+         "target": "at.dropover.framework.delivery.LocaleDeterminator"
+      },
+      {
+         "source": "at.dropover.todo.delivery.rest.TodoResource",
+         "target": "at.dropover.todo.boundary.AddTodoRequestModel"
+      },
+      {
+         "source": "at.dropover.todo.delivery.rest.TodoResource",
+         "target": "at.dropover.todo.boundary.ChangeTodoRequestModel"
+      },
+      {
+         "source": "at.dropover.todo.delivery.rest.TodoResource",
+         "target": "at.dropover.todo.boundary.DeleteTodoResponseModel"
+      },
+      {
+         "source": "at.dropover.todo.delivery.rest.TodoResource",
+         "target": "at.dropover.todo.boundary.GetTodoRequestModel"
+      },
+      {
+         "source": "at.dropover.todo.delivery.rest.TodoResource",
+         "target": "at.dropover.todo.boundary.TodoData"
+      },
+      {
+         "source": "at.dropover.todo.delivery.rest.TodoResource",
+         "target": "at.dropover.todo.interactor.AddTodo"
+      },
+      {
+         "source": "at.dropover.todo.delivery.rest.TodoResource",
+         "target": "at.dropover.todo.interactor.ChangeTodo"
+      },
+      {
+         "source": "at.dropover.todo.delivery.rest.TodoResource",
+         "target": "at.dropover.todo.interactor.DeleteTodo"
+      },
+      {
+         "source": "at.dropover.todo.delivery.rest.TodoResource",
+         "target": "at.dropover.todo.interactor.GetTodo"
+      },
+      {
+         "source": "at.dropover.todo.delivery.rest.TodoResource",
+         "target": "at.dropover.todo.interactor.exception.TodoNotFoundException"
+      },
+      {
+         "source": "at.dropover.todo.delivery.rest.TodolistResource",
+         "target": "at.dropover.todo.boundary.DeleteTodoListResponseModel"
+      },
+      {
+         "source": "at.dropover.todo.delivery.rest.TodolistResource",
+         "target": "at.dropover.todo.boundary.GetTodoListRequestModel"
+      },
+      {
+         "source": "at.dropover.todo.delivery.rest.TodolistResource",
+         "target": "at.dropover.todo.boundary.GetTodoListResponseModel"
+      },
+      {
+         "source": "at.dropover.todo.delivery.rest.TodolistResource",
+         "target": "at.dropover.todo.delivery.rest.TodosResource"
+      },
+      {
+         "source": "at.dropover.todo.delivery.rest.TodolistResource",
+         "target": "at.dropover.todo.interactor.DeleteTodoList"
+      },
+      {
+         "source": "at.dropover.todo.delivery.rest.TodolistResource",
+         "target": "at.dropover.todo.interactor.GetTodoList"
+      },
+      {
+         "source": "at.dropover.todo.delivery.rest.TodolistsResource",
+         "target": "at.dropover.todo.boundary.AddTodoListRequest"
+      },
+      {
+         "source": "at.dropover.todo.delivery.rest.TodolistsResource",
+         "target": "at.dropover.todo.boundary.AddTodoListResponse"
+      },
+      {
+         "source": "at.dropover.todo.delivery.rest.TodolistsResource",
+         "target": "at.dropover.todo.boundary.GetAllTodoListsRequest"
+      },
+      {
+         "source": "at.dropover.todo.delivery.rest.TodolistsResource",
+         "target": "at.dropover.todo.boundary.GetAllTodoListsResponse"
+      },
+      {
+         "source": "at.dropover.todo.delivery.rest.TodolistsResource",
+         "target": "at.dropover.todo.delivery.rest.TodolistResource"
+      },
+      {
+         "source": "at.dropover.todo.delivery.rest.TodolistsResource",
+         "target": "at.dropover.todo.interactor.AddTodoList"
+      },
+      {
+         "source": "at.dropover.todo.delivery.rest.TodolistsResource",
+         "target": "at.dropover.todo.interactor.GetAllTodoLists"
+      },
+      {
+         "source": "at.dropover.todo.delivery.rest.TodosResource",
+         "target": "at.dropover.framework.delivery.LocaleDeterminator"
+      },
+      {
+         "source": "at.dropover.todo.delivery.rest.TodosResource",
+         "target": "at.dropover.todo.boundary.AddTodoRequestModel"
+      },
+      {
+         "source": "at.dropover.todo.delivery.rest.TodosResource",
+         "target": "at.dropover.todo.boundary.GetAllTodosRequest"
+      },
+      {
+         "source": "at.dropover.todo.delivery.rest.TodosResource",
+         "target": "at.dropover.todo.boundary.GetAllTodosResponse"
+      },
+      {
+         "source": "at.dropover.todo.delivery.rest.TodosResource",
+         "target": "at.dropover.todo.boundary.TodoData"
+      },
+      {
+         "source": "at.dropover.todo.delivery.rest.TodosResource",
+         "target": "at.dropover.todo.delivery.rest.TodoResource"
+      },
+      {
+         "source": "at.dropover.todo.delivery.rest.TodosResource",
+         "target": "at.dropover.todo.interactor.AddTodo"
+      },
+      {
+         "source": "at.dropover.todo.delivery.rest.TodosResource",
+         "target": "at.dropover.todo.interactor.GetAllTodos"
+      },
+      {
+         "source": "at.dropover.todo.entity.TodoList",
+         "target": "at.dropover.todo.entity.Todo"
+      },
+      {
+         "source": "at.dropover.todo.entity.gateway.TodoGateway",
+         "target": "at.dropover.todo.entity.Todo"
+      },
+      {
+         "source": "at.dropover.todo.entity.gateway.TodoGateway",
+         "target": "at.dropover.todo.entity.TodoList"
+      },
+      {
+         "source": "at.dropover.todo.entity.gateway.TodoKey",
+         "target": "at.dropover.framework.entity.aws.KeyValue"
+      },
+      {
+         "source": "at.dropover.todo.entity.gateway.aws.DynamoDbTodoGateway",
+         "target": "at.dropover.framework.configuration.ConfigurationFile"
+      },
+      {
+         "source": "at.dropover.todo.entity.gateway.aws.DynamoDbTodoGateway",
+         "target": "at.dropover.framework.entity.aws.AWS"
+      },
+      {
+         "source": "at.dropover.todo.entity.gateway.aws.DynamoDbTodoGateway",
+         "target": "at.dropover.framework.entity.aws.ConditionWrapper"
+      },
+      {
+         "source": "at.dropover.todo.entity.gateway.aws.DynamoDbTodoGateway",
+         "target": "at.dropover.framework.entity.aws.KeyValue"
+      },
+      {
+         "source": "at.dropover.todo.entity.gateway.aws.DynamoDbTodoGateway",
+         "target": "at.dropover.todo.entity.Todo"
+      },
+      {
+         "source": "at.dropover.todo.entity.gateway.aws.DynamoDbTodoGateway",
+         "target": "at.dropover.todo.entity.TodoList"
+      },
+      {
+         "source": "at.dropover.todo.entity.gateway.aws.DynamoDbTodoGateway",
+         "target": "at.dropover.todo.entity.gateway.TodoGateway"
+      },
+      {
+         "source": "at.dropover.todo.entity.gateway.aws.DynamoDbTodoGateway",
+         "target": "at.dropover.todo.entity.gateway.TodoKey"
+      },
+      {
+         "source": "at.dropover.todo.entity.gateway.aws.DynamoDbTodoGateway",
+         "target": "at.dropover.todo.entity.gateway.validation.TodoValidation"
+      },
+      {
+         "source": "at.dropover.todo.entity.gateway.aws.DynamoDbTodoGateway",
+         "target": "at.dropover.todo.entity.gateway.validation.TodoValidation_innerClass_ValidationMode"
+      },
+      {
+         "source": "at.dropover.todo.entity.gateway.aws.DynamoDbTodoGateway",
+         "target": "at.dropover.todo.entity.pojo.PojoTodo"
+      },
+      {
+         "source": "at.dropover.todo.entity.gateway.aws.DynamoDbTodoGateway",
+         "target": "at.dropover.todo.entity.pojo.PojoTodoList"
+      },
+      {
+         "source": "at.dropover.todo.entity.gateway.aws.DynamoDbTodoGateway",
+         "target": "at.dropover.todo.interactor.exception.TodoListNotPersistedException"
+      },
+      {
+         "source": "at.dropover.todo.entity.gateway.aws.DynamoDbTodoGateway",
+         "target": "at.dropover.todo.interactor.exception.TodoNotFoundException"
+      },
+      {
+         "source": "at.dropover.todo.entity.gateway.inmemory.InMemoryTodoGateway",
+         "target": "at.dropover.todo.entity.Todo"
+      },
+      {
+         "source": "at.dropover.todo.entity.gateway.inmemory.InMemoryTodoGateway",
+         "target": "at.dropover.todo.entity.TodoList"
+      },
+      {
+         "source": "at.dropover.todo.entity.gateway.inmemory.InMemoryTodoGateway",
+         "target": "at.dropover.todo.entity.gateway.TodoGateway"
+      },
+      {
+         "source": "at.dropover.todo.entity.gateway.inmemory.InMemoryTodoGateway",
+         "target": "at.dropover.todo.entity.gateway.validation.TodoValidation"
+      },
+      {
+         "source": "at.dropover.todo.entity.gateway.inmemory.InMemoryTodoGateway",
+         "target": "at.dropover.todo.entity.gateway.validation.TodoValidation_innerClass_ValidationMode"
+      },
+      {
+         "source": "at.dropover.todo.entity.gateway.inmemory.InMemoryTodoGateway",
+         "target": "at.dropover.todo.entity.pojo.PojoTodo"
+      },
+      {
+         "source": "at.dropover.todo.entity.gateway.inmemory.InMemoryTodoGateway",
+         "target": "at.dropover.todo.entity.pojo.PojoTodoList"
+      },
+      {
+         "source": "at.dropover.todo.entity.gateway.inmemory.InMemoryTodoGateway",
+         "target": "at.dropover.todo.interactor.exception.TodoListNotPersistedException"
+      },
+      {
+         "source": "at.dropover.todo.entity.gateway.validation.TodoValidation",
+         "target": "at.dropover.todo.entity.Todo"
+      },
+      {
+         "source": "at.dropover.todo.entity.gateway.validation.TodoValidation",
+         "target": "at.dropover.todo.entity.TodoList"
+      },
+      {
+         "source": "at.dropover.todo.entity.gateway.validation.TodoValidation",
+         "target": "at.dropover.todo.entity.gateway.validation.TodoValidation_innerClass_ValidationMode"
+      },
+      {
+         "source": "at.dropover.todo.entity.gateway.validation.TodoValidation",
+         "target": "at.dropover.todo.interactor.exception.TodoNotFoundException"
+      },
+      {
+         "source": "at.dropover.todo.entity.gateway.validation.TodoValidation_innerClass_ValidationMode",
+         "target": "at.dropover.todo.entity.gateway.validation.TodoValidation"
+      },
+      {
+         "source": "at.dropover.todo.entity.pojo.PojoTodo",
+         "target": "at.dropover.todo.entity.Todo"
+      },
+      {
+         "source": "at.dropover.todo.entity.pojo.PojoTodoList",
+         "target": "at.dropover.todo.entity.Todo"
+      },
+      {
+         "source": "at.dropover.todo.entity.pojo.PojoTodoList",
+         "target": "at.dropover.todo.entity.TodoList"
+      },
+      {
+         "source": "at.dropover.todo.entity.pojo.PojoTodoList",
+         "target": "at.dropover.todo.entity.pojo.PojoTodoList_innerClass_1"
+      },
+      {
+         "source": "at.dropover.todo.entity.pojo.PojoTodoList_innerClass_1",
+         "target": "at.dropover.todo.entity.Todo"
+      },
+      {
+         "source": "at.dropover.todo.entity.pojo.PojoTodoList_innerClass_1",
+         "target": "at.dropover.todo.entity.pojo.PojoTodoList"
+      },
+      {
+         "source": "at.dropover.todo.interactor.AddTodo",
+         "target": "at.dropover.framework.boundary.RequestModel"
+      },
+      {
+         "source": "at.dropover.todo.interactor.AddTodo",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.todo.interactor.AddTodo",
+         "target": "at.dropover.framework.boundary.SynchronousDeliveryInteractorBoundary"
+      },
+      {
+         "source": "at.dropover.todo.interactor.AddTodo",
+         "target": "at.dropover.framework.exception.InvalidRequestException"
+      },
+      {
+         "source": "at.dropover.todo.interactor.AddTodo",
+         "target": "at.dropover.todo.boundary.AddTodoRequestModel"
+      },
+      {
+         "source": "at.dropover.todo.interactor.AddTodo",
+         "target": "at.dropover.todo.boundary.TodoData"
+      },
+      {
+         "source": "at.dropover.todo.interactor.AddTodo",
+         "target": "at.dropover.todo.boundary.TodoRequestModel"
+      },
+      {
+         "source": "at.dropover.todo.interactor.AddTodo",
+         "target": "at.dropover.todo.entity.Todo"
+      },
+      {
+         "source": "at.dropover.todo.interactor.AddTodo",
+         "target": "at.dropover.todo.entity.TodoList"
+      },
+      {
+         "source": "at.dropover.todo.interactor.AddTodo",
+         "target": "at.dropover.todo.entity.gateway.TodoGateway"
+      },
+      {
+         "source": "at.dropover.todo.interactor.AddTodo",
+         "target": "at.dropover.todo.interactor.validation.TodoRequestValidator"
+      },
+      {
+         "source": "at.dropover.todo.interactor.AddTodoList",
+         "target": "at.dropover.framework.boundary.RequestModel"
+      },
+      {
+         "source": "at.dropover.todo.interactor.AddTodoList",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.todo.interactor.AddTodoList",
+         "target": "at.dropover.framework.boundary.SiteDependentRequestModel"
+      },
+      {
+         "source": "at.dropover.todo.interactor.AddTodoList",
+         "target": "at.dropover.framework.boundary.SynchronousDeliveryInteractorBoundary"
+      },
+      {
+         "source": "at.dropover.todo.interactor.AddTodoList",
+         "target": "at.dropover.todo.boundary.AddTodoListRequest"
+      },
+      {
+         "source": "at.dropover.todo.interactor.AddTodoList",
+         "target": "at.dropover.todo.boundary.AddTodoListResponse"
+      },
+      {
+         "source": "at.dropover.todo.interactor.AddTodoList",
+         "target": "at.dropover.todo.entity.TodoList"
+      },
+      {
+         "source": "at.dropover.todo.interactor.AddTodoList",
+         "target": "at.dropover.todo.entity.gateway.TodoGateway"
+      },
+      {
+         "source": "at.dropover.todo.interactor.AddTodoList",
+         "target": "at.dropover.todo.interactor.validation.TodoRequestValidator"
+      },
+      {
+         "source": "at.dropover.todo.interactor.ChangeTodo",
+         "target": "at.dropover.framework.boundary.RequestModel"
+      },
+      {
+         "source": "at.dropover.todo.interactor.ChangeTodo",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.todo.interactor.ChangeTodo",
+         "target": "at.dropover.framework.boundary.SynchronousDeliveryInteractorBoundary"
+      },
+      {
+         "source": "at.dropover.todo.interactor.ChangeTodo",
+         "target": "at.dropover.todo.boundary.ChangeTodoRequestModel"
+      },
+      {
+         "source": "at.dropover.todo.interactor.ChangeTodo",
+         "target": "at.dropover.todo.boundary.GetTodoRequestModel"
+      },
+      {
+         "source": "at.dropover.todo.interactor.ChangeTodo",
+         "target": "at.dropover.todo.boundary.TodoData"
+      },
+      {
+         "source": "at.dropover.todo.interactor.ChangeTodo",
+         "target": "at.dropover.todo.boundary.TodoRequestModel"
+      },
+      {
+         "source": "at.dropover.todo.interactor.ChangeTodo",
+         "target": "at.dropover.todo.entity.Todo"
+      },
+      {
+         "source": "at.dropover.todo.interactor.ChangeTodo",
+         "target": "at.dropover.todo.entity.TodoList"
+      },
+      {
+         "source": "at.dropover.todo.interactor.ChangeTodo",
+         "target": "at.dropover.todo.entity.gateway.TodoGateway"
+      },
+      {
+         "source": "at.dropover.todo.interactor.ChangeTodo",
+         "target": "at.dropover.todo.interactor.GetTodo"
+      },
+      {
+         "source": "at.dropover.todo.interactor.ChangeTodo",
+         "target": "at.dropover.todo.interactor.validation.TodoRequestValidator"
+      },
+      {
+         "source": "at.dropover.todo.interactor.DeleteTodo",
+         "target": "at.dropover.framework.boundary.RequestModel"
+      },
+      {
+         "source": "at.dropover.todo.interactor.DeleteTodo",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.todo.interactor.DeleteTodo",
+         "target": "at.dropover.framework.boundary.SynchronousDeliveryInteractorBoundary"
+      },
+      {
+         "source": "at.dropover.todo.interactor.DeleteTodo",
+         "target": "at.dropover.todo.boundary.DeleteTodoResponseModel"
+      },
+      {
+         "source": "at.dropover.todo.interactor.DeleteTodo",
+         "target": "at.dropover.todo.boundary.GetTodoRequestModel"
+      },
+      {
+         "source": "at.dropover.todo.interactor.DeleteTodo",
+         "target": "at.dropover.todo.boundary.TodoRequestModel"
+      },
+      {
+         "source": "at.dropover.todo.interactor.DeleteTodo",
+         "target": "at.dropover.todo.entity.gateway.TodoGateway"
+      },
+      {
+         "source": "at.dropover.todo.interactor.DeleteTodo",
+         "target": "at.dropover.todo.interactor.validation.TodoRequestValidator"
+      },
+      {
+         "source": "at.dropover.todo.interactor.DeleteTodoList",
+         "target": "at.dropover.framework.boundary.RequestModel"
+      },
+      {
+         "source": "at.dropover.todo.interactor.DeleteTodoList",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.todo.interactor.DeleteTodoList",
+         "target": "at.dropover.framework.boundary.SynchronousDeliveryInteractorBoundary"
+      },
+      {
+         "source": "at.dropover.todo.interactor.DeleteTodoList",
+         "target": "at.dropover.todo.boundary.DeleteTodoListResponseModel"
+      },
+      {
+         "source": "at.dropover.todo.interactor.DeleteTodoList",
+         "target": "at.dropover.todo.boundary.GetTodoListRequestModel"
+      },
+      {
+         "source": "at.dropover.todo.interactor.DeleteTodoList",
+         "target": "at.dropover.todo.boundary.TodoRequestModel"
+      },
+      {
+         "source": "at.dropover.todo.interactor.DeleteTodoList",
+         "target": "at.dropover.todo.entity.gateway.TodoGateway"
+      },
+      {
+         "source": "at.dropover.todo.interactor.DeleteTodoList",
+         "target": "at.dropover.todo.interactor.validation.TodoRequestValidator"
+      },
+      {
+         "source": "at.dropover.todo.interactor.GetAllTodoLists",
+         "target": "at.dropover.framework.boundary.RequestModel"
+      },
+      {
+         "source": "at.dropover.todo.interactor.GetAllTodoLists",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.todo.interactor.GetAllTodoLists",
+         "target": "at.dropover.framework.boundary.SiteDependentRequestModel"
+      },
+      {
+         "source": "at.dropover.todo.interactor.GetAllTodoLists",
+         "target": "at.dropover.framework.boundary.SynchronousDeliveryInteractorBoundary"
+      },
+      {
+         "source": "at.dropover.todo.interactor.GetAllTodoLists",
+         "target": "at.dropover.todo.boundary.GetAllTodoListsRequest"
+      },
+      {
+         "source": "at.dropover.todo.interactor.GetAllTodoLists",
+         "target": "at.dropover.todo.boundary.GetAllTodoListsResponse"
+      },
+      {
+         "source": "at.dropover.todo.interactor.GetAllTodoLists",
+         "target": "at.dropover.todo.entity.TodoList"
+      },
+      {
+         "source": "at.dropover.todo.interactor.GetAllTodoLists",
+         "target": "at.dropover.todo.entity.gateway.TodoGateway"
+      },
+      {
+         "source": "at.dropover.todo.interactor.GetAllTodoLists",
+         "target": "at.dropover.todo.interactor.validation.TodoRequestValidator"
+      },
+      {
+         "source": "at.dropover.todo.interactor.GetAllTodos",
+         "target": "at.dropover.framework.boundary.RequestModel"
+      },
+      {
+         "source": "at.dropover.todo.interactor.GetAllTodos",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.todo.interactor.GetAllTodos",
+         "target": "at.dropover.framework.boundary.SynchronousDeliveryInteractorBoundary"
+      },
+      {
+         "source": "at.dropover.todo.interactor.GetAllTodos",
+         "target": "at.dropover.todo.boundary.GetAllTodosRequest"
+      },
+      {
+         "source": "at.dropover.todo.interactor.GetAllTodos",
+         "target": "at.dropover.todo.boundary.GetAllTodosResponse"
+      },
+      {
+         "source": "at.dropover.todo.interactor.GetAllTodos",
+         "target": "at.dropover.todo.boundary.TodoData"
+      },
+      {
+         "source": "at.dropover.todo.interactor.GetAllTodos",
+         "target": "at.dropover.todo.boundary.TodoRequestModel"
+      },
+      {
+         "source": "at.dropover.todo.interactor.GetAllTodos",
+         "target": "at.dropover.todo.entity.Todo"
+      },
+      {
+         "source": "at.dropover.todo.interactor.GetAllTodos",
+         "target": "at.dropover.todo.entity.TodoList"
+      },
+      {
+         "source": "at.dropover.todo.interactor.GetAllTodos",
+         "target": "at.dropover.todo.entity.gateway.TodoGateway"
+      },
+      {
+         "source": "at.dropover.todo.interactor.GetAllTodos",
+         "target": "at.dropover.todo.interactor.validation.TodoRequestValidator"
+      },
+      {
+         "source": "at.dropover.todo.interactor.GetTodo",
+         "target": "at.dropover.framework.boundary.RequestModel"
+      },
+      {
+         "source": "at.dropover.todo.interactor.GetTodo",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.todo.interactor.GetTodo",
+         "target": "at.dropover.framework.boundary.SynchronousDeliveryInteractorBoundary"
+      },
+      {
+         "source": "at.dropover.todo.interactor.GetTodo",
+         "target": "at.dropover.framework.exception.InvalidRequestException"
+      },
+      {
+         "source": "at.dropover.todo.interactor.GetTodo",
+         "target": "at.dropover.todo.boundary.GetTodoRequestModel"
+      },
+      {
+         "source": "at.dropover.todo.interactor.GetTodo",
+         "target": "at.dropover.todo.boundary.TodoData"
+      },
+      {
+         "source": "at.dropover.todo.interactor.GetTodo",
+         "target": "at.dropover.todo.boundary.TodoRequestModel"
+      },
+      {
+         "source": "at.dropover.todo.interactor.GetTodo",
+         "target": "at.dropover.todo.entity.Todo"
+      },
+      {
+         "source": "at.dropover.todo.interactor.GetTodo",
+         "target": "at.dropover.todo.entity.TodoList"
+      },
+      {
+         "source": "at.dropover.todo.interactor.GetTodo",
+         "target": "at.dropover.todo.entity.gateway.TodoGateway"
+      },
+      {
+         "source": "at.dropover.todo.interactor.GetTodo",
+         "target": "at.dropover.todo.interactor.exception.TodoNotFoundException"
+      },
+      {
+         "source": "at.dropover.todo.interactor.GetTodo",
+         "target": "at.dropover.todo.interactor.validation.TodoRequestValidator"
+      },
+      {
+         "source": "at.dropover.todo.interactor.GetTodoList",
+         "target": "at.dropover.framework.boundary.RequestModel"
+      },
+      {
+         "source": "at.dropover.todo.interactor.GetTodoList",
+         "target": "at.dropover.framework.boundary.ResponseModel"
+      },
+      {
+         "source": "at.dropover.todo.interactor.GetTodoList",
+         "target": "at.dropover.framework.boundary.SynchronousDeliveryInteractorBoundary"
+      },
+      {
+         "source": "at.dropover.todo.interactor.GetTodoList",
+         "target": "at.dropover.todo.boundary.GetTodoListRequestModel"
+      },
+      {
+         "source": "at.dropover.todo.interactor.GetTodoList",
+         "target": "at.dropover.todo.boundary.GetTodoListResponseModel"
+      },
+      {
+         "source": "at.dropover.todo.interactor.GetTodoList",
+         "target": "at.dropover.todo.boundary.TodoData"
+      },
+      {
+         "source": "at.dropover.todo.interactor.GetTodoList",
+         "target": "at.dropover.todo.boundary.TodoRequestModel"
+      },
+      {
+         "source": "at.dropover.todo.interactor.GetTodoList",
+         "target": "at.dropover.todo.entity.Todo"
+      },
+      {
+         "source": "at.dropover.todo.interactor.GetTodoList",
+         "target": "at.dropover.todo.entity.TodoList"
+      },
+      {
+         "source": "at.dropover.todo.interactor.GetTodoList",
+         "target": "at.dropover.todo.entity.gateway.TodoGateway"
+      },
+      {
+         "source": "at.dropover.todo.interactor.GetTodoList",
+         "target": "at.dropover.todo.interactor.validation.TodoRequestValidator"
+      },
+      {
+         "source": "at.dropover.todo.interactor.exception.TodoListNotPersistedException",
+         "target": "at.dropover.framework.exception.NotPersistentException"
+      },
+      {
+         "source": "at.dropover.todo.interactor.exception.TodoNotFoundException",
+         "target": "at.dropover.framework.exception.NotPersistentException"
+      },
+      {
+         "source": "at.dropover.todo.interactor.validation.TodoRequestValidator",
+         "target": "at.dropover.framework.boundary.SiteDependentRequestModel"
+      },
+      {
+         "source": "at.dropover.todo.interactor.validation.TodoRequestValidator",
+         "target": "at.dropover.framework.exception.InvalidRequestException"
+      },
+      {
+         "source": "at.dropover.todo.interactor.validation.TodoRequestValidator",
+         "target": "at.dropover.site.entity.gateway.SiteGateway"
+      },
+      {
+         "source": "at.dropover.todo.interactor.validation.TodoRequestValidator",
+         "target": "at.dropover.site.validation.SiteDependentRequestValidator"
+      },
+      {
+         "source": "at.dropover.todo.interactor.validation.TodoRequestValidator",
+         "target": "at.dropover.todo.boundary.TodoRequestModel"
+      },
+      {
+         "source": "at.dropover.todo.interactor.validation.TodoRequestValidator",
+         "target": "at.dropover.todo.entity.TodoList"
+      },
+      {
+         "source": "at.dropover.todo.interactor.validation.TodoRequestValidator",
+         "target": "at.dropover.todo.entity.gateway.TodoGateway"
+      },
+      {
+         "source": "at.dropover.todo.interactor.validation.TodoRequestValidator",
+         "target": "at.dropover.todo.interactor.exception.TodoListNotPersistedException"
+      }
+   ]
+}
