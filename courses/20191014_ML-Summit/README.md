@@ -8,7 +8,7 @@ In diesem Repository werden die verschiedenen Arbeitsblätter, Demos und die Pr�
 
 ## Arbeitsblätter
 
-Die Arbeitsblätter befinden sich unter <a href="../arbeitsblaetter"><code>./arbeitsblaetter</code></a>
+Die Arbeitsblätter befinden sich unter <a href="./arbeitsblaetter"><code>./arbeitsblaetter</code></a>
 
 ## Software Analytics Workshop
 
