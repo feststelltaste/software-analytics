@@ -1,7 +1,6 @@
 # This are the requirements for the notebooks
 # Especially useful when running the notebooks with mybinder.org
-pandas==0.23.4
-matplotlib
+pandas
 py2neo
 pygal
 # experimental library for importing software data
