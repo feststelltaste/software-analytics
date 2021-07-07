@@ -3,7 +3,7 @@
 # Software Analytics
 A repository with my data analysis results of software artifacts
 
-**=> for an interactive tutorial, please visit https://github.com/feststelltaste/software-analytics-workshop**
+**=> for an interactive tutorial, please visit https://github.com/feststelltaste/software-analytics-workshop-guided**
 
 ## Description
 In this repository, I show some examples around mining valuable information out of software artifacts are presented.
