@@ -3,9 +3,6 @@
 pandas
 py2neo
 pygal
-# experimental library for importing software data
-git+git://github.com/feststelltaste/ozapfdis.git
-git+git://github.com/feststelltaste/ausi.git
 
 # add extension for presentation
 RISE
