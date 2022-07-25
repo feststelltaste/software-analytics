@@ -2,6 +2,7 @@
 __pycache__/
 
 notebooks/data
+prototypes/output
 _archive/
 _clean_notebook.py
 
