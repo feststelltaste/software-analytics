@@ -3,6 +3,7 @@
 pandas
 py2neo
 pygal
+matplotlib
 
 # add extension for presentation
 RISE
