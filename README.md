@@ -1,4 +1,4 @@
-[![Binder](http://mybinder.org/badge.svg)](https://mybinder.org/repo/feststelltaste/software-analytics/HEAD?urlpath=%2Fnotebooks%2F)
+[![Binder](http://mybinder.org/badge.svg)](https://mybinder.org/repo/feststelltaste/software-analytics/HEAD?urlpath=tree/)
  
 # Software Analytics
 A repository with my data analysis results of software artifacts
