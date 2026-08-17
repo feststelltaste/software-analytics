@@ -17,3 +17,4 @@ target
 dask-worker-space/
 generated/
 .vscode/
+/scripts/html_output/
